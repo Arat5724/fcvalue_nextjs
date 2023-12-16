@@ -72,7 +72,7 @@ function AdditionalInfoTable({ additionalInfo }: { additionalInfo: any }) {
     {Object.keys(additionalInfo).map(key => <>
       <h2>{key}</h2>
       <ul className={styles.ul}>
-        {additionalInfo[key].map((item: any) => <li>
+        {additionalInfo[key].map((item: any) => <li key={item.item.name}>
           {item.item.image && <img src={item.item.image} alt={item.item.name} width={100} height={100} />}
           <div>{item.type != "other" && item.item.id != "-1"
             ? <Link href={`/${item.type}/${item.item.id}`}>{item.item.name}</Link>

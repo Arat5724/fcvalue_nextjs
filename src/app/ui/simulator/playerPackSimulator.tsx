@@ -67,7 +67,6 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
 }
 
 function OpenedPlayers({ openedPlayers }: { openedPlayers: PlayerPackPlayer[] }) {
-  if (openedPlayers.length === 0) return <DefaultPlayerCard />;
   const mainCard = openedPlayers[0];
   const subCards = openedPlayers.slice(1);
   const [key, setKey] = useState<number>(Date.now());
@@ -75,16 +74,17 @@ function OpenedPlayers({ openedPlayers }: { openedPlayers: PlayerPackPlayer[] })
     setKey(Date.now());
   }, [openedPlayers]);
 
+  if (openedPlayers.length === 0) return <DefaultPlayerCard />;
   return <>
     <div>
       <PlayerPackSimulatorThumb playerPackPlayer={mainCard} key={`${mainCard.player.id}${key}`} />
     </div>
     <div className={styles["sub-cards"]}>
-      {subCards.map((player, index) => <div>
+      {subCards.map((player, index) => <div key={`${player.player.id}${player.player.upgrade}${key}`} >
         <PlayerPackSimulatorThumb
           playerPackPlayer={player}
           isSub={true}
-          key={`${player.player.id}${player.player.upgrade}${key}`} />
+        />
       </div>
       )}
     </div>
