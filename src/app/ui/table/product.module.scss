@@ -1,0 +1,32 @@
+@import "@/app/sass/variables.scss";
+@import "@/app/sass/mixin.scss";
+
+.table {
+
+  th {
+    @include clickable($table-color-hover);
+
+    &:first-child {
+      background-color: $table-header-background-color;
+      cursor: default;
+    }
+  }
+
+  .active {
+    background-color: #edeff8;
+  }
+
+  td {
+    min-height: 5em;
+    height: 6em;
+    word-break: keep-all;
+    min-width: 3em;
+  }
+
+  tbody {
+    img {
+      height: 5em;
+      width: 5em;
+    }
+  }
+}

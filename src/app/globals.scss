@@ -1,0 +1,117 @@
+@import './reset.scss';
+@import '@/app/sass/variables.scss';
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: $text-color;
+  background-color: $background-color;
+  font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+button,
+input {
+  font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+html {
+  font-size: 14px;
+
+  @media (min-width: 361px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: $small) {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: $text-color;
+}
+
+h2 {
+  padding-bottom: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: $primary-color-50;
+}
+
+table {
+  width: 100%;
+
+  th,
+  td {
+    min-height: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid black;
+
+    &:last-child {
+      border-right: 0px;
+    }
+  }
+
+  th {
+    background-color: $table-header-background-color;
+    color: $table-head-color;
+    font-weight: bold;
+    border-bottom: thick double black;
+  }
+
+  tbody {
+    tr {
+      color: $table-body-color;
+      background-color: $table-body-background-color;
+
+      &:nth-child(even) {
+        background-color: $table-body-background-color2;
+      }
+    }
+
+    a {
+      color: mix($primary-color, $table-body-color, 60%);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@mixin clickable($color) {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@mixin td-clickable {
+  cursor: pointer;
+
+  &:hover {
+    background-color: mix(#edeff8, $primary-color, 90%);
+  }
+}

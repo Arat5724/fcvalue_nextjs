@@ -1,0 +1,77 @@
+@import '@/app/sass/variables.scss';
+
+@mixin color-box {
+  width: 300px;
+  height: 50px;
+  color: red;
+}
+
+.background-color {
+  @include color-box;
+  background-color: $background-color;
+}
+
+.text-color {
+  @include color-box;
+  background-color: $text-color;
+}
+
+.primary-color {
+  @include color-box;
+  background-color: $primary-color;
+}
+
+.border-color {
+  @include color-box;
+  background-color: $border-color;
+}
+
+.code-background-color {
+  @include color-box;
+  background-color: $code-background-color;
+}
+
+.code-background-color-dark {
+  @include color-box;
+  background-color: $code-background-color-dark;
+}
+
+.form-background-color {
+  @include color-box;
+  background-color: $form-background-color;
+}
+
+.footer-background-color {
+  @include color-box;
+  background-color: $footer-background-color;
+}
+
+.link-color {
+  @include color-box;
+  background-color: $link-color;
+}
+
+.link-color-hover {
+  @include color-box;
+  background-color: $link-color-hover;
+}
+
+.link-color-visited {
+  @include color-box;
+  background-color: $link-color-visited;
+}
+
+.masthead-link-color {
+  @include color-box;
+  background-color: $masthead-link-color;
+}
+
+.masthead-link-color-hover {
+  @include color-box;
+  background-color: $masthead-link-color-hover;
+}
+
+.navicon-link-color-hover {
+  @include color-box;
+  background-color: $navicon-link-color-hover;
+}

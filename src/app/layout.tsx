@@ -1,6 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
+import './fonts.scss'
+import './globals.scss'
+import styles from './global.module.scss'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +19,30 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ko">
+      <body>
+        <Header />
+        <div className={styles.main}>
+          {children}
+        </div>
+        <footer className={styles.footer}>footer</footer>
+      </body>
     </html>
   )
+}
+
+function Header() {
+  return <div className={styles.masthed}>
+    <div className={styles["masthed__inner-wrap"]}>
+      <Link href="/">
+        <div className={styles["home"]}>
+          <Image src="/assets/images/logo32.png" alt="logo" width={32} height={32} className={styles.logo} priority></Image>
+          <div>
+            <p>FC VALUE</p>
+            <p>FC 온라인 아이템 분석/시뮬레이터</p>
+          </div>
+        </div>
+      </Link>
+    </div>
+  </div>
 }

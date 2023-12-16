@@ -1,0 +1,54 @@
+@import './player.module.scss';
+@import '@/app/sass/variables.scss';
+
+.player-pack-simulator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1em;
+
+  &__figure {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__button {
+    button {
+      width: 120px;
+      height: 35px;
+      border-radius: 20px;
+      color: black;
+      font-weight: bold;
+    }
+
+    &--10 {
+      background-color: $primary-color;
+
+      &:disabled {
+        background-color: mix($primary-color, #000, 50%);
+      }
+    }
+  }
+
+  >div {
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin-bottom: 0.5em;
+    text-align: center;
+
+    .primary {
+      color: mix(#fff, $primary-color, 50%);
+      font-size: 20px;
+    }
+  }
+}
+
+.sub-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
