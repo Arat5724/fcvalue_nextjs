@@ -1,0 +1,957 @@
+3:I[5613,[],""]
+5:I[1778,[],""]
+6:I[5250,["250","static/chunks/250-8cb528014cac7ce7.js","931","static/chunks/app/page-ab3a1250a3f7a8db.js"],""]
+7:I[1749,["250","static/chunks/250-8cb528014cac7ce7.js","749","static/chunks/749-b7159cb98cbb4b73.js","185","static/chunks/app/layout-f55ea8e23f46fbad.js"],"Image"]
+4:["id","8186","d"]
+8:{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"}
+9:{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"}
+a:{"display":"inline-block"}
+b:{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0}
+0:["tN8Bez8TzAwKN2EfW34Vu",[[["",{"children":["(pages)",{"children":["player-pack",{"children":[["id","8186","d"],{"children":["__PAGE__?{\"id\":\"8186\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["(pages)",{"children":["player-pack",{"children":[["id","8186","d"],{"children":["__PAGE__",{},["$L1","$L2",null]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","player-pack","children","$4","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/fcvalue_nextjs/_next/static/css/166afa86789491c4.css","precedence":"next","crossOrigin":""}]]}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children","player-pack","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","(pages)","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]]},[null,["$","html",null,{"lang":"ko","children":["$","body",null,{"children":[["$","div",null,{"className":"global_masthed__sNiLM","children":["$","div",null,{"className":"global_masthed__inner-wrap__xAVH6","children":["$","$L6",null,{"href":"/","children":["$","div",null,{"className":"global_home__9sd8W","children":[["$","$L7",null,{"src":"/assets/images/logo32.png","alt":"logo","width":32,"height":32,"className":"$undefined","priority":true}],["$","div",null,{"children":[["$","p",null,{"children":"FC VALUE"}],["$","p",null,{"children":"FC 온라인 아이템 분석/시뮬레이터"}]]}]]}]}]}]}],["$","div",null,{"className":"global_main__ffiwI","children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$8","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$9","children":"404"}],["$","div",null,{"style":"$a","children":["$","h2",null,{"style":"$b","children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","footer",null,{"className":"global_footer__tGSVv","children":"footer"}]]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/fcvalue_nextjs/_next/static/css/eaaf4b2f4ecea2a3.css","precedence":"next","crossOrigin":""}]],"$Lc"]]]]
+d:I[2317,["250","static/chunks/250-8cb528014cac7ce7.js","502","static/chunks/app/(pages)/player-pack/%5Bid%5D/page-0d792424e832fc36.js"],"Title"]
+e:I[7454,["250","static/chunks/250-8cb528014cac7ce7.js","502","static/chunks/app/(pages)/player-pack/%5Bid%5D/page-0d792424e832fc36.js"],"PlayerPackSimulator"]
+f:I[7438,["250","static/chunks/250-8cb528014cac7ce7.js","502","static/chunks/app/(pages)/player-pack/%5Bid%5D/page-0d792424e832fc36.js"],"PlayerTable"]
+c:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Create Next App"}],["$","meta","3",{"name":"description","content":"Generated by create next app"}],["$","link","4",{"rel":"icon","href":"/fcvalue_nextjs/favicon.ico","type":"image/x-icon","sizes":"256x256"}],["$","meta","5",{"name":"next-size-adjust"}]]
+1:null
+12:{"id":20801,"name":"크리스티아누 호날두","season":"CC","season_no":289,"ovr":113,"position":"ST","nation":0,"upgrade":6,"pay":29}
+11:{"player":"$12","value":8360000000000,"probability":0.0000954589}
+14:{"id":1397,"name":"지네딘 지단","season":"JVA","season_no":801,"ovr":114,"position":"CAM","nation":0,"upgrade":6,"pay":29}
+13:{"player":"$14","value":7220000000000,"probability":0.0000954589}
+16:{"id":1114,"name":"로베르토 바조","season":"JVA","season_no":801,"ovr":114,"position":"CF","nation":0,"upgrade":6,"pay":28}
+15:{"player":"$16","value":4840000000000,"probability":0.0000954589}
+18:{"id":6235,"name":"파벨 네드베드","season":"JVA","season_no":801,"ovr":113,"position":"CAM","nation":0,"upgrade":6,"pay":27}
+17:{"player":"$18","value":4530000000000,"probability":0.0000954589}
+1a:{"id":1075,"name":"A. 델피에로","season":"JVA","season_no":801,"ovr":113,"position":"CF","nation":0,"upgrade":6,"pay":28}
+19:{"player":"$1a","value":3760000000000,"probability":0.0000954589}
+1c:{"id":239085,"name":"엘링 홀란","season":"FCA","season_no":290,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27}
+1b:{"player":"$1c","value":3240000000000,"probability":0.0000954589}
+1e:{"id":200104,"name":"손흥민","season":"FCA","season_no":290,"ovr":111,"position":"LW","nation":0,"upgrade":6,"pay":27}
+1d:{"player":"$1e","value":2620000000000,"probability":0.0000954589}
+20:{"id":49072,"name":"디에고 포를란","season":"CC","season_no":289,"ovr":112,"position":"CF","nation":0,"upgrade":6,"pay":27}
+1f:{"player":"$20","value":2190000000000,"probability":0.0000954589}
+22:{"id":1625,"name":"티에리 앙리","season":"CC","season_no":289,"ovr":112,"position":"LW","nation":0,"upgrade":6,"pay":28}
+21:{"player":"$22","value":2150000000000,"probability":0.0000954589}
+24:{"id":1397,"name":"지네딘 지단","season":"CC","season_no":289,"ovr":113,"position":"CAM","nation":0,"upgrade":6,"pay":29}
+23:{"player":"$24","value":2110000000000,"probability":0.0000954589}
+26:{"id":252371,"name":"주드 벨링엄","season":"FCA","season_no":290,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":26}
+25:{"player":"$26","value":2080000000000,"probability":0.0000954589}
+28:{"id":191189,"name":"로타어 마테우스","season":"CC","season_no":289,"ovr":113,"position":"CM","nation":0,"upgrade":6,"pay":28}
+27:{"player":"$28","value":2010000000000,"probability":0.0000954589}
+2a:{"id":158023,"name":"리오넬 메시","season":"CC","season_no":289,"ovr":113,"position":"CF","nation":0,"upgrade":6,"pay":28}
+29:{"player":"$2a","value":1990000000000,"probability":0.0000954589}
+2c:{"id":220697,"name":"제임스 매디슨","season":"23HW","season_no":291,"ovr":111,"position":"CAM","nation":0,"upgrade":6,"pay":26}
+2b:{"player":"$2c","value":1980000000000,"probability":0.0000954589}
+2e:{"id":236772,"name":"D. 소보슬러이","season":"23HW","season_no":291,"ovr":112,"position":"RW","nation":0,"upgrade":6,"pay":26}
+2d:{"player":"$2e","value":1960000000000,"probability":0.0000954589}
+30:{"id":9676,"name":"사뮈엘 에토","season":"CC","season_no":289,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27}
+2f:{"player":"$30","value":1800000000000,"probability":0.0000954589}
+32:{"id":264453,"name":"미키 반더벤","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23}
+31:{"player":"$32","value":1770000000000,"probability":0.0000954589}
+34:{"id":7763,"name":"안드레아 피를로","season":"JVA","season_no":801,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27}
+33:{"player":"$34","value":1770000000000,"probability":0.0000954589}
+36:{"id":5984,"name":"다비드 트레제게","season":"JVA","season_no":801,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27}
+35:{"player":"$36","value":1760000000000,"probability":0.0000954589}
+38:{"id":212198,"name":"브루누 페르난데스","season":"23HW","season_no":291,"ovr":112,"position":"CAM","nation":0,"upgrade":6,"pay":27}
+37:{"player":"$38","value":1730000000000,"probability":0.0000954589}
+3a:{"id":191208,"name":"차범근","season":"CC","season_no":289,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+39:{"player":"$3a","value":1720000000000,"probability":0.0000954589}
+3c:{"id":202126,"name":"해리 케인","season":"HG","season_no":283,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":27}
+3b:{"player":"$3c","value":1690000000000,"probability":0.0000954589}
+3e:{"id":13128,"name":"안드리 셰우첸코","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26}
+3d:{"player":"$3e","value":1640000000000,"probability":0.0000954589}
+40:{"id":200104,"name":"손흥민","season":"23HW","season_no":291,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":26}
+3f:{"player":"$40","value":1620000000000,"probability":0.0000954589}
+42:{"id":182521,"name":"토니 크로스","season":"CC","season_no":289,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26}
+41:{"player":"$42","value":1600000000000,"probability":0.0000954589}
+44:{"id":203376,"name":"버질 반데이크","season":"FCA","season_no":290,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":28}
+43:{"player":"$44","value":1430000000000,"probability":0.0000954589}
+46:{"id":194765,"name":"앙투안 그리즈만","season":"CC","season_no":289,"ovr":112,"position":"RW","nation":0,"upgrade":6,"pay":27}
+45:{"player":"$46","value":1410000000000,"probability":0.0000954589}
+48:{"id":173210,"name":"C. 마르키시오","season":"JVA","season_no":801,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":25}
+47:{"player":"$48","value":1380000000000,"probability":0.0000954589}
+4a:{"id":239053,"name":"페데리코 발베르데","season":"22UCL","season_no":280,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":25}
+49:{"player":"$4a","value":1360000000000,"probability":0.0000954589}
+4c:{"id":158023,"name":"리오넬 메시","season":"HG","season_no":283,"ovr":111,"position":"CF","nation":0,"upgrade":6,"pay":27}
+4b:{"player":"$4c","value":1330000000000,"probability":0.0000954589}
+4e:{"id":238794,"name":"비니시우스","season":"FCA","season_no":290,"ovr":111,"position":"LW","nation":0,"upgrade":6,"pay":26}
+4d:{"player":"$4e","value":1320000000000,"probability":0.0000954589}
+50:{"id":192985,"name":"케빈 더브라위너","season":"22UCL","season_no":280,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":25}
+4f:{"player":"$50","value":1260000000000,"probability":0.0000954589}
+52:{"id":214100,"name":"루드 굴리트","season":"RTN","season_no":284,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":27}
+51:{"player":"$52","value":1120000000000,"probability":0.0000954589}
+54:{"id":231281,"name":"T. 알렉산더-아놀드","season":"23HW","season_no":291,"ovr":111,"position":"RB","nation":0,"upgrade":6,"pay":25}
+53:{"player":"$54","value":1110000000000,"probability":0.0000954589}
+56:{"id":243812,"name":"호드리구","season":"23HW","season_no":291,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":26}
+55:{"player":"$56","value":1100000000000,"probability":0.0000954589}
+58:{"id":250,"name":"데이비드 베컴","season":"CC","season_no":289,"ovr":111,"position":"RM","nation":0,"upgrade":6,"pay":26}
+57:{"player":"$58","value":1090000000000,"probability":0.0000954589}
+5a:{"id":31432,"name":"디디에 드로그바","season":"CC","season_no":289,"ovr":111,"position":"ST","nation":0,"upgrade":6,"pay":27}
+59:{"player":"$5a","value":1020000000000,"probability":0.0000954589}
+5c:{"id":181458,"name":"이반 페리시치","season":"CC","season_no":289,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":26}
+5b:{"player":"$5c","value":1000000000000,"probability":0.0000954589}
+5e:{"id":230666,"name":"가브리엘 제주스","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+5d:{"player":"$5e","value":978000000000,"probability":0.0000954589}
+60:{"id":107715,"name":"루시우","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26}
+5f:{"player":"$60","value":975000000000,"probability":0.0000954589}
+62:{"id":239818,"name":"후벵 디아스","season":"22UCL","season_no":280,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":24}
+61:{"player":"$62","value":935000000000,"probability":0.0000954589}
+64:{"id":164240,"name":"티아구 실바","season":"CC","season_no":289,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25}
+63:{"player":"$64","value":920000000000,"probability":0.0000954589}
+66:{"id":246242,"name":"불라예 디아","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+65:{"player":"$66","value":910000000000,"probability":0.0000954589}
+68:{"id":237086,"name":"김민재","season":"22UCL","season_no":280,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":24}
+67:{"player":"$68","value":899000000000,"probability":0.0000954589}
+6a:{"id":49072,"name":"디에고 포를란","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26}
+69:{"player":"$6a","value":881000000000,"probability":0.0000954589}
+6c:{"id":241721,"name":"하파엘 레앙","season":"22UCL","season_no":280,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":23}
+6b:{"player":"$6c","value":872000000000,"probability":0.0000954589}
+6e:{"id":177003,"name":"루카 모드리치","season":"CC","season_no":289,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26}
+6d:{"player":"$6e","value":859000000000,"probability":0.0000954589}
+70:{"id":13743,"name":"스티븐 제라드","season":"HG","season_no":283,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":27}
+6f:{"player":"$70","value":834000000000,"probability":0.0000954589}
+72:{"id":11141,"name":"미로슬라프 클로제","season":"CC","season_no":289,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27}
+71:{"player":"$72","value":817000000000,"probability":0.0000954589}
+74:{"id":213648,"name":"P. 호이비에르","season":"23HW","season_no":291,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+73:{"player":"$74","value":800000000000,"probability":0.0000954589}
+76:{"id":1183,"name":"파비오 칸나바로","season":"CC","season_no":289,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":27}
+75:{"player":"$76","value":800000000000,"probability":0.00020455480000000002}
+78:{"id":261593,"name":"J. 콜러","season":"JVA","season_no":801,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25}
+77:{"player":"$78","value":800000000000,"probability":0.00020455480000000002}
+7a:{"id":20289,"name":"야야 투레","season":"CC","season_no":289,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":26}
+79:{"player":"$7a","value":787000000000,"probability":0.00020455480000000002}
+7c:{"id":231866,"name":"로드리","season":"22UCL","season_no":280,"ovr":112,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+7b:{"player":"$7c","value":783000000000,"probability":0.00020455480000000002}
+7e:{"id":13743,"name":"스티븐 제라드","season":"CC","season_no":289,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":27}
+7d:{"player":"$7e","value":777000000000,"probability":0.00020455480000000002}
+80:{"id":166124,"name":"게오르게 하지","season":"CC","season_no":289,"ovr":111,"position":"CAM","nation":0,"upgrade":6,"pay":26}
+7f:{"player":"$80","value":770000000000,"probability":0.00020455480000000002}
+82:{"id":121944,"name":"B. 슈바인슈타이거","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":26}
+81:{"player":"$82","value":765000000000,"probability":0.00020455480000000002}
+84:{"id":200104,"name":"손흥민","season":"CC","season_no":289,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+83:{"player":"$84","value":761000000000,"probability":0.00020455480000000002}
+86:{"id":189596,"name":"토마스 뮐러","season":"HG","season_no":283,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":27}
+85:{"player":"$86","value":754000000000,"probability":0.00020455480000000002}
+88:{"id":190045,"name":"요한 크루이프","season":"HG","season_no":283,"ovr":111,"position":"CF","nation":0,"upgrade":6,"pay":28}
+87:{"player":"$88","value":750000000000,"probability":0.00020455480000000002}
+8a:{"id":7763,"name":"안드레아 피를로","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27}
+89:{"player":"$8a","value":748000000000,"probability":0.00020455480000000002}
+8c:{"id":5471,"name":"프랭크 램파드","season":"CC","season_no":289,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":27}
+8b:{"player":"$8c","value":739000000000,"probability":0.00020455480000000002}
+8e:{"id":250,"name":"데이비드 베컴","season":"HG","season_no":283,"ovr":110,"position":"RM","nation":0,"upgrade":6,"pay":26}
+8d:{"player":"$8e","value":735000000000,"probability":0.00020455480000000002}
+90:{"id":239837,"name":"A. 마칼리스테르","season":"23HW","season_no":291,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":25}
+8f:{"player":"$90","value":723000000000,"probability":0.00020455480000000002}
+92:{"id":4000,"name":"데니스 베르캄프","season":"HG","season_no":283,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26}
+91:{"player":"$92","value":720000000000,"probability":0.00020455480000000002}
+94:{"id":190044,"name":"보비 무어","season":"CC","season_no":289,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":26}
+93:{"player":"$94","value":716000000000,"probability":0.00020455480000000002}
+96:{"id":188545,"name":"R. 레반도프스키","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26}
+95:{"player":"$96","value":715000000000,"probability":0.00020455480000000002}
+98:{"id":228702,"name":"프렝키 더용","season":"23HW","season_no":291,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26}
+97:{"player":"$98","value":695000000000,"probability":0.00020455480000000002}
+9a:{"id":1116,"name":"마르셀 드사이","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":27}
+99:{"player":"$9a","value":693000000000,"probability":0.00020455480000000002}
+9c:{"id":39943,"name":"박지성","season":"CC","season_no":289,"ovr":109,"position":"LM","nation":0,"upgrade":6,"pay":25}
+9b:{"player":"$9c","value":682000000000,"probability":0.00020455480000000002}
+9e:{"id":234378,"name":"데클런 라이스","season":"23HW","season_no":291,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+9d:{"player":"$9e","value":671000000000,"probability":0.00020455480000000002}
+a0:{"id":5099,"name":"잔루카 잠브로타","season":"JVA","season_no":801,"ovr":111,"position":"LB","nation":0,"upgrade":6,"pay":26}
+9f:{"player":"$a0","value":669000000000,"probability":0.00020455480000000002}
+a2:{"id":10535,"name":"차비","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27}
+a1:{"player":"$a2","value":669000000000,"probability":0.00020455480000000002}
+a4:{"id":235805,"name":"페데리코 키에사","season":"FCA","season_no":290,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":26}
+a3:{"player":"$a4","value":663000000000,"probability":0.00020455480000000002}
+a6:{"id":252371,"name":"주드 벨링엄","season":"22UCL","season_no":280,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24}
+a5:{"player":"$a6","value":640000000000,"probability":0.00020455480000000002}
+a8:{"id":45197,"name":"샤비 알론소","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+a7:{"player":"$a8","value":637000000000,"probability":0.00020455480000000002}
+aa:{"id":5589,"name":"루이스 피구","season":"CC","season_no":289,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":27}
+a9:{"player":"$aa","value":632000000000,"probability":0.00020455480000000002}
+ac:{"id":168651,"name":"이반 라키티치","season":"CC","season_no":289,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+ab:{"player":"$ac","value":623000000000,"probability":0.00020455480000000002}
+ae:{"id":191043,"name":"알렉스 산드루","season":"JVA","season_no":801,"ovr":110,"position":"LB","nation":0,"upgrade":6,"pay":25}
+ad:{"player":"$ae","value":623000000000,"probability":0.00020455480000000002}
+b0:{"id":259583,"name":"D. 우도기","season":"23HW","season_no":291,"ovr":107,"position":"LM","nation":0,"upgrade":6,"pay":23}
+af:{"player":"$b0","value":616000000000,"probability":0.00020455480000000002}
+b2:{"id":232756,"name":"피카요 토모리","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+b1:{"player":"$b2","value":605000000000,"probability":0.00020455480000000002}
+b4:{"id":20801,"name":"크리스티아누 호날두","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":27}
+b3:{"player":"$b4","value":599000000000,"probability":0.00020455480000000002}
+b6:{"id":199304,"name":"다닐루","season":"JVA","season_no":801,"ovr":109,"position":"RB","nation":0,"upgrade":6,"pay":25}
+b5:{"player":"$b6","value":587000000000,"probability":0.00020455480000000002}
+b8:{"id":1109,"name":"파올로 말디니","season":"HG","season_no":283,"ovr":111,"position":"LB","nation":0,"upgrade":6,"pay":27}
+b7:{"player":"$b8","value":585000000000,"probability":0.00020455480000000002}
+ba:{"id":1109,"name":"파올로 말디니","season":"CC","season_no":289,"ovr":111,"position":"LWB","nation":0,"upgrade":6,"pay":27}
+b9:{"player":"$ba","value":580000000000,"probability":0.00020455480000000002}
+bc:{"id":238794,"name":"비니시우스","season":"22UCL","season_no":280,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":25}
+bb:{"player":"$bc","value":569000000000,"probability":0.00020455480000000002}
+be:{"id":256079,"name":"M. 카이세도","season":"23HW","season_no":291,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+bd:{"player":"$be","value":564000000000,"probability":0.00020455480000000002}
+c0:{"id":212622,"name":"요주아 키미히","season":"22UCL","season_no":280,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+bf:{"player":"$c0","value":562000000000,"probability":0.00020455480000000002}
+c2:{"id":205988,"name":"루크 쇼","season":"23HW","season_no":291,"ovr":109,"position":"LB","nation":0,"upgrade":6,"pay":24}
+c1:{"player":"$c2","value":561000000000,"probability":0.00020455480000000002}
+c4:{"id":186942,"name":"일카이 귄도안","season":"22UCL","season_no":280,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":22}
+c3:{"player":"$c4","value":552000000000,"probability":0.00020455480000000002}
+c6:{"id":210008,"name":"아드리앙 라비오","season":"JVA","season_no":801,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24}
+c5:{"player":"$c6","value":550000000000,"probability":0.00020455480000000002}
+c8:{"id":206517,"name":"잭 그릴리시","season":"FCA","season_no":290,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":25}
+c7:{"player":"$c8","value":550000000000,"probability":0.00020455480000000002}
+ca:{"id":13038,"name":"카를레스 푸욜","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26}
+c9:{"player":"$ca","value":548000000000,"probability":0.00020455480000000002}
+cc:{"id":191189,"name":"로타어 마테우스","season":"RTN","season_no":284,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":27}
+cb:{"player":"$cc","value":527000000000,"probability":0.00020455480000000002}
+ce:{"id":49369,"name":"페르난도 토레스","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+cd:{"player":"$ce","value":517000000000,"probability":0.00020455480000000002}
+d0:{"id":10535,"name":"차비","season":"HG","season_no":283,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26}
+cf:{"player":"$d0","value":508000000000,"probability":0.00020455480000000002}
+d2:{"id":214098,"name":"프랑크 레이카르트","season":"HG","season_no":283,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":26}
+d1:{"player":"$d2","value":504000000000,"probability":0.00020455480000000002}
+d4:{"id":208093,"name":"제라르 모레노","season":"RTN","season_no":284,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25}
+d3:{"player":"$d4","value":501000000000,"probability":0.00020455480000000002}
+d6:{"id":54050,"name":"웨인 루니","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+d5:{"player":"$d6","value":500000000000,"probability":0.00020455480000000002}
+d8:{"id":203376,"name":"버질 반데이크","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":26}
+d7:{"player":"$d8","value":498000000000,"probability":0.00020455480000000002}
+da:{"id":182521,"name":"토니 크로스","season":"HG","season_no":283,"ovr":109,"position":"CAM","nation":0,"upgrade":6,"pay":25}
+d9:{"player":"$da","value":495000000000,"probability":0.0003136506}
+dc:{"id":121939,"name":"필립 람","season":"CC","season_no":289,"ovr":111,"position":"CDM","nation":0,"upgrade":6,"pay":26}
+db:{"player":"$dc","value":465000000000,"probability":0.0003136506}
+de:{"id":223334,"name":"조엘린통","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+dd:{"player":"$de","value":465000000000,"probability":0.0003136506}
+e0:{"id":197031,"name":"마르빈 두크슈","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+df:{"player":"$e0","value":460000000000,"probability":0.0003136506}
+e2:{"id":166906,"name":"프랑코 바레시","season":"HG","season_no":283,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26}
+e1:{"player":"$e2","value":460000000000,"probability":0.0003136506}
+e4:{"id":246,"name":"폴 스콜스","season":"HG","season_no":283,"ovr":110,"position":"CAM","nation":0,"upgrade":6,"pay":26}
+e3:{"player":"$e4","value":458000000000,"probability":0.0003136506}
+e6:{"id":247090,"name":"엔소 페르난데스","season":"FCA","season_no":290,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+e5:{"player":"$e6","value":448000000000,"probability":0.0003136506}
+e8:{"id":5479,"name":"카시야스","season":"CC","season_no":289,"ovr":111,"position":"GK","nation":0,"upgrade":6,"pay":22}
+e7:{"player":"$e8","value":444000000000,"probability":0.0003136506}
+ea:{"id":231936,"name":"벤 화이트","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":23}
+e9:{"player":"$ea","value":442000000000,"probability":0.0003136506}
+ec:{"id":235794,"name":"이베레치 이즈","season":"23HW","season_no":291,"ovr":110,"position":"CAM","nation":0,"upgrade":6,"pay":25}
+eb:{"player":"$ec","value":442000000000,"probability":0.0003136506}
+ee:{"id":239085,"name":"엘링 홀란","season":"22UCL","season_no":280,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+ed:{"player":"$ee","value":440000000000,"probability":0.0003136506}
+f0:{"id":234742,"name":"하비 반스","season":"23HW","season_no":291,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+ef:{"player":"$f0","value":430000000000,"probability":0.0003136506}
+f2:{"id":7826,"name":"로빈 반페르시","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26}
+f1:{"player":"$f2","value":429000000000,"probability":0.0003136506}
+f4:{"id":5479,"name":"카시야스","season":"HG","season_no":283,"ovr":111,"position":"GK","nation":0,"upgrade":6,"pay":22}
+f3:{"player":"$f4","value":421000000000,"probability":0.0003136506}
+f6:{"id":1088,"name":"알레산드로 네스타","season":"HG","season_no":283,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+f5:{"player":"$f6","value":421000000000,"probability":0.0003136506}
+f8:{"id":194765,"name":"앙투안 그리즈만","season":"HG","season_no":283,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+f7:{"player":"$f8","value":416000000000,"probability":0.0003136506}
+fa:{"id":49369,"name":"페르난도 토레스","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+f9:{"player":"$fa","value":400000000000,"probability":0.0003136506}
+fc:{"id":208128,"name":"하칸 찰하놀루","season":"22UCL","season_no":280,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":22}
+fb:{"player":"$fc","value":400000000000,"probability":0.0003136506}
+fe:{"id":214098,"name":"프랑크 레이카르트","season":"RTN","season_no":284,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+fd:{"player":"$fe","value":395000000000,"probability":0.0003136506}
+100:{"id":204485,"name":"리야드 마레즈","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":23}
+ff:{"player":"$100","value":393000000000,"probability":0.0003136506}
+102:{"id":226268,"name":"F. 디마르코","season":"22UCL","season_no":280,"ovr":110,"position":"LWB","nation":0,"upgrade":6,"pay":21}
+101:{"player":"$102","value":392000000000,"probability":0.0003136506}
+104:{"id":208722,"name":"사디오 마네","season":"22UCL","season_no":280,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+103:{"player":"$104","value":390000000000,"probability":0.0003136506}
+106:{"id":1040,"name":"호베르투 카를루스","season":"CC","season_no":289,"ovr":110,"position":"LB","nation":0,"upgrade":6,"pay":26}
+105:{"player":"$106","value":387000000000,"probability":0.0003136506}
+108:{"id":142754,"name":"하비에르 마스체라노","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26}
+107:{"player":"$108","value":384000000000,"probability":0.0003136506}
+10a:{"id":177003,"name":"루카 모드리치","season":"22UCL","season_no":280,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+109:{"player":"$10a","value":380000000000,"probability":0.0003136506}
+10c:{"id":138161,"name":"홍명보","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":25}
+10b:{"player":"$10c","value":376000000000,"probability":0.0003136506}
+10e:{"id":162895,"name":"세스크 파브레가스","season":"RTN","season_no":284,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+10d:{"player":"$10e","value":376000000000,"probability":0.0003136506}
+110:{"id":45661,"name":"라울","season":"HG","season_no":283,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26}
+10f:{"player":"$110","value":368000000000,"probability":0.0003136506}
+112:{"id":5003,"name":"카푸","season":"CC","season_no":289,"ovr":110,"position":"RB","nation":0,"upgrade":6,"pay":25}
+111:{"player":"$112","value":366000000000,"probability":0.0003136506}
+114:{"id":235790,"name":"카이 하베르츠","season":"23HW","season_no":291,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24}
+113:{"player":"$114","value":365000000000,"probability":0.0003136506}
+116:{"id":150418,"name":"마리오 고메스","season":"HG","season_no":283,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26}
+115:{"player":"$116","value":363000000000,"probability":0.0003136506}
+118:{"id":1419,"name":"파트리크 비에이라","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26}
+117:{"player":"$118","value":358000000000,"probability":0.0003136506}
+11a:{"id":258648,"name":"카를루스 아우구스투","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23}
+119:{"player":"$11a","value":354000000000,"probability":0.0003136506}
+11c:{"id":5419,"name":"마이클 오언","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+11b:{"player":"$11c","value":352000000000,"probability":0.0003136506}
+11e:{"id":232487,"name":"엔도 와타루","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+11d:{"player":"$11e","value":351000000000,"probability":0.0003136506}
+120:{"id":224458,"name":"디오구 조타","season":"FCA","season_no":290,"ovr":109,"position":"CF","nation":0,"upgrade":6,"pay":26}
+11f:{"player":"$120","value":350000000000,"probability":0.0003136506}
+122:{"id":231677,"name":"마커스 래시포드","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":25}
+121:{"player":"$122","value":348000000000,"probability":0.0003136506}
+124:{"id":188350,"name":"마르코 로이스","season":"RTN","season_no":284,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":26}
+123:{"player":"$124","value":342000000000,"probability":0.0003136506}
+126:{"id":190460,"name":"크리스티안 에릭센","season":"CC","season_no":289,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+125:{"player":"$126","value":341000000000,"probability":0.0003136506}
+128:{"id":210257,"name":"에데르송","season":"22UCL","season_no":280,"ovr":110,"position":"GK","nation":0,"upgrade":6,"pay":17}
+127:{"player":"$128","value":337000000000,"probability":0.0003136506}
+12a:{"id":215716,"name":"A. 미트로비치","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26}
+129:{"player":"$12a","value":329000000000,"probability":0.0003136506}
+12c:{"id":199304,"name":"다닐루","season":"23HW","season_no":291,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25}
+12b:{"player":"$12c","value":328000000000,"probability":0.0003136506}
+12e:{"id":189511,"name":"세르지오 부스케츠","season":"HG","season_no":283,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26}
+12d:{"player":"$12e","value":325000000000,"probability":0.0003136506}
+130:{"id":199503,"name":"그라니트 자카","season":"23HW","season_no":291,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":26}
+12f:{"player":"$130","value":308000000000,"probability":0.0003136506}
+132:{"id":45661,"name":"라울","season":"CC","season_no":289,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26}
+131:{"player":"$132","value":307000000000,"probability":0.0003136506}
+134:{"id":247703,"name":"이언 러시","season":"RTN","season_no":284,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25}
+133:{"player":"$134","value":305000000000,"probability":0.0003136506}
+136:{"id":121939,"name":"필립 람","season":"HG","season_no":283,"ovr":110,"position":"RB","nation":0,"upgrade":6,"pay":25}
+135:{"player":"$136","value":305000000000,"probability":0.0003136506}
+138:{"id":179813,"name":"에딘손 카바니","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26}
+137:{"player":"$138","value":300000000000,"probability":0.0003136506}
+13a:{"id":197445,"name":"데이비드 알라바","season":"HG","season_no":283,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24}
+139:{"player":"$13a","value":300000000000,"probability":0.0003136506}
+13c:{"id":199439,"name":"미하엘 그레고리치","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+13b:{"player":"$13c","value":297000000000,"probability":0.0003136506}
+13e:{"id":209331,"name":"모하메드 살라","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+13d:{"player":"$13e","value":295000000000,"probability":0.0004091095}
+140:{"id":167134,"name":"J. 파팽","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26}
+13f:{"player":"$140","value":294000000000,"probability":0.0004091095}
+142:{"id":209658,"name":"레온 고레츠카","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24}
+141:{"player":"$142","value":294000000000,"probability":0.0004091095}
+144:{"id":190053,"name":"페터 슈마이켈","season":"CC","season_no":289,"ovr":110,"position":"GK","nation":0,"upgrade":6,"pay":23}
+143:{"player":"$144","value":293000000000,"probability":0.0004091095}
+146:{"id":233064,"name":"메이슨 마운트","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+145:{"player":"$146","value":290000000000,"probability":0.0004091095}
+148:{"id":232656,"name":"테오 에르난데스","season":"22UCL","season_no":280,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":22}
+147:{"player":"$148","value":290000000000,"probability":0.0004091095}
+14a:{"id":225126,"name":"엘리스 스키리","season":"23HW","season_no":291,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25}
+149:{"player":"$14a","value":290000000000,"probability":0.0004091095}
+14c:{"id":222492,"name":"리로이 자네","season":"22UCL","season_no":280,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":25}
+14b:{"player":"$14c","value":289000000000,"probability":0.0004091095}
+14e:{"id":210047,"name":"파비안 셰어","season":"23HW","season_no":291,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25}
+14d:{"player":"$14e","value":283000000000,"probability":0.0004091095}
+150:{"id":206594,"name":"솔리 마치","season":"23HW","season_no":291,"ovr":110,"position":"RM","nation":0,"upgrade":6,"pay":25}
+14f:{"player":"$150","value":282000000000,"probability":0.0004091095}
+152:{"id":203574,"name":"존 스톤스","season":"22UCL","season_no":280,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":21}
+151:{"player":"$152","value":280000000000,"probability":0.0004091095}
+154:{"id":247394,"name":"데얀 쿨루세브스키","season":"23HW","season_no":291,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":23}
+153:{"player":"$154","value":280000000000,"probability":0.0004091095}
+156:{"id":180283,"name":"기성용","season":"CC","season_no":289,"ovr":104,"position":"CM","nation":0,"upgrade":6,"pay":23}
+155:{"player":"$156","value":277000000000,"probability":0.0004091095}
+158:{"id":166676,"name":"루디 펠러","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26}
+157:{"player":"$158","value":275000000000,"probability":0.0004091095}
+15a:{"id":231281,"name":"T. 알렉산더-아놀드","season":"HG","season_no":283,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23}
+159:{"player":"$15a","value":273000000000,"probability":0.0004091095}
+15c:{"id":193747,"name":"코케","season":"HG","season_no":283,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+15b:{"player":"$15c","value":271000000000,"probability":0.0004091095}
+15e:{"id":190871,"name":"네이마르 Jr.","season":"22UCL","season_no":280,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+15d:{"player":"$15e","value":270000000000,"probability":0.0004091095}
+160:{"id":210406,"name":"P. 지엘린스키","season":"22UCL","season_no":280,"ovr":109,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+15f:{"player":"$160","value":270000000000,"probability":0.0004091095}
+162:{"id":189511,"name":"세르지오 부스케츠","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26}
+161:{"player":"$162","value":261000000000,"probability":0.0004091095}
+164:{"id":191695,"name":"부트라게뇨","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+163:{"player":"$164","value":257000000000,"probability":0.0004091095}
+166:{"id":330,"name":"로비 킨","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+165:{"player":"$166","value":249000000000,"probability":0.0004091095}
+168:{"id":140053,"name":"유상철","season":"CC","season_no":289,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":25}
+167:{"player":"$168","value":249000000000,"probability":0.0004091095}
+16a:{"id":234396,"name":"알폰소 데이비스","season":"22UCL","season_no":280,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23}
+169:{"player":"$16a","value":244000000000,"probability":0.0004091095}
+16c:{"id":7289,"name":"리오 퍼디난드","season":"HG","season_no":283,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":26}
+16b:{"player":"$16c","value":243000000000,"probability":0.0004091095}
+16e:{"id":237692,"name":"필 포든","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23}
+16d:{"player":"$16e","value":241000000000,"probability":0.0004091095}
+170:{"id":182521,"name":"토니 크로스","season":"22UCL","season_no":280,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+16f:{"player":"$170","value":241000000000,"probability":0.0004091095}
+172:{"id":190765,"name":"파스칼 그로스","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+171:{"player":"$172","value":240000000000,"probability":0.0004091095}
+174:{"id":243812,"name":"호드리구","season":"22UCL","season_no":280,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":23}
+173:{"player":"$174","value":239000000000,"probability":0.0004091095}
+176:{"id":237681,"name":"구보 다케후사","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24}
+175:{"player":"$176","value":238000000000,"probability":0.0004091095}
+178:{"id":217870,"name":"조반니 디로렌초","season":"22UCL","season_no":280,"ovr":109,"position":"RB","nation":0,"upgrade":6,"pay":23}
+177:{"player":"$178","value":238000000000,"probability":0.0004091095}
+17a:{"id":212814,"name":"주앙 마리우","season":"22UCL","season_no":280,"ovr":109,"position":"LM","nation":0,"upgrade":6,"pay":24}
+179:{"player":"$17a","value":237000000000,"probability":0.0004091095}
+17c:{"id":223790,"name":"셰랄도 베케르","season":"23HW","season_no":291,"ovr":109,"position":"CF","nation":0,"upgrade":6,"pay":25}
+17b:{"player":"$17c","value":237000000000,"probability":0.0004091095}
+17e:{"id":168542,"name":"다비드 실바","season":"CC","season_no":289,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":25}
+17d:{"player":"$17e","value":232000000000,"probability":0.0004091095}
+180:{"id":223197,"name":"에네스 위날","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25}
+17f:{"player":"$180","value":230000000000,"probability":0.0004091095}
+182:{"id":247263,"name":"에드몽 탑소바","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+181:{"player":"$182","value":230000000000,"probability":0.0004091095}
+184:{"id":231478,"name":"라우타로 마르티네스","season":"22UCL","season_no":280,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":22}
+183:{"player":"$184","value":228000000000,"probability":0.0004091095}
+186:{"id":246669,"name":"부카요 사카","season":"HG","season_no":283,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24}
+185:{"player":"$186","value":225000000000,"probability":0.0004091095}
+188:{"id":209989,"name":"토머스 파티","season":"HG","season_no":283,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+187:{"player":"$188","value":223000000000,"probability":0.0004091095}
+18a:{"id":177413,"name":"악셀 비첼","season":"CC","season_no":289,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+189:{"player":"$18a","value":221000000000,"probability":0.0004091095}
+18c:{"id":205569,"name":"J. 워드-프라우즈","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24}
+18b:{"player":"$18c","value":220000000000,"probability":0.0004091095}
+18e:{"id":219932,"name":"A. 사나브리아","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+18d:{"player":"$18e","value":220000000000,"probability":0.0004091095}
+190:{"id":229237,"name":"마누엘 아칸지","season":"22UCL","season_no":280,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":22}
+18f:{"player":"$190","value":220000000000,"probability":0.0004091095}
+192:{"id":237383,"name":"A. 바스토니","season":"22UCL","season_no":280,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":23}
+191:{"player":"$192","value":219000000000,"probability":0.0004091095}
+194:{"id":224196,"name":"라미 벤세바이니","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23}
+193:{"player":"$194","value":216000000000,"probability":0.0004091095}
+196:{"id":247635,"name":"K. 크바라츠헬리아","season":"22UCL","season_no":280,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":24}
+195:{"player":"$196","value":215000000000,"probability":0.0004091095}
+198:{"id":222000,"name":"미카엘 라우드루프","season":"CC","season_no":289,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":25}
+197:{"player":"$198","value":211000000000,"probability":0.0004091095}
+19a:{"id":107715,"name":"루시우","season":"23HEROES","season_no":281,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+199:{"player":"$19a","value":210000000000,"probability":0.0004091095}
+19c:{"id":158023,"name":"리오넬 메시","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":26}
+19b:{"player":"$19c","value":210000000000,"probability":0.0004091095}
+19e:{"id":210035,"name":"그리말도","season":"22UCL","season_no":280,"ovr":109,"position":"LB","nation":0,"upgrade":6,"pay":23}
+19d:{"player":"$19e","value":208000000000,"probability":0.0004091095}
+1a0:{"id":204638,"name":"빌리 오르반","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+19f:{"player":"$1a0","value":205000000000,"probability":0.0004091095}
+1a2:{"id":167948,"name":"위고 요리스","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22}
+1a1:{"player":"$1a2","value":203000000000,"probability":0.0005591163}
+1a4:{"id":201153,"name":"모라타","season":"RTN","season_no":284,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1a3:{"player":"$1a4","value":203000000000,"probability":0.0005591163}
+1a6:{"id":192883,"name":"헨릭 미키타리안","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+1a5:{"player":"$1a6","value":202000000000,"probability":0.0005591163}
+1a8:{"id":142754,"name":"하비에르 마스체라노","season":"23HEROES","season_no":281,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+1a7:{"player":"$1a8","value":200000000000,"probability":0.0005591163}
+1aa:{"id":178509,"name":"올리비에 지루","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1a9:{"player":"$1aa","value":199000000000,"probability":0.0005591163}
+1ac:{"id":184344,"name":"레오나르도 보누치","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+1ab:{"player":"$1ac","value":198000000000,"probability":0.0005591163}
+1ae:{"id":241095,"name":"니콜라 블라시치","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+1ad:{"player":"$1ae","value":195000000000,"probability":0.0005591163}
+1b0:{"id":186153,"name":"보이치에흐 슈체스니","season":"JVA","season_no":801,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22}
+1af:{"player":"$1b0","value":194000000000,"probability":0.0005591163}
+1b2:{"id":192119,"name":"티보 쿠르투아","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22}
+1b1:{"player":"$1b2","value":193000000000,"probability":0.0005591163}
+1b4:{"id":247827,"name":"마이클 올리스","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24}
+1b3:{"player":"$1b4","value":192000000000,"probability":0.0005591163}
+1b6:{"id":193041,"name":"케일러 나바스","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":21}
+1b5:{"player":"$1b6","value":192000000000,"probability":0.0005591163}
+1b8:{"id":230977,"name":"미겔 알미론","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":25}
+1b7:{"player":"$1b8","value":191000000000,"probability":0.0005591163}
+1ba:{"id":51539,"name":"에드윈 반데르사르","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22}
+1b9:{"player":"$1ba","value":191000000000,"probability":0.0005591163}
+1bc:{"id":189513,"name":"파레호","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+1bb:{"player":"$1bc","value":190000000000,"probability":0.0005591163}
+1be:{"id":261593,"name":"J. 콜러","season":"CC","season_no":289,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+1bd:{"player":"$1be","value":189000000000,"probability":0.0005591163}
+1c0:{"id":167495,"name":"마누엘 노이어","season":"HG","season_no":283,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":23}
+1bf:{"player":"$1c0","value":188000000000,"probability":0.0005591163}
+1c2:{"id":231747,"name":"킬리안 음바페","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1c1:{"player":"$1c2","value":188000000000,"probability":0.0005591163}
+1c4:{"id":165153,"name":"카림 벤제마","season":"22UCL","season_no":280,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+1c3:{"player":"$1c4","value":185000000000,"probability":0.0005591163}
+1c6:{"id":34666,"name":"이영표","season":"CC","season_no":289,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23}
+1c5:{"player":"$1c6","value":185000000000,"probability":0.0005591163}
+1c8:{"id":218667,"name":"베르나르두 실바","season":"22UCL","season_no":280,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":21}
+1c7:{"player":"$1c8","value":185000000000,"probability":0.0005591163}
+1ca:{"id":238717,"name":"이선 피넉","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":24}
+1c9:{"player":"$1ca","value":183000000000,"probability":0.0005591163}
+1cc:{"id":216267,"name":"앤드루 로버트슨","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24}
+1cb:{"player":"$1cc","value":183000000000,"probability":0.0005591163}
+1ce:{"id":238074,"name":"리스 제임스","season":"22UCL","season_no":280,"ovr":107,"position":"RWB","nation":0,"upgrade":6,"pay":23}
+1cd:{"player":"$1ce","value":180000000000,"probability":0.0005591163}
+1d0:{"id":200104,"name":"손흥민","season":"22UCL","season_no":280,"ovr":105,"position":"LW","nation":0,"upgrade":6,"pay":24}
+1cf:{"player":"$1d0","value":180000000000,"probability":0.0005591163}
+1d2:{"id":192505,"name":"로멜루 루카쿠","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1d1:{"player":"$1d2","value":177000000000,"probability":0.0005591163}
+1d4:{"id":243014,"name":"B. 음뵈모","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24}
+1d3:{"player":"$1d4","value":176000000000,"probability":0.0005591163}
+1d6:{"id":121944,"name":"B. 슈바인슈타이거","season":"HG","season_no":283,"ovr":109,"position":"RM","nation":0,"upgrade":6,"pay":25}
+1d5:{"player":"$1d6","value":176000000000,"probability":0.0005591163}
+1d8:{"id":178509,"name":"올리비에 지루","season":"23HW","season_no":291,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1d7:{"player":"$1d8","value":175000000000,"probability":0.0005591163}
+1da:{"id":191202,"name":"네마냐 마티치","season":"RTN","season_no":284,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+1d9:{"player":"$1da","value":171000000000,"probability":0.0005591163}
+1dc:{"id":13038,"name":"카를레스 푸욜","season":"HG","season_no":283,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25}
+1db:{"player":"$1dc","value":169000000000,"probability":0.0005591163}
+1de:{"id":227236,"name":"A. 잠보 앙기사","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+1dd:{"player":"$1de","value":168000000000,"probability":0.0005591163}
+1e0:{"id":223710,"name":"베다트 무리치","season":"23HW","season_no":291,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1df:{"player":"$1e0","value":168000000000,"probability":0.0005591163}
+1e2:{"id":208450,"name":"안드레아스 페레이라","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+1e1:{"player":"$1e2","value":167000000000,"probability":0.0005591163}
+1e4:{"id":264240,"name":"가비","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+1e3:{"player":"$1e4","value":166000000000,"probability":0.0005591163}
+1e6:{"id":236499,"name":"도글라스 루이스","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+1e5:{"player":"$1e6","value":165000000000,"probability":0.0005591163}
+1e8:{"id":180930,"name":"에딘 제코","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25}
+1e7:{"player":"$1e8","value":165000000000,"probability":0.0005591163}
+1ea:{"id":206511,"name":"M. 아르놀트","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25}
+1e9:{"player":"$1ea","value":163000000000,"probability":0.0005591163}
+1ec:{"id":256516,"name":"니코 윌리암스","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24}
+1eb:{"player":"$1ec","value":162000000000,"probability":0.0005591163}
+1ee:{"id":192318,"name":"마리오 괴체","season":"HG","season_no":283,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+1ed:{"player":"$1ee","value":160000000000,"probability":0.0005591163}
+1f0:{"id":210881,"name":"존 맥긴","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+1ef:{"player":"$1f0","value":159000000000,"probability":0.0005591163}
+1f2:{"id":229558,"name":"다요 우파메카노","season":"22UCL","season_no":280,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+1f1:{"player":"$1f2","value":157000000000,"probability":0.0005591163}
+1f4:{"id":259377,"name":"예레미 피노","season":"23HW","season_no":291,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":24}
+1f3:{"player":"$1f4","value":156000000000,"probability":0.0005591163}
+1f6:{"id":182495,"name":"마르틴 카세레스","season":"CC","season_no":289,"ovr":105,"position":"RB","nation":0,"upgrade":6,"pay":23}
+1f5:{"player":"$1f6","value":152000000000,"probability":0.0005591163}
+1f8:{"id":206058,"name":"마티아 데실리오","season":"JVA","season_no":801,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":24}
+1f7:{"player":"$1f8","value":149000000000,"probability":0.0005591163}
+1fa:{"id":183898,"name":"앙헬 디마리아","season":"CC","season_no":289,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+1f9:{"player":"$1fa","value":149000000000,"probability":0.0005591163}
+1fc:{"id":246923,"name":"제이컵 램지","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24}
+1fb:{"player":"$1fc","value":149000000000,"probability":0.0005591163}
+1fe:{"id":388,"name":"솔 캠벨","season":"HG","season_no":283,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":25}
+1fd:{"player":"$1fe","value":140000000000,"probability":0.0005591163}
+200:{"id":229723,"name":"마티아스 옌센","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":23}
+1ff:{"player":"$200","value":137000000000,"probability":0.0005591163}
+202:{"id":138956,"name":"조르조 키엘리니","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+201:{"player":"$202","value":136000000000,"probability":0.0005591163}
+204:{"id":198032,"name":"댄 번","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+203:{"player":"$204","value":135000000000,"probability":0.0005591163}
+206:{"id":15723,"name":"디르크 카위트","season":"CC","season_no":289,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25}
+205:{"player":"$206","value":134000000000,"probability":0.000818219}
+208:{"id":208421,"name":"사울","season":"HG","season_no":283,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+207:{"player":"$208","value":130000000000,"probability":0.000818219}
+20a:{"id":45186,"name":"호아킨","season":"HG","season_no":283,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+209:{"player":"$20a","value":129000000000,"probability":0.000818219}
+20c:{"id":222077,"name":"마누엘 로카텔리","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+20b:{"player":"$20c","value":129000000000,"probability":0.000818219}
+20e:{"id":231866,"name":"로드리","season":"RTN","season_no":284,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+20d:{"player":"$20e","value":129000000000,"probability":0.000818219}
+210:{"id":192119,"name":"티보 쿠르투아","season":"22UCL","season_no":280,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":20}
+20f:{"player":"$210","value":128000000000,"probability":0.000818219}
+212:{"id":208574,"name":"필리프 코스티치","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24}
+211:{"player":"$212","value":127000000000,"probability":0.000818219}
+214:{"id":237329,"name":"조지프 윌록","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+213:{"player":"$214","value":126000000000,"probability":0.000818219}
+216:{"id":206606,"name":"필립 호프만","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+215:{"player":"$216","value":125000000000,"probability":0.000818219}
+218:{"id":212419,"name":"타이론 밍스","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+217:{"player":"$218","value":125000000000,"probability":0.000818219}
+21a:{"id":232639,"name":"도안 리쓰","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24}
+219:{"player":"$21a","value":124000000000,"probability":0.000818219}
+21c:{"id":237942,"name":"P. 에스투피냔","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23}
+21b:{"player":"$21c","value":123000000000,"probability":0.000818219}
+21e:{"id":229984,"name":"벤 칠웰","season":"22UCL","season_no":280,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":22}
+21d:{"player":"$21e","value":122000000000,"probability":0.000818219}
+220:{"id":193301,"name":"알렉상드르 라카제트","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+21f:{"player":"$220","value":122000000000,"probability":0.000818219}
+222:{"id":233556,"name":"R. 오르솔리니","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24}
+221:{"player":"$222","value":122000000000,"probability":0.000818219}
+224:{"id":15723,"name":"디르크 카위트","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+223:{"player":"$224","value":121000000000,"probability":0.000818219}
+226:{"id":222481,"name":"로랑 블랑","season":"HG","season_no":283,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":25}
+225:{"player":"$226","value":121000000000,"probability":0.000818219}
+228:{"id":3622,"name":"히카르두 카르발류","season":"23HEROES","season_no":281,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+227:{"player":"$228","value":121000000000,"probability":0.000818219}
+22a:{"id":177388,"name":"디미트리 파예트","season":"RTN","season_no":284,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":25}
+229:{"player":"$22a","value":121000000000,"probability":0.000818219}
+22c:{"id":216266,"name":"케니 테테","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":24}
+22b:{"player":"$22c","value":121000000000,"probability":0.000818219}
+22e:{"id":1041,"name":"하비에르 사네티","season":"CC","season_no":289,"ovr":108,"position":"RWB","nation":0,"upgrade":6,"pay":24}
+22d:{"player":"$22e","value":120000000000,"probability":0.000818219}
+230:{"id":190815,"name":"데일리 블린트","season":"CC","season_no":289,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24}
+22f:{"player":"$230","value":120000000000,"probability":0.000818219}
+232:{"id":251445,"name":"사무엘 리누","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23}
+231:{"player":"$232","value":120000000000,"probability":0.000818219}
+234:{"id":216201,"name":"이냐키 윌리암스","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+233:{"player":"$234","value":120000000000,"probability":0.000818219}
+236:{"id":216354,"name":"A. 크라마리치","season":"23HW","season_no":291,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":25}
+235:{"player":"$236","value":120000000000,"probability":0.000818219}
+238:{"id":235944,"name":"브라이스 멘데스","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+237:{"player":"$238","value":120000000000,"probability":0.000818219}
+23a:{"id":202695,"name":"제임스 타코우스키","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+239:{"player":"$23a","value":119000000000,"probability":0.000818219}
+23c:{"id":234378,"name":"데클런 라이스","season":"HG","season_no":283,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+23b:{"player":"$23c","value":119000000000,"probability":0.000818219}
+23e:{"id":212242,"name":"로베르트 안드리히","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+23d:{"player":"$23e","value":118000000000,"probability":0.000818219}
+240:{"id":190045,"name":"요한 크루이프","season":"RTN","season_no":284,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":26}
+23f:{"player":"$240","value":118000000000,"probability":0.000818219}
+242:{"id":26709,"name":"R. 마르케스","season":"CC","season_no":289,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+241:{"player":"$242","value":117000000000,"probability":0.000818219}
+244:{"id":204497,"name":"케빈 스퇴거","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+243:{"player":"$244","value":116000000000,"probability":0.000818219}
+246:{"id":206591,"name":"미첼 바이저","season":"23HW","season_no":291,"ovr":108,"position":"RM","nation":0,"upgrade":6,"pay":24}
+245:{"player":"$246","value":116000000000,"probability":0.000818219}
+248:{"id":236792,"name":"토마시 소우체크","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+247:{"player":"$248","value":116000000000,"probability":0.000818219}
+24a:{"id":247699,"name":"케니 달글리시","season":"CC","season_no":289,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24}
+249:{"player":"$24a","value":116000000000,"probability":0.000818219}
+24c:{"id":224371,"name":"재러드 보언","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":23}
+24b:{"player":"$24c","value":115000000000,"probability":0.000818219}
+24e:{"id":229071,"name":"카림 오니시보","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+24d:{"player":"$24e","value":113000000000,"probability":0.000818219}
+250:{"id":146536,"name":"헤수스 나바스","season":"HG","season_no":283,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24}
+24f:{"player":"$250","value":113000000000,"probability":0.000818219}
+252:{"id":225659,"name":"기도 로드리게스","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+251:{"player":"$252","value":113000000000,"probability":0.000818219}
+254:{"id":162895,"name":"세스크 파브레가스","season":"CC","season_no":289,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":24}
+253:{"player":"$254","value":112000000000,"probability":0.000818219}
+256:{"id":203030,"name":"로빈 크노헤","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+255:{"player":"$256","value":111000000000,"probability":0.000818219}
+258:{"id":230621,"name":"잔루이지 돈나룸마","season":"HG","season_no":283,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":22}
+257:{"player":"$258","value":110000000000,"probability":0.000818219}
+25a:{"id":216549,"name":"A. 쇨로트","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+259:{"player":"$25a","value":110000000000,"probability":0.000818219}
+25c:{"id":192629,"name":"이아고 아스파스","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25}
+25b:{"player":"$25c","value":110000000000,"probability":0.000818219}
+25e:{"id":210935,"name":"도메니코 베라르디","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24}
+25d:{"player":"$25e","value":109000000000,"probability":0.000818219}
+260:{"id":243282,"name":"드와이트 맥닐","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24}
+25f:{"player":"$260","value":109000000000,"probability":0.000818219}
+262:{"id":193301,"name":"알렉상드르 라카제트","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+261:{"player":"$262","value":109000000000,"probability":0.000818219}
+264:{"id":48940,"name":"페트르 체흐","season":"CC","season_no":289,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":22}
+263:{"player":"$264","value":109000000000,"probability":0.000818219}
+266:{"id":223671,"name":"슈테판 포슈","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":23}
+265:{"player":"$266","value":108000000000,"probability":0.000818219}
+268:{"id":216547,"name":"하파","season":"22UCL","season_no":280,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":23}
+267:{"player":"$268","value":108000000000,"probability":0.000818219}
+26a:{"id":220901,"name":"다비드 라야","season":"23HW","season_no":291,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":20}
+269:{"player":"$26a","value":107000000000,"probability":0.0031501432000000003}
+26c:{"id":247182,"name":"투타","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+26b:{"player":"$26c","value":106000000000,"probability":0.0031501432000000003}
+26e:{"id":231591,"name":"하비 갈란","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24}
+26d:{"player":"$26e","value":106000000000,"probability":0.0031501432000000003}
+270:{"id":207862,"name":"마티아스 긴터","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+26f:{"player":"$270","value":104000000000,"probability":0.0031501432000000003}
+272:{"id":250723,"name":"K. 코네","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+271:{"player":"$272","value":104000000000,"probability":0.0031501432000000003}
+274:{"id":7826,"name":"로빈 반페르시","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25}
+273:{"player":"$274","value":102000000000,"probability":0.0031501432000000003}
+276:{"id":173210,"name":"C. 마르키시오","season":"23HEROES","season_no":281,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+275:{"player":"$276","value":100000000000,"probability":0.0031501432000000003}
+278:{"id":34079,"name":"애슐리 콜","season":"CC","season_no":289,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":24}
+277:{"player":"$278","value":99900000000,"probability":0.0031501432000000003}
+27a:{"id":193348,"name":"제르단 샤키리","season":"CC","season_no":289,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":24}
+279:{"player":"$27a","value":99800000000,"probability":0.0031501432000000003}
+27c:{"id":246606,"name":"프란 가르시아","season":"23HW","season_no":291,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22}
+27b:{"player":"$27c","value":99600000000,"probability":0.0031501432000000003}
+27e:{"id":244675,"name":"산세트","season":"23HW","season_no":291,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+27d:{"player":"$27e","value":98900000000,"probability":0.0031501432000000003}
+280:{"id":235805,"name":"페데리코 키에사","season":"HG","season_no":283,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":24}
+27f:{"player":"$280","value":98900000000,"probability":0.0031501432000000003}
+282:{"id":239613,"name":"마테오 페시나","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24}
+281:{"player":"$282","value":98000000000,"probability":0.0031501432000000003}
+284:{"id":225539,"name":"도미닉 솔랑키","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24}
+283:{"player":"$284","value":96000000000,"probability":0.0031501432000000003}
+286:{"id":232411,"name":"C. 은쿤쿠","season":"22UCL","season_no":280,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24}
+285:{"player":"$286","value":95700000000,"probability":0.0031501432000000003}
+288:{"id":26709,"name":"R. 마르케스","season":"23HEROES","season_no":281,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+287:{"player":"$288","value":95500000000,"probability":0.0031501432000000003}
+28a:{"id":242187,"name":"C. 바움가르트너","season":"23HW","season_no":291,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+289:{"player":"$28a","value":94000000000,"probability":0.0031501432000000003}
+28c:{"id":140233,"name":"기예르모 오초아","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+28b:{"player":"$28c","value":93300000000,"probability":0.0031501432000000003}
+28e:{"id":189682,"name":"벤 미","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24}
+28d:{"player":"$28e","value":93300000000,"probability":0.0031501432000000003}
+290:{"id":233486,"name":"로뱅 르노르망","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+28f:{"player":"$290","value":93200000000,"probability":0.0031501432000000003}
+292:{"id":199503,"name":"그라니트 자카","season":"CC","season_no":289,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+291:{"player":"$292","value":92500000000,"probability":0.0031501432000000003}
+294:{"id":176550,"name":"다비드 오스피나","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+293:{"player":"$294","value":92200000000,"probability":0.0031501432000000003}
+296:{"id":34079,"name":"애슐리 콜","season":"HG","season_no":283,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":24}
+295:{"player":"$296","value":91900000000,"probability":0.0031501432000000003}
+298:{"id":4833,"name":"H. 스토이치코프","season":"RTN","season_no":284,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":25}
+297:{"player":"$298","value":91100000000,"probability":0.0031501432000000003}
+29a:{"id":205452,"name":"안토니오 뤼디거","season":"22UCL","season_no":280,"ovr":105,"position":"CB","nation":0,"upgrade":6,"pay":22}
+299:{"player":"$29a","value":90700000000,"probability":0.0031501432000000003}
+29c:{"id":174543,"name":"클라우디오 브라보","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+29b:{"player":"$29c","value":90300000000,"probability":0.0031501432000000003}
+29e:{"id":183512,"name":"유리 베르치체","season":"23HW","season_no":291,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23}
+29d:{"player":"$29e","value":90000000000,"probability":0.0031501432000000003}
+2a0:{"id":258976,"name":"F. 파리시","season":"23HW","season_no":291,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23}
+29f:{"player":"$2a0","value":88900000000,"probability":0.0031501432000000003}
+2a2:{"id":183569,"name":"E. 추포-모팅","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":23}
+2a1:{"player":"$2a2","value":88700000000,"probability":0.0031501432000000003}
+2a4:{"id":172871,"name":"얀 베르통언","season":"CC","season_no":289,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24}
+2a3:{"player":"$2a4","value":88200000000,"probability":0.0031501432000000003}
+2a6:{"id":224221,"name":"요아힘 아네르센","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+2a5:{"player":"$2a6","value":88100000000,"probability":0.0031501432000000003}
+2a8:{"id":204963,"name":"카르바할","season":"RTN","season_no":284,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":24}
+2a7:{"player":"$2a8","value":88000000000,"probability":0.0031501432000000003}
+2aa:{"id":184087,"name":"T. 알데르베이럴트","season":"CC","season_no":289,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23}
+2a9:{"player":"$2aa","value":87000000000,"probability":0.0031501432000000003}
+2ac:{"id":234577,"name":"디오구 코스타","season":"22UCL","season_no":280,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":19}
+2ab:{"player":"$2ac","value":86900000000,"probability":0.0031501432000000003}
+2ae:{"id":221491,"name":"니코 엘베디","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24}
+2ad:{"player":"$2ae","value":86900000000,"probability":0.0031501432000000003}
+2b0:{"id":243854,"name":"모하메드 시마칸","season":"22UCL","season_no":280,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23}
+2af:{"player":"$2b0","value":86900000000,"probability":0.0031501432000000003}
+2b2:{"id":220714,"name":"필리프 빌링","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+2b1:{"player":"$2b2","value":86000000000,"probability":0.0031501432000000003}
+2b4:{"id":52241,"name":"헨릭 라르손","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+2b3:{"player":"$2b4","value":85000000000,"probability":0.0031501432000000003}
+2b6:{"id":251892,"name":"베투","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+2b5:{"player":"$2b6","value":85000000000,"probability":0.0031501432000000003}
+2b8:{"id":180930,"name":"에딘 제코","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+2b7:{"player":"$2b8","value":85000000000,"probability":0.0031501432000000003}
+2ba:{"id":227234,"name":"뤼카 투사르","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+2b9:{"player":"$2ba","value":84600000000,"probability":0.0031501432000000003}
+2bc:{"id":197756,"name":"조던 아이유","season":"23HW","season_no":291,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24}
+2bb:{"player":"$2bc","value":84500000000,"probability":0.0031501432000000003}
+2be:{"id":241788,"name":"메흐디 타레미","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+2bd:{"player":"$2be","value":84400000000,"probability":0.0031501432000000003}
+2c0:{"id":219812,"name":"P. 치우리아","season":"23HW","season_no":291,"ovr":107,"position":"RM","nation":0,"upgrade":6,"pay":23}
+2bf:{"player":"$2c0","value":84200000000,"probability":0.0031501432000000003}
+2c2:{"id":216447,"name":"알바로 가르시아","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23}
+2c1:{"player":"$2c2","value":83500000000,"probability":0.0031501432000000003}
+2c4:{"id":213648,"name":"P. 호이비에르","season":"22UCL","season_no":280,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+2c3:{"player":"$2c4","value":82900000000,"probability":0.0031501432000000003}
+2c6:{"id":232080,"name":"잭 해리슨","season":"23HW","season_no":291,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23}
+2c5:{"player":"$2c6","value":82800000000,"probability":0.0031501432000000003}
+2c8:{"id":234153,"name":"카를로스 솔레르","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+2c7:{"player":"$2c8","value":82200000000,"probability":0.0031501432000000003}
+2ca:{"id":240709,"name":"리들레 바쿠","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":24}
+2c9:{"player":"$2ca","value":82000000000,"probability":0.0031501432000000003}
+2cc:{"id":199576,"name":"오리올 로메우","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+2cb:{"player":"$2cc","value":81700000000,"probability":0.0031501432000000003}
+2ce:{"id":235243,"name":"마테이스 더리흐트","season":"22UCL","season_no":280,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24}
+2cd:{"player":"$2ce","value":81600000000,"probability":0.0048274922}
+2d0:{"id":190815,"name":"데일리 블린트","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24}
+2cf:{"player":"$2d0","value":81500000000,"probability":0.0048274922}
+2d2:{"id":237712,"name":"V. 카스테야노스","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+2d1:{"player":"$2d2","value":81400000000,"probability":0.0048274922}
+2d4:{"id":231281,"name":"T. 알렉산더-아놀드","season":"22UCL","season_no":280,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":23}
+2d3:{"player":"$2d4","value":80600000000,"probability":0.0048274922}
+2d6:{"id":244390,"name":"마리우스 뷜터","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23}
+2d5:{"player":"$2d6","value":80600000000,"probability":0.0048274922}
+2d8:{"id":260815,"name":"아르나우 마르티네스","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23}
+2d7:{"player":"$2d8","value":80000000000,"probability":0.0048274922}
+2da:{"id":178603,"name":"마츠 후멜스","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":25}
+2d9:{"player":"$2da","value":80000000000,"probability":0.0048274922}
+2dc:{"id":192448,"name":"M. 테어슈테겐","season":"HG","season_no":283,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+2db:{"player":"$2dc","value":79900000000,"probability":0.0048274922}
+2de:{"id":193747,"name":"코케","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24}
+2dd:{"player":"$2de","value":79800000000,"probability":0.0048274922}
+2e0:{"id":247729,"name":"안드레 알메이다","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+2df:{"player":"$2e0","value":78900000000,"probability":0.0048274922}
+2e2:{"id":199897,"name":"니콜라스 회플러","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+2e1:{"player":"$2e2","value":78300000000,"probability":0.0048274922}
+2e4:{"id":240833,"name":"Y. 무코코","season":"FCA","season_no":290,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+2e3:{"player":"$2e4","value":78200000000,"probability":0.0048274922}
+2e6:{"id":207566,"name":"윌리앙 카르발류","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24}
+2e5:{"player":"$2e6","value":78100000000,"probability":0.0048274922}
+2e8:{"id":50752,"name":"레들리 킹","season":"23HEROES","season_no":281,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23}
+2e7:{"player":"$2e8","value":77900000000,"probability":0.0048274922}
+2ea:{"id":241159,"name":"M. 구에히","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+2e9:{"player":"$2ea","value":77800000000,"probability":0.0048274922}
+2ec:{"id":208418,"name":"야니크 카라스코","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":24}
+2eb:{"player":"$2ec","value":77700000000,"probability":0.0048274922}
+2ee:{"id":181458,"name":"이반 페리시치","season":"22UCL","season_no":280,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":25}
+2ed:{"player":"$2ee","value":77700000000,"probability":0.0048274922}
+2f0:{"id":173210,"name":"C. 마르키시오","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+2ef:{"player":"$2f0","value":77700000000,"probability":0.0048274922}
+2f2:{"id":168542,"name":"다비드 실바","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+2f1:{"player":"$2f2","value":77400000000,"probability":0.0048274922}
+2f4:{"id":190460,"name":"크리스티안 에릭센","season":"HG","season_no":283,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+2f3:{"player":"$2f4","value":76700000000,"probability":0.0048274922}
+2f6:{"id":27,"name":"조 콜","season":"HG","season_no":283,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23}
+2f5:{"player":"$2f6","value":76400000000,"probability":0.0048274922}
+2f8:{"id":189575,"name":"무니아인","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":24}
+2f7:{"player":"$2f8","value":76300000000,"probability":0.0048274922}
+2fa:{"id":236015,"name":"M. 깁스-화이트","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+2f9:{"player":"$2fa","value":76100000000,"probability":0.0048274922}
+2fc:{"id":248148,"name":"수비멘디","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+2fb:{"player":"$2fc","value":76100000000,"probability":0.0048274922}
+2fe:{"id":210008,"name":"아드리앙 라비오","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+2fd:{"player":"$2fe","value":75900000000,"probability":0.0048274922}
+300:{"id":193698,"name":"올리버 바우만","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+2ff:{"player":"$300","value":75400000000,"probability":0.0048274922}
+302:{"id":221342,"name":"파블로 마페오","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23}
+301:{"player":"$302","value":75200000000,"probability":0.0048274922}
+304:{"id":244669,"name":"모르텐 휠만","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+303:{"player":"$304","value":75200000000,"probability":0.0048274922}
+306:{"id":203551,"name":"A. 플로렌치","season":"HG","season_no":283,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":23}
+305:{"player":"$306","value":75100000000,"probability":0.0048274922}
+308:{"id":240452,"name":"음발라 은졸라","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+307:{"player":"$308","value":75100000000,"probability":0.0048274922}
+30a:{"id":5471,"name":"프랭크 램파드","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":25}
+309:{"player":"$30a","value":75000000000,"probability":0.0048274922}
+30c:{"id":51257,"name":"피터 크라우치","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24}
+30b:{"player":"$30c","value":74900000000,"probability":0.0048274922}
+30e:{"id":213655,"name":"앨릭스 이워비","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24}
+30d:{"player":"$30e","value":74500000000,"probability":0.0048274922}
+310:{"id":244238,"name":"야카 비욜","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+30f:{"player":"$310","value":74300000000,"probability":0.0048274922}
+312:{"id":199288,"name":"앙토니 로지야","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+311:{"player":"$312","value":72800000000,"probability":0.0048274922}
+314:{"id":235008,"name":"L. 로베르토네","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23}
+313:{"player":"$314","value":72700000000,"probability":0.0048274922}
+316:{"id":192984,"name":"쿤 카스테일스","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":20}
+315:{"player":"$316","value":72500000000,"probability":0.0048274922}
+318:{"id":221363,"name":"도니 반더베이크","season":"HG","season_no":283,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":23}
+317:{"player":"$318","value":71900000000,"probability":0.0048274922}
+31a:{"id":227127,"name":"알렉스 레미로","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+319:{"player":"$31a","value":71800000000,"probability":0.0048274922}
+31c:{"id":1183,"name":"파비오 칸나바로","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24}
+31b:{"player":"$31c","value":71800000000,"probability":0.0048274922}
+31e:{"id":15723,"name":"디르크 카위트","season":"23HEROES","season_no":281,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24}
+31d:{"player":"$31e","value":71800000000,"probability":0.0048274922}
+320:{"id":243241,"name":"A. 부온조르노","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+31f:{"player":"$320","value":70700000000,"probability":0.0048274922}
+322:{"id":155897,"name":"클린트 뎀프시","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+321:{"player":"$322","value":70100000000,"probability":0.0048274922}
+324:{"id":178509,"name":"올리비에 지루","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24}
+323:{"player":"$324","value":69500000000,"probability":0.0048274922}
+326:{"id":226162,"name":"E. 부엔디아","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+325:{"player":"$326","value":69400000000,"probability":0.0048274922}
+328:{"id":228805,"name":"라이요","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23}
+327:{"player":"$328","value":68100000000,"probability":0.0048274922}
+32a:{"id":257057,"name":"A. 오나나","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+329:{"player":"$32a","value":66900000000,"probability":0.0048274922}
+32c:{"id":223952,"name":"다비드 소리아","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+32b:{"player":"$32c","value":66700000000,"probability":0.0048274922}
+32e:{"id":7743,"name":"랜던 도노번","season":"CC","season_no":289,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":23}
+32d:{"player":"$32e","value":65000000000,"probability":0.0048274922}
+330:{"id":178224,"name":"치차리토","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+32f:{"player":"$330","value":64700000000,"probability":0.0048274922}
+332:{"id":211738,"name":"마르크 플레컨","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21}
+331:{"player":"$332","value":63400000000,"probability":0.0068730397}
+334:{"id":193082,"name":"후안 콰드라도","season":"CC","season_no":289,"ovr":106,"position":"RM","nation":0,"upgrade":6,"pay":23}
+333:{"player":"$334","value":63300000000,"probability":0.0068730397}
+336:{"id":253002,"name":"G. 라스파도리","season":"22UCL","season_no":280,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":23}
+335:{"player":"$336","value":62900000000,"probability":0.0068730397}
+338:{"id":226753,"name":"앙드레 오나나","season":"22UCL","season_no":280,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":19}
+337:{"player":"$338","value":62700000000,"probability":0.0068730397}
+33a:{"id":239482,"name":"갈레누","season":"22UCL","season_no":280,"ovr":106,"position":"LM","nation":0,"upgrade":6,"pay":23}
+339:{"player":"$33a","value":62000000000,"probability":0.0068730397}
+33c:{"id":189332,"name":"조르디 알바","season":"RTN","season_no":284,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23}
+33b:{"player":"$33c","value":61900000000,"probability":0.0068730397}
+33e:{"id":157481,"name":"라울 알비올","season":"HG","season_no":283,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23}
+33d:{"player":"$33e","value":60000000000,"probability":0.0068730397}
+340:{"id":213345,"name":"킹슬레 코망","season":"22UCL","season_no":280,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":23}
+33f:{"player":"$340","value":59700000000,"probability":0.0068730397}
+342:{"id":229348,"name":"안토니 로빈슨","season":"23HW","season_no":291,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22}
+341:{"player":"$342","value":58000000000,"probability":0.0068730397}
+344:{"id":200759,"name":"제프리 슐럽","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+343:{"player":"$344","value":57900000000,"probability":0.0068730397}
+346:{"id":216435,"name":"S. 로보트카","season":"22UCL","season_no":280,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":22}
+345:{"player":"$346","value":56900000000,"probability":0.0068730397}
+348:{"id":233096,"name":"덴젤 둠프리스","season":"22UCL","season_no":280,"ovr":105,"position":"RWB","nation":0,"upgrade":6,"pay":22}
+347:{"player":"$348","value":56100000000,"probability":0.0068730397}
+34a:{"id":235036,"name":"바우트 파스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+349:{"player":"$34a","value":56000000000,"probability":0.0068730397}
+34c:{"id":203483,"name":"데이비 클라선","season":"RTN","season_no":284,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+34b:{"player":"$34c","value":55000000000,"probability":0.0068730397}
+34e:{"id":192366,"name":"니콜라스 오타멘디","season":"22UCL","season_no":280,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+34d:{"player":"$34e","value":54900000000,"probability":0.0068730397}
+350:{"id":51412,"name":"팀 케이힐","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+34f:{"player":"$350","value":54800000000,"probability":0.0068730397}
+352:{"id":138449,"name":"카카","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+351:{"player":"$352","value":54800000000,"probability":0.0068730397}
+354:{"id":228251,"name":"로렌초 펠레그리니","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+353:{"player":"$354","value":53100000000,"probability":0.0068730397}
+356:{"id":225953,"name":"스테번 베르흐바인","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":24}
+355:{"player":"$356","value":52400000000,"probability":0.0068730397}
+358:{"id":193352,"name":"R. 로드리게스","season":"CC","season_no":289,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22}
+357:{"player":"$358","value":52000000000,"probability":0.0068730397}
+35a:{"id":209846,"name":"크리스티안 귄터","season":"23HW","season_no":291,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":23}
+359:{"player":"$35a","value":51500000000,"probability":0.0068730397}
+35c:{"id":245235,"name":"알렉산더 바","season":"22UCL","season_no":280,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22}
+35b:{"player":"$35c","value":50700000000,"probability":0.0068730397}
+35e:{"id":198717,"name":"윌프리드 자하","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23}
+35d:{"player":"$35e","value":50600000000,"probability":0.0068730397}
+360:{"id":171897,"name":"안드레스 과르다도","season":"CC","season_no":289,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+35f:{"player":"$360","value":50600000000,"probability":0.0068730397}
+362:{"id":268573,"name":"F. 바스키로토","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+361:{"player":"$362","value":50500000000,"probability":0.0068730397}
+364:{"id":197061,"name":"조엘 마티프","season":"HG","season_no":283,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+363:{"player":"$364","value":50100000000,"probability":0.0068730397}
+366:{"id":202126,"name":"해리 케인","season":"22UCL","season_no":280,"ovr":105,"position":"ST","nation":0,"upgrade":6,"pay":24}
+365:{"player":"$366","value":49900000000,"probability":0.0068730397}
+368:{"id":167397,"name":"팔카오","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24}
+367:{"player":"$368","value":49700000000,"probability":0.0068730397}
+36a:{"id":190149,"name":"데마르코스","season":"23HW","season_no":291,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22}
+369:{"player":"$36a","value":49100000000,"probability":0.0068730397}
+36c:{"id":222844,"name":"왈라시","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+36b:{"player":"$36c","value":48600000000,"probability":0.0068730397}
+36e:{"id":182494,"name":"페르난도 무슬레라","season":"CC","season_no":289,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":20}
+36d:{"player":"$36e","value":48500000000,"probability":0.0068730397}
+370:{"id":175943,"name":"드리스 메르턴스","season":"CC","season_no":289,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+36f:{"player":"$370","value":48200000000,"probability":0.0068730397}
+372:{"id":150418,"name":"마리오 고메스","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24}
+371:{"player":"$372","value":48100000000,"probability":0.0068730397}
+374:{"id":224232,"name":"니콜로 바렐라","season":"22UCL","season_no":280,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":21}
+373:{"player":"$374","value":48000000000,"probability":0.0068730397}
+376:{"id":220633,"name":"데마라이 그레이","season":"23HW","season_no":291,"ovr":105,"position":"LW","nation":0,"upgrade":6,"pay":22}
+375:{"player":"$376","value":48000000000,"probability":0.0068730397}
+378:{"id":210514,"name":"주앙 칸셀루","season":"22UCL","season_no":280,"ovr":105,"position":"RB","nation":0,"upgrade":6,"pay":22}
+377:{"player":"$378","value":47900000000,"probability":0.0068730397}
+37a:{"id":253124,"name":"마테우스 누니스","season":"23HW","season_no":291,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":22}
+379:{"player":"$37a","value":47700000000,"probability":0.0068730397}
+37c:{"id":222501,"name":"티모시 카스타뉴","season":"23HW","season_no":291,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22}
+37b:{"player":"$37c","value":47500000000,"probability":0.0068730397}
+37e:{"id":213991,"name":"제페르손 레르마","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+37d:{"player":"$37e","value":46400000000,"probability":0.0068730397}
+380:{"id":209499,"name":"파비뉴","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+37f:{"player":"$380","value":46200000000,"probability":0.0068730397}
+382:{"id":211999,"name":"라니 케디라","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+381:{"player":"$382","value":45600000000,"probability":0.0068730397}
+384:{"id":230142,"name":"오야르사발","season":"HG","season_no":283,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23}
+383:{"player":"$384","value":45400000000,"probability":0.0068730397}
+386:{"id":205686,"name":"테지 사바니에","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24}
+385:{"player":"$386","value":45000000000,"probability":0.0068730397}
+388:{"id":242619,"name":"셰이크 두쿠레","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+387:{"player":"$388","value":44800000000,"probability":0.0068730397}
+38a:{"id":244206,"name":"네우엔 페레스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+389:{"player":"$38a","value":44600000000,"probability":0.0068730397}
+38c:{"id":25924,"name":"호안 카프데빌라","season":"23HEROES","season_no":281,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23}
+38b:{"player":"$38c","value":44500000000,"probability":0.0068730397}
+38e:{"id":159261,"name":"파비오 콸리아렐라","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24}
+38d:{"player":"$38e","value":44400000000,"probability":0.0068730397}
+390:{"id":199339,"name":"마누엘 리만","season":"23HW","season_no":291,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":21}
+38f:{"player":"$390","value":44100000000,"probability":0.0068730397}
+392:{"id":239807,"name":"D. 프라테시","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+391:{"player":"$392","value":43300000000,"probability":0.0068730397}
+394:{"id":226168,"name":"M. 에게슈타인","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+393:{"player":"$394","value":43200000000,"probability":0.0068730397}
+396:{"id":230107,"name":"L. 쿨리발리","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+395:{"player":"$396","value":42900000000,"probability":0.0068730397}
+398:{"id":1625,"name":"티에리 앙리","season":"HG","season_no":283,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":25}
+397:{"player":"$398","value":42700000000,"probability":0.0068730397}
+39a:{"id":208137,"name":"루카스 토로","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+399:{"player":"$39a","value":42500000000,"probability":0.0068730397}
+39c:{"id":251392,"name":"톰 크라우스","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+39b:{"player":"$39c","value":42500000000,"probability":0.0068730397}
+39e:{"id":146947,"name":"베스가","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+39d:{"player":"$39e","value":42400000000,"probability":0.0068730397}
+3a0:{"id":235813,"name":"러즈반 마린","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23}
+39f:{"player":"$3a0","value":42000000000,"probability":0.0068730397}
+3a2:{"id":235149,"name":"예르디 스하우턴","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+3a1:{"player":"$3a2","value":41700000000,"probability":0.0068730397}
+3a4:{"id":193474,"name":"이드리사 게예","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+3a3:{"player":"$3a4","value":41700000000,"probability":0.0068730397}
+3a6:{"id":184457,"name":"R. 반볼프스빙컬","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+3a5:{"player":"$3a6","value":41400000000,"probability":0.0068730397}
+3a8:{"id":190584,"name":"이야라멘디","season":"RTN","season_no":284,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23}
+3a7:{"player":"$3a8","value":41300000000,"probability":0.0068730397}
+3aa:{"id":206590,"name":"모이 고메스","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+3a9:{"player":"$3aa","value":41200000000,"probability":0.0068730397}
+3ac:{"id":40898,"name":"시드니 고부","season":"23HEROES","season_no":281,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":23}
+3ab:{"player":"$3ac","value":41000000000,"probability":0.0068730397}
+3ae:{"id":240900,"name":"우나이 누녜스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+3ad:{"player":"$3ae","value":40300000000,"probability":0.0068730397}
+3b0:{"id":173221,"name":"안토니오 칸드레바","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+3af:{"player":"$3b0","value":40300000000,"probability":0.0068730397}
+3b2:{"id":186153,"name":"보이치에흐 슈체스니","season":"HG","season_no":283,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":21}
+3b1:{"player":"$3b2","value":40200000000,"probability":0.0068730397}
+3b4:{"id":219683,"name":"코랑탕 톨리소","season":"HG","season_no":283,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":22}
+3b3:{"player":"$3b4","value":40100000000,"probability":0.0068730397}
+3b6:{"id":198261,"name":"팀 림","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22}
+3b5:{"player":"$3b6","value":40000000000,"probability":0.0068730397}
+3b8:{"id":224179,"name":"보르하 이글레시아스","season":"23HW","season_no":291,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+3b7:{"player":"$3b8","value":40000000000,"probability":0.0068730397}
+3ba:{"id":266695,"name":"토마스 브롤린","season":"23HEROES","season_no":281,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23}
+3b9:{"player":"$3ba","value":40000000000,"probability":0.0068730397}
+3bc:{"id":192318,"name":"마리오 괴체","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23}
+3bb:{"player":"$3bc","value":39600000000,"probability":0.0068730397}
+10:["$11","$13","$15","$17","$19","$1b","$1d","$1f","$21","$23","$25","$27","$29","$2b","$2d","$2f","$31","$33","$35","$37","$39","$3b","$3d","$3f","$41","$43","$45","$47","$49","$4b","$4d","$4f","$51","$53","$55","$57","$59","$5b","$5d","$5f","$61","$63","$65","$67","$69","$6b","$6d","$6f","$71","$73","$75","$77","$79","$7b","$7d","$7f","$81","$83","$85","$87","$89","$8b","$8d","$8f","$91","$93","$95","$97","$99","$9b","$9d","$9f","$a1","$a3","$a5","$a7","$a9","$ab","$ad","$af","$b1","$b3","$b5","$b7","$b9","$bb","$bd","$bf","$c1","$c3","$c5","$c7","$c9","$cb","$cd","$cf","$d1","$d3","$d5","$d7","$d9","$db","$dd","$df","$e1","$e3","$e5","$e7","$e9","$eb","$ed","$ef","$f1","$f3","$f5","$f7","$f9","$fb","$fd","$ff","$101","$103","$105","$107","$109","$10b","$10d","$10f","$111","$113","$115","$117","$119","$11b","$11d","$11f","$121","$123","$125","$127","$129","$12b","$12d","$12f","$131","$133","$135","$137","$139","$13b","$13d","$13f","$141","$143","$145","$147","$149","$14b","$14d","$14f","$151","$153","$155","$157","$159","$15b","$15d","$15f","$161","$163","$165","$167","$169","$16b","$16d","$16f","$171","$173","$175","$177","$179","$17b","$17d","$17f","$181","$183","$185","$187","$189","$18b","$18d","$18f","$191","$193","$195","$197","$199","$19b","$19d","$19f","$1a1","$1a3","$1a5","$1a7","$1a9","$1ab","$1ad","$1af","$1b1","$1b3","$1b5","$1b7","$1b9","$1bb","$1bd","$1bf","$1c1","$1c3","$1c5","$1c7","$1c9","$1cb","$1cd","$1cf","$1d1","$1d3","$1d5","$1d7","$1d9","$1db","$1dd","$1df","$1e1","$1e3","$1e5","$1e7","$1e9","$1eb","$1ed","$1ef","$1f1","$1f3","$1f5","$1f7","$1f9","$1fb","$1fd","$1ff","$201","$203","$205","$207","$209","$20b","$20d","$20f","$211","$213","$215","$217","$219","$21b","$21d","$21f","$221","$223","$225","$227","$229","$22b","$22d","$22f","$231","$233","$235","$237","$239","$23b","$23d","$23f","$241","$243","$245","$247","$249","$24b","$24d","$24f","$251","$253","$255","$257","$259","$25b","$25d","$25f","$261","$263","$265","$267","$269","$26b","$26d","$26f","$271","$273","$275","$277","$279","$27b","$27d","$27f","$281","$283","$285","$287","$289","$28b","$28d","$28f","$291","$293","$295","$297","$299","$29b","$29d","$29f","$2a1","$2a3","$2a5","$2a7","$2a9","$2ab","$2ad","$2af","$2b1","$2b3","$2b5","$2b7","$2b9","$2bb","$2bd","$2bf","$2c1","$2c3","$2c5","$2c7","$2c9","$2cb","$2cd","$2cf","$2d1","$2d3","$2d5","$2d7","$2d9","$2db","$2dd","$2df","$2e1","$2e3","$2e5","$2e7","$2e9","$2eb","$2ed","$2ef","$2f1","$2f3","$2f5","$2f7","$2f9","$2fb","$2fd","$2ff","$301","$303","$305","$307","$309","$30b","$30d","$30f","$311","$313","$315","$317","$319","$31b","$31d","$31f","$321","$323","$325","$327","$329","$32b","$32d","$32f","$331","$333","$335","$337","$339","$33b","$33d","$33f","$341","$343","$345","$347","$349","$34b","$34d","$34f","$351","$353","$355","$357","$359","$35b","$35d","$35f","$361","$363","$365","$367","$369","$36b","$36d","$36f","$371","$373","$375","$377","$379","$37b","$37d","$37f","$381","$383","$385","$387","$389","$38b","$38d","$38f","$391","$393","$395","$397","$399","$39b","$39d","$39f","$3a1","$3a3","$3a5","$3a7","$3a9","$3ab","$3ad","$3af","$3b1","$3b3","$3b5","$3b7","$3b9","$3bb"]
+2:["$","div",null,{"children":[null,["$","$Ld",null,{"children":"JVA, CC 포함 Top Price 470 선수팩 (6강, 103+)"}],["$","a",null,{"href":"http://iteminfo.nexon.com/probability/fco?sn=8186","target":"_blank","rel":"noreferrer","children":"넥슨 아이템 확률 정보"}],["$","h2",null,{"children":"기댓값"}],["$","p",null,{"children":"924억"}],["$","h2",null,{"children":"시뮬레이터"}],["$","$Le",null,{"playerPackPlayers":[{"player":{"id":20801,"name":"크리스티아누 호날두","season":"CC","season_no":289,"ovr":113,"position":"ST","nation":0,"upgrade":6,"pay":29},"value":8360000000000,"probability":0.0000954589},{"player":{"id":1397,"name":"지네딘 지단","season":"JVA","season_no":801,"ovr":114,"position":"CAM","nation":0,"upgrade":6,"pay":29},"value":7220000000000,"probability":0.0000954589},{"player":{"id":1114,"name":"로베르토 바조","season":"JVA","season_no":801,"ovr":114,"position":"CF","nation":0,"upgrade":6,"pay":28},"value":4840000000000,"probability":0.0000954589},{"player":{"id":6235,"name":"파벨 네드베드","season":"JVA","season_no":801,"ovr":113,"position":"CAM","nation":0,"upgrade":6,"pay":27},"value":4530000000000,"probability":0.0000954589},{"player":{"id":1075,"name":"A. 델피에로","season":"JVA","season_no":801,"ovr":113,"position":"CF","nation":0,"upgrade":6,"pay":28},"value":3760000000000,"probability":0.0000954589},{"player":{"id":239085,"name":"엘링 홀란","season":"FCA","season_no":290,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":3240000000000,"probability":0.0000954589},{"player":{"id":200104,"name":"손흥민","season":"FCA","season_no":290,"ovr":111,"position":"LW","nation":0,"upgrade":6,"pay":27},"value":2620000000000,"probability":0.0000954589},{"player":{"id":49072,"name":"디에고 포를란","season":"CC","season_no":289,"ovr":112,"position":"CF","nation":0,"upgrade":6,"pay":27},"value":2190000000000,"probability":0.0000954589},{"player":{"id":1625,"name":"티에리 앙리","season":"CC","season_no":289,"ovr":112,"position":"LW","nation":0,"upgrade":6,"pay":28},"value":2150000000000,"probability":0.0000954589},{"player":{"id":1397,"name":"지네딘 지단","season":"CC","season_no":289,"ovr":113,"position":"CAM","nation":0,"upgrade":6,"pay":29},"value":2110000000000,"probability":0.0000954589},{"player":{"id":252371,"name":"주드 벨링엄","season":"FCA","season_no":290,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":2080000000000,"probability":0.0000954589},{"player":{"id":191189,"name":"로타어 마테우스","season":"CC","season_no":289,"ovr":113,"position":"CM","nation":0,"upgrade":6,"pay":28},"value":2010000000000,"probability":0.0000954589},{"player":{"id":158023,"name":"리오넬 메시","season":"CC","season_no":289,"ovr":113,"position":"CF","nation":0,"upgrade":6,"pay":28},"value":1990000000000,"probability":0.0000954589},{"player":{"id":220697,"name":"제임스 매디슨","season":"23HW","season_no":291,"ovr":111,"position":"CAM","nation":0,"upgrade":6,"pay":26},"value":1980000000000,"probability":0.0000954589},{"player":{"id":236772,"name":"D. 소보슬러이","season":"23HW","season_no":291,"ovr":112,"position":"RW","nation":0,"upgrade":6,"pay":26},"value":1960000000000,"probability":0.0000954589},{"player":{"id":9676,"name":"사뮈엘 에토","season":"CC","season_no":289,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":1800000000000,"probability":0.0000954589},{"player":{"id":264453,"name":"미키 반더벤","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":1770000000000,"probability":0.0000954589},{"player":{"id":7763,"name":"안드레아 피를로","season":"JVA","season_no":801,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":1770000000000,"probability":0.0000954589},{"player":{"id":5984,"name":"다비드 트레제게","season":"JVA","season_no":801,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":1760000000000,"probability":0.0000954589},{"player":{"id":212198,"name":"브루누 페르난데스","season":"23HW","season_no":291,"ovr":112,"position":"CAM","nation":0,"upgrade":6,"pay":27},"value":1730000000000,"probability":0.0000954589},{"player":{"id":191208,"name":"차범근","season":"CC","season_no":289,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":1720000000000,"probability":0.0000954589},{"player":{"id":202126,"name":"해리 케인","season":"HG","season_no":283,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":1690000000000,"probability":0.0000954589},{"player":{"id":13128,"name":"안드리 셰우첸코","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":1640000000000,"probability":0.0000954589},{"player":{"id":200104,"name":"손흥민","season":"23HW","season_no":291,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":26},"value":1620000000000,"probability":0.0000954589},{"player":{"id":182521,"name":"토니 크로스","season":"CC","season_no":289,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":1600000000000,"probability":0.0000954589},{"player":{"id":203376,"name":"버질 반데이크","season":"FCA","season_no":290,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":28},"value":1430000000000,"probability":0.0000954589},{"player":{"id":194765,"name":"앙투안 그리즈만","season":"CC","season_no":289,"ovr":112,"position":"RW","nation":0,"upgrade":6,"pay":27},"value":1410000000000,"probability":0.0000954589},{"player":{"id":173210,"name":"C. 마르키시오","season":"JVA","season_no":801,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":1380000000000,"probability":0.0000954589},{"player":{"id":239053,"name":"페데리코 발베르데","season":"22UCL","season_no":280,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":1360000000000,"probability":0.0000954589},{"player":{"id":158023,"name":"리오넬 메시","season":"HG","season_no":283,"ovr":111,"position":"CF","nation":0,"upgrade":6,"pay":27},"value":1330000000000,"probability":0.0000954589},{"player":{"id":238794,"name":"비니시우스","season":"FCA","season_no":290,"ovr":111,"position":"LW","nation":0,"upgrade":6,"pay":26},"value":1320000000000,"probability":0.0000954589},{"player":{"id":192985,"name":"케빈 더브라위너","season":"22UCL","season_no":280,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":1260000000000,"probability":0.0000954589},{"player":{"id":214100,"name":"루드 굴리트","season":"RTN","season_no":284,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":27},"value":1120000000000,"probability":0.0000954589},{"player":{"id":231281,"name":"T. 알렉산더-아놀드","season":"23HW","season_no":291,"ovr":111,"position":"RB","nation":0,"upgrade":6,"pay":25},"value":1110000000000,"probability":0.0000954589},{"player":{"id":243812,"name":"호드리구","season":"23HW","season_no":291,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":26},"value":1100000000000,"probability":0.0000954589},{"player":{"id":250,"name":"데이비드 베컴","season":"CC","season_no":289,"ovr":111,"position":"RM","nation":0,"upgrade":6,"pay":26},"value":1090000000000,"probability":0.0000954589},{"player":{"id":31432,"name":"디디에 드로그바","season":"CC","season_no":289,"ovr":111,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":1020000000000,"probability":0.0000954589},{"player":{"id":181458,"name":"이반 페리시치","season":"CC","season_no":289,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":26},"value":1000000000000,"probability":0.0000954589},{"player":{"id":230666,"name":"가브리엘 제주스","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":978000000000,"probability":0.0000954589},{"player":{"id":107715,"name":"루시우","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":975000000000,"probability":0.0000954589},{"player":{"id":239818,"name":"후벵 디아스","season":"22UCL","season_no":280,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":935000000000,"probability":0.0000954589},{"player":{"id":164240,"name":"티아구 실바","season":"CC","season_no":289,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":920000000000,"probability":0.0000954589},{"player":{"id":246242,"name":"불라예 디아","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":910000000000,"probability":0.0000954589},{"player":{"id":237086,"name":"김민재","season":"22UCL","season_no":280,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":899000000000,"probability":0.0000954589},{"player":{"id":49072,"name":"디에고 포를란","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":881000000000,"probability":0.0000954589},{"player":{"id":241721,"name":"하파엘 레앙","season":"22UCL","season_no":280,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":872000000000,"probability":0.0000954589},{"player":{"id":177003,"name":"루카 모드리치","season":"CC","season_no":289,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":859000000000,"probability":0.0000954589},{"player":{"id":13743,"name":"스티븐 제라드","season":"HG","season_no":283,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":834000000000,"probability":0.0000954589},{"player":{"id":11141,"name":"미로슬라프 클로제","season":"CC","season_no":289,"ovr":112,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":817000000000,"probability":0.0000954589},{"player":{"id":213648,"name":"P. 호이비에르","season":"23HW","season_no":291,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":800000000000,"probability":0.0000954589},{"player":{"id":1183,"name":"파비오 칸나바로","season":"CC","season_no":289,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":27},"value":800000000000,"probability":0.00020455480000000002},{"player":{"id":261593,"name":"J. 콜러","season":"JVA","season_no":801,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":800000000000,"probability":0.00020455480000000002},{"player":{"id":20289,"name":"야야 투레","season":"CC","season_no":289,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":787000000000,"probability":0.00020455480000000002},{"player":{"id":231866,"name":"로드리","season":"22UCL","season_no":280,"ovr":112,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":783000000000,"probability":0.00020455480000000002},{"player":{"id":13743,"name":"스티븐 제라드","season":"CC","season_no":289,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":777000000000,"probability":0.00020455480000000002},{"player":{"id":166124,"name":"게오르게 하지","season":"CC","season_no":289,"ovr":111,"position":"CAM","nation":0,"upgrade":6,"pay":26},"value":770000000000,"probability":0.00020455480000000002},{"player":{"id":121944,"name":"B. 슈바인슈타이거","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":765000000000,"probability":0.00020455480000000002},{"player":{"id":200104,"name":"손흥민","season":"CC","season_no":289,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":761000000000,"probability":0.00020455480000000002},{"player":{"id":189596,"name":"토마스 뮐러","season":"HG","season_no":283,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":27},"value":754000000000,"probability":0.00020455480000000002},{"player":{"id":190045,"name":"요한 크루이프","season":"HG","season_no":283,"ovr":111,"position":"CF","nation":0,"upgrade":6,"pay":28},"value":750000000000,"probability":0.00020455480000000002},{"player":{"id":7763,"name":"안드레아 피를로","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":748000000000,"probability":0.00020455480000000002},{"player":{"id":5471,"name":"프랭크 램파드","season":"CC","season_no":289,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":739000000000,"probability":0.00020455480000000002},{"player":{"id":250,"name":"데이비드 베컴","season":"HG","season_no":283,"ovr":110,"position":"RM","nation":0,"upgrade":6,"pay":26},"value":735000000000,"probability":0.00020455480000000002},{"player":{"id":239837,"name":"A. 마칼리스테르","season":"23HW","season_no":291,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":723000000000,"probability":0.00020455480000000002},{"player":{"id":4000,"name":"데니스 베르캄프","season":"HG","season_no":283,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26},"value":720000000000,"probability":0.00020455480000000002},{"player":{"id":190044,"name":"보비 무어","season":"CC","season_no":289,"ovr":112,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":716000000000,"probability":0.00020455480000000002},{"player":{"id":188545,"name":"R. 레반도프스키","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":715000000000,"probability":0.00020455480000000002},{"player":{"id":228702,"name":"프렝키 더용","season":"23HW","season_no":291,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":695000000000,"probability":0.00020455480000000002},{"player":{"id":1116,"name":"마르셀 드사이","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":27},"value":693000000000,"probability":0.00020455480000000002},{"player":{"id":39943,"name":"박지성","season":"CC","season_no":289,"ovr":109,"position":"LM","nation":0,"upgrade":6,"pay":25},"value":682000000000,"probability":0.00020455480000000002},{"player":{"id":234378,"name":"데클런 라이스","season":"23HW","season_no":291,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":671000000000,"probability":0.00020455480000000002},{"player":{"id":5099,"name":"잔루카 잠브로타","season":"JVA","season_no":801,"ovr":111,"position":"LB","nation":0,"upgrade":6,"pay":26},"value":669000000000,"probability":0.00020455480000000002},{"player":{"id":10535,"name":"차비","season":"CC","season_no":289,"ovr":112,"position":"CM","nation":0,"upgrade":6,"pay":27},"value":669000000000,"probability":0.00020455480000000002},{"player":{"id":235805,"name":"페데리코 키에사","season":"FCA","season_no":290,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":26},"value":663000000000,"probability":0.00020455480000000002},{"player":{"id":252371,"name":"주드 벨링엄","season":"22UCL","season_no":280,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":640000000000,"probability":0.00020455480000000002},{"player":{"id":45197,"name":"샤비 알론소","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":637000000000,"probability":0.00020455480000000002},{"player":{"id":5589,"name":"루이스 피구","season":"CC","season_no":289,"ovr":111,"position":"RW","nation":0,"upgrade":6,"pay":27},"value":632000000000,"probability":0.00020455480000000002},{"player":{"id":168651,"name":"이반 라키티치","season":"CC","season_no":289,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":623000000000,"probability":0.00020455480000000002},{"player":{"id":191043,"name":"알렉스 산드루","season":"JVA","season_no":801,"ovr":110,"position":"LB","nation":0,"upgrade":6,"pay":25},"value":623000000000,"probability":0.00020455480000000002},{"player":{"id":259583,"name":"D. 우도기","season":"23HW","season_no":291,"ovr":107,"position":"LM","nation":0,"upgrade":6,"pay":23},"value":616000000000,"probability":0.00020455480000000002},{"player":{"id":232756,"name":"피카요 토모리","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":605000000000,"probability":0.00020455480000000002},{"player":{"id":20801,"name":"크리스티아누 호날두","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":27},"value":599000000000,"probability":0.00020455480000000002},{"player":{"id":199304,"name":"다닐루","season":"JVA","season_no":801,"ovr":109,"position":"RB","nation":0,"upgrade":6,"pay":25},"value":587000000000,"probability":0.00020455480000000002},{"player":{"id":1109,"name":"파올로 말디니","season":"HG","season_no":283,"ovr":111,"position":"LB","nation":0,"upgrade":6,"pay":27},"value":585000000000,"probability":0.00020455480000000002},{"player":{"id":1109,"name":"파올로 말디니","season":"CC","season_no":289,"ovr":111,"position":"LWB","nation":0,"upgrade":6,"pay":27},"value":580000000000,"probability":0.00020455480000000002},{"player":{"id":238794,"name":"비니시우스","season":"22UCL","season_no":280,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":569000000000,"probability":0.00020455480000000002},{"player":{"id":256079,"name":"M. 카이세도","season":"23HW","season_no":291,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":564000000000,"probability":0.00020455480000000002},{"player":{"id":212622,"name":"요주아 키미히","season":"22UCL","season_no":280,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":562000000000,"probability":0.00020455480000000002},{"player":{"id":205988,"name":"루크 쇼","season":"23HW","season_no":291,"ovr":109,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":561000000000,"probability":0.00020455480000000002},{"player":{"id":186942,"name":"일카이 귄도안","season":"22UCL","season_no":280,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":22},"value":552000000000,"probability":0.00020455480000000002},{"player":{"id":210008,"name":"아드리앙 라비오","season":"JVA","season_no":801,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":550000000000,"probability":0.00020455480000000002},{"player":{"id":206517,"name":"잭 그릴리시","season":"FCA","season_no":290,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":550000000000,"probability":0.00020455480000000002},{"player":{"id":13038,"name":"카를레스 푸욜","season":"CC","season_no":289,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":548000000000,"probability":0.00020455480000000002},{"player":{"id":191189,"name":"로타어 마테우스","season":"RTN","season_no":284,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":27},"value":527000000000,"probability":0.00020455480000000002},{"player":{"id":49369,"name":"페르난도 토레스","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":517000000000,"probability":0.00020455480000000002},{"player":{"id":10535,"name":"차비","season":"HG","season_no":283,"ovr":111,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":508000000000,"probability":0.00020455480000000002},{"player":{"id":214098,"name":"프랑크 레이카르트","season":"HG","season_no":283,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":504000000000,"probability":0.00020455480000000002},{"player":{"id":208093,"name":"제라르 모레노","season":"RTN","season_no":284,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":501000000000,"probability":0.00020455480000000002},{"player":{"id":54050,"name":"웨인 루니","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":500000000000,"probability":0.00020455480000000002},{"player":{"id":203376,"name":"버질 반데이크","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":498000000000,"probability":0.00020455480000000002},{"player":{"id":182521,"name":"토니 크로스","season":"HG","season_no":283,"ovr":109,"position":"CAM","nation":0,"upgrade":6,"pay":25},"value":495000000000,"probability":0.0003136506},{"player":{"id":121939,"name":"필립 람","season":"CC","season_no":289,"ovr":111,"position":"CDM","nation":0,"upgrade":6,"pay":26},"value":465000000000,"probability":0.0003136506},{"player":{"id":223334,"name":"조엘린통","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":465000000000,"probability":0.0003136506},{"player":{"id":197031,"name":"마르빈 두크슈","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":460000000000,"probability":0.0003136506},{"player":{"id":166906,"name":"프랑코 바레시","season":"HG","season_no":283,"ovr":111,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":460000000000,"probability":0.0003136506},{"player":{"id":246,"name":"폴 스콜스","season":"HG","season_no":283,"ovr":110,"position":"CAM","nation":0,"upgrade":6,"pay":26},"value":458000000000,"probability":0.0003136506},{"player":{"id":247090,"name":"엔소 페르난데스","season":"FCA","season_no":290,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":448000000000,"probability":0.0003136506},{"player":{"id":5479,"name":"카시야스","season":"CC","season_no":289,"ovr":111,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":444000000000,"probability":0.0003136506},{"player":{"id":231936,"name":"벤 화이트","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":442000000000,"probability":0.0003136506},{"player":{"id":235794,"name":"이베레치 이즈","season":"23HW","season_no":291,"ovr":110,"position":"CAM","nation":0,"upgrade":6,"pay":25},"value":442000000000,"probability":0.0003136506},{"player":{"id":239085,"name":"엘링 홀란","season":"22UCL","season_no":280,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":440000000000,"probability":0.0003136506},{"player":{"id":234742,"name":"하비 반스","season":"23HW","season_no":291,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":430000000000,"probability":0.0003136506},{"player":{"id":7826,"name":"로빈 반페르시","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":429000000000,"probability":0.0003136506},{"player":{"id":5479,"name":"카시야스","season":"HG","season_no":283,"ovr":111,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":421000000000,"probability":0.0003136506},{"player":{"id":1088,"name":"알레산드로 네스타","season":"HG","season_no":283,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":421000000000,"probability":0.0003136506},{"player":{"id":194765,"name":"앙투안 그리즈만","season":"HG","season_no":283,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":416000000000,"probability":0.0003136506},{"player":{"id":49369,"name":"페르난도 토레스","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":400000000000,"probability":0.0003136506},{"player":{"id":208128,"name":"하칸 찰하놀루","season":"22UCL","season_no":280,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":22},"value":400000000000,"probability":0.0003136506},{"player":{"id":214098,"name":"프랑크 레이카르트","season":"RTN","season_no":284,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":395000000000,"probability":0.0003136506},{"player":{"id":204485,"name":"리야드 마레즈","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":393000000000,"probability":0.0003136506},{"player":{"id":226268,"name":"F. 디마르코","season":"22UCL","season_no":280,"ovr":110,"position":"LWB","nation":0,"upgrade":6,"pay":21},"value":392000000000,"probability":0.0003136506},{"player":{"id":208722,"name":"사디오 마네","season":"22UCL","season_no":280,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":390000000000,"probability":0.0003136506},{"player":{"id":1040,"name":"호베르투 카를루스","season":"CC","season_no":289,"ovr":110,"position":"LB","nation":0,"upgrade":6,"pay":26},"value":387000000000,"probability":0.0003136506},{"player":{"id":142754,"name":"하비에르 마스체라노","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26},"value":384000000000,"probability":0.0003136506},{"player":{"id":177003,"name":"루카 모드리치","season":"22UCL","season_no":280,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":380000000000,"probability":0.0003136506},{"player":{"id":138161,"name":"홍명보","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":376000000000,"probability":0.0003136506},{"player":{"id":162895,"name":"세스크 파브레가스","season":"RTN","season_no":284,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":376000000000,"probability":0.0003136506},{"player":{"id":45661,"name":"라울","season":"HG","season_no":283,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26},"value":368000000000,"probability":0.0003136506},{"player":{"id":5003,"name":"카푸","season":"CC","season_no":289,"ovr":110,"position":"RB","nation":0,"upgrade":6,"pay":25},"value":366000000000,"probability":0.0003136506},{"player":{"id":235790,"name":"카이 하베르츠","season":"23HW","season_no":291,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24},"value":365000000000,"probability":0.0003136506},{"player":{"id":150418,"name":"마리오 고메스","season":"HG","season_no":283,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":363000000000,"probability":0.0003136506},{"player":{"id":1419,"name":"파트리크 비에이라","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26},"value":358000000000,"probability":0.0003136506},{"player":{"id":258648,"name":"카를루스 아우구스투","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":354000000000,"probability":0.0003136506},{"player":{"id":5419,"name":"마이클 오언","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":352000000000,"probability":0.0003136506},{"player":{"id":232487,"name":"엔도 와타루","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":351000000000,"probability":0.0003136506},{"player":{"id":224458,"name":"디오구 조타","season":"FCA","season_no":290,"ovr":109,"position":"CF","nation":0,"upgrade":6,"pay":26},"value":350000000000,"probability":0.0003136506},{"player":{"id":231677,"name":"마커스 래시포드","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":348000000000,"probability":0.0003136506},{"player":{"id":188350,"name":"마르코 로이스","season":"RTN","season_no":284,"ovr":110,"position":"LW","nation":0,"upgrade":6,"pay":26},"value":342000000000,"probability":0.0003136506},{"player":{"id":190460,"name":"크리스티안 에릭센","season":"CC","season_no":289,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":341000000000,"probability":0.0003136506},{"player":{"id":210257,"name":"에데르송","season":"22UCL","season_no":280,"ovr":110,"position":"GK","nation":0,"upgrade":6,"pay":17},"value":337000000000,"probability":0.0003136506},{"player":{"id":215716,"name":"A. 미트로비치","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":329000000000,"probability":0.0003136506},{"player":{"id":199304,"name":"다닐루","season":"23HW","season_no":291,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":328000000000,"probability":0.0003136506},{"player":{"id":189511,"name":"세르지오 부스케츠","season":"HG","season_no":283,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26},"value":325000000000,"probability":0.0003136506},{"player":{"id":199503,"name":"그라니트 자카","season":"23HW","season_no":291,"ovr":110,"position":"CM","nation":0,"upgrade":6,"pay":26},"value":308000000000,"probability":0.0003136506},{"player":{"id":45661,"name":"라울","season":"CC","season_no":289,"ovr":110,"position":"CF","nation":0,"upgrade":6,"pay":26},"value":307000000000,"probability":0.0003136506},{"player":{"id":247703,"name":"이언 러시","season":"RTN","season_no":284,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":305000000000,"probability":0.0003136506},{"player":{"id":121939,"name":"필립 람","season":"HG","season_no":283,"ovr":110,"position":"RB","nation":0,"upgrade":6,"pay":25},"value":305000000000,"probability":0.0003136506},{"player":{"id":179813,"name":"에딘손 카바니","season":"CC","season_no":289,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":300000000000,"probability":0.0003136506},{"player":{"id":197445,"name":"데이비드 알라바","season":"HG","season_no":283,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":300000000000,"probability":0.0003136506},{"player":{"id":199439,"name":"미하엘 그레고리치","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":297000000000,"probability":0.0003136506},{"player":{"id":209331,"name":"모하메드 살라","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":295000000000,"probability":0.0004091095},{"player":{"id":167134,"name":"J. 파팽","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":294000000000,"probability":0.0004091095},{"player":{"id":209658,"name":"레온 고레츠카","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":294000000000,"probability":0.0004091095},{"player":{"id":190053,"name":"페터 슈마이켈","season":"CC","season_no":289,"ovr":110,"position":"GK","nation":0,"upgrade":6,"pay":23},"value":293000000000,"probability":0.0004091095},{"player":{"id":233064,"name":"메이슨 마운트","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":290000000000,"probability":0.0004091095},{"player":{"id":232656,"name":"테오 에르난데스","season":"22UCL","season_no":280,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":22},"value":290000000000,"probability":0.0004091095},{"player":{"id":225126,"name":"엘리스 스키리","season":"23HW","season_no":291,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":25},"value":290000000000,"probability":0.0004091095},{"player":{"id":222492,"name":"리로이 자네","season":"22UCL","season_no":280,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":289000000000,"probability":0.0004091095},{"player":{"id":210047,"name":"파비안 셰어","season":"23HW","season_no":291,"ovr":110,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":283000000000,"probability":0.0004091095},{"player":{"id":206594,"name":"솔리 마치","season":"23HW","season_no":291,"ovr":110,"position":"RM","nation":0,"upgrade":6,"pay":25},"value":282000000000,"probability":0.0004091095},{"player":{"id":203574,"name":"존 스톤스","season":"22UCL","season_no":280,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":21},"value":280000000000,"probability":0.0004091095},{"player":{"id":247394,"name":"데얀 쿨루세브스키","season":"23HW","season_no":291,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":280000000000,"probability":0.0004091095},{"player":{"id":180283,"name":"기성용","season":"CC","season_no":289,"ovr":104,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":277000000000,"probability":0.0004091095},{"player":{"id":166676,"name":"루디 펠러","season":"23HEROES","season_no":281,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":26},"value":275000000000,"probability":0.0004091095},{"player":{"id":231281,"name":"T. 알렉산더-아놀드","season":"HG","season_no":283,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":273000000000,"probability":0.0004091095},{"player":{"id":193747,"name":"코케","season":"HG","season_no":283,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":271000000000,"probability":0.0004091095},{"player":{"id":190871,"name":"네이마르 Jr.","season":"22UCL","season_no":280,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":270000000000,"probability":0.0004091095},{"player":{"id":210406,"name":"P. 지엘린스키","season":"22UCL","season_no":280,"ovr":109,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":270000000000,"probability":0.0004091095},{"player":{"id":189511,"name":"세르지오 부스케츠","season":"CC","season_no":289,"ovr":110,"position":"CDM","nation":0,"upgrade":6,"pay":26},"value":261000000000,"probability":0.0004091095},{"player":{"id":191695,"name":"부트라게뇨","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":257000000000,"probability":0.0004091095},{"player":{"id":330,"name":"로비 킨","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":249000000000,"probability":0.0004091095},{"player":{"id":140053,"name":"유상철","season":"CC","season_no":289,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":249000000000,"probability":0.0004091095},{"player":{"id":234396,"name":"알폰소 데이비스","season":"22UCL","season_no":280,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":244000000000,"probability":0.0004091095},{"player":{"id":7289,"name":"리오 퍼디난드","season":"HG","season_no":283,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":26},"value":243000000000,"probability":0.0004091095},{"player":{"id":237692,"name":"필 포든","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":241000000000,"probability":0.0004091095},{"player":{"id":182521,"name":"토니 크로스","season":"22UCL","season_no":280,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":241000000000,"probability":0.0004091095},{"player":{"id":190765,"name":"파스칼 그로스","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":240000000000,"probability":0.0004091095},{"player":{"id":243812,"name":"호드리구","season":"22UCL","season_no":280,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":239000000000,"probability":0.0004091095},{"player":{"id":237681,"name":"구보 다케후사","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":238000000000,"probability":0.0004091095},{"player":{"id":217870,"name":"조반니 디로렌초","season":"22UCL","season_no":280,"ovr":109,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":238000000000,"probability":0.0004091095},{"player":{"id":212814,"name":"주앙 마리우","season":"22UCL","season_no":280,"ovr":109,"position":"LM","nation":0,"upgrade":6,"pay":24},"value":237000000000,"probability":0.0004091095},{"player":{"id":223790,"name":"셰랄도 베케르","season":"23HW","season_no":291,"ovr":109,"position":"CF","nation":0,"upgrade":6,"pay":25},"value":237000000000,"probability":0.0004091095},{"player":{"id":168542,"name":"다비드 실바","season":"CC","season_no":289,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":232000000000,"probability":0.0004091095},{"player":{"id":223197,"name":"에네스 위날","season":"23HW","season_no":291,"ovr":110,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":230000000000,"probability":0.0004091095},{"player":{"id":247263,"name":"에드몽 탑소바","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":230000000000,"probability":0.0004091095},{"player":{"id":231478,"name":"라우타로 마르티네스","season":"22UCL","season_no":280,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":22},"value":228000000000,"probability":0.0004091095},{"player":{"id":246669,"name":"부카요 사카","season":"HG","season_no":283,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":225000000000,"probability":0.0004091095},{"player":{"id":209989,"name":"토머스 파티","season":"HG","season_no":283,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":223000000000,"probability":0.0004091095},{"player":{"id":177413,"name":"악셀 비첼","season":"CC","season_no":289,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":221000000000,"probability":0.0004091095},{"player":{"id":205569,"name":"J. 워드-프라우즈","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":220000000000,"probability":0.0004091095},{"player":{"id":219932,"name":"A. 사나브리아","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":220000000000,"probability":0.0004091095},{"player":{"id":229237,"name":"마누엘 아칸지","season":"22UCL","season_no":280,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":220000000000,"probability":0.0004091095},{"player":{"id":237383,"name":"A. 바스토니","season":"22UCL","season_no":280,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":219000000000,"probability":0.0004091095},{"player":{"id":224196,"name":"라미 벤세바이니","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":216000000000,"probability":0.0004091095},{"player":{"id":247635,"name":"K. 크바라츠헬리아","season":"22UCL","season_no":280,"ovr":109,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":215000000000,"probability":0.0004091095},{"player":{"id":222000,"name":"미카엘 라우드루프","season":"CC","season_no":289,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":25},"value":211000000000,"probability":0.0004091095},{"player":{"id":107715,"name":"루시우","season":"23HEROES","season_no":281,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":210000000000,"probability":0.0004091095},{"player":{"id":158023,"name":"리오넬 메시","season":"22UCL","season_no":280,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":26},"value":210000000000,"probability":0.0004091095},{"player":{"id":210035,"name":"그리말도","season":"22UCL","season_no":280,"ovr":109,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":208000000000,"probability":0.0004091095},{"player":{"id":204638,"name":"빌리 오르반","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":205000000000,"probability":0.0004091095},{"player":{"id":167948,"name":"위고 요리스","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":203000000000,"probability":0.0005591163},{"player":{"id":201153,"name":"모라타","season":"RTN","season_no":284,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":203000000000,"probability":0.0005591163},{"player":{"id":192883,"name":"헨릭 미키타리안","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":202000000000,"probability":0.0005591163},{"player":{"id":142754,"name":"하비에르 마스체라노","season":"23HEROES","season_no":281,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":200000000000,"probability":0.0005591163},{"player":{"id":178509,"name":"올리비에 지루","season":"CC","season_no":289,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":199000000000,"probability":0.0005591163},{"player":{"id":184344,"name":"레오나르도 보누치","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":198000000000,"probability":0.0005591163},{"player":{"id":241095,"name":"니콜라 블라시치","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":195000000000,"probability":0.0005591163},{"player":{"id":186153,"name":"보이치에흐 슈체스니","season":"JVA","season_no":801,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":194000000000,"probability":0.0005591163},{"player":{"id":192119,"name":"티보 쿠르투아","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":193000000000,"probability":0.0005591163},{"player":{"id":247827,"name":"마이클 올리스","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":192000000000,"probability":0.0005591163},{"player":{"id":193041,"name":"케일러 나바스","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":192000000000,"probability":0.0005591163},{"player":{"id":230977,"name":"미겔 알미론","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":191000000000,"probability":0.0005591163},{"player":{"id":51539,"name":"에드윈 반데르사르","season":"CC","season_no":289,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":191000000000,"probability":0.0005591163},{"player":{"id":189513,"name":"파레호","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":190000000000,"probability":0.0005591163},{"player":{"id":261593,"name":"J. 콜러","season":"CC","season_no":289,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":189000000000,"probability":0.0005591163},{"player":{"id":167495,"name":"마누엘 노이어","season":"HG","season_no":283,"ovr":109,"position":"GK","nation":0,"upgrade":6,"pay":23},"value":188000000000,"probability":0.0005591163},{"player":{"id":231747,"name":"킬리안 음바페","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":188000000000,"probability":0.0005591163},{"player":{"id":165153,"name":"카림 벤제마","season":"22UCL","season_no":280,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":185000000000,"probability":0.0005591163},{"player":{"id":34666,"name":"이영표","season":"CC","season_no":289,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":185000000000,"probability":0.0005591163},{"player":{"id":218667,"name":"베르나르두 실바","season":"22UCL","season_no":280,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":21},"value":185000000000,"probability":0.0005591163},{"player":{"id":238717,"name":"이선 피넉","season":"23HW","season_no":291,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":183000000000,"probability":0.0005591163},{"player":{"id":216267,"name":"앤드루 로버트슨","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":183000000000,"probability":0.0005591163},{"player":{"id":238074,"name":"리스 제임스","season":"22UCL","season_no":280,"ovr":107,"position":"RWB","nation":0,"upgrade":6,"pay":23},"value":180000000000,"probability":0.0005591163},{"player":{"id":200104,"name":"손흥민","season":"22UCL","season_no":280,"ovr":105,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":180000000000,"probability":0.0005591163},{"player":{"id":192505,"name":"로멜루 루카쿠","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":177000000000,"probability":0.0005591163},{"player":{"id":243014,"name":"B. 음뵈모","season":"23HW","season_no":291,"ovr":109,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":176000000000,"probability":0.0005591163},{"player":{"id":121944,"name":"B. 슈바인슈타이거","season":"HG","season_no":283,"ovr":109,"position":"RM","nation":0,"upgrade":6,"pay":25},"value":176000000000,"probability":0.0005591163},{"player":{"id":178509,"name":"올리비에 지루","season":"23HW","season_no":291,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":175000000000,"probability":0.0005591163},{"player":{"id":191202,"name":"네마냐 마티치","season":"RTN","season_no":284,"ovr":109,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":171000000000,"probability":0.0005591163},{"player":{"id":13038,"name":"카를레스 푸욜","season":"HG","season_no":283,"ovr":109,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":169000000000,"probability":0.0005591163},{"player":{"id":227236,"name":"A. 잠보 앙기사","season":"22UCL","season_no":280,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":168000000000,"probability":0.0005591163},{"player":{"id":223710,"name":"베다트 무리치","season":"23HW","season_no":291,"ovr":109,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":168000000000,"probability":0.0005591163},{"player":{"id":208450,"name":"안드레아스 페레이라","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":167000000000,"probability":0.0005591163},{"player":{"id":264240,"name":"가비","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":166000000000,"probability":0.0005591163},{"player":{"id":236499,"name":"도글라스 루이스","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":165000000000,"probability":0.0005591163},{"player":{"id":180930,"name":"에딘 제코","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":165000000000,"probability":0.0005591163},{"player":{"id":206511,"name":"M. 아르놀트","season":"23HW","season_no":291,"ovr":109,"position":"CM","nation":0,"upgrade":6,"pay":25},"value":163000000000,"probability":0.0005591163},{"player":{"id":256516,"name":"니코 윌리암스","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":162000000000,"probability":0.0005591163},{"player":{"id":192318,"name":"마리오 괴체","season":"HG","season_no":283,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":160000000000,"probability":0.0005591163},{"player":{"id":210881,"name":"존 맥긴","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":159000000000,"probability":0.0005591163},{"player":{"id":229558,"name":"다요 우파메카노","season":"22UCL","season_no":280,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":157000000000,"probability":0.0005591163},{"player":{"id":259377,"name":"예레미 피노","season":"23HW","season_no":291,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":156000000000,"probability":0.0005591163},{"player":{"id":182495,"name":"마르틴 카세레스","season":"CC","season_no":289,"ovr":105,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":152000000000,"probability":0.0005591163},{"player":{"id":206058,"name":"마티아 데실리오","season":"JVA","season_no":801,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":24},"value":149000000000,"probability":0.0005591163},{"player":{"id":183898,"name":"앙헬 디마리아","season":"CC","season_no":289,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":149000000000,"probability":0.0005591163},{"player":{"id":246923,"name":"제이컵 램지","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24},"value":149000000000,"probability":0.0005591163},{"player":{"id":388,"name":"솔 캠벨","season":"HG","season_no":283,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":140000000000,"probability":0.0005591163},{"player":{"id":229723,"name":"마티아스 옌센","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":137000000000,"probability":0.0005591163},{"player":{"id":138956,"name":"조르조 키엘리니","season":"CC","season_no":289,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":136000000000,"probability":0.0005591163},{"player":{"id":198032,"name":"댄 번","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":135000000000,"probability":0.0005591163},{"player":{"id":15723,"name":"디르크 카위트","season":"CC","season_no":289,"ovr":108,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":134000000000,"probability":0.000818219},{"player":{"id":208421,"name":"사울","season":"HG","season_no":283,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":130000000000,"probability":0.000818219},{"player":{"id":45186,"name":"호아킨","season":"HG","season_no":283,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":129000000000,"probability":0.000818219},{"player":{"id":222077,"name":"마누엘 로카텔리","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":129000000000,"probability":0.000818219},{"player":{"id":231866,"name":"로드리","season":"RTN","season_no":284,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":129000000000,"probability":0.000818219},{"player":{"id":192119,"name":"티보 쿠르투아","season":"22UCL","season_no":280,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":20},"value":128000000000,"probability":0.000818219},{"player":{"id":208574,"name":"필리프 코스티치","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24},"value":127000000000,"probability":0.000818219},{"player":{"id":237329,"name":"조지프 윌록","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":126000000000,"probability":0.000818219},{"player":{"id":206606,"name":"필립 호프만","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":125000000000,"probability":0.000818219},{"player":{"id":212419,"name":"타이론 밍스","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":125000000000,"probability":0.000818219},{"player":{"id":232639,"name":"도안 리쓰","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":124000000000,"probability":0.000818219},{"player":{"id":237942,"name":"P. 에스투피냔","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":123000000000,"probability":0.000818219},{"player":{"id":229984,"name":"벤 칠웰","season":"22UCL","season_no":280,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":22},"value":122000000000,"probability":0.000818219},{"player":{"id":193301,"name":"알렉상드르 라카제트","season":"HG","season_no":283,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":122000000000,"probability":0.000818219},{"player":{"id":233556,"name":"R. 오르솔리니","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":122000000000,"probability":0.000818219},{"player":{"id":15723,"name":"디르크 카위트","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":121000000000,"probability":0.000818219},{"player":{"id":222481,"name":"로랑 블랑","season":"HG","season_no":283,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":121000000000,"probability":0.000818219},{"player":{"id":3622,"name":"히카르두 카르발류","season":"23HEROES","season_no":281,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":121000000000,"probability":0.000818219},{"player":{"id":177388,"name":"디미트리 파예트","season":"RTN","season_no":284,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":25},"value":121000000000,"probability":0.000818219},{"player":{"id":216266,"name":"케니 테테","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":24},"value":121000000000,"probability":0.000818219},{"player":{"id":1041,"name":"하비에르 사네티","season":"CC","season_no":289,"ovr":108,"position":"RWB","nation":0,"upgrade":6,"pay":24},"value":120000000000,"probability":0.000818219},{"player":{"id":190815,"name":"데일리 블린트","season":"CC","season_no":289,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":120000000000,"probability":0.000818219},{"player":{"id":251445,"name":"사무엘 리누","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":120000000000,"probability":0.000818219},{"player":{"id":216201,"name":"이냐키 윌리암스","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":120000000000,"probability":0.000818219},{"player":{"id":216354,"name":"A. 크라마리치","season":"23HW","season_no":291,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":25},"value":120000000000,"probability":0.000818219},{"player":{"id":235944,"name":"브라이스 멘데스","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":120000000000,"probability":0.000818219},{"player":{"id":202695,"name":"제임스 타코우스키","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":119000000000,"probability":0.000818219},{"player":{"id":234378,"name":"데클런 라이스","season":"HG","season_no":283,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":119000000000,"probability":0.000818219},{"player":{"id":212242,"name":"로베르트 안드리히","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":118000000000,"probability":0.000818219},{"player":{"id":190045,"name":"요한 크루이프","season":"RTN","season_no":284,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":26},"value":118000000000,"probability":0.000818219},{"player":{"id":26709,"name":"R. 마르케스","season":"CC","season_no":289,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":117000000000,"probability":0.000818219},{"player":{"id":204497,"name":"케빈 스퇴거","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":116000000000,"probability":0.000818219},{"player":{"id":206591,"name":"미첼 바이저","season":"23HW","season_no":291,"ovr":108,"position":"RM","nation":0,"upgrade":6,"pay":24},"value":116000000000,"probability":0.000818219},{"player":{"id":236792,"name":"토마시 소우체크","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":116000000000,"probability":0.000818219},{"player":{"id":247699,"name":"케니 달글리시","season":"CC","season_no":289,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24},"value":116000000000,"probability":0.000818219},{"player":{"id":224371,"name":"재러드 보언","season":"23HW","season_no":291,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":115000000000,"probability":0.000818219},{"player":{"id":229071,"name":"카림 오니시보","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":113000000000,"probability":0.000818219},{"player":{"id":146536,"name":"헤수스 나바스","season":"HG","season_no":283,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":113000000000,"probability":0.000818219},{"player":{"id":225659,"name":"기도 로드리게스","season":"23HW","season_no":291,"ovr":108,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":113000000000,"probability":0.000818219},{"player":{"id":162895,"name":"세스크 파브레가스","season":"CC","season_no":289,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":24},"value":112000000000,"probability":0.000818219},{"player":{"id":203030,"name":"로빈 크노헤","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":111000000000,"probability":0.000818219},{"player":{"id":230621,"name":"잔루이지 돈나룸마","season":"HG","season_no":283,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":110000000000,"probability":0.000818219},{"player":{"id":216549,"name":"A. 쇨로트","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":110000000000,"probability":0.000818219},{"player":{"id":192629,"name":"이아고 아스파스","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":25},"value":110000000000,"probability":0.000818219},{"player":{"id":210935,"name":"도메니코 베라르디","season":"RTN","season_no":284,"ovr":108,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":109000000000,"probability":0.000818219},{"player":{"id":243282,"name":"드와이트 맥닐","season":"23HW","season_no":291,"ovr":108,"position":"LM","nation":0,"upgrade":6,"pay":24},"value":109000000000,"probability":0.000818219},{"player":{"id":193301,"name":"알렉상드르 라카제트","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":109000000000,"probability":0.000818219},{"player":{"id":48940,"name":"페트르 체흐","season":"CC","season_no":289,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":22},"value":109000000000,"probability":0.000818219},{"player":{"id":223671,"name":"슈테판 포슈","season":"23HW","season_no":291,"ovr":108,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":108000000000,"probability":0.000818219},{"player":{"id":216547,"name":"하파","season":"22UCL","season_no":280,"ovr":108,"position":"CF","nation":0,"upgrade":6,"pay":23},"value":108000000000,"probability":0.000818219},{"player":{"id":220901,"name":"다비드 라야","season":"23HW","season_no":291,"ovr":108,"position":"GK","nation":0,"upgrade":6,"pay":20},"value":107000000000,"probability":0.0031501432000000003},{"player":{"id":247182,"name":"투타","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":106000000000,"probability":0.0031501432000000003},{"player":{"id":231591,"name":"하비 갈란","season":"23HW","season_no":291,"ovr":108,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":106000000000,"probability":0.0031501432000000003},{"player":{"id":207862,"name":"마티아스 긴터","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":104000000000,"probability":0.0031501432000000003},{"player":{"id":250723,"name":"K. 코네","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":104000000000,"probability":0.0031501432000000003},{"player":{"id":7826,"name":"로빈 반페르시","season":"RTN","season_no":284,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":102000000000,"probability":0.0031501432000000003},{"player":{"id":173210,"name":"C. 마르키시오","season":"23HEROES","season_no":281,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":100000000000,"probability":0.0031501432000000003},{"player":{"id":34079,"name":"애슐리 콜","season":"CC","season_no":289,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":99900000000,"probability":0.0031501432000000003},{"player":{"id":193348,"name":"제르단 샤키리","season":"CC","season_no":289,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":99800000000,"probability":0.0031501432000000003},{"player":{"id":246606,"name":"프란 가르시아","season":"23HW","season_no":291,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22},"value":99600000000,"probability":0.0031501432000000003},{"player":{"id":244675,"name":"산세트","season":"23HW","season_no":291,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":98900000000,"probability":0.0031501432000000003},{"player":{"id":235805,"name":"페데리코 키에사","season":"HG","season_no":283,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":24},"value":98900000000,"probability":0.0031501432000000003},{"player":{"id":239613,"name":"마테오 페시나","season":"23HW","season_no":291,"ovr":108,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":98000000000,"probability":0.0031501432000000003},{"player":{"id":225539,"name":"도미닉 솔랑키","season":"23HW","season_no":291,"ovr":108,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":96000000000,"probability":0.0031501432000000003},{"player":{"id":232411,"name":"C. 은쿤쿠","season":"22UCL","season_no":280,"ovr":107,"position":"CF","nation":0,"upgrade":6,"pay":24},"value":95700000000,"probability":0.0031501432000000003},{"player":{"id":26709,"name":"R. 마르케스","season":"23HEROES","season_no":281,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":95500000000,"probability":0.0031501432000000003},{"player":{"id":242187,"name":"C. 바움가르트너","season":"23HW","season_no":291,"ovr":108,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":94000000000,"probability":0.0031501432000000003},{"player":{"id":140233,"name":"기예르모 오초아","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":93300000000,"probability":0.0031501432000000003},{"player":{"id":189682,"name":"벤 미","season":"23HW","season_no":291,"ovr":108,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":93300000000,"probability":0.0031501432000000003},{"player":{"id":233486,"name":"로뱅 르노르망","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":93200000000,"probability":0.0031501432000000003},{"player":{"id":199503,"name":"그라니트 자카","season":"CC","season_no":289,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":92500000000,"probability":0.0031501432000000003},{"player":{"id":176550,"name":"다비드 오스피나","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":92200000000,"probability":0.0031501432000000003},{"player":{"id":34079,"name":"애슐리 콜","season":"HG","season_no":283,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":24},"value":91900000000,"probability":0.0031501432000000003},{"player":{"id":4833,"name":"H. 스토이치코프","season":"RTN","season_no":284,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":25},"value":91100000000,"probability":0.0031501432000000003},{"player":{"id":205452,"name":"안토니오 뤼디거","season":"22UCL","season_no":280,"ovr":105,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":90700000000,"probability":0.0031501432000000003},{"player":{"id":174543,"name":"클라우디오 브라보","season":"CC","season_no":289,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":90300000000,"probability":0.0031501432000000003},{"player":{"id":183512,"name":"유리 베르치체","season":"23HW","season_no":291,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":90000000000,"probability":0.0031501432000000003},{"player":{"id":258976,"name":"F. 파리시","season":"23HW","season_no":291,"ovr":107,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":88900000000,"probability":0.0031501432000000003},{"player":{"id":183569,"name":"E. 추포-모팅","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":88700000000,"probability":0.0031501432000000003},{"player":{"id":172871,"name":"얀 베르통언","season":"CC","season_no":289,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":88200000000,"probability":0.0031501432000000003},{"player":{"id":224221,"name":"요아힘 아네르센","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":88100000000,"probability":0.0031501432000000003},{"player":{"id":204963,"name":"카르바할","season":"RTN","season_no":284,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":24},"value":88000000000,"probability":0.0031501432000000003},{"player":{"id":184087,"name":"T. 알데르베이럴트","season":"CC","season_no":289,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":87000000000,"probability":0.0031501432000000003},{"player":{"id":234577,"name":"디오구 코스타","season":"22UCL","season_no":280,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":19},"value":86900000000,"probability":0.0031501432000000003},{"player":{"id":221491,"name":"니코 엘베디","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":86900000000,"probability":0.0031501432000000003},{"player":{"id":243854,"name":"모하메드 시마칸","season":"22UCL","season_no":280,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":86900000000,"probability":0.0031501432000000003},{"player":{"id":220714,"name":"필리프 빌링","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":86000000000,"probability":0.0031501432000000003},{"player":{"id":52241,"name":"헨릭 라르손","season":"CC","season_no":289,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":85000000000,"probability":0.0031501432000000003},{"player":{"id":251892,"name":"베투","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":85000000000,"probability":0.0031501432000000003},{"player":{"id":180930,"name":"에딘 제코","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":85000000000,"probability":0.0031501432000000003},{"player":{"id":227234,"name":"뤼카 투사르","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":84600000000,"probability":0.0031501432000000003},{"player":{"id":197756,"name":"조던 아이유","season":"23HW","season_no":291,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":84500000000,"probability":0.0031501432000000003},{"player":{"id":241788,"name":"메흐디 타레미","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":84400000000,"probability":0.0031501432000000003},{"player":{"id":219812,"name":"P. 치우리아","season":"23HW","season_no":291,"ovr":107,"position":"RM","nation":0,"upgrade":6,"pay":23},"value":84200000000,"probability":0.0031501432000000003},{"player":{"id":216447,"name":"알바로 가르시아","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":83500000000,"probability":0.0031501432000000003},{"player":{"id":213648,"name":"P. 호이비에르","season":"22UCL","season_no":280,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":82900000000,"probability":0.0031501432000000003},{"player":{"id":232080,"name":"잭 해리슨","season":"23HW","season_no":291,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":82800000000,"probability":0.0031501432000000003},{"player":{"id":234153,"name":"카를로스 솔레르","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":82200000000,"probability":0.0031501432000000003},{"player":{"id":240709,"name":"리들레 바쿠","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":24},"value":82000000000,"probability":0.0031501432000000003},{"player":{"id":199576,"name":"오리올 로메우","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":81700000000,"probability":0.0031501432000000003},{"player":{"id":235243,"name":"마테이스 더리흐트","season":"22UCL","season_no":280,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":81600000000,"probability":0.0048274922},{"player":{"id":190815,"name":"데일리 블린트","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":81500000000,"probability":0.0048274922},{"player":{"id":237712,"name":"V. 카스테야노스","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":81400000000,"probability":0.0048274922},{"player":{"id":231281,"name":"T. 알렉산더-아놀드","season":"22UCL","season_no":280,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":80600000000,"probability":0.0048274922},{"player":{"id":244390,"name":"마리우스 뷜터","season":"23HW","season_no":291,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":80600000000,"probability":0.0048274922},{"player":{"id":260815,"name":"아르나우 마르티네스","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":80000000000,"probability":0.0048274922},{"player":{"id":178603,"name":"마츠 후멜스","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":25},"value":80000000000,"probability":0.0048274922},{"player":{"id":192448,"name":"M. 테어슈테겐","season":"HG","season_no":283,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":79900000000,"probability":0.0048274922},{"player":{"id":193747,"name":"코케","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":79800000000,"probability":0.0048274922},{"player":{"id":247729,"name":"안드레 알메이다","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":78900000000,"probability":0.0048274922},{"player":{"id":199897,"name":"니콜라스 회플러","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":78300000000,"probability":0.0048274922},{"player":{"id":240833,"name":"Y. 무코코","season":"FCA","season_no":290,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":78200000000,"probability":0.0048274922},{"player":{"id":207566,"name":"윌리앙 카르발류","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":24},"value":78100000000,"probability":0.0048274922},{"player":{"id":50752,"name":"레들리 킹","season":"23HEROES","season_no":281,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":77900000000,"probability":0.0048274922},{"player":{"id":241159,"name":"M. 구에히","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":77800000000,"probability":0.0048274922},{"player":{"id":208418,"name":"야니크 카라스코","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":77700000000,"probability":0.0048274922},{"player":{"id":181458,"name":"이반 페리시치","season":"22UCL","season_no":280,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":25},"value":77700000000,"probability":0.0048274922},{"player":{"id":173210,"name":"C. 마르키시오","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":77700000000,"probability":0.0048274922},{"player":{"id":168542,"name":"다비드 실바","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":77400000000,"probability":0.0048274922},{"player":{"id":190460,"name":"크리스티안 에릭센","season":"HG","season_no":283,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":76700000000,"probability":0.0048274922},{"player":{"id":27,"name":"조 콜","season":"HG","season_no":283,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":76400000000,"probability":0.0048274922},{"player":{"id":189575,"name":"무니아인","season":"HG","season_no":283,"ovr":107,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":76300000000,"probability":0.0048274922},{"player":{"id":236015,"name":"M. 깁스-화이트","season":"23HW","season_no":291,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":76100000000,"probability":0.0048274922},{"player":{"id":248148,"name":"수비멘디","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":76100000000,"probability":0.0048274922},{"player":{"id":210008,"name":"아드리앙 라비오","season":"HG","season_no":283,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":75900000000,"probability":0.0048274922},{"player":{"id":193698,"name":"올리버 바우만","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":75400000000,"probability":0.0048274922},{"player":{"id":221342,"name":"파블로 마페오","season":"23HW","season_no":291,"ovr":107,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":75200000000,"probability":0.0048274922},{"player":{"id":244669,"name":"모르텐 휠만","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":75200000000,"probability":0.0048274922},{"player":{"id":203551,"name":"A. 플로렌치","season":"HG","season_no":283,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":23},"value":75100000000,"probability":0.0048274922},{"player":{"id":240452,"name":"음발라 은졸라","season":"23HW","season_no":291,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":75100000000,"probability":0.0048274922},{"player":{"id":5471,"name":"프랭크 램파드","season":"HG","season_no":283,"ovr":107,"position":"CAM","nation":0,"upgrade":6,"pay":25},"value":75000000000,"probability":0.0048274922},{"player":{"id":51257,"name":"피터 크라우치","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":74900000000,"probability":0.0048274922},{"player":{"id":213655,"name":"앨릭스 이워비","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":24},"value":74500000000,"probability":0.0048274922},{"player":{"id":244238,"name":"야카 비욜","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":74300000000,"probability":0.0048274922},{"player":{"id":199288,"name":"앙토니 로지야","season":"23HW","season_no":291,"ovr":107,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":72800000000,"probability":0.0048274922},{"player":{"id":235008,"name":"L. 로베르토네","season":"23HW","season_no":291,"ovr":107,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":72700000000,"probability":0.0048274922},{"player":{"id":192984,"name":"쿤 카스테일스","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":20},"value":72500000000,"probability":0.0048274922},{"player":{"id":221363,"name":"도니 반더베이크","season":"HG","season_no":283,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":71900000000,"probability":0.0048274922},{"player":{"id":227127,"name":"알렉스 레미로","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":71800000000,"probability":0.0048274922},{"player":{"id":1183,"name":"파비오 칸나바로","season":"RTN","season_no":284,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":24},"value":71800000000,"probability":0.0048274922},{"player":{"id":15723,"name":"디르크 카위트","season":"23HEROES","season_no":281,"ovr":107,"position":"RW","nation":0,"upgrade":6,"pay":24},"value":71800000000,"probability":0.0048274922},{"player":{"id":243241,"name":"A. 부온조르노","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":70700000000,"probability":0.0048274922},{"player":{"id":155897,"name":"클린트 뎀프시","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":70100000000,"probability":0.0048274922},{"player":{"id":178509,"name":"올리비에 지루","season":"22UCL","season_no":280,"ovr":107,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":69500000000,"probability":0.0048274922},{"player":{"id":226162,"name":"E. 부엔디아","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":69400000000,"probability":0.0048274922},{"player":{"id":228805,"name":"라이요","season":"23HW","season_no":291,"ovr":107,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":68100000000,"probability":0.0048274922},{"player":{"id":257057,"name":"A. 오나나","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":66900000000,"probability":0.0048274922},{"player":{"id":223952,"name":"다비드 소리아","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":66700000000,"probability":0.0048274922},{"player":{"id":7743,"name":"랜던 도노번","season":"CC","season_no":289,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":23},"value":65000000000,"probability":0.0048274922},{"player":{"id":178224,"name":"치차리토","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":64700000000,"probability":0.0048274922},{"player":{"id":211738,"name":"마르크 플레컨","season":"23HW","season_no":291,"ovr":107,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":63400000000,"probability":0.0068730397},{"player":{"id":193082,"name":"후안 콰드라도","season":"CC","season_no":289,"ovr":106,"position":"RM","nation":0,"upgrade":6,"pay":23},"value":63300000000,"probability":0.0068730397},{"player":{"id":253002,"name":"G. 라스파도리","season":"22UCL","season_no":280,"ovr":106,"position":"CF","nation":0,"upgrade":6,"pay":23},"value":62900000000,"probability":0.0068730397},{"player":{"id":226753,"name":"앙드레 오나나","season":"22UCL","season_no":280,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":19},"value":62700000000,"probability":0.0068730397},{"player":{"id":239482,"name":"갈레누","season":"22UCL","season_no":280,"ovr":106,"position":"LM","nation":0,"upgrade":6,"pay":23},"value":62000000000,"probability":0.0068730397},{"player":{"id":189332,"name":"조르디 알바","season":"RTN","season_no":284,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":61900000000,"probability":0.0068730397},{"player":{"id":157481,"name":"라울 알비올","season":"HG","season_no":283,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":23},"value":60000000000,"probability":0.0068730397},{"player":{"id":213345,"name":"킹슬레 코망","season":"22UCL","season_no":280,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":59700000000,"probability":0.0068730397},{"player":{"id":229348,"name":"안토니 로빈슨","season":"23HW","season_no":291,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22},"value":58000000000,"probability":0.0068730397},{"player":{"id":200759,"name":"제프리 슐럽","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":57900000000,"probability":0.0068730397},{"player":{"id":216435,"name":"S. 로보트카","season":"22UCL","season_no":280,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":22},"value":56900000000,"probability":0.0068730397},{"player":{"id":233096,"name":"덴젤 둠프리스","season":"22UCL","season_no":280,"ovr":105,"position":"RWB","nation":0,"upgrade":6,"pay":22},"value":56100000000,"probability":0.0068730397},{"player":{"id":235036,"name":"바우트 파스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":56000000000,"probability":0.0068730397},{"player":{"id":203483,"name":"데이비 클라선","season":"RTN","season_no":284,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":55000000000,"probability":0.0068730397},{"player":{"id":192366,"name":"니콜라스 오타멘디","season":"22UCL","season_no":280,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":54900000000,"probability":0.0068730397},{"player":{"id":51412,"name":"팀 케이힐","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":54800000000,"probability":0.0068730397},{"player":{"id":138449,"name":"카카","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":54800000000,"probability":0.0068730397},{"player":{"id":228251,"name":"로렌초 펠레그리니","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":53100000000,"probability":0.0068730397},{"player":{"id":225953,"name":"스테번 베르흐바인","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":24},"value":52400000000,"probability":0.0068730397},{"player":{"id":193352,"name":"R. 로드리게스","season":"CC","season_no":289,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":22},"value":52000000000,"probability":0.0068730397},{"player":{"id":209846,"name":"크리스티안 귄터","season":"23HW","season_no":291,"ovr":106,"position":"LWB","nation":0,"upgrade":6,"pay":23},"value":51500000000,"probability":0.0068730397},{"player":{"id":245235,"name":"알렉산더 바","season":"22UCL","season_no":280,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22},"value":50700000000,"probability":0.0068730397},{"player":{"id":198717,"name":"윌프리드 자하","season":"RTN","season_no":284,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":50600000000,"probability":0.0068730397},{"player":{"id":171897,"name":"안드레스 과르다도","season":"CC","season_no":289,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":50600000000,"probability":0.0068730397},{"player":{"id":268573,"name":"F. 바스키로토","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":50500000000,"probability":0.0068730397},{"player":{"id":197061,"name":"조엘 마티프","season":"HG","season_no":283,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":50100000000,"probability":0.0068730397},{"player":{"id":202126,"name":"해리 케인","season":"22UCL","season_no":280,"ovr":105,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":49900000000,"probability":0.0068730397},{"player":{"id":167397,"name":"팔카오","season":"CC","season_no":289,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":49700000000,"probability":0.0068730397},{"player":{"id":190149,"name":"데마르코스","season":"23HW","season_no":291,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22},"value":49100000000,"probability":0.0068730397},{"player":{"id":222844,"name":"왈라시","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":48600000000,"probability":0.0068730397},{"player":{"id":182494,"name":"페르난도 무슬레라","season":"CC","season_no":289,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":20},"value":48500000000,"probability":0.0068730397},{"player":{"id":175943,"name":"드리스 메르턴스","season":"CC","season_no":289,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":48200000000,"probability":0.0068730397},{"player":{"id":150418,"name":"마리오 고메스","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":48100000000,"probability":0.0068730397},{"player":{"id":224232,"name":"니콜로 바렐라","season":"22UCL","season_no":280,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":21},"value":48000000000,"probability":0.0068730397},{"player":{"id":220633,"name":"데마라이 그레이","season":"23HW","season_no":291,"ovr":105,"position":"LW","nation":0,"upgrade":6,"pay":22},"value":48000000000,"probability":0.0068730397},{"player":{"id":210514,"name":"주앙 칸셀루","season":"22UCL","season_no":280,"ovr":105,"position":"RB","nation":0,"upgrade":6,"pay":22},"value":47900000000,"probability":0.0068730397},{"player":{"id":253124,"name":"마테우스 누니스","season":"23HW","season_no":291,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":22},"value":47700000000,"probability":0.0068730397},{"player":{"id":222501,"name":"티모시 카스타뉴","season":"23HW","season_no":291,"ovr":106,"position":"RB","nation":0,"upgrade":6,"pay":22},"value":47500000000,"probability":0.0068730397},{"player":{"id":213991,"name":"제페르손 레르마","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":46400000000,"probability":0.0068730397},{"player":{"id":209499,"name":"파비뉴","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":46200000000,"probability":0.0068730397},{"player":{"id":211999,"name":"라니 케디라","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":45600000000,"probability":0.0068730397},{"player":{"id":230142,"name":"오야르사발","season":"HG","season_no":283,"ovr":106,"position":"LW","nation":0,"upgrade":6,"pay":23},"value":45400000000,"probability":0.0068730397},{"player":{"id":205686,"name":"테지 사바니에","season":"RTN","season_no":284,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":24},"value":45000000000,"probability":0.0068730397},{"player":{"id":242619,"name":"셰이크 두쿠레","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":44800000000,"probability":0.0068730397},{"player":{"id":244206,"name":"네우엔 페레스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":44600000000,"probability":0.0068730397},{"player":{"id":25924,"name":"호안 카프데빌라","season":"23HEROES","season_no":281,"ovr":106,"position":"LB","nation":0,"upgrade":6,"pay":23},"value":44500000000,"probability":0.0068730397},{"player":{"id":159261,"name":"파비오 콸리아렐라","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":24},"value":44400000000,"probability":0.0068730397},{"player":{"id":199339,"name":"마누엘 리만","season":"23HW","season_no":291,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":44100000000,"probability":0.0068730397},{"player":{"id":239807,"name":"D. 프라테시","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":43300000000,"probability":0.0068730397},{"player":{"id":226168,"name":"M. 에게슈타인","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":43200000000,"probability":0.0068730397},{"player":{"id":230107,"name":"L. 쿨리발리","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":42900000000,"probability":0.0068730397},{"player":{"id":1625,"name":"티에리 앙리","season":"HG","season_no":283,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":25},"value":42700000000,"probability":0.0068730397},{"player":{"id":208137,"name":"루카스 토로","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":42500000000,"probability":0.0068730397},{"player":{"id":251392,"name":"톰 크라우스","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":42500000000,"probability":0.0068730397},{"player":{"id":146947,"name":"베스가","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":42400000000,"probability":0.0068730397},{"player":{"id":235813,"name":"러즈반 마린","season":"23HW","season_no":291,"ovr":106,"position":"CM","nation":0,"upgrade":6,"pay":23},"value":42000000000,"probability":0.0068730397},{"player":{"id":235149,"name":"예르디 스하우턴","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":41700000000,"probability":0.0068730397},{"player":{"id":193474,"name":"이드리사 게예","season":"23HW","season_no":291,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":41700000000,"probability":0.0068730397},{"player":{"id":184457,"name":"R. 반볼프스빙컬","season":"RTN","season_no":284,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":41400000000,"probability":0.0068730397},{"player":{"id":190584,"name":"이야라멘디","season":"RTN","season_no":284,"ovr":106,"position":"CDM","nation":0,"upgrade":6,"pay":23},"value":41300000000,"probability":0.0068730397},{"player":{"id":206590,"name":"모이 고메스","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":41200000000,"probability":0.0068730397},{"player":{"id":40898,"name":"시드니 고부","season":"23HEROES","season_no":281,"ovr":106,"position":"RW","nation":0,"upgrade":6,"pay":23},"value":41000000000,"probability":0.0068730397},{"player":{"id":240900,"name":"우나이 누녜스","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":40300000000,"probability":0.0068730397},{"player":{"id":173221,"name":"안토니오 칸드레바","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":40300000000,"probability":0.0068730397},{"player":{"id":186153,"name":"보이치에흐 슈체스니","season":"HG","season_no":283,"ovr":106,"position":"GK","nation":0,"upgrade":6,"pay":21},"value":40200000000,"probability":0.0068730397},{"player":{"id":219683,"name":"코랑탕 톨리소","season":"HG","season_no":283,"ovr":105,"position":"CM","nation":0,"upgrade":6,"pay":22},"value":40100000000,"probability":0.0068730397},{"player":{"id":198261,"name":"팀 림","season":"23HW","season_no":291,"ovr":106,"position":"CB","nation":0,"upgrade":6,"pay":22},"value":40000000000,"probability":0.0068730397},{"player":{"id":224179,"name":"보르하 이글레시아스","season":"23HW","season_no":291,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":40000000000,"probability":0.0068730397},{"player":{"id":266695,"name":"토마스 브롤린","season":"23HEROES","season_no":281,"ovr":106,"position":"ST","nation":0,"upgrade":6,"pay":23},"value":40000000000,"probability":0.0068730397},{"player":{"id":192318,"name":"마리오 괴체","season":"23HW","season_no":291,"ovr":106,"position":"CAM","nation":0,"upgrade":6,"pay":23},"value":39600000000,"probability":0.0068730397}]}],["$","h2",null,{"children":"선수 목록"}],["$","$Lf",null,{"players":"$10"}]]}]
