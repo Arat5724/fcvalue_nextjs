@@ -8,7 +8,6 @@ import {
   ProductDetail
 } from "./definitions";
 
-import path from 'path';
 import boxList from '@/api/box/list.json';
 import boxDetail from '@/api/box/detail.json';
 import playerPackList from '@/api/player-pack/list.json';
@@ -22,8 +21,6 @@ import generalProductDetail from '@/api/general-product/detail.json';
 import mileageProductList from '@/api/mileage-product/list.json';
 import mileageProductDetail from '@/api/mileage-product/detail.json';
 import nation from '@/api/nation.json';
-
-const apiFolder = path.join(__dirname, '..', '..', 'api');
 
 export async function getPlayerPackList() {
   const tempPlayerPackList: TableItem[] = playerPackList.map((playerPackSimple) => ({
