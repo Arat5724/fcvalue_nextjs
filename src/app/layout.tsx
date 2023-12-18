@@ -4,7 +4,6 @@ import './fonts.scss'
 import './globals.scss'
 import styles from './global.module.scss'
 import Link from 'next/link'
-import Image from 'next/image'
 import { MainNavigation } from './ui/components/navigation'
 import { sharedMetadata } from '@/app/shared-metadata'
 import { NavIcon } from './ui/components/navicon'
@@ -76,7 +75,7 @@ function Header() {
     <div className={styles["masthed__inner-wrap"]}>
       <Link href="/">
         <div className={styles["home"]}>
-          <Image src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo} priority></Image>
+          <img src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo}></img>
           <div>
             <p style={{ fontWeight: "bold", color: "white" }}>FC VALUE</p>
           </div>

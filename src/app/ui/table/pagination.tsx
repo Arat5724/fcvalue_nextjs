@@ -4,7 +4,6 @@ import clsx from "clsx";
 
 export function Pagination({ currentPage, setCurrentPage, totalPages }:
   { currentPage: number, setCurrentPage: (page: number) => void, totalPages: number }) {
-
   const PageLink = ({ page }: { page: number }) => {
     return (1 <= page && page <= totalPages)
       ? <button

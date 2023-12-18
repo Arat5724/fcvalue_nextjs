@@ -12,7 +12,6 @@ import { Thumbnail } from "@/app/ui/components/thumbnail";
 import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
-import Image from "next/image";
 
 export async function generateMetadata(
   { params }: { params: { category: string, id: string } },
@@ -37,9 +36,9 @@ const paths = ["general-product", "mileage-product"];
 
 export async function generateStaticParams() {
   const generalProuductList: Product[] = await getGeneralProductList();
-  const paths1 = generalProuductList.map(prouduct => ({ product: "general-product", id: prouduct.id }));
+  const paths1 = generalProuductList.map(prouduct => ({ category: "general-product", id: prouduct.id }));
   const mileageProuductList: Product[] = await getMileageProductList();
-  const paths2 = mileageProuductList.map(prouduct => ({ product: "mileage-product", id: prouduct.id }));
+  const paths2 = mileageProuductList.map(prouduct => ({ category: "mileage-product", id: prouduct.id }));
   return [...paths1, ...paths2];
 }
 
@@ -134,7 +133,7 @@ function AdditionalInfo({ additionalInfo }: { additionalInfo: any[] }) {
       <ul className={styles.ul}>
         {info.itemList.map((item: any) => (
           <li key={item.name}>
-            {item.image && <Image src={item.image} alt={item.name} width={100} height={100} />}
+            {item.image && <img src={item.image} alt={item.name} width={100} height={100} />}
             <div>
               {item.type != "other" && item.id != "-1"
                 ? <Link href={`/${item.type}/${item.id}`}>{item.name}</Link>
@@ -168,7 +167,7 @@ function AdditionalInfoWithAmount({ additionalInfoWithAmount }: { additionalInfo
           <tbody>
             {info.itemList.map((item: any) => (
               <tr key={item.item.name}>
-                <td>{item.item.image && <Image src={item.item.image} alt={item.item.name} width={100} height={100} style={{ maxWidth: "4em", maxHeight: "4em" }} />}</td>
+                <td>{item.item.image && <img src={item.item.image} alt={item.item.name} width={100} height={100} style={{ maxWidth: "4em", maxHeight: "4em" }} />}</td>
                 <td>
                   {item.item.type != "other" && item.item.id != "-1"
                     ? <Link href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</Link>

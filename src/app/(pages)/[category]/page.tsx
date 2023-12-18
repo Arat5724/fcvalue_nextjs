@@ -1,8 +1,5 @@
-import Image from "next/image";
 import { Product } from "@/app/lib/definitions"
 import { ProductTable } from "@/app/ui/table/productTable";
-import { Title } from "@/app/ui/components/title";
-import { get } from "http";
 import { getBoxList, getBpList, getCpList, getGeneralProductList, getMileageProductList, getPlayerPackList } from "@/app/lib/data";
 import { ItemNavigation, ProductNavigation } from "@/app/ui/components/categoryNavigation";
 import { ItemTable } from "@/app/ui/table/ItemTable";

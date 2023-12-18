@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export',
-  // basePath: '/fcvalue_nextjs',
+  output: 'export',
+  basePath: '/fcvalue_nextjs',
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',

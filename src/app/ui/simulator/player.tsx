@@ -30,7 +30,7 @@ function PlayerPackEffect({ type }: { type: "flame" | "sparkle" }) {
 
 export function PlayerPackSimulatorThumb({ playerPackPlayer, isSub = false }: { playerPackPlayer: PlayerPackPlayer, isSub?: boolean }) {
   const player = playerPackPlayer.player;
-  if (!isSub) console.log(playerPackPlayer.probability);
+
   return <div className={clsx(styles[isSub ? "thumb__small" : "thumb"], styles[player.season])}>
     <PlayerPackOpeningEffect season={player.season} />
     {!isSub && (playerPackPlayer.probability < 0.01 ? <PlayerPackEffect type={"flame"} />
