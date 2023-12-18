@@ -7,7 +7,7 @@
     @include clickable($table-color-hover);
 
     &:first-child {
-      background-color: $table-header-background-color;
+      background-color: $table-head-background-color;
       cursor: default;
     }
   }

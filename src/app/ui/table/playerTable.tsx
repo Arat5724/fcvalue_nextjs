@@ -1,7 +1,7 @@
 "use client";
 
 import { PlayerPackPlayer } from "@/app/lib/definitions";
-import { cutValue, generatePagination } from "@/app/lib/utils";
+import { cutValue } from "@/app/lib/utils";
 import { useState } from "react";
 import styles from "./playerTable.module.scss";
 import clsx from "clsx";
@@ -22,9 +22,9 @@ PlayerSort.OVR, PlayerSort.GRADE, PlayerSort.NAME, PlayerSort.SEASON];
 const comparePlayerPackPlayer = (a: PlayerPackPlayer) => (b: PlayerPackPlayer) => (sort: PlayerSort): number => {
   switch (sort) {
     case PlayerSort.SEASON:
-      return a.player.season.localeCompare(b.player.season);
+      return a.player.season.localeCompare(b.player.season, "ko");
     case PlayerSort.NAME:
-      return a.player.name.localeCompare(b.player.name);
+      return a.player.name.localeCompare(b.player.name, "ko");
     case PlayerSort.GRADE:
       return a.player.upgrade - b.player.upgrade;
     case PlayerSort.OVR:
@@ -53,7 +53,6 @@ export function PlayerTable({ players }: { players: PlayerPackPlayer[] }) {
   }));
   const totalPages = Math.ceil(sortedPlayers.length / PAGE);
   const displayPlayers = sortedPlayers.slice((currentPage - 1) * PAGE, currentPage * PAGE);
-  const allPages = generatePagination(currentPage, totalPages);
 
   const sortPlayer = (playerSort: PlayerSort) => (order: number) => () => {
     setSortValue(playerSort);
@@ -72,8 +71,11 @@ export function PlayerTable({ players }: { players: PlayerPackPlayer[] }) {
   }
 
   const Th = ({ name, children }: { name: PlayerSort, children: React.ReactNode }) => (
-    <th onClick={sortPlayer(name)((sortValue === name ? sortOrder : 1) * -1)}>
-      {children}{sortValue === name ? sortOrder === 1 ? "↑" : "↓" : ""}
+    <th
+      onClick={sortPlayer(name)((sortValue === name ? sortOrder : 1) * -1)}
+      className={sortValue === name ? sortOrder === 1 ? "by ascending" : "by descending" : ""}
+    >
+      {children}
     </th>
   );
 
@@ -91,28 +93,34 @@ export function PlayerTable({ players }: { players: PlayerPackPlayer[] }) {
         </tr>
       </thead>
       <tbody>
-        {displayPlayers.map((player, index) => <PlayerTableRow
-          playerPackPlayer={player} index={(currentPage - 1) * PAGE + index + 1}
-          key={`${player.player.season}${player.player.id}${player.player.upgrade}`} />)}
+        <PlayerTableRow playerPackPlayer={displayPlayers[0]} index={(currentPage - 1) * PAGE + 1} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[1]} index={(currentPage - 1) * PAGE + 2} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[2]} index={(currentPage - 1) * PAGE + 3} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[3]} index={(currentPage - 1) * PAGE + 4} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[4]} index={(currentPage - 1) * PAGE + 5} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[5]} index={(currentPage - 1) * PAGE + 6} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[6]} index={(currentPage - 1) * PAGE + 7} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[7]} index={(currentPage - 1) * PAGE + 8} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[8]} index={(currentPage - 1) * PAGE + 9} sortValue={sortValue} />
+        <PlayerTableRow playerPackPlayer={displayPlayers[9]} index={(currentPage - 1) * PAGE + 10} sortValue={sortValue} />
       </tbody>
     </table>
-    <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages} allPages={allPages} />
+    <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages} />
   </div>
 }
 
 
-function PlayerTableRow({ playerPackPlayer, index }: { playerPackPlayer: PlayerPackPlayer, index: number }) {
+function PlayerTableRow({ playerPackPlayer, index, sortValue }: { playerPackPlayer: PlayerPackPlayer, index: number, sortValue: PlayerSort }) {
+  if (!playerPackPlayer) return <></>;
   const player = playerPackPlayer.player;
 
   return <tr>
     <td>{index}</td>
-    <td>
-      <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}.png`} alt={player.season}></img>
-    </td>
-    <td>{player.name}</td>
-    <td>{player.upgrade}</td>
-    <td>{player.ovr}</td>
-    <td>{cutValue(playerPackPlayer.value)}</td>
-    <td>{parseFloat((playerPackPlayer.probability * 100).toFixed(10))}%</td>
+    <td className={sortValue === PlayerSort.SEASON ? "by" : ""}>      <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}.png`} alt={player.season}></img>    </td>
+    <td className={sortValue === PlayerSort.NAME ? "by" : ""}>{player.name}</td>
+    <td className={sortValue === PlayerSort.GRADE ? "by" : ""}>{player.upgrade}</td>
+    <td className={sortValue === PlayerSort.OVR ? "by" : ""}>{player.ovr}</td>
+    <td className={sortValue === PlayerSort.PRICE ? "by" : ""}>{cutValue(playerPackPlayer.value)}</td>
+    <td className={sortValue === PlayerSort.PROB ? "by" : ""}>{parseFloat((playerPackPlayer.probability * 100).toFixed(10))}%</td>
   </tr>
 }

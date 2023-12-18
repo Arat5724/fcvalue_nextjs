@@ -1,26 +1,35 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'out',
-  output: 'export',
-  basePath: '/fcvalue_nextjs',
-}
-
-module.exports = {
-  // reactStrictMode: false,
+  // output: 'export',
+  // basePath: '/fcvalue_nextjs',
   images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ssl.nexon.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'nexon.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'fco.dn.nexoncdn.co.kr',
+        port: '',
+        pathname: '/**',
+      },
       {
         protocol: 'https',
         hostname: 'fcvalue.com',
         port: '',
         pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'arat5724.github.io',
-        port: '',
-        pathname: '/**',
-      },
+      }
     ],
   },
 }
+
+module.exports = nextConfig

@@ -8,63 +8,8 @@
     @include clickable($table-color-hover);
 
     &:first-child {
-      background-color: $table-header-background-color;
+      background-color: $table-head-background-color;
       cursor: default;
     }
   }
-
-  .active {
-    background-color: #edeff8;
-  }
-}
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  background-color: $table-header-background-color;
-  border-top: thick double black;
-
-  button {
-    background-color: #0000;
-    border: 0px;
-    font-size: 1em;
-  }
-
-  &__button {
-    height: 2em;
-    text-align: center;
-    padding: 0.5em;
-    color: rgb(39, 39, 39);
-    width: 100%;
-
-    &--side {
-      display: flex;
-      flex-direction: row;
-      min-width: 4em;
-    }
-
-    &--arrow {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 2em;
-
-      img {
-        width: 1em;
-      }
-
-      &:disabled {
-        opacity: 0.5;
-      }
-    }
-  }
-
-  .current {
-    font-weight: bold;
-    background-color: mix($table-header-background-color, black, 90%);
-  }
-}
-
-.container {
-  overflow-x: hidden;
 }

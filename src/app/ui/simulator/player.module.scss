@@ -32,12 +32,12 @@
   filter: hue-rotate(180deg) saturate(70%);
 }
 
-.sparkle-left {
+.sparkle--left {
   @include sparkle;
   left: -100px;
 }
 
-.sparkle-right {
+.sparkle--right {
   @include sparkle;
   right: -100px;
 }
@@ -47,9 +47,14 @@
   position: absolute;
   bottom: 0px;
   width: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.flame-left {
+.flame--left {
   @include flame;
   left: -60px;
   -webkit-transform: rotate(10deg);
@@ -57,7 +62,7 @@
   transform: rotate(10deg);
 }
 
-.flame-right {
+.flame--right {
   @include flame;
   right: -42px;
   -webkit-transform: rotate(-10deg);
@@ -78,12 +83,12 @@
   }
 }
 
-.success-left {
+.success--left {
   @include success;
   left: -60px;
 }
 
-.success-right {
+.success--right {
   @include success;
   right: -48px;
 }

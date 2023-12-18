@@ -1,6 +1,24 @@
 $background-color: #151716 !default;
 $text-color: #eaeaea !default;
 $primary-color: #07f468 !default;
+
+$primary-color-90: mix($primary-color, $text-color, 90%) !default;
+$primary-color-80: mix($primary-color, $text-color, 80%) !default;
+$primary-color-70: mix($primary-color, $text-color, 70%) !default;
+$primary-color-60: mix($primary-color, $text-color, 60%) !default;
+$primary-color-50: mix($primary-color, $text-color, 50%) !default;
+$primary-color-40: mix($primary-color, $text-color, 40%) !default;
+$primary-color-30: mix($primary-color, $text-color, 30%) !default;
+$primary-color-20: mix($primary-color, $text-color, 20%) !default;
+$primary-color-10: mix($primary-color, $text-color, 10%) !default;
+
+$primary-color-1: #2DC26B !default;
+$primary-color-2: #3D8F5F !default;
+$primary-color-3: #3A5C48 !default;
+$primary-color-4: #2A332E !default;
+
+
+
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
@@ -13,23 +31,18 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
-$table-head-color: mix($primary-color, #000, 20%) !default;
-$table-header-background-color: mix(#edeff8, #000, 90%) !default;
-$table-body-color: #3a3a50 !default;
-$table-body-background-color: #ffffff !default;
-$table-body-background-color2: #edeff8 !default;
 
-$table-color-hover: mix(#edeff8, $primary-color, 90%) !default;
+$table-highlight-color: $primary-color-50 !default;
 
-$primary-color-90: mix($primary-color, $text-color, 90%) !default;
-$primary-color-80: mix($primary-color, $text-color, 80%) !default;
-$primary-color-70: mix($primary-color, $text-color, 70%) !default;
-$primary-color-60: mix($primary-color, $text-color, 60%) !default;
-$primary-color-50: mix($primary-color, $text-color, 50%) !default;
-$primary-color-40: mix($primary-color, $text-color, 40%) !default;
-$primary-color-30: mix($primary-color, $text-color, 30%) !default;
-$primary-color-20: mix($primary-color, $text-color, 20%) !default;
-$primary-color-10: mix($primary-color, $text-color, 10%) !default;
+$table-head-color: $text-color !default;
+$table-head-background-color: $primary-color-3 !default; //
+
+$table-body-color: $text-color !default; //
+$table-body-background-color: $primary-color-4 !default; //
+
+$table-border-color: mix(#edeff8, #000, 90%) !default;
+
+$table-color-hover: mix($primary-color-3, $primary-color-4, 50%) !default;
 
 
 @media (prefers-color-scheme: dark) {
@@ -49,11 +62,20 @@ $primary-color-10: mix($primary-color, $text-color, 10%) !default;
   $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 }
 
-
-$small: 640px !default;
+$x2-small: 300px !default;
+$x-small: 360px !default;
+$small: 512px !default;
 $medium: 768px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
 $x2-large: 1536px !default;
 
 $max-width: $x-large !default;
+
+$header-height: 3rem !default;
+$nav-height: 3rem !default;
+
+$nav-top-z-index: 200 !default;
+$nav-top-bottom-z-index: 199 !default;
+$nav-full-screen-z-index: 198 !default;
+$nav-bottom-z-index: 100 !default;

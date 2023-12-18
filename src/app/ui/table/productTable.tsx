@@ -3,73 +3,83 @@
 import { Product } from "@/app/lib/definitions"
 import Image from "next/image"
 import Link from "next/link"
-import { usePathname, useRouter } from "next/navigation"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react";
 import styles from "./product.module.scss"
-import { cutValue, generatePagination } from "@/app/lib/utils";
-import { Pagination } from "./pagination";
+import { cutValue } from "@/app/lib/utils";
 
-enum ProductSort {
-  NAME,
-  PRICE,
-  E1,
-  E2,
-}
+// enum ProductSort {
+//   NAME,
+//   PRICE,
+//   E1,
+//   E2,
+// }
 
-const productSortSequence: ProductSort[] = [ProductSort.E2, ProductSort.E1, ProductSort.PRICE, ProductSort.NAME];
+const productSortSequence = ["eff1", "eff", "price", "name"];
 
-const compareItem = (a: Product) => (b: Product) => (sort: ProductSort): number => {
+type ProductSort = "name" | "price" | "eff" | "eff1";
+
+const compareItem = (a: Product) => (b: Product) => (sort: string): number => {
   switch (sort) {
-    case ProductSort.NAME:
-      return a.name.localeCompare(b.name);
-    case ProductSort.PRICE:
+    case "name":
+      return a.name.localeCompare(b.name, "ko");
+    case "price":
       return a.price - b.price;
-    case ProductSort.E1:
+    case "eff":
       return a.efficiency - b.efficiency;
-    case ProductSort.E2:
+    case "eff1":
       return a.efficiency1 - b.efficiency1;
+    default:
+      return 0;
   };
 }
-const PAGE = 5;
 
-export function ProductTable({ products, isFc = true }: { products: Product[], isFc?: boolean }) {
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [sortValue, setSortValue] = useState<ProductSort>(ProductSort.E2);
-  const [sortOrder, setSortOrder] = useState<number>(-1);
+export function ProductTable({ products, isFc = false }: { products: Product[], isFc?: boolean }) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const tempSortValueOrder = searchParams.get('sort') || (isFc ? "-eff1" : "-eff");
+
+  const tempSortValue = tempSortValueOrder.startsWith("-") ? tempSortValueOrder.slice(1) : tempSortValueOrder;
+  const sortValue = productSortSequence.includes(tempSortValue) ? tempSortValue : (isFc ? "eff1" : "eff");
+  const sortOrder = tempSortValueOrder.startsWith("-") ? -1 : 1;
   const [sortedProducts, setSortedProducts] = useState<Product[]>(products.slice(0).sort((a, b) => {
     const cmp = compareItem(a)(b);
-    let cmpResult = 0;
+    let cmpResult = cmp(sortValue);
     for (const sort of productSortSequence) {
       if (cmpResult !== 0) break;
       cmpResult = cmp(sort);
     }
     return cmpResult * sortOrder;
   }));
-  const totalPages = Math.ceil(sortedProducts.length / PAGE);
-  const displayProducts = sortedProducts.slice((currentPage - 1) * PAGE, currentPage * PAGE);
-  const allPages = generatePagination(currentPage, totalPages);
-  const router = useRouter();
-  const pathname = usePathname();
 
-  const sortItem = (productSort: ProductSort) => (order: number) => () => {
-    setSortValue(productSort);
-    setSortOrder(order);
-    const newSortedProducts = sortedProducts.sort((a, b) => {
+  const setSort = (productSort: ProductSort) => (order: number) => () => {
+    const params = new URLSearchParams();
+    const sort = order === 1 ? productSort : `-${productSort}`;
+    params.set('sort', sort);
+    router.push(`${pathname}?${params.toString()}`);
+  }
+
+  useEffect(() => {
+    const newSortedProducts = products.slice(0).sort((a, b) => {
       const cmp = compareItem(a)(b);
-      let cmpResult = cmp(productSort);
+      let cmpResult = cmp(sortValue);
       for (const sort of productSortSequence) {
         if (cmpResult !== 0) break;
         cmpResult = cmp(sort);
       }
-      return cmpResult * order;
+      return cmpResult * sortOrder;
     });
     setSortedProducts(newSortedProducts);
-    setCurrentPage(1);
-  }
+  }, [sortValue, sortOrder]);
 
   const Th = ({ name, children }: { name: ProductSort, children: React.ReactNode }) => (
-    <th onClick={sortItem(name)((sortValue === name ? sortOrder : 1) * -1)}>
-      {children}{sortValue === name ? sortOrder === 1 ? "↑" : "↓" : ""}
+    <th
+      onClick={setSort(name)((sortValue === name ? sortOrder : 1) * -1)}
+      className={sortValue === name ? sortOrder === 1 ? "by ascending" : "by descending" : ""}
+    >
+      {children}
     </th>
   );
 
@@ -77,23 +87,23 @@ export function ProductTable({ products, isFc = true }: { products: Product[], i
     <table className={styles.table}>
       <thead>
         <tr>
-          <th></th>
-          <Th name={ProductSort.NAME}>이름</Th>
-          <Th name={ProductSort.PRICE}>가격</Th>
-          <Th name={ProductSort.E1}>효율</Th>
-          {isFc ? <Th name={ProductSort.E2}>효율 (1개 구매 시)</Th> : ""}
+          <th>이미지</th>
+          <Th name={"name"}>이름</Th>
+          <Th name={"price"}>가격</Th>
+          <Th name={"eff"}>효율</Th>
+          {isFc ? <Th name={"eff1"}>효율<br></br>(1개 구매 시)</Th> : ""}
         </tr>
       </thead>
       <tbody>
-        {displayProducts.map(product => <tr key={product.id}>
-          <td>{product.image ? <Image src={product.image} alt={product.name} width={100} height={100} priority /> : ""}</td>
-          <td><Link href={`${pathname}/${product.id}`}>{product.name}</Link></td>
-          <td>{cutValue(product.price)}</td>
-          <td>{Math.round(product.efficiency)}</td>
-          {isFc ? <td>{Math.round(product.efficiency1)}</td> : ""}
+        {sortedProducts.map(product => <tr key={product.id}>
+          <td className={sortValue === "" ? "by" : ""}>{product.image ? <Image src={product.image} alt={product.name} width={100} height={100} priority /> : ""}</td>
+          <td className={sortValue === "name" ? "by" : ""}><Link href={`${pathname}/${product.id}`}>{product.name}</Link></td>
+          <td className={sortValue === "price" ? "by" : ""}>{cutValue(product.price)}</td>
+          <td className={sortValue === "eff" ? "by" : ""}>{Math.round(product.efficiency)}</td>
+          {isFc ? <td className={sortValue === "eff1" ? "by" : ""}>{Math.round(product.efficiency1)}</td> : ""}
         </tr>)}
       </tbody>
     </table>
-    <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages} allPages={allPages} />
+    {/* <PaginationLink currentPage={currentPage} createPageURL={createPageURL} totalPages={totalPages} /> */}
   </div>
 }

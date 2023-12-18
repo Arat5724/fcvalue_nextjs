@@ -10,12 +10,10 @@ import clsx from "clsx"
 export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: PlayerPackPlayer[] }) {
   const [sum, setSum] = useState<number>(0);
   const [number, setNumber] = useState<number>(0);
-  const [opening, setOpening] = useState<boolean>(false);
   const [openedPlayers, setOpenedPlayers] = useState<PlayerPackPlayer[]>([]);
   const [sortedPlayers, setSortedPlayers] = useState<PlayerPackPlayer[]>([]);
 
   useEffect(() => {
-    console.log("useEffect");
     // 누적합 계산
     const tempSortedPlayers: PlayerPackPlayer[] = [];
     for (let i = 0; i < playerPackPlayers.length; i++)
@@ -28,26 +26,22 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
   }, [playerPackPlayers]);
 
   function openPack(openCount: number) {
-    return () => {
-      setOpening(true);
-      const openedPlayers: PlayerPackPlayer[] = [];
-      let currentSum = 0;
-      for (let _ = 0; _ < openCount; _++) {
-        const randomNum = Math.random();
-        for (const player of sortedPlayers) {
-          if (randomNum < player.probability) {
-            currentSum += player.value;
-            openedPlayers.push(player);
-            break;
-          }
+    const openedPlayers: PlayerPackPlayer[] = [];
+    let currentSum = 0;
+    for (let _ = 0; _ < openCount; _++) {
+      const randomNum = Math.random();
+      for (const player of sortedPlayers) {
+        if (randomNum < player.probability) {
+          currentSum += player.value;
+          openedPlayers.push(player);
+          break;
         }
       }
-      openedPlayers.sort((a, b) => b.value - a.value);
-      setOpenedPlayers(openedPlayers);
-      setSum(sum + currentSum);
-      setNumber(number + openCount);
-      setTimeout(() => { setOpening(false) }, 1000);
     }
+    openedPlayers.sort((a, b) => b.value - a.value);
+    setOpenedPlayers(openedPlayers);
+    setSum(sum + currentSum);
+    setNumber(number + openCount);
   }
 
   return <div className={styles["player-pack-simulator"]}>
@@ -57,36 +51,49 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
       <p>평균 <span className={styles["primary"]}>{number === 0 ? 0 : cutValue(sum / number)}</span>BP</p>
     </div>
     <OpenedPlayers openedPlayers={openedPlayers} />
-    <div className={styles["player-pack-simulator__button"]}>
-      <button disabled={opening} onClick={openPack(1)}
-        className={styles["player-pack-simulator__button--01"]}>1개 열기</button>
-      <button disabled={opening} onClick={openPack(10)}
-        className={styles["player-pack-simulator__button--10"]}>10개 열기</button>
-    </div>
+    <SimulatorButton openPack={openPack} />
+  </div>
+}
+
+function SimulatorButton({ openPack }: { openPack: (n: number) => void }) {
+  const [opening, setOpening] = useState<boolean>(false);
+  const wrappedOpenPack = (n: number) => () => {
+    if (opening) return;
+    setOpening(true);
+    openPack(n);
+    setTimeout(() => setOpening(false), 1000);
+  }
+
+  return <div className={styles["player-pack-simulator__button"]}>
+    <button disabled={opening} onClick={wrappedOpenPack(1)}
+      className={styles["player-pack-simulator__button--01"]}>1개 열기</button>
+    <button disabled={opening} onClick={wrappedOpenPack(10)}
+      className={styles["player-pack-simulator__button--10"]}>10개 열기</button>
   </div>
 }
 
 function OpenedPlayers({ openedPlayers }: { openedPlayers: PlayerPackPlayer[] }) {
-  const mainCard = openedPlayers[0];
-  const subCards = openedPlayers.slice(1);
-  const [key, setKey] = useState<number>(Date.now());
-  useEffect(() => {
-    setKey(Date.now());
-  }, [openedPlayers]);
-
   if (openedPlayers.length === 0) return <DefaultPlayerCard />;
+  const PlayerCard = ({ index, isSub = true }: { index: number, isSub?: boolean }) => {
+    if (openedPlayers.length <= index) return "";
+    return <div><PlayerPackSimulatorThumb playerPackPlayer={openedPlayers[index]} isSub={isSub} /></div>
+  }
+
   return <>
     <div>
-      <PlayerPackSimulatorThumb playerPackPlayer={mainCard} key={`${mainCard.player.id}${key}`} />
+      <PlayerCard index={0} isSub={false} />
     </div>
     <div className={styles["sub-cards"]}>
-      {subCards.map((player, index) => <div key={`${player.player.id}${player.player.upgrade}${key}`} >
-        <PlayerPackSimulatorThumb
-          playerPackPlayer={player}
-          isSub={true}
-        />
-      </div>
-      )}
+      <PlayerCard index={1} />
+      <PlayerCard index={2} />
+      <PlayerCard index={3} />
+      <PlayerCard index={4} />
+      <PlayerCard index={5} />
+      <PlayerCard index={6} />
+      <PlayerCard index={7} />
+      <PlayerCard index={8} />
+      <PlayerCard index={9} />
+      <PlayerCard index={10} />
     </div>
   </>
 }

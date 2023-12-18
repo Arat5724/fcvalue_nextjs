@@ -1,0 +1,38 @@
+@import "@/app/sass/variables.scss";
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  // border-bottom: 1px solid $table-border-color;
+
+  &__item-wrapper {
+    color: $table-head-color;
+    text-align: center;
+    padding: 0.2em;
+    padding-bottom: 0em;
+    background-color: $table-body-background-color;
+    width: 100%;
+  }
+
+
+  &__item {
+    height: 100%;
+    color: $table-head-color;
+    text-align: center;
+    padding: 1em 0em;
+    // background-color: $primary-color-1;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
+    &:hover {
+      background-color: $table-color-hover;
+    }
+  }
+
+  .current {
+    color: $table-highlight-color;
+    font-weight: bold;
+    background-color: $table-head-background-color;
+  }
+}

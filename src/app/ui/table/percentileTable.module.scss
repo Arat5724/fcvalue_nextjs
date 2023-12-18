@@ -1,0 +1,41 @@
+@import '@/app/sass/variables.scss';
+
+.table {
+  font-size: 0.8em;
+
+  @mixin table-before {
+    padding: 0.5em 0em;
+    display: block;
+    text-align: center;
+    height: auto;
+    border-right: 1px solid $table-border-color;
+  }
+
+  thead {
+    tr::before {
+      @include table-before;
+      content: '상위';
+    }
+  }
+
+  tbody {
+    tr:first-child::before {
+      @include table-before;
+      content: '기댓값';
+    }
+
+    tr:nth-child(2)::before {
+      @include table-before;
+      content: '효율';
+    }
+  }
+
+  th,
+  td {
+    border-right: 1px solid $table-border-color;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

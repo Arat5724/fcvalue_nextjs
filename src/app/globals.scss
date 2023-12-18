@@ -18,6 +18,7 @@ body {
   color: $text-color;
   background-color: $background-color;
   font-family: 'NEXON Lv1 Gothic OTF';
+  width: 100%;
 }
 
 button,
@@ -45,35 +46,63 @@ a {
 }
 
 html {
-  font-size: 14px;
+  font-size: 18px;
 
-  @media (min-width: 361px) {
+  @media (max-width: $small) {
     font-size: 16px;
   }
 
-  @media (min-width: $small) {
-    font-size: 18px;
+  @media (max-width: $x-small) {
+    font-size: 14px;
+  }
+
+  @media (max-width: $x2-small) {
+    font-size: 12px;
   }
 }
 
-h1 {
+// main {
+//   display: flex;
+//   flex-direction: column;
+//   // align-items: center;
+
+//   max-width: $medium;
+//   height: calc(100vh - $header-height - $nav-height - 2px);
+//   padding-bottom: 1rem;
+//   margin-bottom: $nav-height;
+//   overflow-y: auto;
+
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+h1,
+h2,
+h3,
+h4 {
   padding-bottom: 0.5em;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  border-bottom: 1px solid #ccc;
-  font-size: 1.75em;
   font-weight: bold;
+  clear: both;
+}
+
+h1 {
+  border-bottom: 1.5px solid $border-color;
+  font-size: 1.75rem;
   color: $text-color;
 }
 
 h2 {
-  padding-bottom: 0.5em;
+  border-bottom: 1.5px solid $border-color;
   margin-top: 2em;
-  margin-bottom: 0.5em;
-  border-bottom: 1px solid #ccc;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.5rem;
   color: $primary-color-50;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: $primary-color-20;
 }
 
 table {
@@ -86,27 +115,44 @@ table {
     padding-bottom: 0.5em;
     text-align: center;
     vertical-align: middle;
-    border-right: 1px solid black;
 
     &:last-child {
       border-right: 0px;
     }
   }
 
-  th {
-    background-color: $table-header-background-color;
-    color: $table-head-color;
-    font-weight: bold;
-    border-bottom: thick double black;
+  .by {
+    background-color: $table-head-background-color;
+  }
+
+  .ascending {
+    color: $table-highlight-color;
+    border-top: 2px solid $table-highlight-color;
+  }
+
+  .descending {
+    color: $table-highlight-color;
+    border-bottom: 2px solid $table-highlight-color;
+  }
+
+  thead {
+    tr {
+      color: $table-head-color;
+      font-weight: bold;
+      background-color: $table-head-background-color;
+      border-top: $table-head-background-color solid 2px;
+      border-bottom: $table-border-color solid 2px;
+    }
   }
 
   tbody {
     tr {
       color: $table-body-color;
       background-color: $table-body-background-color;
+      border-bottom: $table-border-color solid 1px;
 
-      &:nth-child(even) {
-        background-color: $table-body-background-color2;
+      &:last-child {
+        border-bottom: 0px;
       }
     }
 

@@ -1,0 +1,55 @@
+@import "@/app/sass/variables.scss";
+
+.nav {
+  position: fixed;
+  z-index: $nav-bottom-z-index;
+  bottom: 0px;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: $nav-height;
+
+  background-color: black;
+  color: white;
+
+  padding: 0em 1em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+
+  border: 0.5px solid rgb(165, 165, 165);
+  border-bottom: 0px;
+
+  &__item-wrapper {
+    color: white;
+    text-align: center;
+    padding: 0.2em 0em;
+    width: 100%;
+  }
+
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0em 0.2em;
+    color: rgb(168, 166, 166);
+    height: 100%;
+    text-align: center;
+    border-radius: 1em;
+
+    &:hover {
+      background-color: rgb(27, 27, 27);
+    }
+
+    >span {
+      height: auto;
+    }
+  }
+
+  .current {
+    color: white;
+    // font-weight: bold;
+    background-color: rgb(31, 31, 31);
+  }
+}

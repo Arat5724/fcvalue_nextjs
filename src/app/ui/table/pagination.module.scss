@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: $table-header-background-color;
-  border-top: thick double black;
+  background-color: $table-head-background-color;
+  border-top: 2px double $table-border-color;
 
   button {
     background-color: #0000;
@@ -25,7 +25,7 @@
     height: 2em;
     text-align: center;
     padding: 0.5em;
-    color: rgb(39, 39, 39);
+    color: $table-body-color;
     width: 100%;
 
     img {
@@ -40,6 +40,6 @@
 
   .current {
     font-weight: bold;
-    background-color: mix($table-header-background-color, black, 90%);
+    background-color: mix($table-head-background-color, black, 90%);
   }
 }

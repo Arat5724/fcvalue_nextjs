@@ -2,35 +2,36 @@
 
 import { TableItem } from "@/app/lib/definitions"
 import Image from "next/image"
-import { useRouter, usePathname } from "next/navigation"
+import { useRouter, usePathname, useSearchParams } from "next/navigation"
 import styles from "./itemTable.module.scss"
-import { cutValue, generatePagination } from "../../lib/utils";
-import { useState } from "react";
-import { Pagination } from "./pagination";
+import { cutValue } from "../../lib/utils";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
-enum ItemSort {
-  NAME,
-  VALUE
-}
+type ItemSort = "name" | "value";
 
-const itemSortSequence: ItemSort[] = [ItemSort.VALUE, ItemSort.NAME];
+const itemSortSequence = ["value", "name"];
 
-const compareItem = (a: TableItem) => (b: TableItem) => (sort: ItemSort): number => {
+const compareItem = (a: TableItem) => (b: TableItem) => (sort: string): number => {
   switch (sort) {
-    case ItemSort.NAME:
-      return a.name.localeCompare(b.name);
-    case ItemSort.VALUE:
+    case "name":
+      return a.name.localeCompare(b.name, "ko");
+    case "value":
       return a.value - b.value;
+    default:
+      return 0;
   };
 }
 
-const PAGE = 5;
-
 export function ItemTable({ items }: { items: TableItem[] }) {
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const [sortValue, setSortValue] = useState<ItemSort>(ItemSort.VALUE);
-  const [sortOrder, setSortOrder] = useState<number>(-1);
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const tempSortValueOrder = searchParams.get('sort') || "-value";
+  const tempSortValue = tempSortValueOrder.startsWith("-") ? tempSortValueOrder.slice(1) : tempSortValueOrder;
+  const sortValue = itemSortSequence.includes(tempSortValue) ? tempSortValue : "value";
+  const sortOrder = tempSortValueOrder.startsWith("-") ? -1 : 1;
   const [sortedItems, setSortedItems] = useState<TableItem[]>(items.slice(0).sort((a, b) => {
     const cmp = compareItem(a)(b);
     let cmpResult = 0;
@@ -40,31 +41,33 @@ export function ItemTable({ items }: { items: TableItem[] }) {
     }
     return cmpResult * sortOrder;
   }));
-  const totalPages = Math.ceil(sortedItems.length / PAGE);
-  const displayItems = sortedItems.slice((currentPage - 1) * PAGE, currentPage * PAGE);
-  const allPages = generatePagination(currentPage, totalPages);
-  const router = useRouter();
-  const pathname = usePathname();
 
-  const sortItem = (itemSort: ItemSort) => (order: number) => () => {
-    setSortValue(itemSort);
-    setSortOrder(order);
-    const newSortedItems = sortedItems.sort((a, b) => {
+  const setSort = (productSort: ItemSort) => (order: number) => () => {
+    const params = new URLSearchParams();
+    const sort = order === 1 ? productSort : `-${productSort}`;
+    params.set('sort', sort);
+    router.push(`${pathname}?${params.toString()}`);
+  }
+
+  useEffect(() => {
+    const newSortedProducts = items.slice(0).sort((a, b) => {
       const cmp = compareItem(a)(b);
-      let cmpResult = cmp(itemSort);
+      let cmpResult = cmp(sortValue);
       for (const sort of itemSortSequence) {
         if (cmpResult !== 0) break;
         cmpResult = cmp(sort);
       }
-      return cmpResult * order;
+      return cmpResult * sortOrder;
     });
-    setSortedItems(newSortedItems);
-    setCurrentPage(1);
-  }
+    setSortedItems(newSortedProducts);
+  }, [sortValue, sortOrder]);
 
   const Th = ({ name, children }: { name: ItemSort, children: React.ReactNode }) => (
-    <th onClick={sortItem(name)((sortValue === name ? sortOrder : 1) * -1)}>
-      {children}{sortValue === name ? sortOrder === 1 ? "↑" : "↓" : ""}
+    <th
+      onClick={setSort(name)((sortValue === name ? sortOrder : 1) * -1)}
+      className={sortValue === name ? sortOrder === 1 ? "by ascending" : "by descending" : ""}
+    >
+      {children}
     </th>
   );
 
@@ -72,19 +75,18 @@ export function ItemTable({ items }: { items: TableItem[] }) {
     <table className={styles.table}>
       <thead>
         <tr>
-          <th></th>
-          <Th name={ItemSort.NAME}>이름</Th>
-          <Th name={ItemSort.VALUE}>기댓값</Th>
+          <th>이미지</th>
+          <Th name={"name"}>이름</Th>
+          <Th name={"value"}>기댓값</Th>
         </tr>
       </thead>
       <tbody>
-        {displayItems.map(item => <tr key={item.id}>
+        {sortedItems.map(item => <tr key={item.id}>
           <td>{item.image ? <Image src={item.image} alt={item.name} width={100} height={100} priority /> : ""}</td>
-          <td><Link href={`${pathname}/${item.id}`}>{item.name}</Link></td>
-          <td>{cutValue(item.value)}</td>
+          <td className={sortValue === "name" ? "by" : ""}><Link href={`${pathname}/${item.id}`}>{item.name}</Link></td>
+          <td className={sortValue === "value" ? "by" : ""}>{cutValue(item.value)}</td>
         </tr>)}
       </tbody>
     </table>
-    <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={totalPages} allPages={allPages} />
   </div>
 }

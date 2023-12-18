@@ -30,11 +30,10 @@ export type ProductDetail = {
   percentile: any | null;
   itemList: ProductItem[] | null | undefined;
   additionalInfo: any | null | undefined;
-  keyInfo: any | null | undefined;
+  additionalInfoWithAmount: any | null | undefined;
 }
 
 export type ProductItem = {
-  type: string;
   item: Item;
   amount: number;
 }
@@ -51,6 +50,7 @@ export type TableItem = {
 }
 
 export type Item = {
+  type: string;
   id: string;
   name: string;
   image: string | null;
@@ -70,7 +70,6 @@ export type BoxDetail = {
 }
 
 export type BoxItem = {
-  type: string;
   item: Item;
   amount: number;
   probability: number;

@@ -1,0 +1,33 @@
+@import '@/app/sass/variables.scss';
+
+.grid-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  // padding: 0.5em 0em;
+}
+
+.grid-item {
+  display: flex;
+  text-align: center;
+  $grid-margin: 0.5em;
+
+  margin-bottom: $grid-margin;
+
+  img {
+    max-width: 10em;
+    max-height: 10em;
+    border-radius: 33%;
+    border: 2px solid $primary-color-50;
+    background-color: $primary-color-10;
+    margin-bottom: $grid-margin;
+  }
+
+  div {
+    margin-bottom: $grid-margin;
+  }
+
+}

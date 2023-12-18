@@ -1,0 +1,115 @@
+@import "@/app/sass/variables.scss";
+
+.nav {
+  z-index: $nav-top-z-index;
+
+}
+
+.nav-wrap {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.75rem;
+  z-index: $nav-top-z-index;
+
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navicon {
+  position: relative;
+
+  &::before,
+  &::after,
+  div {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1.5rem;
+    height: 0.25rem;
+    background: #07f468;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+  &::before {
+    top: 0.5rem;
+  }
+
+  &::after {
+    top: -0.5rem;
+  }
+}
+
+.close {
+  &::before {
+    top: 0rem;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  &::after {
+    top: 0rem;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+}
+
+.ul {
+  position: absolute;
+  right: 0.5rem;
+  z-index: $nav-top-z-index;
+
+  top: 3em;
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: white 1px solid;
+
+  li {
+    background-color: $background-color;
+    padding: 0.5em;
+    border-bottom: white 1px solid;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  transform: all;
+}
+
+.hidden {
+  display: none;
+}
+
+.full-screen {
+  z-index: $nav-full-screen-z-index;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: calc(100vh - $header-height - 2px);
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.336);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px !important;
+  width: 1px !important;
+  border: 0 !important;
+  overflow: hidden;
+}
