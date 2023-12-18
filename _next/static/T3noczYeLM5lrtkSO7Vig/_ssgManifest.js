@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002F[category]","\u002F[category]\u002F[id]","\u002Fbox\u002F[id]","\u002Fbp\u002F[id]","\u002Fcp\u002F[id]","\u002Fplayer-pack\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
