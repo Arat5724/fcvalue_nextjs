@@ -26,7 +26,7 @@ export function MainNavigation() {
     </div>
     <div className={styles["nav__item-wrapper"]}>
       <Link href="/general-product" className={styles.a}>
-        <div className={clsx(styles["nav__item"], categoryType === 1 ? styles.current : "")}><span style={{ wordBreak: "keep-all" }}>상품 정보</span></div>
+        <div className={clsx(styles["nav__item"], categoryType === 1 ? styles.current : "")}><span style={{ wordBreak: "keep-all" }}>현질 효율</span></div>
       </Link>
     </div>
     <div className={styles["nav__item-wrapper"]}>

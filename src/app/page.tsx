@@ -39,7 +39,7 @@ export default function Home() {
             title="일반 게임"
           />
         </GridWrap>
-        <h2>상품 정보</h2>
+        <h2>현질 효율</h2>
         <GridWrap>
           <GridItem
             img="https://ssl.nexon.com/s2/game/fc/online/shop/item_temp/231201_4837NE79KW23/14031_s.png"

@@ -79,17 +79,27 @@
 
   li {
     background-color: $background-color;
-    padding: 1em;
-    border-bottom: $border-color 1px solid;
 
-    a {
-      color: $text-color;
-    }
 
     &:last-child {
       border-bottom: none;
     }
+
+    .link-item {
+      padding: 1em;
+      color: $text-color;
+      margin-left: 1em;
+      border-bottom: $border-color 1px solid;
+    }
   }
+
+  .category {
+
+    padding: 1em;
+    color: $primary-color-50;
+    border-bottom: $border-color 1px solid;
+  }
+
 
   transform: all;
 
