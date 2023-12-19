@@ -14,6 +14,10 @@ export default function Error() {
       clearTimeout(timeoutId);
     };
   }, []);
+  if (pathname.startsWith("/simulator"))
+    redirect(`/player-pack${pathname.slice(10)}`);
+  if (pathname.startsWith("/player"))
+    redirect(`/player-pack${pathname.slice(7)}`);
   if (pathname === "/general-product1/" || pathname === "/general-product1")
     redirect("/general-product");
   if (pathname.endsWith("/"))
