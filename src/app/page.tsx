@@ -1,6 +1,3 @@
-import Image from 'next/image'
-import styles from './page.module.scss'
-import Link from 'next/link'
 import { GridItem, GridWrap } from './ui/components/grid-item';
 import { sharedMetadata } from '@/app/shared-metadata'
 
@@ -11,7 +8,7 @@ export const metadata = {
 export default function Home() {
   return <>
     <div>
-      <main>
+      <div>
         <h2>공지사항</h2>
         <p>서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>
         <h2>시뮬레이터</h2>
@@ -66,7 +63,7 @@ export default function Home() {
             title="상자"
           />
         </GridWrap>
-      </main>
+      </div>
     </div>
   </>;
 }

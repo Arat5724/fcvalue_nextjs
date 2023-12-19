@@ -43,8 +43,8 @@ export default async function Page({ params }: { params: { id: string } }) {
   return <>
     <div>
       {boxDetail.image && <Thumbnail src={boxDetail.image} alt={boxDetail.name} />}
-      <main>
-        <Title>{boxDetail.name}</Title>
+      <Title>{boxDetail.name}</Title>
+      <div>
         <a href={`http://iteminfo.nexon.com/probability/fco?sn=${boxDetail.id}`} target="_blank" rel="noreferrer">
           넥슨 아이템 확률 정보
         </a>
@@ -82,7 +82,7 @@ export default async function Page({ params }: { params: { id: string } }) {
             </tr>)}
           </tbody>
         </table>
-      </main>
+      </div>
       <Comments location={`https://fcvalue.com/box/${params.id}`} />
     </div>
   </>;

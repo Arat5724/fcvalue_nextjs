@@ -7,10 +7,19 @@ import { DefaultPlayerCard, PlayerImage, PlayerPackSimulatorThumb } from "./play
 import { cutValue } from "../../lib/utils";
 import clsx from "clsx"
 
+const compoarePlayerPackPlayer = (a: PlayerPackPlayer) => (b: PlayerPackPlayer) => {
+  if (a.value !== b.value) return b.value - a.value;
+  if (a.probability !== b.probability) return a.probability - b.probability;
+  if (a.player.ovr !== b.player.ovr) return b.player.ovr - a.player.ovr;
+  if (a.player.upgrade !== b.player.upgrade) return b.player.upgrade - a.player.upgrade;
+  return 0;
+}
+
 export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: PlayerPackPlayer[] }) {
   const [sum, setSum] = useState<number>(0);
   const [number, setNumber] = useState<number>(0);
   const [openedPlayers, setOpenedPlayers] = useState<PlayerPackPlayer[]>([]);
+  const [openedPlayerRanks, setOpenedPlayerRanks] = useState<number[]>([]);
   const [sortedPlayers, setSortedPlayers] = useState<PlayerPackPlayer[]>([]);
 
   useEffect(() => {
@@ -18,7 +27,7 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
     const tempSortedPlayers: PlayerPackPlayer[] = [];
     for (let i = 0; i < playerPackPlayers.length; i++)
       tempSortedPlayers.push({ ...playerPackPlayers[i] });
-    tempSortedPlayers.sort((a, b) => b.value - a.value);
+    tempSortedPlayers.sort((a, b) => compoarePlayerPackPlayer(a)(b));
     for (let i = 0; i < tempSortedPlayers.length; i++)
       tempSortedPlayers[i].probability += (i > 0 ? tempSortedPlayers[i - 1].probability : 0);
     tempSortedPlayers[tempSortedPlayers.length - 1].probability = 1;
@@ -26,20 +35,23 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
   }, [playerPackPlayers]);
 
   function openPack(openCount: number) {
-    const openedPlayers: PlayerPackPlayer[] = [];
+    const tempOpenedPlayerRank: [PlayerPackPlayer, number][] = [];
     let currentSum = 0;
     for (let _ = 0; _ < openCount; _++) {
       const randomNum = Math.random();
-      for (const player of sortedPlayers) {
-        if (randomNum < player.probability) {
-          currentSum += player.value;
-          openedPlayers.push(player);
+      for (let i = 0; i < sortedPlayers.length; i++) {
+        if (randomNum < sortedPlayers[i].probability) {
+          currentSum += sortedPlayers[i].value;
+          tempOpenedPlayerRank.push([sortedPlayers[i], i + 1]);
           break;
         }
       }
     }
-    openedPlayers.sort((a, b) => b.value - a.value);
-    setOpenedPlayers(openedPlayers);
+    tempOpenedPlayerRank.sort((a, b) => compoarePlayerPackPlayer(a[0])(b[0]));
+    const tempOpenedPlayers: PlayerPackPlayer[] = tempOpenedPlayerRank.map(p => p[0]);
+    const tempOpenedPlayerRanks: number[] = tempOpenedPlayerRank.map(p => p[1]);
+    setOpenedPlayers(tempOpenedPlayers);
+    setOpenedPlayerRanks(tempOpenedPlayerRanks);
     setSum(sum + currentSum);
     setNumber(number + openCount);
   }
@@ -50,7 +62,7 @@ export function PlayerPackSimulator({ playerPackPlayers }: { playerPackPlayers: 
       <p>합 <span className={styles["primary"]}>{cutValue(sum)}</span>BP</p>
       <p>평균 <span className={styles["primary"]}>{number === 0 ? 0 : cutValue(sum / number)}</span>BP</p>
     </div>
-    <OpenedPlayers openedPlayers={openedPlayers} />
+    <OpenedPlayers openedPlayers={openedPlayers} openedPlayerRanks={openedPlayerRanks} />
     <SimulatorButton openPack={openPack} />
   </div>
 }
@@ -72,11 +84,20 @@ function SimulatorButton({ openPack }: { openPack: (n: number) => void }) {
   </div>
 }
 
-function OpenedPlayers({ openedPlayers }: { openedPlayers: PlayerPackPlayer[] }) {
+function OpenedPlayers({ openedPlayers, openedPlayerRanks }:
+  { openedPlayers: PlayerPackPlayer[], openedPlayerRanks: number[] }) {
   if (openedPlayers.length === 0) return <DefaultPlayerCard />;
   const PlayerCard = ({ index, isSub = true }: { index: number, isSub?: boolean }) => {
     if (openedPlayers.length <= index) return "";
-    return <div><PlayerPackSimulatorThumb playerPackPlayer={openedPlayers[index]} isSub={isSub} /></div>
+    const player = openedPlayers[index];
+    return <div className={isSub ? styles["sub-card"] : styles["main-card"]}>
+      <PlayerPackSimulatorThumb playerPackPlayer={player} isSub={isSub} />
+      <div className={styles["card-info"]}>
+        <p><span className={styles["card-info__p"]}>{openedPlayerRanks[index]}</span>등</p>
+        <p>상위 <span className={styles["card-info__p"]}>{parseFloat((player.probability * 100).toFixed(10))}</span>%</p>
+        <p><span className={styles["card-info__p"]}>{cutValue(player.value)}</span></p>
+      </div>
+    </div >
   }
 
   return <>

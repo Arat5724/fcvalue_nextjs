@@ -3,13 +3,7 @@
 import { redirect, useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-export default function Error({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string }
-  reset: () => void
-}) {
+export default function Error() {
   const router = useRouter();
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -20,9 +14,9 @@ export default function Error({
     };
   }, []);
   return <>
-    <main>
+    <div>
       <h1>404 Not Found</h1>
       <p>3초 후 홈을 이동합니다.</p>
-    </main>
+    </div>
   </>;
 }

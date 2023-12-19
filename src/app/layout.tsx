@@ -13,6 +13,7 @@ import { usePathname } from 'next/navigation';
 import router from 'next/router';
 import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
+import { AdHorizontal } from './adsense/adsense'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -55,15 +56,16 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Header />
-        <MainNavigation />
+        {/* <MainNavigation /> */}
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
           </div>
-          <footer className={styles.footer}>
+          <AdHorizontal />
+          <div className={styles.footer}>
             <p>© 2023 FC VALUE.</p>
             <p>contact: support@fcvalue.com</p>
-          </footer>
+          </div>
         </div>
       </body>
     </html>

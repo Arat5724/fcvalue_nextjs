@@ -48,40 +48,30 @@ a {
 html {
   font-size: 18px;
 
-  @media (max-width: $small) {
+  @media (max-width: $large) {
     font-size: 16px;
   }
 
-  @media (max-width: $x-small) {
+  @media (max-width: $medium) {
     font-size: 14px;
   }
 
-  @media (max-width: $x2-small) {
+  @media (max-width: $small) {
     font-size: 12px;
   }
+
 }
 
-// main {
-//   display: flex;
-//   flex-direction: column;
-//   // align-items: center;
-
-//   max-width: $medium;
-//   height: calc(100vh - $header-height - $nav-height - 2px);
-//   padding-bottom: 1rem;
-//   margin-bottom: $nav-height;
-//   overflow-y: auto;
-
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+main {
+  margin-bottom: 3rem;
+}
 
 h1,
 h2,
 h3,
 h4 {
   padding-bottom: 0.5em;
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 0.5em;
   font-weight: bold;
   clear: both;

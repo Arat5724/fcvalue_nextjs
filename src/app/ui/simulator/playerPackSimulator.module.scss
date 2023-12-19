@@ -51,4 +51,25 @@
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
+  font-size: 0.7em;
+}
+
+.main-card,
+.sub-card {
+  display: flex;
+  flex-direction: column;
+  // justify-content: column;
+  text-align: center;
+  align-items: center;
+}
+
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__p {
+    color: $primary-color-50;
+  }
 }

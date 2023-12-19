@@ -1,7 +1,7 @@
 export default function Home() {
   return <div>
-    <main>
+    <div>
       안녕
-    </main>
+    </div>
   </div>;
 }

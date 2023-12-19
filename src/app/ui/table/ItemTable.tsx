@@ -1,7 +1,6 @@
 "use client";
 
 import { TableItem } from "@/app/lib/definitions"
-import Image from "next/image"
 import { useRouter, usePathname, useSearchParams } from "next/navigation"
 import styles from "./itemTable.module.scss"
 import { cutValue } from "../../lib/utils";
@@ -82,7 +81,7 @@ export function ItemTable({ items }: { items: TableItem[] }) {
       </thead>
       <tbody>
         {sortedItems.map(item => <tr key={item.id}>
-          <td>{item.image ? <Image src={item.image} alt={item.name} width={100} height={100} priority /> : ""}</td>
+          <td>{item.image ? <img src={item.image} alt={item.name} width={100} height={100} /> : ""}</td>
           <td className={sortValue === "name" ? "by" : ""}><Link href={`${pathname}/${item.id}`}>{item.name}</Link></td>
           <td className={sortValue === "value" ? "by" : ""}>{cutValue(item.value)}</td>
         </tr>)}

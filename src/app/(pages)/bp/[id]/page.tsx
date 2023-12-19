@@ -30,8 +30,8 @@ export default async function Page({ params }: { params: { id: string } }) {
   const bpDetail: BCDetail = await getBpDetail(id);
   return <div>
     {bpDetail.image && <Thumbnail src={bpDetail.image} alt={bpDetail.name} />}
-    <main>
-      <Title>{bpDetail.name}</Title>
+    <Title>{bpDetail.name}</Title>
+    <div>
       <a href={`http://iteminfo.nexon.com/probability/fco?sn=${bpDetail.id}`} target="_blank" rel="noreferrer">
         넥슨 아이템 확률 정보
       </a>
@@ -58,7 +58,7 @@ export default async function Page({ params }: { params: { id: string } }) {
           </tr>)}
         </tbody>
       </table>
-    </main>
+    </div>
     <Comments location={`https://fcvalue.com/bp/${params.id}`} />
   </div>
 }

@@ -97,8 +97,10 @@ export function Comments({ location }: CommentsProps) {
 
   return (
     <Fragment>
-      {/* This div is the target for actual comments insertion */}
-      <div id="remark42" />
+      <div className='page__comment' style={{ width: "100%", marginTop: "3rem" }}>
+        {/* This div is the target for actual comments insertion */}
+        <div id="remark42" />
+      </div>
     </Fragment>
   );
 }

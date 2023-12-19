@@ -33,8 +33,8 @@ export function PlayerPackSimulatorThumb({ playerPackPlayer, isSub = false }: { 
 
   return <div className={clsx(styles[isSub ? "thumb__small" : "thumb"], styles[player.season])}>
     <PlayerPackOpeningEffect season={player.season} />
-    {!isSub && (playerPackPlayer.probability < 0.01 ? <PlayerPackEffect type={"flame"} />
-      : playerPackPlayer.probability < 0.5 ? <PlayerPackEffect type={"sparkle"} /> : <></>)}
+    {!isSub && (playerPackPlayer.probability < 0.02 ? <PlayerPackEffect type={"flame"} />
+      : playerPackPlayer.probability < 0.1 ? <PlayerPackEffect type={"sparkle"} /> : <></>)}
     <div className={`${styles.selector_wrap}
   ${player.upgrade >= 8 ? styles.gold :
         player.upgrade >= 5 ? styles.silver :

@@ -12,6 +12,7 @@ import { Thumbnail } from "@/app/ui/components/thumbnail";
 import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
+import { AdInArticle } from "@/app/adsense/adsense";
 
 export async function generateMetadata(
   { params }: { params: { category: string, id: string } },
@@ -62,8 +63,8 @@ export default async function Page({ params }: { params: { category: string, id:
   return <>
     <div>
       {productDetail.image && <Thumbnail src={productDetail.image} alt={productDetail.name} />}
-      <main>
-        <Title>{productDetail.name}</Title>
+      <Title>{productDetail.name}</Title>
+      <div>
         <a href={`https://shop.fconline.nexon.com/Shop/View?strPid=${productDetail.id}`} target="_blank" rel="noreferrer">
           넥슨 웹 상점
         </a>
@@ -81,6 +82,7 @@ export default async function Page({ params }: { params: { category: string, id:
           <h2>기댓값 (1개 구매 시)</h2>
           <p>{cutValue(productDetail.expectedBp1)}</p>
         </>}
+        <AdInArticle />
         {productDetail.percentile && <>
           <h2>백분위</h2>
           <PercentileTable data={productDetail.percentile} price={productDetail.price} />
@@ -89,7 +91,7 @@ export default async function Page({ params }: { params: { category: string, id:
         {(productDetail.additionalInfo || productDetail.additionalInfoWithAmount) && <h2>추가 정보</h2>}
         {productDetail.additionalInfo && <AdditionalInfo additionalInfo={productDetail.additionalInfo} />}
         {productDetail.additionalInfoWithAmount && <AdditionalInfoWithAmount additionalInfoWithAmount={productDetail.additionalInfoWithAmount} />}
-      </main>
+      </div>
       <Comments location={`https://fcvalue.com/${params.category}/${params.id}`} />
     </div>
   </>;

@@ -16,9 +16,9 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return <>
-    <main>
-      <h1>자유게시판</h1>
+    <h1>자유게시판</h1>
+    <div>
       <Comments location={`https://fcvalue.com/board`} />
-    </main>
+    </div>
   </>;
 }

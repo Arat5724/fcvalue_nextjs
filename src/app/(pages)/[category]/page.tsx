@@ -45,26 +45,26 @@ export default async function Page({ params }: { params: { category: string } })
     {
       category === "general-product"
         ? <>
-          <main>
-            <h1>상품 정보</h1>
+          <h1>상품 정보</h1>
+          <div>
             <ProductNavigation type="general-product" />
             <ProductTable products={await getGeneralProductList()} isFc={true} />
-          </main>
+          </div>
         </>
         : category === "mileage-product"
           ? <>
-            <main>
-              <h1>상품 정보</h1>
+            <h1>상품 정보</h1>
+            <div>
               <ProductNavigation type="mileage-product" />
               <ProductTable products={await getMileageProductList()} />
-            </main>
+            </div>
           </>
           : <>
-            <main>
-              <h1>아이템 정보</h1>
+            <h1>아이템 정보</h1>
+            <div>
               <ItemNavigation type={category} />
               <ItemTable items={await getItemList[category]()} />
-            </main>
+            </div>
           </>
     }
   </>;

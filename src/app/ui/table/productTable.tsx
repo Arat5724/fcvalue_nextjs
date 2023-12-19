@@ -1,7 +1,6 @@
 "use client";
 
 import { Product } from "@/app/lib/definitions"
-import Image from "next/image"
 import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { useEffect, useState } from "react";
@@ -96,7 +95,7 @@ export function ProductTable({ products, isFc = false }: { products: Product[], 
       </thead>
       <tbody>
         {sortedProducts.map(product => <tr key={product.id}>
-          <td className={sortValue === "" ? "by" : ""}>{product.image ? <Image src={product.image} alt={product.name} width={100} height={100} priority /> : ""}</td>
+          <td className={sortValue === "" ? "by" : ""}>{product.image ? <img src={product.image} alt={product.name} width={100} height={100} /> : ""}</td>
           <td className={sortValue === "name" ? "by" : ""}><Link href={`${pathname}/${product.id}`}>{product.name}</Link></td>
           <td className={sortValue === "price" ? "by" : ""}>{cutValue(product.price)}</td>
           <td className={sortValue === "eff" ? "by" : ""}>{Math.round(product.efficiency)}</td>

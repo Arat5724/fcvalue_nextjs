@@ -67,7 +67,7 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
     searchPlayer();
   }, []);
 
-  return <main>
+  return <>
     <Title>강화 시뮬레이터</Title>
     <div>
       <SearchBar
@@ -83,9 +83,11 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
         setSeasonStateSum={setSeasonStateSum}
       />
       <PlayerList players={searchResult} setPlayer={setPlayer} />
+    </div>
+    <div>
       <UpgradeSimulator player={player} />
     </div>
-  </main>
+  </>
 }
 
 

@@ -42,8 +42,8 @@ export default async function Page({ params }: { params: { id: string } }) {
   return <>
     <div>
       {playerPackDetail.image && <Thumbnail src={playerPackDetail.image} alt={playerPackDetail.name} />}
-      <main>
-        <Title>{playerPackDetail.name}</Title>
+      <Title>{playerPackDetail.name}</Title>
+      <div>
         <a href={`http://iteminfo.nexon.com/probability/fco?sn=${playerPackDetail.id}`} target="_blank" rel="noreferrer">
           넥슨 아이템 확률 정보
         </a>
@@ -57,7 +57,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         </>}
         <h2>선수 목록</h2>
         <PlayerTable players={playerPackDetail.players} />
-      </main>
+      </div>
       <Comments location={`https://fcvalue.com/player-pack/${params.id}`} />
     </div>
   </>;

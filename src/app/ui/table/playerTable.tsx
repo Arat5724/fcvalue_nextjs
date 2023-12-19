@@ -48,6 +48,7 @@ export function PlayerTable({ players }: { players: PlayerPackPlayer[] }) {
     for (const sort of playerSortSequence) {
       if (cmpResult !== 0) break;
       cmpResult = cmp(sort);
+      if (sort === PlayerSort.PROB) cmpResult *= -1;
     }
     return cmpResult * sortOrder;
   }));
@@ -63,6 +64,7 @@ export function PlayerTable({ players }: { players: PlayerPackPlayer[] }) {
       for (const sort of playerSortSequence) {
         if (cmpResult !== 0) break;
         cmpResult = cmp(sort);
+        if (sort === PlayerSort.PROB) cmpResult *= -1;
       }
       return cmpResult * order;
     });
