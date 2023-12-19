@@ -1,0 +1,12 @@
+@import '@/app/sass/variables.scss';
+
+.marquee-wrap {
+  width: 100%;
+  background-color: mix($background-color, $primary-color, 50%);
+
+}
+
+.marquee__content {
+  padding: 0.75rem;
+  color: $text-color;
+}

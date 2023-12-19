@@ -1,16 +1,11 @@
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './fonts.scss'
 import './globals.scss'
 import styles from './global.module.scss'
 import Link from 'next/link'
-import { MainNavigation } from './ui/components/navigation'
-import { sharedMetadata } from '@/app/shared-metadata'
 import { NavIcon } from './ui/components/navicon'
 import Script from 'next/script'
-import { Suspense, useEffect } from 'react';
-import { usePathname } from 'next/navigation';
-import router from 'next/router';
+import { Suspense } from 'react';
 import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
 
@@ -55,12 +50,10 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Navigation />
-        {/* <MainNavigation /> */}
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
           </div>
-          {/* <AdHorizontal /> */}
         </div>
         <div className={styles.footer}>
           <p>© 2023 FC VALUE.</p>

@@ -16,3 +16,11 @@ export function cutValue(val: number) {
   return `${second.toString()}${units[cnt + 1]} ${first.toString()}${units[cnt]}`;
 }
 
+/*
+  return random integer between min and max inclusive
+*/
+function getRandomIntInclusive(min: number, max: number) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}

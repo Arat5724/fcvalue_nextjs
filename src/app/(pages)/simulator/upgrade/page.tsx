@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import { sharedMetadata } from '@/app/shared-metadata';
 import { SeasonList } from "@/app/lib/definitions";
 import players from '@/api/players.json';
+import { FloatingText } from "@/app/ui/components/floating-notice";
 
 export const metadata: Metadata = {
   ...sharedMetadata,
@@ -16,5 +17,10 @@ export const metadata: Metadata = {
 }
 
 export default async function Page() {
-  return <UpgradeSimulatorPage players={players as SeasonList} />;
+  return <>
+    <FloatingText href='/player-pack'>
+      선수팩 시뮬레이터는 선수팩 정보와 통합되었습니다.
+    </FloatingText>
+    <UpgradeSimulatorPage players={players as SeasonList} />
+  </>
 }
