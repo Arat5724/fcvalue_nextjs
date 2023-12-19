@@ -13,7 +13,6 @@ import { usePathname } from 'next/navigation';
 import router from 'next/router';
 import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
-import { AdHorizontal } from './adsense/adsense'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -55,26 +54,29 @@ export default function RootLayout({
         <Suspense fallback={null}>
           <NavigationEvents />
         </Suspense>
-        <Header />
+        <Navigation />
         {/* <MainNavigation /> */}
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
           </div>
-          <AdHorizontal />
-          <div className={styles.footer}>
-            <p>© 2023 FC VALUE.</p>
-            <p>contact: support@fcvalue.com</p>
-          </div>
+          {/* <AdHorizontal /> */}
+        </div>
+        <div className={styles.footer}>
+          <p>© 2023 FC VALUE.</p>
+          <p>contact: support@fcvalue.com</p>
         </div>
       </body>
     </html>
   )
 }
 
-function Header() {
+function Navigation() {
   return <div className={styles.masthed}>
     <div className={styles["masthed__inner-wrap"]}>
+      <div>
+        {/* 뒤로가기 */}
+      </div>
       <Link href="/">
         <div className={styles["home"]}>
           <img src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo}></img>

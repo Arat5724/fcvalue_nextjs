@@ -1,15 +1,13 @@
 @import "@/app/sass/variables.scss";
 
 .nav {
-  z-index: $nav-top-z-index;
-
+  position: relative;
+  z-index: 2;
 }
 
 .nav-wrap {
-  position: absolute;
-  right: 0.5rem;
-  bottom: 0.75rem;
-  z-index: $nav-top-z-index;
+  position: relative;
+  z-index: 1;
 
   cursor: pointer;
   align-items: center;
@@ -26,6 +24,7 @@
 }
 
 .navicon {
+
   position: relative;
 
   &::before,
@@ -66,22 +65,26 @@
 }
 
 .ul {
+  z-index: 3;
   position: absolute;
+  top: 100%;
   right: 0.5rem;
-  z-index: $nav-top-z-index;
 
-  top: 3em;
   display: flex;
   flex-direction: column;
   background-color: $background-color;
   border-radius: 0.5em;
   padding: 0.5em;
-  border: white 1px solid;
+  border: $border-color 1px solid;
 
   li {
     background-color: $background-color;
-    padding: 0.5em;
-    border-bottom: white 1px solid;
+    padding: 1em;
+    border-bottom: $border-color 1px solid;
+
+    a {
+      color: $text-color;
+    }
 
     &:last-child {
       border-bottom: none;
@@ -89,6 +92,29 @@
   }
 
   transform: all;
+
+  @mixin square {
+    content: "";
+    position: absolute;
+    right: 10px;
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    display: block;
+    z-index: 0;
+  }
+
+  &::before {
+    @include square;
+    top: -11px;
+    border-color: $border-color transparent;
+  }
+
+  &::after {
+    @include square;
+    top: -10px;
+    border-color: $background-color transparent;
+  }
 }
 
 .hidden {
@@ -96,11 +122,11 @@
 }
 
 .full-screen {
-  z-index: $nav-full-screen-z-index;
-  position: absolute;
+  z-index: -1;
+  position: fixed;
   top: 0;
   left: 0;
-  height: calc(100vh - $header-height - 2px);
+  height: 100%;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.336);
 }

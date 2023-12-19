@@ -41,49 +41,49 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return <>
+    {boxDetail.image && <Thumbnail src={boxDetail.image} alt={boxDetail.name} />}
+    <Title>{boxDetail.name}</Title>
+    <main>
+      <a href={`http://iteminfo.nexon.com/probability/fco?sn=${boxDetail.id}`} target="_blank" rel="noreferrer">
+        넥슨 아이템 확률 정보
+      </a>
+      <h2>기댓값</h2>
+      <p>{cutValue(boxDetail.expectedBp)}</p>
+      {boxDetail.percentile && <>
+        <h2>백분위</h2>
+        <PercentileTable data={boxDetail.percentile} />
+      </>}
+    </main>
     <div>
-      {boxDetail.image && <Thumbnail src={boxDetail.image} alt={boxDetail.name} />}
-      <Title>{boxDetail.name}</Title>
-      <div>
-        <a href={`http://iteminfo.nexon.com/probability/fco?sn=${boxDetail.id}`} target="_blank" rel="noreferrer">
-          넥슨 아이템 확률 정보
-        </a>
-        <h2>기댓값</h2>
-        <p>{cutValue(boxDetail.expectedBp)}</p>
-        {boxDetail.percentile && <>
-          <h2>백분위</h2>
-          <PercentileTable data={boxDetail.percentile} />
-        </>}
-        <h2>아이템 목록</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>아이템</th>
-              <th>개수</th>
-              <th>확률</th>
-              {expectedValueKeys.map(key => <th key={key}>{
-                key === 'cp_card' ? 'CP 카드' :
-                  key === 'bp_card' ? 'BP 카드' :
-                    key === 'bp_player' ? '선수팩' : key
-              }</th>)}
-            </tr>
-          </thead>
-          <tbody>
-            {boxDetail.itemList.map(boxItem => <tr key={boxItem.item.name}>
-              <td>{boxItem.item.type != "other" && boxItem.item.id != "-1"
-                ? <Link href={`/${boxItem.item.type}/${boxItem.item.id}`}>{boxItem.item.name}</Link>
-                : boxItem.item.name}</td>
-              <td>{boxItem.amount}</td>
-              <td>{parseFloat((boxItem.probability * 100).toFixed(10))}%</td>
-              {expectedValueKeys.map(key => {
-                const value = boxItem.item.expectedValue[key];
-                return <td key={key}>{value != undefined ? cutValue(value) : ""}</td>
-              })}
-            </tr>)}
-          </tbody>
-        </table>
-      </div>
-      <Comments location={`https://fcvalue.com/box/${params.id}`} />
+      <h2>아이템 목록</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>아이템</th>
+            <th>개수</th>
+            <th>확률</th>
+            {expectedValueKeys.map(key => <th key={key}>{
+              key === 'cp_card' ? 'CP 카드' :
+                key === 'bp_card' ? 'BP 카드' :
+                  key === 'bp_player' ? '선수팩' : key
+            }</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {boxDetail.itemList.map(boxItem => <tr key={boxItem.item.name}>
+            <td>{boxItem.item.type != "other" && boxItem.item.id != "-1"
+              ? <Link href={`/${boxItem.item.type}/${boxItem.item.id}`}>{boxItem.item.name}</Link>
+              : boxItem.item.name}</td>
+            <td>{boxItem.amount}</td>
+            <td>{parseFloat((boxItem.probability * 100).toFixed(10))}%</td>
+            {expectedValueKeys.map(key => {
+              const value = boxItem.item.expectedValue[key];
+              return <td key={key}>{value != undefined ? cutValue(value) : ""}</td>
+            })}
+          </tr>)}
+        </tbody>
+      </table>
     </div>
+    <Comments location={`https://fcvalue.com/box/${params.id}`} />
   </>;
 }

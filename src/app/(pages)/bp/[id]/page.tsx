@@ -28,10 +28,10 @@ export async function generateStaticParams() {
 export default async function Page({ params }: { params: { id: string } }) {
   const id = params.id;
   const bpDetail: BCDetail = await getBpDetail(id);
-  return <div>
+  return <>
     {bpDetail.image && <Thumbnail src={bpDetail.image} alt={bpDetail.name} />}
     <Title>{bpDetail.name}</Title>
-    <div>
+    <main>
       <a href={`http://iteminfo.nexon.com/probability/fco?sn=${bpDetail.id}`} target="_blank" rel="noreferrer">
         넥슨 아이템 확률 정보
       </a>
@@ -41,6 +41,8 @@ export default async function Page({ params }: { params: { id: string } }) {
         <h2>백분위</h2>
         <PercentileTable data={bpDetail.percentile} />
       </>}
+    </main>
+    <div>
       <h2>아이템 목록</h2>
       <table>
         <thead>
@@ -60,5 +62,5 @@ export default async function Page({ params }: { params: { id: string } }) {
       </table>
     </div>
     <Comments location={`https://fcvalue.com/bp/${params.id}`} />
-  </div>
+  </>
 }

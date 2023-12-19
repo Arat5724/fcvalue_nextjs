@@ -40,25 +40,25 @@ export default async function Page({ params }: { params: { id: string } }) {
   }
 
   return <>
+    {playerPackDetail.image && <Thumbnail src={playerPackDetail.image} alt={playerPackDetail.name} />}
+    <Title>{playerPackDetail.name}</Title>
+    <main>
+      <a href={`http://iteminfo.nexon.com/probability/fco?sn=${playerPackDetail.id}`} target="_blank" rel="noreferrer">
+        넥슨 아이템 확률 정보
+      </a>
+      <h2>시뮬레이터</h2>
+      <PlayerPackSimulator playerPackPlayers={playerPackDetail.players} />
+      <h2>기댓값</h2>
+      <p>{cutValue(playerPackDetail.expectedValue.bp_player)}</p>
+      {percentile && <>
+        <h2>백분위</h2>
+        <PercentileTable data={percentile} />
+      </>}
+    </main>
     <div>
-      {playerPackDetail.image && <Thumbnail src={playerPackDetail.image} alt={playerPackDetail.name} />}
-      <Title>{playerPackDetail.name}</Title>
-      <div>
-        <a href={`http://iteminfo.nexon.com/probability/fco?sn=${playerPackDetail.id}`} target="_blank" rel="noreferrer">
-          넥슨 아이템 확률 정보
-        </a>
-        <h2>시뮬레이터</h2>
-        <PlayerPackSimulator playerPackPlayers={playerPackDetail.players} />
-        <h2>기댓값</h2>
-        <p>{cutValue(playerPackDetail.expectedValue.bp_player)}</p>
-        {percentile && <>
-          <h2>백분위</h2>
-          <PercentileTable data={percentile} />
-        </>}
-        <h2>선수 목록</h2>
-        <PlayerTable players={playerPackDetail.players} />
-      </div>
-      <Comments location={`https://fcvalue.com/player-pack/${params.id}`} />
+      <h2>선수 목록</h2>
+      <PlayerTable players={playerPackDetail.players} />
     </div>
+    <Comments location={`https://fcvalue.com/player-pack/${params.id}`} />
   </>;
 }

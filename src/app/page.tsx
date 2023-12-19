@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { GridItem, GridWrap } from './ui/components/grid-item';
 import { sharedMetadata } from '@/app/shared-metadata'
 
@@ -11,6 +12,7 @@ export default function Home() {
       <div>
         <h2>공지사항</h2>
         <p>서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>
+        <p>선수팩 시뮬레이터는 <Link href="/player-pack">선수팩 정보에 통합됐습니다.</Link></p>
         <h2>시뮬레이터</h2>
         <GridWrap>
           <GridItem

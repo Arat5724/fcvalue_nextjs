@@ -12,7 +12,6 @@ import { Thumbnail } from "@/app/ui/components/thumbnail";
 import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
-import { AdInArticle } from "@/app/adsense/adsense";
 
 export async function generateMetadata(
   { params }: { params: { category: string, id: string } },
@@ -61,39 +60,38 @@ export default async function Page({ params }: { params: { category: string, id:
   }
 
   return <>
+    {productDetail.image && <Thumbnail src={productDetail.image} alt={productDetail.name} />}
+    <Title>{productDetail.name}</Title>
+    <main>
+      <a href={`https://shop.fconline.nexon.com/Shop/View?strPid=${productDetail.id}`} target="_blank" rel="noreferrer">
+        넥슨 웹 상점
+      </a>
+      <h2>가격</h2>
+      <p>{productDetail.price}{params.category === "general-product" ? "FC" : "MC"}</p>
+      <h2>효율</h2>
+      <p>{Math.round(productDetail.efficiency)}배</p>
+      <h2>기댓값</h2>
+      <p>{cutValue(productDetail.expectedBp)}</p>
+      {productDetail.efficiency1 !== productDetail.efficiency && <>
+        <h2>효율 (1개 구매 시)</h2>
+        <p>{Math.round(productDetail.efficiency1)}배</p>
+      </>}
+      {productDetail.expectedBp1 !== productDetail.expectedBp && <>
+        <h2>기댓값 (1개 구매 시)</h2>
+        <p>{cutValue(productDetail.expectedBp1)}</p>
+      </>}
+      {productDetail.percentile && <>
+        <h2>백분위</h2>
+        <PercentileTable data={productDetail.percentile} price={productDetail.price} />
+      </>}
+    </main>
     <div>
-      {productDetail.image && <Thumbnail src={productDetail.image} alt={productDetail.name} />}
-      <Title>{productDetail.name}</Title>
-      <div>
-        <a href={`https://shop.fconline.nexon.com/Shop/View?strPid=${productDetail.id}`} target="_blank" rel="noreferrer">
-          넥슨 웹 상점
-        </a>
-        <h2>가격</h2>
-        <p>{productDetail.price}{params.category === "general-product" ? "FC" : "MC"}</p>
-        <h2>효율</h2>
-        <p>{Math.round(productDetail.efficiency)}배</p>
-        <h2>기댓값</h2>
-        <p>{cutValue(productDetail.expectedBp)}</p>
-        {productDetail.efficiency1 !== productDetail.efficiency && <>
-          <h2>효율 (1개 구매 시)</h2>
-          <p>{Math.round(productDetail.efficiency1)}배</p>
-        </>}
-        {productDetail.expectedBp1 !== productDetail.expectedBp && <>
-          <h2>기댓값 (1개 구매 시)</h2>
-          <p>{cutValue(productDetail.expectedBp1)}</p>
-        </>}
-        <AdInArticle />
-        {productDetail.percentile && <>
-          <h2>백분위</h2>
-          <PercentileTable data={productDetail.percentile} price={productDetail.price} />
-        </>}
-        {productDetail.itemList && <ComponentTable itemList={productDetail.itemList} expectedValueKeys={expectedValueKeys} />}
-        {(productDetail.additionalInfo || productDetail.additionalInfoWithAmount) && <h2>추가 정보</h2>}
-        {productDetail.additionalInfo && <AdditionalInfo additionalInfo={productDetail.additionalInfo} />}
-        {productDetail.additionalInfoWithAmount && <AdditionalInfoWithAmount additionalInfoWithAmount={productDetail.additionalInfoWithAmount} />}
-      </div>
-      <Comments location={`https://fcvalue.com/${params.category}/${params.id}`} />
+      {productDetail.itemList && <ComponentTable itemList={productDetail.itemList} expectedValueKeys={expectedValueKeys} />}
+      {(productDetail.additionalInfo || productDetail.additionalInfoWithAmount) && <h2>추가 정보</h2>}
+      {productDetail.additionalInfo && <AdditionalInfo additionalInfo={productDetail.additionalInfo} />}
+      {productDetail.additionalInfoWithAmount && <AdditionalInfoWithAmount additionalInfoWithAmount={productDetail.additionalInfoWithAmount} />}
     </div>
+    <Comments location={`https://fcvalue.com/${params.category}/${params.id}`} />
   </>;
 }
 
