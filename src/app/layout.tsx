@@ -57,6 +57,7 @@ export default function RootLayout({
         </div>
         <div className={styles.footer}>
           <p>© 2023 FC VALUE.</p>
+          <p>FC VALUE is not associated with NEXON Korea.</p>
           <p>contact: support@fcvalue.com</p>
         </div>
       </body>
