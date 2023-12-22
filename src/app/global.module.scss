@@ -24,6 +24,14 @@
   padding: 1rem;
 }
 
+.middle {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  align-items: center;
+  // font-weight: 500;
+}
+
 .home {
   display: flex;
   flex-direction: row;

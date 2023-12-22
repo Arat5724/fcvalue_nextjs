@@ -5,7 +5,7 @@ import { useRouter, usePathname, useSearchParams } from "next/navigation"
 import styles from "./itemTable.module.scss"
 import { cutValue } from "../../lib/utils";
 import { useEffect, useState } from "react";
-import Link from "next/link";
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 
 type ItemSort = "name" | "value";
 
@@ -82,7 +82,7 @@ export function ItemTable({ items }: { items: TableItem[] }) {
       <tbody>
         {sortedItems.map(item => <tr key={item.id}>
           <td>{item.image ? <img src={item.image} alt={item.name} width={100} height={100} /> : ""}</td>
-          <td className={sortValue === "name" ? "by" : ""}><Link href={`${pathname}/${item.id}`}>{item.name}</Link></td>
+          <td className={sortValue === "name" ? "by" : ""}><LinkWrap href={`${pathname}/${item.id}`}>{item.name}</LinkWrap></td>
           <td className={sortValue === "value" ? "by" : ""}>{cutValue(item.value)}</td>
         </tr>)}
       </tbody>

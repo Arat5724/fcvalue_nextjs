@@ -3,7 +3,7 @@ import { BoxDetail, TableItem } from "@/app/lib/definitions";
 import { cutValue } from "@/app/lib/utils";
 import { Title } from "@/app/ui/components/title";
 import { PercentileTable } from "@/app/ui/table/percentileTable";
-import Link from "next/link";
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
@@ -77,7 +77,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         <tbody>
           {boxDetail.itemList.map(boxItem => <tr key={boxItem.item.name}>
             <td>{boxItem.item.type != "other" && boxItem.item.id != "-1"
-              ? <Link href={`/${boxItem.item.type}/${boxItem.item.id}`}>{boxItem.item.name}</Link>
+              ? <LinkWrap href={`/${boxItem.item.type}/${boxItem.item.id}`}>{boxItem.item.name}</LinkWrap>
               : boxItem.item.name}</td>
             <td>{boxItem.amount}</td>
             <td>{parseFloat((boxItem.probability * 100).toFixed(10))}%</td>
@@ -119,7 +119,7 @@ function AdditionalInfoWithAmount({ additionalInfoWithAmount }: { additionalInfo
                 <td>{item.item.image && <img src={item.item.image} alt={item.item.name} width={100} height={100} style={{ maxWidth: "4em", maxHeight: "4em" }} />}</td>
                 <td>
                   {item.item.type != "other" && item.item.id != "-1"
-                    ? <Link href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</Link>
+                    ? <LinkWrap href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</LinkWrap>
                     : item.item.name}
                 </td>
                 <td>{item.amount}</td>

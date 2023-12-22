@@ -6,7 +6,7 @@ import { Product, ProductDetail, ProductItem } from "@/app/lib/definitions";
 import { cutValue } from "@/app/lib/utils";
 import { Title } from "@/app/ui/components/title";
 import styles from "./page.module.scss";
-import Link from "next/link";
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 import { PercentileTable } from "@/app/ui/table/percentileTable";
 import { Thumbnail } from "@/app/ui/components/thumbnail";
 import { generateItemMetadata } from "@/app/shared-metadata";
@@ -71,7 +71,7 @@ export default async function Page({ params }: { params: { category: string, id:
       {
         id.startsWith("SantaMiraclePuzzle") && <>
           <p style={{ fontSize: "1.2rem" }}>
-            <Link href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</Link>
+            <LinkWrap href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</LinkWrap>
           </p>
           <h2>확률</h2>
           <table>
@@ -135,7 +135,7 @@ function ComponentTable({ itemList, expectedValueKeys }: { itemList: ProductItem
       <tbody>
         {itemList.map(productItem => <tr key={productItem.item.name}>
           <td>{productItem.item.type != "other" && productItem.item.id != "-1"
-            ? <Link href={`/${productItem.item.type}/${productItem.item.id}`}>{productItem.item.name}</Link>
+            ? <LinkWrap href={`/${productItem.item.type}/${productItem.item.id}`}>{productItem.item.name}</LinkWrap>
             : productItem.item.name}</td>
           <td>{productItem.amount}</td>
           {expectedValueKeys.map(key => {
@@ -158,7 +158,7 @@ function AdditionalInfo({ additionalInfo }: { additionalInfo: any[] }) {
             {item.image && <img src={item.image} alt={item.name} width={100} height={100} />}
             <div>
               {item.type != "other" && item.id != "-1"
-                ? <Link href={`/${item.type}/${item.id}`}>{item.name}</Link>
+                ? <LinkWrap href={`/${item.type}/${item.id}`}>{item.name}</LinkWrap>
                 : item.name}
             </div>
             <div>
@@ -192,7 +192,7 @@ function AdditionalInfoWithAmount({ additionalInfoWithAmount }: { additionalInfo
                 <td>{item.item.image && <img src={item.item.image} alt={item.item.name} width={100} height={100} style={{ maxWidth: "4em", maxHeight: "4em" }} />}</td>
                 <td>
                   {item.item.type != "other" && item.item.id != "-1"
-                    ? <Link href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</Link>
+                    ? <LinkWrap href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</LinkWrap>
                     : item.item.name}
                 </td>
                 <td>{item.amount}</td>

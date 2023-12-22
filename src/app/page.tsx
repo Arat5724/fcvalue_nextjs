@@ -1,6 +1,7 @@
-import Link from 'next/link';
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 import { GridItem, GridWrap } from './ui/components/grid-item';
 import { sharedMetadata } from '@/app/shared-metadata'
+import styles from './page.module.scss';
 
 export const metadata = {
   ...sharedMetadata
@@ -10,11 +11,12 @@ export default function Home() {
   return <>
     <div>
       <h2>공지사항</h2>
-      <p>서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>
-      <p>선수팩 시뮬레이터는 <Link href="/player-pack">선수팩 정보</Link>에 통합됐습니다.</p>
-      <h2>최근 업데이트</h2>
-      <p><Link href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</Link> 추가</p>
-      <p>20231221 신규 상품(<Link href="/general-product/44055">크리스마스 양말 상자</Link>, <Link href="/general-product/44056">블랙토끼의 X-mas 상점 열쇠</Link>, 등) 추가</p>
+      <p>- 서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>
+      <p>- 선수팩 시뮬레이터는 <LinkWrap href="/player-pack">선수팩 정보</LinkWrap>에 통합됐습니다.</p>
+      <h2>패치 노트</h2>
+      <div style={{ marginBottom: "0.5em" }}>- 로고 옆 <div className={styles.icon}></div> 을 클릭해 최근 업데이트 시각을 확인할 수 있습니다.</div>
+      <p>- <LinkWrap href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</LinkWrap> 추가</p>
+      <p>- 20231221 신규 상품(<LinkWrap href="/general-product/44055">크리스마스 양말 상자</LinkWrap>, <LinkWrap href="/general-product/44056">블랙토끼의 X-mas 상점 열쇠</LinkWrap> 등) 추가</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem

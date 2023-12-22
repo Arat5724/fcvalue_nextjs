@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
@@ -8,9 +8,9 @@ export function Title({ children, href }: { children: React.ReactNode, href?: st
   const pathname = usePathname();
   return <header>
     <h1>
-      <Link style={{ color: 'inherit', }} href={href ? href : pathname}>
+      <LinkWrap style={{ color: 'inherit', }} href={href ? href : pathname}>
         {children}
-      </Link>
+      </LinkWrap>
     </h1>
   </header>;
 }

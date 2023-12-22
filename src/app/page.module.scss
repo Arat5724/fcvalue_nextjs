@@ -1,5 +1,21 @@
 @import '@/app/sass/variables.scss';
 
+.icon {
+  display: inline-block;
+  text-align: center;
+  width: 1em;
+  height: 1em;
+  // margin: 0.5em;
+  border-radius: 50%;
+
+  background-color: white;
+  color: black;
+
+  &::before {
+    content: "i";
+  }
+}
+
 .link-button {
   display: flex;
   width: 200px;

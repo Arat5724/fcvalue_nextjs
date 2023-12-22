@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { LinkWrap } from '@/app/ui/components/link-wrap';
 import styles from "./pagination.module.scss"
 import clsx from "clsx";
 
@@ -54,7 +54,7 @@ export function Pagination({ currentPage, setCurrentPage, totalPages }:
 //   { currentPage: number, createPageURL: (page: number) => string, totalPages: number }) {
 //   const PageLink = ({ page }: { page: number }) => {
 //     return (1 <= page && page <= totalPages)
-//       ? <Link href={createPageURL(page)} className={clsx(styles["pagination__button"], page === currentPage ? styles.current : "")}>{page}</Link>
+//       ? <LinkWrap href={createPageURL(page)} className={clsx(styles["pagination__button"], page === currentPage ? styles.current : "")}>{page}</LinkWrap>
 //       : <div className={styles["pagination__button"]}></div>
 //   }
 //   return <div className={styles.pagination}>
@@ -68,23 +68,23 @@ export function Pagination({ currentPage, setCurrentPage, totalPages }:
 //     </div>
 //     <div className={styles["pagination__div"]}>
 //       {currentPage !== 1 ? <>
-//         <Link className={styles["pagination__button"]} href={createPageURL(1)}>
+//         <LinkWrap className={styles["pagination__button"]} href={createPageURL(1)}>
 //           <img src="/assets/image/double-arrow-left.png" alt="arrow-left"></img>
-//         </Link>
-//         <Link className={styles["pagination__button"]} href={createPageURL(currentPage - 1)}>
+//         </LinkWrap>
+//         <LinkWrap className={styles["pagination__button"]} href={createPageURL(currentPage - 1)}>
 //           <img src="/assets/image/arrow-left.png" alt="arrow-left"></img>
-//         </Link>
+//         </LinkWrap>
 //       </> : <>
 //         <div className={styles["pagination__button"]}></div>
 //         <div className={styles["pagination__button"]}></div>
 //       </>}
 //       {currentPage !== totalPages ? <>
-//         <Link className={styles["pagination__button"]} href={createPageURL(currentPage + 1)}>
+//         <LinkWrap className={styles["pagination__button"]} href={createPageURL(currentPage + 1)}>
 //           <img src="/assets/image/arrow-right.png" alt="arrow-right"></img>
-//         </Link>
-//         <Link className={styles["pagination__button"]} href={createPageURL(totalPages)}>
+//         </LinkWrap>
+//         <LinkWrap className={styles["pagination__button"]} href={createPageURL(totalPages)}>
 //           <img src="/assets/image/double-arrow-right.png" alt="double-arrow-right"></img>
-//         </Link>
+//         </LinkWrap>
 //       </> : <>
 //         <div className={styles["pagination__button"]}></div>
 //         <div className={styles["pagination__button"]}></div>

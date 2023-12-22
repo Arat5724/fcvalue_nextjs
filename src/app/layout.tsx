@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import './fonts.scss'
 import './globals.scss'
 import styles from './global.module.scss'
-import Link from 'next/link'
+import { LinkWrap } from '@/app/ui/components/link-wrap'
 import { NavIcon } from './ui/components/navicon'
 import Script from 'next/script'
 import { Suspense } from 'react';
@@ -10,7 +10,7 @@ import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
 import { FloatingText } from './ui/components/floating-notice'
 import { Notice } from './ui/components/notice'
-
+import { LastUpdate } from './ui/components/last-update'
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -76,14 +76,17 @@ function Navigation() {
       <div>
         {/* 뒤로가기 */}
       </div>
-      <Link href="/">
-        <div className={styles["home"]}>
-          <img src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo}></img>
-          <div>
-            <span style={{ fontWeight: "bold", color: "white" }}>FC VALUE</span>
+      <div className={styles["middle"]}>
+        <LinkWrap href="/">
+          <div className={styles["home"]}>
+            <img src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo}></img>
+            <div>
+              <span style={{ fontWeight: "bold", color: "white" }}>FC VALUE</span>
+            </div>
           </div>
-        </div>
-      </Link>
+        </LinkWrap>
+        <LastUpdate />
+      </div>
       <NavIcon />
     </div >
   </div >
