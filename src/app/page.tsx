@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { GridItem, GridWrap } from './ui/components/grid-item';
 import { sharedMetadata } from '@/app/shared-metadata'
-import { FloatingText } from './ui/components/floating-notice';
 
 export const metadata = {
   ...sharedMetadata
@@ -9,9 +8,6 @@ export const metadata = {
 
 export default function Home() {
   return <>
-    <FloatingText href='/player-pack'>
-      선수팩 시뮬레이터는 선수팩 정보와 통합되었습니다.
-    </FloatingText>
     <div>
       <h2>공지사항</h2>
       <p>서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>

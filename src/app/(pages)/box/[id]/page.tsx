@@ -8,6 +8,7 @@ import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
 import { Thumbnail } from "@/app/ui/components/thumbnail";
+import styles from "./page.module.scss";
 
 export async function generateMetadata(
   { params }: { params: { id: string } },
@@ -83,7 +84,48 @@ export default async function Page({ params }: { params: { id: string } }) {
           </tr>)}
         </tbody>
       </table>
+      {boxDetail.additionalInfoWithAmount && <>
+        <h2>추가 정보</h2>
+        <AdditionalInfoWithAmount additionalInfoWithAmount={boxDetail.additionalInfoWithAmount} />
+      </>
+      }
     </div>
     <Comments location={`https://fcvalue.com/box/${params.id}`} />
+  </>;
+}
+
+function AdditionalInfoWithAmount({ additionalInfoWithAmount }: { additionalInfoWithAmount: any[] }) {
+  return <>
+    {
+      additionalInfoWithAmount.map(info => <div key={info.name} className={styles.info}>
+        <h3 className={styles["info__title"]}>{info.name}</h3>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>아이템</th>
+              <th>{info.name}</th>
+              <th>기댓값</th>
+              <th>기댓값 / {info.name}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {info.itemList.map((item: any) => (
+              <tr key={item.item.name}>
+                <td>{item.item.image && <img src={item.item.image} alt={item.item.name} width={100} height={100} style={{ maxWidth: "4em", maxHeight: "4em" }} />}</td>
+                <td>
+                  {item.item.type != "other" && item.item.id != "-1"
+                    ? <Link href={`/${item.item.type}/${item.item.id}`}>{item.item.name}</Link>
+                    : item.item.name}
+                </td>
+                <td>{item.amount}</td>
+                <td>{cutValue(item.item.expectedBp)}</td>
+                <td>{cutValue(item.item.expectedBp / item.amount)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>)
+    }
   </>;
 }

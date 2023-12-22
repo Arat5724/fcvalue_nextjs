@@ -64,9 +64,12 @@ export type BoxDetail = {
   image: string | null;
   expectedBp: number;
   expectedValue: any;
+  expectedBp1: number;
+  expectedValue1: any;
 
   percentile: any | null;
   itemList: BoxItem[];
+  additionalInfoWithAmount: any | null | undefined;
 }
 
 export type BoxItem = {

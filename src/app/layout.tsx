@@ -8,6 +8,7 @@ import Script from 'next/script'
 import { Suspense } from 'react';
 import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
+import { FloatingText } from './ui/components/floating-notice'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -50,6 +51,9 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Navigation />
+        <FloatingText href='/player-pack'>
+          선수팩 시뮬레이터는 선수팩 정보와 통합되었습니다.
+        </FloatingText>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}

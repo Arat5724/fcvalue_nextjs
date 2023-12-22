@@ -199,6 +199,5 @@ function AdditionalInfoWithAmount({ additionalInfoWithAmount }: { additionalInfo
         </table>
       </div>)
     }
-  </>
-
+  </>;
 }
