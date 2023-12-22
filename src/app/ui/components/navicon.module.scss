@@ -2,12 +2,12 @@
 
 .nav {
   position: relative;
-  z-index: 2;
+  z-index: 102;
 }
 
 .nav-wrap {
   position: relative;
-  z-index: 1;
+  z-index: 100;
 
   cursor: pointer;
   align-items: center;
@@ -65,7 +65,7 @@
 }
 
 .ul {
-  z-index: 3;
+  z-index: 103;
   position: absolute;
   top: 100%;
   right: 0.5rem;
@@ -111,7 +111,7 @@
     border-style: solid;
     border-width: 0 10px 10px;
     display: block;
-    z-index: 0;
+    z-index: 100;
   }
 
   &::before {
@@ -132,7 +132,7 @@
 }
 
 .full-screen {
-  z-index: -1;
+  z-index: 99;
   position: fixed;
   top: 0;
   left: 0;

@@ -1,0 +1,137 @@
+@mixin shuffle($row, $col) {
+  top: calc(33.33333% * $row);
+  left: calc(25% * $col);
+
+  $timing: cubic-bezier(0, .2, 1, .8);
+
+  &--0 {
+    animation: shuffle0 2s $timing;
+
+    @keyframes shuffle0 {
+      0% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+
+      30% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      50% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      80% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+    }
+  }
+
+  &--1 {
+    animation: shuffle1 2s $timing;
+
+    @keyframes shuffle1 {
+      5% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+
+      35% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      55% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      85% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+    }
+  }
+
+  &--2 {
+    animation: shuffle2 2s $timing;
+
+    @keyframes shuffle2 {
+      10% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+
+      40% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      60% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      90% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+    }
+  }
+
+  &--3 {
+    animation: shuffle3 2s $timing;
+
+    @keyframes shuffle3 {
+      15% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+
+      45% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      65% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      95% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+    }
+  }
+
+  &--4 {
+    animation: shuffle4 2s $timing;
+
+    @keyframes shuffle4 {
+      20% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+
+      50% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      70% {
+        top: 33.333%;
+        left: 37.5%;
+      }
+
+      100% {
+        top: calc(33.33333% * $row);
+        left: calc(25% * $col);
+      }
+    }
+  }
+
+}

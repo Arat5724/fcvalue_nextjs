@@ -30,6 +30,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${baseUrl}/simulator/upgrade`,
+    },
+    {
+      url: `${baseUrl}/simulator/SantaMiraclePuzzle`,
     }
   ];
   for (let i = 0; i < getList.length; i++) {

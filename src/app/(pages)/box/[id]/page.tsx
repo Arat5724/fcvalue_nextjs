@@ -50,6 +50,10 @@ export default async function Page({ params }: { params: { id: string } }) {
       </a>
       <h2>기댓값</h2>
       <p>{cutValue(boxDetail.expectedBp)}</p>
+      {boxDetail.expectedBp1 !== boxDetail.expectedBp && <>
+        <h2>기댓값 (1개 구매 시)</h2>
+        <p>{cutValue(boxDetail.expectedBp1)}</p>
+      </>}
       {boxDetail.percentile && <>
         <h2>백분위</h2>
         <PercentileTable data={boxDetail.percentile} />

@@ -9,6 +9,7 @@ import { Suspense } from 'react';
 import * as gtag from '@/app/lib/gtag';
 import { NavigationEvents } from './lib/navigation-events';
 import { FloatingText } from './ui/components/floating-notice'
+import { Notice } from './ui/components/notice'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -51,9 +52,9 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Navigation />
-        <FloatingText href='/player-pack'>
-          선수팩 시뮬레이터는 선수팩 정보와 통합되었습니다.
-        </FloatingText>
+        <Notice href='/simulator/SantaMiraclePuzzle'>
+          트리플 크리스마스 시뮬레이터 바로가기!
+        </Notice>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
@@ -79,11 +80,11 @@ function Navigation() {
         <div className={styles["home"]}>
           <img src="/assets/image/logo32.png" alt="logo" width={32} height={32} className={styles.logo}></img>
           <div>
-            <p style={{ fontWeight: "bold", color: "white" }}>FC VALUE</p>
+            <span style={{ fontWeight: "bold", color: "white" }}>FC VALUE</span>
           </div>
         </div>
       </Link>
       <NavIcon />
-    </div>
-  </div>
+    </div >
+  </div >
 }

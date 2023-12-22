@@ -11,13 +11,21 @@ export default function Home() {
     <div>
       <h2>공지사항</h2>
       <p>서버 교체 중입니다. 일부 기능이 원할하지 않을 수 있습니다.</p>
-      <p>선수팩 시뮬레이터는 <Link href="/player-pack">선수팩 정보에 통합됐습니다.</Link></p>
+      <p>선수팩 시뮬레이터는 <Link href="/player-pack">선수팩 정보</Link>에 통합됐습니다.</p>
+      <h2>최근 업데이트</h2>
+      <p><Link href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</Link> 추가</p>
+      <p>20231221 신규 상품(<Link href="/general-product/44055">크리스마스 양말 상자</Link>, <Link href="/general-product/44056">블랙토끼의 X-mas 상점 열쇠</Link>, 등) 추가</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
           img="/assets/image/logo256.png"
           href="/simulator/upgrade"
           title="강화 시뮬레이터"
+        />
+        <GridItem
+          img="/assets/image/santa/santa-logo256.png"
+          href="/simulator/SantaMiraclePuzzle"
+          title="트리플 크리스마스 시뮬레이터"
         />
       </GridWrap>
       <h2>스페셜 상점</h2>

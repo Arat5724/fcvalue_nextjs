@@ -125,6 +125,16 @@ table {
     border-bottom: 2px solid $table-highlight-color;
   }
 
+  tfoot {
+    tr {
+      color: $table-head-color;
+      font-weight: bold;
+      background-color: $table-head-background-color;
+      border-bottom: $table-head-background-color solid 2px;
+      border-top: $table-border-color solid 2px;
+    }
+  }
+
   thead {
     tr {
       color: $table-head-color;
@@ -150,4 +160,8 @@ table {
       color: mix($primary-color, $table-body-color, 60%);
     }
   }
+}
+
+p {
+  margin-bottom: 0.5em;
 }

@@ -63,11 +63,16 @@ export default async function Page({ params }: { params: { category: string, id:
     {productDetail.image && <Thumbnail src={productDetail.image} alt={productDetail.name} />}
     <Title>{productDetail.name}</Title>
     <main>
-      <a href={`https://shop.fconline.nexon.com/Shop/View?strPid=${productDetail.id}`} target="_blank" rel="noreferrer">
+      <p><a href={`https://shop.fconline.nexon.com/Shop/View?strPid=${productDetail.id}`} target="_blank" rel="noreferrer">
         넥슨 웹 상점
       </a>
+      </p>
+
       {
         id.startsWith("SantaMiraclePuzzle") && <>
+          <p style={{ fontSize: "1.2rem" }}>
+            <Link href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</Link>
+          </p>
           <h2>확률</h2>
           <table>
             <thead>

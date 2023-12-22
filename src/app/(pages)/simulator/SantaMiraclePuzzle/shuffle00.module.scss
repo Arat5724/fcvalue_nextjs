@@ -1,0 +1,5 @@
+@import './shuffle.module.scss';
+
+.shuffle {
+  @include shuffle(0, 0);
+}
