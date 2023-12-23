@@ -1,6 +1,7 @@
 import { Metadata, ResolvingMetadata } from "next";
 import { sharedMetadata, getCategory } from "@/app/shared-metadata";
 import { Comments } from "@/app/ui/components/remark42";
+import { AdHorizontal } from "@/app/adsense/adsense";
 
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return <>
     <h1>자유게시판</h1>
+    <AdHorizontal />
     <div>
       <Comments location={`https://fcvalue.com/board`} />
     </div>

@@ -12,6 +12,7 @@ import { Thumbnail } from "@/app/ui/components/thumbnail";
 import { generateItemMetadata } from "@/app/shared-metadata";
 import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
+import { AdHorizontal } from "@/app/adsense/adsense";
 
 export async function generateMetadata(
   { params }: { params: { category: string, id: string } },
@@ -94,6 +95,7 @@ export default async function Page({ params }: { params: { category: string, id:
       <p>{Math.round(productDetail.efficiency)}배</p>
       <h2>기댓값</h2>
       <p>{cutValue(productDetail.expectedBp)}</p>
+      <AdHorizontal />
       {productDetail.efficiency1 !== productDetail.efficiency && <>
         <h2>효율 (1개 구매 시)</h2>
         <p>{Math.round(productDetail.efficiency1)}배</p>

@@ -1,3 +1,4 @@
+import { AdHorizontal } from "@/app/adsense/adsense";
 import { getBpDetail, getBpList } from "@/app/lib/data";
 import { BCDetail, TableItem } from "@/app/lib/definitions";
 import { cutValue } from "@/app/lib/utils";
@@ -42,6 +43,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         <PercentileTable data={bpDetail.percentile} />
       </>}
     </main>
+    <AdHorizontal />
     <div>
       <h2>아이템 목록</h2>
       <table>

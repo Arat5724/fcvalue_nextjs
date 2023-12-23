@@ -1,3 +1,4 @@
+import { AdHorizontal } from "@/app/adsense/adsense";
 import { getCpDetail, getCpList } from "@/app/lib/data";
 import { BCDetail, TableItem } from "@/app/lib/definitions";
 import { cutValue } from "@/app/lib/utils";
@@ -37,6 +38,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       <h2>기댓값</h2>
       <p>{cutValue(cpDetail.expectedValue.cp_card)}CP</p>
     </main>
+    <AdHorizontal />
     <div>
       <h2>아이템 목록</h2>
       <table>

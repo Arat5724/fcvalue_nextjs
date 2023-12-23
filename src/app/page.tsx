@@ -2,6 +2,7 @@ import { LinkWrap } from '@/app/ui/components/link-wrap';
 import { GridItem, GridWrap } from './ui/components/grid-item';
 import { sharedMetadata } from '@/app/shared-metadata'
 import styles from './page.module.scss';
+import { AdHorizontal, AdInArticle, ScriptTest } from './adsense/adsense';
 
 export const metadata = {
   ...sharedMetadata
@@ -17,6 +18,7 @@ export default function Home() {
       <div style={{ marginBottom: "0.5em" }}>- 로고 옆 <div className={styles.icon}></div> 을 클릭해 최근 업데이트 시각을 확인할 수 있습니다.</div>
       <p>- <LinkWrap href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</LinkWrap> 추가</p>
       <p>- 20231221 신규 상품(<LinkWrap href="/general-product/44055">크리스마스 양말 상자</LinkWrap>, <LinkWrap href="/general-product/44056">블랙토끼의 X-mas 상점 열쇠</LinkWrap> 등) 추가</p>
+      <AdHorizontal />
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -74,6 +76,7 @@ export default function Home() {
           title="상자"
         />
       </GridWrap>
+      <AdInArticle />
     </div>
   </>;
 }

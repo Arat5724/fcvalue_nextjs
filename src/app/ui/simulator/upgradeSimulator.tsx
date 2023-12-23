@@ -6,6 +6,7 @@ import styles from "./upgradeSimulator.module.scss";
 import { DefaultPlayerCard, PlayerBase, PlayerImage, PlayerUpgradeSuccessEffect } from "@/app/ui/simulator/player";
 import clsx from "clsx";
 import { Title } from "@/app/ui/components/title";
+import { AdHorizontal, AdInArticle } from "@/app/adsense/adsense";
 
 
 const upgradeProb = [0.00, 1.00, 0.81, 0.64, 0.50, 0.26, 0.15, 0.07, 0.04, 0.02]
@@ -85,9 +86,10 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
         />
       </div>
       <PlayerList players={searchResult} setPlayer={setPlayer} />
+      <AdHorizontal />
     </div>
     <UpgradeSimulator player={player} />
-
+    <AdInArticle />
   </>
 }
 

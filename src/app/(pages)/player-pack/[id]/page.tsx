@@ -1,3 +1,4 @@
+import { AdHorizontal } from "@/app/adsense/adsense";
 import { getPlayerPackDetail, getPlayerPackList } from "@/app/lib/data";
 import { PlayerPackDetail, PlayerPackPlayer, TableItem } from "@/app/lib/definitions"
 import { cutValue } from "@/app/lib/utils";
@@ -48,6 +49,7 @@ export default async function Page({ params }: { params: { id: string } }) {
       </a>
       <h2>시뮬레이터</h2>
       <PlayerPackSimulator playerPackPlayers={playerPackDetail.players} />
+      <AdHorizontal />
       <h2>기댓값</h2>
       <p>{cutValue(playerPackDetail.expectedValue.bp_player)}</p>
       {percentile && <>

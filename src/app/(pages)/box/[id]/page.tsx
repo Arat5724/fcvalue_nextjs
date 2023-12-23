@@ -9,6 +9,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import { Comments } from "@/app/ui/components/remark42";
 import { Thumbnail } from "@/app/ui/components/thumbnail";
 import styles from "./page.module.scss";
+import { AdHorizontal } from "@/app/adsense/adsense";
 
 export async function generateMetadata(
   { params }: { params: { id: string } },
@@ -59,6 +60,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         <PercentileTable data={boxDetail.percentile} />
       </>}
     </main>
+    <AdHorizontal />
     <div>
       <h2>아이템 목록</h2>
       <table>

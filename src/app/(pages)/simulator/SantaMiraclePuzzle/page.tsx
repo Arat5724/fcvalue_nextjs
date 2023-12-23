@@ -16,6 +16,7 @@ import shuffle22 from "./shuffle22.module.scss";
 import shuffle23 from "./shuffle23.module.scss";
 import clsx from "clsx";
 import { Title } from "@/app/ui/components/title";
+import { AdHorizontal } from "@/app/adsense/adsense";
 
 export default function Page() {
   return <>
@@ -164,6 +165,7 @@ function SantaSimulator() {
         </button>
       </main>
       <h2>History</h2>
+      <AdHorizontal />
       <table>
         <thead><tr><th>등급</th><th>횟수</th><th>기댓값</th></tr></thead>
         <tbody>
