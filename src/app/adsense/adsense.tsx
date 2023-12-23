@@ -52,7 +52,7 @@ export function AdInArticle() {
   const id = "ad--inarticle";
   useEffect(manageScript(id), [pathname]);
   return <>
-    <div id={id}>
+    <div id={id} style={{ marginTop: "1em" }}>
       <ins className="adsbygoogle"
         style={{ display: "block", textAlign: "center" }}
         data-ad-layout="in-article"
@@ -68,7 +68,7 @@ export function AdHorizontal() {
   const id = "ad--horizontal";
   useEffect(manageScript(id), [pathname]);
   return <>
-    <div id={id}>
+    <div id={id} style={{ marginTop: "1em" }}>
       <ins className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-1954438714964825"
