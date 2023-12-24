@@ -21,6 +21,10 @@ const typeList = [
 const baseUrl = 'https://fcvalue.com'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const now = new Date();
+  const [year, month, day] = [now.getFullYear(), now.getMonth() + 1, now.getDate()];
+  const [hour, minute, second] = [now.getHours(), now.getMinutes(), now.getSeconds()];
+  const lastModified = `${year}-${month}-${day}T${hour}:${minute}:${second}+09:00`
   const list: MetadataRoute.Sitemap = [
     {
       url: `${baseUrl}`,
@@ -40,7 +44,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     for (let j = 0; j < temp.length; j++) {
       list.push({
         url: `${baseUrl}/${typeList[i]}/${temp[j].id}`,
-        lastModified: new Date(),
+        lastModified: lastModified,
         changeFrequency: "daily",
       })
     }
@@ -48,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   for (const type_ of typeList) {
     list.push({
       url: `${baseUrl}/${type_}`,
-      lastModified: new Date(),
+      lastModified: lastModified,
       changeFrequency: "daily",
     })
   }
