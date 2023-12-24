@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export',
-  // basePath: '/fcvalue_nextjs',
+  output: 'export',
 }
 
 module.exports = nextConfig
