@@ -4,9 +4,9 @@
         "id": "8618",
         "name": "[마일리지] 23KFA, 23KL Top Price ALL (5강)",
         "image": "/assets/image/item/200237048_s.png",
-        "expectedBp": 531204745.5841354,
+        "expectedBp": 689330188.2593879,
         "expectedValue": {
-            "bp_player": 577396462.5914515
+            "bp_player": 749271943.7602042
         }
     },
     {
@@ -14,9 +14,9 @@
         "id": "8617",
         "name": "[마일리지] 23KB, 23NG, 23KFA, 23PL, 23KL Top Price 200 (3강)",
         "image": "/assets/image/item/200237047_s.png",
-        "expectedBp": 800463675.89192,
+        "expectedBp": 678292271.6822761,
         "expectedValue": {
-            "bp_player": 870069212.9259999
+            "bp_player": 737274208.3503001
         }
     },
     {
@@ -24,9 +24,9 @@
         "id": "8616",
         "name": "[마일리지] 23HW 포함 Top Price 430 (5강, 100+)",
         "image": null,
-        "expectedBp": 14794332293.17096,
+        "expectedBp": 15632619297.542679,
         "expectedValue": {
-            "bp_player": 16080795970.838
+            "bp_player": 16991977497.328999
         }
     },
     {
@@ -34,9 +34,9 @@
         "id": "8615",
         "name": "[마일리지] CC, FCA, 23HW 포함 Top Price 530 (5강, 105+)",
         "image": null,
-        "expectedBp": 14325709067.687202,
+        "expectedBp": 14702598341.2338,
         "expectedValue": {
-            "bp_player": 15571422899.660002
+            "bp_player": 15981085153.515
         }
     },
     {
@@ -44,9 +44,9 @@
         "id": "8614",
         "name": "[마일리지] DC, JVA, CC 포함 Top Price 160 (3강, 108+)",
         "image": null,
-        "expectedBp": 12919981898.853199,
+        "expectedBp": 13159957826.32236,
         "expectedValue": {
-            "bp_player": 14043458585.71
+            "bp_player": 14304301985.133
         }
     },
     {
@@ -54,9 +54,9 @@
         "id": "8613",
         "name": "[마일리지] 24HEROES, DC 포함 Top Price 260 (5강, 107+)",
         "image": null,
-        "expectedBp": 131675768099.11281,
+        "expectedBp": 133027355834.572,
         "expectedValue": {
-            "bp_player": 143125834890.34
+            "bp_player": 144594951994.1
         }
     },
     {
@@ -64,9 +64,9 @@
         "id": "8612",
         "name": "[마일리지] JVA, CC, FCA 포함 Top Price 860 (7강, 98+)",
         "image": null,
-        "expectedBp": 182353250340.4404,
+        "expectedBp": 183379797600.4952,
         "expectedValue": {
-            "bp_player": 198210054717.87
+            "bp_player": 199325866957.06
         }
     },
     {
@@ -74,9 +74,9 @@
         "id": "8611",
         "name": "[마일리지] JVA, CC, FCA 포함 Top Price 1390 (8강, 96+)",
         "image": null,
-        "expectedBp": 393463331437.13605,
+        "expectedBp": 387163451478.052,
         "expectedValue": {
-            "bp_player": 427677534170.80005
+            "bp_player": 420829838563.1
         }
     },
     {
@@ -84,9 +84,9 @@
         "id": "8610",
         "name": "[마일리지] JVA, CC, FCA 포함 Top Price 620 (8강, 98+)",
         "image": "/assets/image/item/200237040_s.png",
-        "expectedBp": 164778875841.26004,
+        "expectedBp": 164746645117.38162,
         "expectedValue": {
-            "bp_player": 179107473740.50003
+            "bp_player": 179072440344.98
         }
     },
     {
@@ -94,9 +94,9 @@
         "id": "8608",
         "name": "[마일리지] 24HEROES, DC, CC Top Price 10 (1강, 108+)",
         "image": "/assets/image/item/200237039_s.png",
-        "expectedBp": 230638064562.408,
+        "expectedBp": 255196129070.26,
         "expectedValue": {
-            "bp_player": 250693548437.4
+            "bp_player": 277387096815.5
         }
     },
     {
@@ -104,9 +104,9 @@
         "id": "8530",
         "name": "[눈덩이] CC, 23HW, 22UCL Top Price 540 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 153779666451.9544,
+        "expectedBp": 152923331403.8048,
         "expectedValue": {
-            "bp_player": 167151811360.82
+            "bp_player": 166221012395.44
         }
     },
     {
@@ -114,9 +114,9 @@
         "id": "8529",
         "name": "[눈덩이] 24HEROES, DC 포함 Top Price 190 선수팩 (5강, 105+)",
         "image": null,
-        "expectedBp": 90983855811.3872,
+        "expectedBp": 91658419699.55162,
         "expectedValue": {
-            "bp_player": 98895495447.16
+            "bp_player": 99628717064.73001
         }
     },
     {
@@ -124,9 +124,9 @@
         "id": "8528",
         "name": "[눈덩이] JVA, CC, FCA, HG Top Price 290 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 383792776258.7361,
+        "expectedBp": 380443657262.90405,
         "expectedValue": {
-            "bp_player": 417166061150.80005
+            "bp_player": 413525714416.2
         }
     },
     {
@@ -134,9 +134,9 @@
         "id": "8527",
         "name": "JVA, CC, FCA, 23HW, HG, 22UCL Top Price 90 선수팩 (5강, 109+)",
         "image": null,
-        "expectedBp": 199400086435.304,
+        "expectedBp": 201266655400.96402,
         "expectedValue": {
-            "bp_player": 216739224386.19998
+            "bp_player": 218768103696.7
         }
     },
     {
@@ -144,9 +144,9 @@
         "id": "8526",
         "name": "HG, RTN 포함 Top Price 1200 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 226727148958.44397,
+        "expectedBp": 226591017089.74405,
         "expectedValue": {
-            "bp_player": 246442553215.69995
+            "bp_player": 246294583793.20004
         }
     },
     {
@@ -154,9 +154,9 @@
         "id": "8525",
         "name": "24HEROES, DC 포함 최종 OVR 120+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 652008779586.2084,
+        "expectedBp": 647786989187.1243,
         "expectedValue": {
-            "bp_player": 708705195202.4004
+            "bp_player": 704116292594.7003
         }
     },
     {
@@ -164,9 +164,9 @@
         "id": "8524",
         "name": "CC, FCA 포함 Top Price 850 선수팩 (8강, 103+)",
         "image": null,
-        "expectedBp": 406075375756.8719,
+        "expectedBp": 392096800069.144,
         "expectedValue": {
-            "bp_player": 441386277996.59985
+            "bp_player": 426192173988.19995
         }
     },
     {
@@ -174,9 +174,9 @@
         "id": "8523",
         "name": "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 61438696446.7816,
+        "expectedBp": 62076385190.60639,
         "expectedValue": {
-            "bp_player": 66781191789.979996
+            "bp_player": 67474331728.91999
         }
     },
     {
@@ -184,9 +184,9 @@
         "id": "8522",
         "name": "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 65574492056.58881,
+        "expectedBp": 65793707241.49681,
         "expectedValue": {
-            "bp_player": 71276621800.64001
+            "bp_player": 71514899175.54001
         }
     },
     {
@@ -194,9 +194,9 @@
         "id": "8521",
         "name": "| A | 24HEROES, DC 포함 최종 OVR 114 ~ 120 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 56829490634.01827,
+        "expectedBp": 57179433737.3923,
         "expectedValue": {
-            "bp_player": 61771185471.75899
+            "bp_player": 62151558410.20902
         }
     },
     {
@@ -204,9 +204,9 @@
         "id": "8520",
         "name": "| A | CC 포함 Top Price 300 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 54566531263.2944,
+        "expectedBp": 55348856773.5084,
         "expectedValue": {
-            "bp_player": 59311447025.32
+            "bp_player": 60161800840.77
         }
     },
     {
@@ -214,9 +214,9 @@
         "id": "8519",
         "name": "[눈덩이] 24HEROES, DC 포함 Top Price 230 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 48199580832.01401,
+        "expectedBp": 50627892948.58041,
         "expectedValue": {
-            "bp_player": 52390848730.450005
+            "bp_player": 55030318422.37
         }
     },
     {
@@ -224,9 +224,9 @@
         "id": "8518",
         "name": "[눈덩이] DC Top Price 110 선수팩 (5강, 107+)",
         "image": null,
-        "expectedBp": 89839022178.3832,
+        "expectedBp": 89976218627.89842,
         "expectedValue": {
-            "bp_player": 97651111063.45999
+            "bp_player": 97800237639.02002
         }
     },
     {
@@ -234,9 +234,9 @@
         "id": "8517",
         "name": "| SS | FCA, 23HW 포함 Top Price 120 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 105670209822.08719,
+        "expectedBp": 107096548637.8932,
         "expectedValue": {
-            "bp_player": 114858923719.65999
+            "bp_player": 116409291997.70999
         }
     },
     {
@@ -244,9 +244,9 @@
         "id": "8516",
         "name": "| SS | JVA, CC 포함 Top Price 1950 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 130472823012.77402,
+        "expectedBp": 128605558334.328,
         "expectedValue": {
-            "bp_player": 141818285883.45
+            "bp_player": 139788650363.4
         }
     },
     {
@@ -254,9 +254,9 @@
         "id": "8515",
         "name": "| SS | 24HEROES, DC 포함 Top Price 170 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 116085410274.85841,
+        "expectedBp": 118488119705.3988,
         "expectedValue": {
-            "bp_player": 126179793777.02
+            "bp_player": 128791434462.39
         }
     },
     {
@@ -264,9 +264,9 @@
         "id": "8514",
         "name": "| SSS | 22UCL 포함 Top Price 1200 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 114373136559.38162,
+        "expectedBp": 113088953532.4868,
         "expectedValue": {
-            "bp_player": 124318626694.98001
+            "bp_player": 122922775578.79
         }
     },
     {
@@ -274,9 +274,9 @@
         "id": "8513",
         "name": "| SSS | HG, RTN 포함 Top Price 1500 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 95453531541.98282,
+        "expectedBp": 94464491224.54681,
         "expectedValue": {
-            "bp_player": 103753838632.59001
+            "bp_player": 102678794809.29001
         }
     },
     {
@@ -284,9 +284,9 @@
         "id": "8512",
         "name": "| SSS | JVA, CC 포함 Top Price 620 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 376498594700.66003,
+        "expectedBp": 370927704882.904,
         "expectedValue": {
-            "bp_player": 409237602935.5
+            "bp_player": 403182287916.19995
         }
     },
     {
@@ -294,9 +294,9 @@
         "id": "8480",
         "name": "[클럽점령전] HG, RTN 포함 멀티 클래스 Top Price 250 (5강, 97+)",
         "image": null,
-        "expectedBp": 8046778371.653361,
+        "expectedBp": 8000702413.731081,
         "expectedValue": {
-            "bp_player": 8746498230.058
+            "bp_player": 8696415667.099
         }
     },
     {
@@ -304,9 +304,9 @@
         "id": "8479",
         "name": "[클럽점령전] HG, RTN 포함 멀티 클래스 Top Price 550 (5강, 90+)",
         "image": null,
-        "expectedBp": 4040019364.23996,
+        "expectedBp": 3946621496.99356,
         "expectedValue": {
-            "bp_player": 4391325395.913
+            "bp_player": 4289805974.9929996
         }
     },
     {
@@ -314,9 +314,9 @@
         "id": "8478",
         "name": "[클럽점령전] HG, RTN 포함 멀티 클래스 Top Price 550 (3강, 90+)",
         "image": null,
-        "expectedBp": 1157637516.6246,
+        "expectedBp": 1139023057.4810758,
         "expectedValue": {
-            "bp_player": 1258301648.5049999
+            "bp_player": 1238068540.7402997
         }
     },
     {
@@ -324,9 +324,9 @@
         "id": "8454",
         "name": "[P] 24HEROES, DC 포함 Top Price 210 (5강, 107+)",
         "image": null,
-        "expectedBp": 107023937926.67201,
+        "expectedBp": 109137999927.61879,
         "expectedValue": {
-            "bp_player": 116330367311.6
+            "bp_player": 118628260790.88998
         }
     },
     {
@@ -334,9 +334,9 @@
         "id": "8453",
         "name": "[P] FCA 포함 Top Price 940 (8강, 98+)",
         "image": null,
-        "expectedBp": 116033287336.51,
+        "expectedBp": 117101927856.09718,
         "expectedValue": {
-            "bp_player": 126123138409.24998
+            "bp_player": 127284704191.40997
         }
     },
     {
@@ -344,9 +344,9 @@
         "id": "8452",
         "name": "[P] JVA, CC, FCA 포함 Top Price 740 (8강, 98+)",
         "image": null,
-        "expectedBp": 357095754646.436,
+        "expectedBp": 351032960668.572,
         "expectedValue": {
-            "bp_player": 388147559398.2999
+            "bp_player": 381557565944.1
         }
     },
     {
@@ -354,9 +354,9 @@
         "id": "8451",
         "name": "[P] JVA, CC, FCA, 23HW Top Price 325 (8강, 100+)",
         "image": null,
-        "expectedBp": 772715691309.9401,
+        "expectedBp": 758347077900.7201,
         "expectedValue": {
-            "bp_player": 839908360119.5
+            "bp_player": 824290302066.0
         }
     },
     {
@@ -364,9 +364,9 @@
         "id": "8450",
         "name": "[P] JVA, CC 포함 최종 OVR 123+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 2405572790009.48,
+        "expectedBp": 2408228941320.2803,
         "expectedValue": {
-            "bp_player": 2614753032619.0
+            "bp_player": 2617640153609.0
         }
     },
     {
@@ -374,9 +374,9 @@
         "id": "8449",
         "name": "[P] 24HEROES, DC 포함 Top Price 290 (5강, 107+)",
         "image": null,
-        "expectedBp": 51134739065.947205,
+        "expectedBp": 52207805715.5716,
         "expectedValue": {
-            "bp_player": 55581238115.16
+            "bp_player": 56747614908.229996
         }
     },
     {
@@ -384,9 +384,9 @@
         "id": "8448",
         "name": "[P] 23HW 포함 Top Price 1590 (8강, 90+)",
         "image": null,
-        "expectedBp": 49436164154.260796,
+        "expectedBp": 50416559305.149605,
         "expectedValue": {
-            "bp_player": 53734961037.23999
+            "bp_player": 54800607940.380005
         }
     },
     {
@@ -394,9 +394,9 @@
         "id": "8447",
         "name": "[P] CC, FCA, 23HW 포함 Top Price 780 (8강, 98+)",
         "image": null,
-        "expectedBp": 199983819463.728,
+        "expectedBp": 198465400766.39203,
         "expectedValue": {
-            "bp_player": 217373716808.4
+            "bp_player": 215723261702.6
         }
     },
     {
@@ -404,9 +404,9 @@
         "id": "8446",
         "name": "[P] CC, 23HW, HG, 22UCL, RTN Top Price 700 (8강, 98+)",
         "image": null,
-        "expectedBp": 390635582632.72003,
+        "expectedBp": 384002694491.652,
         "expectedValue": {
-            "bp_player": 424603894166.0
+            "bp_player": 417394233143.1
         }
     },
     {
@@ -414,9 +414,9 @@
         "id": "8445",
         "name": "[P] JVA, CC 포함 최종 OVR 121+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 1056886700516.4445,
+        "expectedBp": 1058524117787.3324,
         "expectedValue": {
-            "bp_player": 1148789891865.7004
+            "bp_player": 1150569693247.1003
         }
     },
     {
@@ -424,9 +424,9 @@
         "id": "8444",
         "name": "[스페셜 4등급] 23HW, HG, 23KB 포함 Top Price 230 (4강, 107+)",
         "image": "/assets/image/item/200233175_s.png",
-        "expectedBp": 8867812567.679081,
+        "expectedBp": 9055394339.90008,
         "expectedValue": {
-            "bp_player": 9638926703.999
+            "bp_player": 9842819934.674
         }
     },
     {
@@ -434,9 +434,9 @@
         "id": "8443",
         "name": "[스페셜 4등급] DC, CC 포함 Top Price 170 (3강, 106+)",
         "image": "/assets/image/item/200233174_s.png",
-        "expectedBp": 10828555935.36964,
+        "expectedBp": 11212296615.31204,
         "expectedValue": {
-            "bp_player": 11770169494.967
+            "bp_player": 12187278929.687
         }
     },
     {
@@ -444,9 +444,9 @@
         "id": "8442",
         "name": "[스페셜 4등급] 24HEROES, DC 포함 Top Price 120 (1강, 104+)",
         "image": "/assets/image/item/200233173_s.png",
-        "expectedBp": 11061696799.675362,
+        "expectedBp": 11614862925.772081,
         "expectedValue": {
-            "bp_player": 12023583477.908
+            "bp_player": 12624851006.274
         }
     },
     {
@@ -454,9 +454,9 @@
         "id": "8441",
         "name": "[스페셜 3등급] 24HEROES, DC, CC Top Price 170 (4강, 107+)",
         "image": "/assets/image/item/200233172_s.png",
-        "expectedBp": 17740672144.73,
+        "expectedBp": 17923926581.440403,
         "expectedValue": {
-            "bp_player": 19283339287.75
+            "bp_player": 19482528892.870003
         }
     },
     {
@@ -464,9 +464,9 @@
         "id": "8440",
         "name": "[스페셜 3등급] DC, JVA, CC 포함 Top Price 480 (5강, 105+)",
         "image": "/assets/image/item/200233171_s.png",
-        "expectedBp": 16409891127.5596,
+        "expectedBp": 17104182267.680397,
         "expectedValue": {
-            "bp_player": 17836838182.13
+            "bp_player": 18591502464.869995
         }
     },
     {
@@ -474,9 +474,9 @@
         "id": "8439",
         "name": "[스페셜 3등급] 24HEROES, DC 포함 Top Price 640 (5강, 105+)",
         "image": "/assets/image/item/200233170_s.png",
-        "expectedBp": 16331796448.4144,
+        "expectedBp": 16793887663.044,
         "expectedValue": {
-            "bp_player": 17751952661.32
+            "bp_player": 18254225720.7
         }
     },
     {
@@ -484,9 +484,9 @@
         "id": "8438",
         "name": "[스페셜 2등급] LN 포함 Top Price 1250 (8강, 90+)",
         "image": "/assets/image/item/200233169_s.png",
-        "expectedBp": 42982524320.9892,
+        "expectedBp": 43795047749.3292,
         "expectedValue": {
-            "bp_player": 46720135131.509995
+            "bp_player": 47603312771.01
         }
     },
     {
@@ -494,9 +494,9 @@
         "id": "8437",
         "name": "[스페셜 2등급] FCA, 23HW 포함 Top Price 690 (7강, 98+)",
         "image": "/assets/image/item/200233168_s.png",
-        "expectedBp": 50443615797.32,
+        "expectedBp": 49462498113.62119,
         "expectedValue": {
-            "bp_player": 54830017171.0
+            "bp_player": 53763584906.10999
         }
     },
     {
@@ -504,9 +504,9 @@
         "id": "8436",
         "name": "[스페셜 2등급] 24HEROES, DC, JVA, CC, 23HW Top Price 280 (5강, 106+)",
         "image": "/assets/image/item/200233167_s.png",
-        "expectedBp": 52645791431.2544,
+        "expectedBp": 53672036491.4204,
         "expectedValue": {
-            "bp_player": 57223686338.32
+            "bp_player": 58339170099.37
         }
     },
     {
@@ -514,9 +514,9 @@
         "id": "8435",
         "name": "[스페셜 1등급] DC, CC Top Price 130 (5강, 108+)",
         "image": null,
-        "expectedBp": 111763441860.47922,
+        "expectedBp": 112759158065.0136,
         "expectedValue": {
-            "bp_player": 121482002022.26001
+            "bp_player": 122564302244.57999
         }
     },
     {
@@ -524,9 +524,9 @@
         "id": "8434",
         "name": "[스페셜 1등급] CC, 23HW, HG, RTN, 22UCL Top Price 800 (8강, 98+)",
         "image": "/assets/image/item/200233165_s.png",
-        "expectedBp": 115010040105.28642,
+        "expectedBp": 116992982642.4648,
         "expectedValue": {
-            "bp_player": 125010913157.92001
+            "bp_player": 127166285480.93999
         }
     },
     {
@@ -534,9 +534,9 @@
         "id": "8433",
         "name": "[스페셜 1등급] 24HEROES, DC, CC Top Price 140 (5강, 108+)",
         "image": null,
-        "expectedBp": 114101219764.8928,
+        "expectedBp": 115709216149.88481,
         "expectedValue": {
-            "bp_player": 124023064961.84
+            "bp_player": 125770887119.44
         }
     },
     {
@@ -544,9 +544,9 @@
         "id": "8432",
         "name": "[스페셜 1등급] JVA, CC 포함 최종 OVR 120+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 591549004434.9882,
+        "expectedBp": 585848719511.9197,
         "expectedValue": {
-            "bp_player": 642988048298.9001
+            "bp_player": 636792086425.9996
         }
     },
     {
@@ -554,9 +554,9 @@
         "id": "8431",
         "name": "[스페셜 1+등급] DC, CC Top Price 80 (5강, 108+)",
         "image": null,
-        "expectedBp": 296337549114.41205,
+        "expectedBp": 295889523721.804,
         "expectedValue": {
-            "bp_player": 322106031646.10004
+            "bp_player": 321619047523.7
         }
     },
     {
@@ -564,9 +564,9 @@
         "id": "8430",
         "name": "[스페셜 1+등급] JVA, CC, 23HW, HG, RTN Top Price 580 (8강, 99+)",
         "image": "/assets/image/item/200233161_s.png",
-        "expectedBp": 266848739442.232,
+        "expectedBp": 262549792924.46002,
         "expectedValue": {
-            "bp_player": 290052977654.6
+            "bp_player": 285380209700.5
         }
     },
     {
@@ -574,9 +574,9 @@
         "id": "8429",
         "name": "멀티 클래스 DF, GK 8강 선수팩 (최종 OVR 112+, 급여 20이하)",
         "image": "/assets/image/item/200233160_s.png",
-        "expectedBp": 302985041380.1,
+        "expectedBp": 300919626026.22,
         "expectedValue": {
-            "bp_player": 329331566717.49994
+            "bp_player": 327086550028.49994
         }
     },
     {
@@ -584,9 +584,9 @@
         "id": "8428",
         "name": "[스페셜 1+등급] 24HEROES, DC, CC Top Price 90 (5강, 108+)",
         "image": null,
-        "expectedBp": 302302391733.16394,
+        "expectedBp": 304962945248.83997,
         "expectedValue": {
-            "bp_player": 328589556231.69995
+            "bp_player": 331481462226.99994
         }
     },
     {
@@ -594,9 +594,9 @@
         "id": "8427",
         "name": "[스페셜 1+등급] JVA, CC, 23HW, HG, RTN Top Price 585 (8강, 98+)",
         "image": null,
-        "expectedBp": 267212282095.13205,
+        "expectedBp": 262205977014.14,
         "expectedValue": {
-            "bp_player": 290448132712.10004
+            "bp_player": 285006496754.5
         }
     },
     {
@@ -604,9 +604,9 @@
         "id": "8426",
         "name": "[스페셜 1+등급] JVA, CC 포함 최종 OVR 122+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 1428317649714.24,
+        "expectedBp": 1434136352037.108,
         "expectedValue": {
-            "bp_player": 1552519184472.0
+            "bp_player": 1558843860909.9
         }
     },
     {
@@ -614,9 +614,9 @@
         "id": "8425",
         "name": "[일반 4등급] HG, 23KB 포함 Top Price 220 (4강, 106+)",
         "image": "/assets/image/item/200233156_s.png",
-        "expectedBp": 4629472833.73372,
+        "expectedBp": 4648400540.971802,
         "expectedValue": {
-            "bp_player": 5032035688.841
+            "bp_player": 5052609283.665002
         }
     },
     {
@@ -624,9 +624,9 @@
         "id": "8424",
         "name": "[일반 4등급] JVA, CC, FCA 포함 Top Price 170 (3강, 108+)",
         "image": "/assets/image/item/200233155_s.png",
-        "expectedBp": 5928593829.25124,
+        "expectedBp": 5812762585.38276,
         "expectedValue": {
-            "bp_player": 6444123727.447
+            "bp_player": 6318220201.503
         }
     },
     {
@@ -634,9 +634,9 @@
         "id": "8423",
         "name": "[일반 4등급] JVA, CC, FCA 포함 1~3강 선수팩 (최종 OVR 110+)",
         "image": "/assets/image/item/200233154_s.png",
-        "expectedBp": 6491013723.06344,
+        "expectedBp": 6353253772.838001,
         "expectedValue": {
-            "bp_player": 7055449698.982
+            "bp_player": 6905710622.650002
         }
     },
     {
@@ -644,9 +644,9 @@
         "id": "8422",
         "name": "[일반 3등급] 23HW, HG, 23KB 포함 Top Price 520 (5강, 105+)",
         "image": "/assets/image/item/200233153_s.png",
-        "expectedBp": 6905034063.50904,
+        "expectedBp": 7182836983.772921,
         "expectedValue": {
-            "bp_player": 7505471808.162
+            "bp_player": 7807431504.101
         }
     },
     {
@@ -654,9 +654,9 @@
         "id": "8421",
         "name": "[일반 3등급] DC, JVA, CC 포함 Top Price 190 (3강, 106+)",
         "image": "/assets/image/item/200233152_s.png",
-        "expectedBp": 8518984547.474238,
+        "expectedBp": 8555875782.501602,
         "expectedValue": {
-            "bp_player": 9259765812.471998
+            "bp_player": 9299864980.980001
         }
     },
     {
@@ -664,9 +664,9 @@
         "id": "8420",
         "name": "[일반 3등급] 24HEROES, DC 포함 Top Price 170 (2강, 109+)",
         "image": "/assets/image/item/200233151_s.png",
-        "expectedBp": 9123351498.7778,
+        "expectedBp": 9048377751.911081,
         "expectedValue": {
-            "bp_player": 9916686411.715
+            "bp_player": 9835193208.599
         }
     },
     {
@@ -674,9 +674,9 @@
         "id": "8419",
         "name": "[일반 2등급] CAP 포함 Top Price 900 (8강, 88+)",
         "image": "/assets/image/item/200233150_s.png",
-        "expectedBp": 18124111178.3752,
+        "expectedBp": 18731092749.721203,
         "expectedValue": {
-            "bp_player": 19700120846.059998
+            "bp_player": 20359883423.61
         }
     },
     {
@@ -684,9 +684,9 @@
         "id": "8418",
         "name": "[일반 2등급] CC, FCA, 23HW 포함 Top Price 480 (5강, 105+)",
         "image": "/assets/image/item/200233149_s.png",
-        "expectedBp": 26675495125.286003,
+        "expectedBp": 27340824241.388004,
         "expectedValue": {
-            "bp_player": 28995103397.050003
+            "bp_player": 29718287218.9
         }
     },
     {
@@ -694,9 +694,9 @@
         "id": "8417",
         "name": "[일반 2등급] 24HEROES, DC, CC, 23NG Top Price 100 (3강, 107+)",
         "image": "/assets/image/item/200233148_s.png",
-        "expectedBp": 26348776862.515205,
+        "expectedBp": 26919261326.877995,
         "expectedValue": {
-            "bp_player": 28639974850.560005
+            "bp_player": 29260066659.649994
         }
     },
     {
@@ -704,9 +704,9 @@
         "id": "8416",
         "name": "[일반 1등급] DC 포함 Top Price 350 (5강, 107+)",
         "image": null,
-        "expectedBp": 64532636768.46,
+        "expectedBp": 65247796295.28842,
         "expectedValue": {
-            "bp_player": 70144170400.5
+            "bp_player": 70921517712.27002
         }
     },
     {
@@ -714,9 +714,9 @@
         "id": "8415",
         "name": "[일반 1등급] 23HW, HG, RTN 포함 Top Price 1500 (8강, 90+)",
         "image": "/assets/image/item/200233146_s.png",
-        "expectedBp": 54396791632.3432,
+        "expectedBp": 55391843495.392395,
         "expectedValue": {
-            "bp_player": 59126947426.46
+            "bp_player": 60208525538.46999
         }
     },
     {
@@ -724,9 +724,9 @@
         "id": "8414",
         "name": "[일반 1등급] 24HEROES, DC 포함 Top Price 300 (5강, 107+)",
         "image": null,
-        "expectedBp": 56366820287.9732,
+        "expectedBp": 57555120383.89,
         "expectedValue": {
-            "bp_player": 61268282921.71
+            "bp_player": 62559913460.75
         }
     },
     {
@@ -734,9 +734,9 @@
         "id": "8413",
         "name": "[일반 1등급] 24HEROES, DC 포함 최종 OVR 118+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 333678517554.0325,
+        "expectedBp": 330426773492.5084,
         "expectedValue": {
-            "bp_player": 362694040819.60046
+            "bp_player": 359159536404.90045
         }
     },
     {
@@ -744,9 +744,9 @@
         "id": "8412",
         "name": "[일반 1+등급] DC 포함 Top Price 190 (5강, 108+)",
         "image": null,
-        "expectedBp": 149794197220.8864,
+        "expectedBp": 151893193334.68643,
         "expectedValue": {
-            "bp_player": 162819779587.92
+            "bp_player": 165101297102.92
         }
     },
     {
@@ -754,9 +754,9 @@
         "id": "8411",
         "name": "[일반 1+등급] CC, FCA, 23HW 포함 Top Price 810 (8강, 98+)",
         "image": "/assets/image/item/200233142_s.png",
-        "expectedBp": 160728553112.23682,
+        "expectedBp": 161302196621.49362,
         "expectedValue": {
-            "bp_player": 174704949035.04
+            "bp_player": 175328474588.58002
         }
     },
     {
@@ -764,9 +764,9 @@
         "id": "8410",
         "name": "멀티 클래스 DF, GK 8강 선수팩 (최종 OVR 111+, 급여 20이하)",
         "image": "/assets/image/item/200233141_s.png",
-        "expectedBp": 174789056632.38403,
+        "expectedBp": 172290057795.2145,
         "expectedValue": {
-            "bp_player": 189988105035.20004
+            "bp_player": 187271801951.3201
         }
     },
     {
@@ -774,9 +774,9 @@
         "id": "8409",
         "name": "[일반 1+등급] 24HEROES, DC 포함 Top Price 180 (5강, 108+)",
         "image": null,
-        "expectedBp": 157156675708.55002,
+        "expectedBp": 160053002993.71402,
         "expectedValue": {
-            "bp_player": 170822473596.25
+            "bp_player": 173970655427.95
         }
     },
     {
@@ -784,9 +784,9 @@
         "id": "8408",
         "name": "[일반 1+등급] CC, FCA, 23HW, HG, RTN Top Price 610 (8강, 98+)",
         "image": null,
-        "expectedBp": 166672252222.0624,
+        "expectedBp": 166806589466.67117,
         "expectedValue": {
-            "bp_player": 181165491545.72
+            "bp_player": 181311510289.85995
         }
     },
     {
@@ -794,9 +794,9 @@
         "id": "8407",
         "name": "[일반 1+등급] 24HEROES, DC 포함 최종 OVR 120+ 멀티 강화 선수팩",
         "image": null,
-        "expectedBp": 591541900337.5878,
+        "expectedBp": 585910487119.6921,
         "expectedValue": {
-            "bp_player": 642980326453.8998
+            "bp_player": 636859225130.1001
         }
     },
     {
@@ -804,9 +804,9 @@
         "id": "7958",
         "name": "[P] ICON TM ALL 선수팩 (1강)",
         "image": null,
-        "expectedBp": 2269016769622.196,
+        "expectedBp": 2265556816061.6045,
         "expectedValue": {
-            "bp_player": 2466322575676.3
+            "bp_player": 2462561756588.7
         }
     },
     {
@@ -814,9 +814,9 @@
         "id": "8313",
         "name": "[AG] 2023년 연말 특별 선수팩 (최대 5강)",
         "image": null,
-        "expectedBp": 2464174583.801325,
+        "expectedBp": 2832342661.839129,
         "expectedValue": {
-            "bp_player": 2678450634.5666575
+            "bp_player": 3078633328.0860095
         }
     },
     {
@@ -824,9 +824,9 @@
         "id": "8312",
         "name": "[24.01][DC 1강 포함] 최종 OVR 100~114 (최대 5강)",
         "image": null,
-        "expectedBp": 297416487.4806617,
+        "expectedBp": 303162594.4638244,
         "expectedValue": {
-            "bp_player": 323278790.7398496
+            "bp_player": 329524559.1998091
         }
     },
     {
@@ -834,9 +834,9 @@
         "id": "8311",
         "name": "[24.01][DC 1강 포함] 최종 OVR 103~114 (최대 5강)",
         "image": null,
-        "expectedBp": 331334791.5176637,
+        "expectedBp": 336378274.42766106,
         "expectedValue": {
-            "bp_player": 360146512.51919967
+            "bp_player": 365628559.1605011
         }
     },
     {
@@ -844,9 +844,9 @@
         "id": "8310",
         "name": "[24.01][DC 1강 포함] 최종 OVR 108~114 (최대 5강)",
         "image": null,
-        "expectedBp": 1339316653.6090634,
+        "expectedBp": 1356723880.426035,
         "expectedValue": {
-            "bp_player": 1455778971.3141992
+            "bp_player": 1474699870.0282989
         }
     },
     {
@@ -854,9 +854,9 @@
         "id": "8309",
         "name": "[AG][24.01] DC 최종 OVR 110+ (최대4강)",
         "image": null,
-        "expectedBp": 5323953768.0200405,
+        "expectedBp": 5454238933.71868,
         "expectedValue": {
-            "bp_player": 5786906269.587
+            "bp_player": 5928520580.129
         }
     },
     {
@@ -864,9 +864,9 @@
         "id": "8308",
         "name": "[AG][24.01] DC 최종 OVR 112+ (최대4강)",
         "image": null,
-        "expectedBp": 18501522437.846405,
+        "expectedBp": 18461452755.638393,
         "expectedValue": {
-            "bp_player": 20110350475.920006
+            "bp_player": 20066796473.519993
         }
     },
     {
@@ -874,9 +874,9 @@
         "id": "8307",
         "name": "[AG][24.01] DC 최종 OVR 113+ (최대4강)",
         "image": null,
-        "expectedBp": 26827157356.555607,
+        "expectedBp": 27222840455.371597,
         "expectedValue": {
-            "bp_player": 29159953648.430004
+            "bp_player": 29590043973.229996
         }
     },
     {
@@ -884,9 +884,9 @@
         "id": "8306",
         "name": "[AG][24.01] DC 최종 OVR 114+ (최대4강)",
         "image": null,
-        "expectedBp": 50243727448.86761,
+        "expectedBp": 48401180095.358406,
         "expectedValue": {
-            "bp_player": 54612747227.03001
+            "bp_player": 52609978364.520004
         }
     },
     {
@@ -894,9 +894,9 @@
         "id": "8305",
         "name": "[AG][24.01] ICON ALL 선수팩 (5강)",
         "image": null,
-        "expectedBp": 34785989565.031204,
+        "expectedBp": 39109893410.09041,
         "expectedValue": {
-            "bp_player": 37810858222.86
+            "bp_player": 42510753706.62001
         }
     },
     {
@@ -904,9 +904,9 @@
         "id": "8304",
         "name": "[AG][24.01] ICON The Moment 선수팩",
         "image": null,
-        "expectedBp": 2739590681807.856,
+        "expectedBp": 2737553281021.432,
         "expectedValue": {
-            "bp_player": 2977815958486.8
+            "bp_player": 2975601392414.6
         }
     },
     {
@@ -914,9 +914,9 @@
         "id": "8262",
         "name": "[RMCF, LN 포함] Top Price 860 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 94954965420.38399,
+        "expectedBp": 92224649548.548,
         "expectedValue": {
-            "bp_player": 103211918935.19998
+            "bp_player": 100244184291.9
         }
     },
     {
@@ -924,9 +924,9 @@
         "id": "8261",
         "name": "[FCA 포함] Top Price 400 선수팩 (4강, 106+)",
         "image": null,
-        "expectedBp": 82937059139.22815,
+        "expectedBp": 86025358385.67184,
         "expectedValue": {
-            "bp_player": 90148977325.24799
+            "bp_player": 93505824332.252
         }
     },
     {
@@ -934,9 +934,9 @@
         "id": "8260",
         "name": "[JVA 포함] Top Price 500 선수팩 (4강, 106+)",
         "image": null,
-        "expectedBp": 94057661695.45535,
+        "expectedBp": 97732089198.66284,
         "expectedValue": {
-            "bp_player": 102236588799.40799
+            "bp_player": 106230531737.677
         }
     },
     {
@@ -944,9 +944,9 @@
         "id": "8259",
         "name": "JVA, CC, FCA 클래스 Top Price 130 선수팩 (5강, 100+)",
         "image": null,
-        "expectedBp": 147721228773.08792,
+        "expectedBp": 148446759071.128,
         "expectedValue": {
-            "bp_player": 160566553014.22598
+            "bp_player": 161355172903.4
         }
     },
     {
@@ -954,9 +954,9 @@
         "id": "8258",
         "name": "DC 클래스 Top Price 100 선수팩 (5강, 107+)",
         "image": null,
-        "expectedBp": 212469767015.738,
+        "expectedBp": 211089033189.008,
         "expectedValue": {
-            "bp_player": 230945398930.15
+            "bp_player": 229444601292.4
         }
     },
     {
@@ -964,9 +964,9 @@
         "id": "8257",
         "name": "[FCA 포함] Top Price 500 선수팩 (5강, 105+)",
         "image": "/assets/image/item/200232005_s.png",
-        "expectedBp": 34540363561.39784,
+        "expectedBp": 34918362428.92072,
         "expectedValue": {
-            "bp_player": 37543873436.302
+            "bp_player": 37954741770.566
         }
     },
     {
@@ -974,9 +974,9 @@
         "id": "8256",
         "name": "[FCA 포함] Top Price 300 선수팩 (3강, 105+)",
         "image": "/assets/image/item/200232004_s.png",
-        "expectedBp": 19394562835.84253,
+        "expectedBp": 19959369755.559364,
         "expectedValue": {
-            "bp_player": 21081046560.6984
+            "bp_player": 21694967125.608
         }
     },
     {
@@ -984,9 +984,9 @@
         "id": "8254",
         "name": "[23HW 포함] Top Price 400 선수팩 (1강, 106+)",
         "image": null,
-        "expectedBp": 1980302491.2567759,
+        "expectedBp": 1888427735.942536,
         "expectedValue": {
-            "bp_player": 2152502707.8877997
+            "bp_player": 2052638843.4158
         }
     },
     {
@@ -994,9 +994,9 @@
         "id": "8255",
         "name": "[23HW 포함] Top Price 390 선수팩 (3강, 105+)",
         "image": "/assets/image/item/200232003_s.png",
-        "expectedBp": 9991039163.168625,
+        "expectedBp": 10011798116.774052,
         "expectedValue": {
-            "bp_player": 10859825177.3572
+            "bp_player": 10882389257.3631
         }
     },
     {
@@ -1004,9 +1004,9 @@
         "id": "8253",
         "name": "[DC 1~3강 포함] 최종 OVR 109+ 스페셜팩 (1~5강)",
         "image": null,
-        "expectedBp": 23847957540.72052,
+        "expectedBp": 23852730118.28124,
         "expectedValue": {
-            "bp_player": 25921692979.04404
+            "bp_player": 25926880563.34917
         }
     },
     {
@@ -1014,9 +1014,9 @@
         "id": "8252",
         "name": "DC, JVA, CC, FCA 클래스 최종 OVR 110+ 스페셜팩 (3강)",
         "image": null,
-        "expectedBp": 47953206417.86859,
+        "expectedBp": 47639148600.48247,
         "expectedValue": {
-            "bp_player": 52123050454.20499
+            "bp_player": 51781683261.39398
         }
     },
     {
@@ -1024,9 +1024,9 @@
         "id": "8206",
         "name": "JVA, CC 포함 Top Price 490 선수팩 (5강, 105+)",
         "image": null,
-        "expectedBp": 13219022365.22064,
+        "expectedBp": 13374686300.77372,
         "expectedValue": {
-            "bp_player": 14368502570.892
+            "bp_player": 14537702500.841
         }
     },
     {
@@ -1034,9 +1034,9 @@
         "id": "8205",
         "name": "DC Top Price 100 선수팩 (5강, 103+)",
         "image": null,
-        "expectedBp": 105380140490.054,
+        "expectedBp": 106038926635.616,
         "expectedValue": {
-            "bp_player": 114543630967.45
+            "bp_player": 115259702864.79999
         }
     },
     {
@@ -1044,9 +1044,9 @@
         "id": "8204",
         "name": "DC 포함 Top Price 460 선수팩 (5강, 105+)",
         "image": "/assets/image/item/200230211_s.png",
-        "expectedBp": 24866085088.9414,
+        "expectedBp": 25339113251.5466,
         "expectedValue": {
-            "bp_player": 27028353357.545
+            "bp_player": 27542514403.855
         }
     },
     {
@@ -1054,9 +1054,9 @@
         "id": "8203",
         "name": "DC All 동일 확률 선수팩",
         "image": "/assets/image/item/200230210_s.png",
-        "expectedBp": 19037553166.147636,
+        "expectedBp": 19577599980.422398,
         "expectedValue": {
-            "bp_player": 20692992571.899605
+            "bp_player": 21279999978.719997
         }
     },
     {
@@ -1064,9 +1064,9 @@
         "id": "8202",
         "name": "DC 포함 최종 OVR 112+ 멀티 강화 선수팩",
         "image": "/assets/image/item/200230209_s.png",
-        "expectedBp": 16329290868.06545,
+        "expectedBp": 16509707186.30811,
         "expectedValue": {
-            "bp_player": 17749229204.41897
+            "bp_player": 17945333898.160988
         }
     },
     {
@@ -1074,9 +1074,9 @@
         "id": "8201",
         "name": "DC 70명 지명 선수팩 (1강, 109+)",
         "image": "/assets/image/item/200230208_s.png",
-        "expectedBp": 11079923116.4928,
+        "expectedBp": 11159681003.3504,
         "expectedValue": {
-            "bp_player": 12043394691.84
+            "bp_player": 12130088047.12
         }
     },
     {
@@ -1084,9 +1084,9 @@
         "id": "8200",
         "name": "DC 포함 최종 OVR 114 ~ 124 멀티 강화 선수팩",
         "image": "/assets/image/item/200230207_s.png",
-        "expectedBp": 135047904827.49393,
+        "expectedBp": 136260816733.7778,
         "expectedValue": {
-            "bp_player": 146791200899.44992
+            "bp_player": 148109583406.2802
         }
     },
     {
@@ -1094,9 +1094,9 @@
         "id": "8199",
         "name": "HG 포함 Top Price 2000 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 12770604157.64308,
+        "expectedBp": 12923251991.976442,
         "expectedValue": {
-            "bp_player": 13881091475.699
+            "bp_player": 14047013034.757002
         }
     },
     {
@@ -1104,9 +1104,9 @@
         "id": "8198",
         "name": "DC 포함 Top Price 150 선수팩 (1강, 105+)",
         "image": null,
-        "expectedBp": 4948483101.715921,
+        "expectedBp": 4878652735.431761,
         "expectedValue": {
-            "bp_player": 5378785980.126001
+            "bp_player": 5302883408.078001
         }
     },
     {
@@ -1114,9 +1114,9 @@
         "id": "8197",
         "name": "DC 포함 Top Price 210 선수팩 (3강, 105+)",
         "image": null,
-        "expectedBp": 8189428710.0909195,
+        "expectedBp": 8233496448.47144,
         "expectedValue": {
-            "bp_player": 8901552945.751
+            "bp_player": 8949452661.382
         }
     },
     {
@@ -1124,9 +1124,9 @@
         "id": "8196",
         "name": "JVA, CC, FCA, 23HW Top Price All 선수팩 (8강)",
         "image": null,
-        "expectedBp": 775740013662.816,
+        "expectedBp": 762666961189.8301,
         "expectedValue": {
-            "bp_player": 843195667024.8
+            "bp_player": 828985827380.25
         }
     },
     {
@@ -1134,9 +1134,9 @@
         "id": "8195",
         "name": "DC, CC Top Price 220 선수팩 (5강, 103+)",
         "image": null,
-        "expectedBp": 33476687148.649403,
+        "expectedBp": 33910859770.76029,
         "expectedValue": {
-            "bp_player": 36387703422.445
+            "bp_player": 36859630185.60901
         }
     },
     {
@@ -1144,9 +1144,9 @@
         "id": "8194",
         "name": "CC 포함 Top Price 1050 선수팩 (6강, 95+)",
         "image": null,
-        "expectedBp": 28146342991.33956,
+        "expectedBp": 28411760946.922005,
         "expectedValue": {
-            "bp_player": 30593851077.543
+            "bp_player": 30882348855.350002
         }
     },
     {
@@ -1154,9 +1154,9 @@
         "id": "8193",
         "name": "CC 포함 Top Price 1600 선수팩 (7강, 95+)",
         "image": null,
-        "expectedBp": 39338497198.99304,
+        "expectedBp": 38863417080.21168,
         "expectedValue": {
-            "bp_player": 42759236085.862
+            "bp_player": 42242844652.40399
         }
     },
     {
@@ -1164,9 +1164,9 @@
         "id": "8192",
         "name": "CC 포함 Top Price 2200 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 82136009882.35368,
+        "expectedBp": 82411843758.87921,
         "expectedValue": {
-            "bp_player": 89278271611.254
+            "bp_player": 89578091042.26001
         }
     },
     {
@@ -1174,9 +1174,9 @@
         "id": "8191",
         "name": "23HW, 23HEROES, 23PL, 23KL Top Price 140 선수팩 (5강, 90+)",
         "image": null,
-        "expectedBp": 30143748394.320404,
+        "expectedBp": 30664873822.882805,
         "expectedValue": {
-            "bp_player": 32764943906.870003
+            "bp_player": 33331384590.090004
         }
     },
     {
@@ -1184,9 +1184,9 @@
         "id": "8190",
         "name": "23HW, 23HEROES, 23PL, 23KL Top Price 220 선수팩 (6강, 90+)",
         "image": null,
-        "expectedBp": 35974351345.65081,
+        "expectedBp": 36232393753.02441,
         "expectedValue": {
-            "bp_player": 39102555810.490005
+            "bp_player": 39383036688.07001
         }
     },
     {
@@ -1194,9 +1194,9 @@
         "id": "8189",
         "name": "23HW, 23HEROES, 23PL, 23KL Top Price 280 선수팩 (7강, 90+)",
         "image": null,
-        "expectedBp": 46642680265.74999,
+        "expectedBp": 44275086825.3588,
         "expectedValue": {
-            "bp_player": 50698565506.24999
+            "bp_player": 48125094375.39
         }
     },
     {
@@ -1204,9 +1204,9 @@
         "id": "8188",
         "name": "23HW, 23HEROES, 23PL, 23KL Top Price 390 선수팩 (8강, 90+)",
         "image": null,
-        "expectedBp": 40178593721.3976,
+        "expectedBp": 39954888778.203606,
         "expectedValue": {
-            "bp_player": 43672384479.78
+            "bp_player": 43429226932.83
         }
     },
     {
@@ -1214,9 +1214,9 @@
         "id": "8187",
         "name": "JVA, CC 포함 Top Price 270 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 77687190833.35721,
+        "expectedBp": 78573257630.1128,
         "expectedValue": {
-            "bp_player": 84442598731.91
+            "bp_player": 85405714815.34
         }
     },
     {
@@ -1224,9 +1224,9 @@
         "id": "8186",
         "name": "JVA, CC 포함 Top Price 470 선수팩 (6강, 103+)",
         "image": null,
-        "expectedBp": 80795705795.54161,
+        "expectedBp": 82801275713.10559,
         "expectedValue": {
-            "bp_player": 87821419342.98001
+            "bp_player": 90001386644.68
         }
     },
     {
@@ -1234,9 +1234,9 @@
         "id": "8185",
         "name": "JVA, CC 포함 Top Price 650 선수팩 (7강, 98+)",
         "image": null,
-        "expectedBp": 120539881927.55441,
+        "expectedBp": 122164781089.82639,
         "expectedValue": {
-            "bp_player": 131021610790.82
+            "bp_player": 132787805532.41998
         }
     },
     {
@@ -1244,9 +1244,9 @@
         "id": "8184",
         "name": "JVA, CC 포함 Top Price 820 선수팩 (8강, 98+)",
         "image": null,
-        "expectedBp": 163625609088.33197,
+        "expectedBp": 164481195549.428,
         "expectedValue": {
-            "bp_player": 177853922922.09998
+            "bp_player": 178783908205.9
         }
     },
     {
@@ -1254,9 +1254,9 @@
         "id": "8183",
         "name": "DC Top Price 80 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 159260618120.43323,
+        "expectedBp": 158838444140.90198,
         "expectedValue": {
-            "bp_player": 173109367522.21002
+            "bp_player": 172650482761.84998
         }
     },
     {
@@ -1264,9 +1264,9 @@
         "id": "8182",
         "name": "DC 포함 Top Price 300 선수팩 (5강, 105+)",
         "image": null,
-        "expectedBp": 65670495366.37441,
+        "expectedBp": 66731840590.01239,
         "expectedValue": {
-            "bp_player": 71380973224.32
+            "bp_player": 72534609336.96999
         }
     },
     {
@@ -1274,9 +1274,9 @@
         "id": "8181",
         "name": "DC 포함 Top Price 270 선수팩 (5강, 105+)",
         "image": null,
-        "expectedBp": 74027542336.38199,
+        "expectedBp": 75004416521.97601,
         "expectedValue": {
-            "bp_player": 80464719930.84999
+            "bp_player": 81526539697.8
         }
     },
     {
@@ -1284,9 +1284,9 @@
         "id": "8180",
         "name": "JVA, CC, FCA, 23HW Top Price 300 선수팩 (6강, 102+)",
         "image": null,
-        "expectedBp": 63009487356.383194,
+        "expectedBp": 64248662728.3336,
         "expectedValue": {
-            "bp_player": 68488573213.45999
+            "bp_player": 69835502965.58
         }
     },
     {
@@ -1294,9 +1294,9 @@
         "id": "8179",
         "name": "JVA, CC, FCA, 23HW Top Price 340 선수팩 (7강, 100+)",
         "image": null,
-        "expectedBp": 167577005837.512,
+        "expectedBp": 165604296834.1112,
         "expectedValue": {
-            "bp_player": 182148919388.59998
+            "bp_player": 180004670471.86
         }
     },
     {
@@ -1304,9 +1304,9 @@
         "id": "8178",
         "name": "FCA, 23HW 포함 Top Price 1840 선수팩 (8강, 98+)",
         "image": null,
-        "expectedBp": 79465072676.05319,
+        "expectedBp": 80463182924.61603,
         "expectedValue": {
-            "bp_player": 86375078995.70999
+            "bp_player": 87459981439.80002
         }
     },
     {
@@ -1314,9 +1314,9 @@
         "id": "8177",
         "name": "FCA, 23HW 포함 Top Price 1700 선수팩 (8강, 98+)",
         "image": null,
-        "expectedBp": 148515314236.96918,
+        "expectedBp": 147478051530.3008,
         "expectedValue": {
-            "bp_player": 161429689388.00998
+            "bp_player": 160302229924.24
         }
     },
     {
@@ -1324,9 +1324,9 @@
         "id": "8176",
         "name": "DC Top Price 40 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 425112285080.3401,
+        "expectedBp": 420078570801.092,
         "expectedValue": {
-            "bp_player": 462078570739.50006
+            "bp_player": 456607142175.1
         }
     },
     {
@@ -1334,9 +1334,9 @@
         "id": "8175",
         "name": "HG, RTN 포함 Top Price 1000 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 517448188386.4961,
+        "expectedBp": 512984238745.86395,
         "expectedValue": {
-            "bp_player": 562443683028.8
+            "bp_player": 557591563854.2
         }
     },
     {
@@ -1344,9 +1344,9 @@
         "id": "8174",
         "name": "HG, RTN 포함 Top Price 540 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 1693820112386.12,
+        "expectedBp": 1688734609184.8,
         "expectedValue": {
-            "bp_player": 1841108817811.0
+            "bp_player": 1835581096940.0
         }
     },
     {
@@ -1354,9 +1354,9 @@
         "id": "8173",
         "name": "DC 50명 지명 선수팩 (1강, 109+)",
         "image": null,
-        "expectedBp": 24881238078.265804,
+        "expectedBp": 25416895221.83252,
         "expectedValue": {
-            "bp_player": 27044823998.115
+            "bp_player": 27627060023.731
         }
     },
     {
@@ -1364,9 +1364,9 @@
         "id": "8172",
         "name": "DC 포함 Top Price 370 선수팩 (5강, 105+)",
         "image": "/assets/image/item/200230179_s.png",
-        "expectedBp": 45679834616.58319,
+        "expectedBp": 46333358168.2,
         "expectedValue": {
-            "bp_player": 49651994148.45999
+            "bp_player": 50362345834.99999
         }
     },
     {
@@ -1374,9 +1374,9 @@
         "id": "7914",
         "name": "[특별판매] 22UCL ALL 선수팩",
         "image": null,
-        "expectedBp": 60116415.665279396,
+        "expectedBp": 60648286.94257822,
         "expectedValue": {
-            "bp_player": 65343930.070955865
+            "bp_player": 65922051.02454154
         }
     },
     {
@@ -1384,9 +1384,9 @@
         "id": "8158",
         "name": "DC, JVA, CC 포함 Top Price 310 (5강, 104+)",
         "image": null,
-        "expectedBp": 81760448469.5652,
+        "expectedBp": 82564629802.7628,
         "expectedValue": {
-            "bp_player": 88870052684.31
+            "bp_player": 89744162829.09
         }
     },
     {
@@ -1394,9 +1394,9 @@
         "id": "7917",
         "name": "23KL ALL 선수팩",
         "image": "/assets/image/item/200235033_s.png",
-        "expectedBp": 7402438.662064463,
+        "expectedBp": 5523832.392088697,
         "expectedValue": {
-            "bp_player": 8046128.980504851
+            "bp_player": 6004165.643574671
         }
     },
     {
@@ -1404,9 +1404,9 @@
         "id": "8160",
         "name": "DC, JVA, CC 포함 Top Price 120 (3강, 104+)",
         "image": null,
-        "expectedBp": 45340057817.5728,
+        "expectedBp": 45892877153.4912,
         "expectedValue": {
-            "bp_player": 49282671540.84
+            "bp_player": 49883562123.36
         }
     },
     {
@@ -1414,9 +1414,9 @@
         "id": "8156",
         "name": "[DC 포함] ALL 선수팩",
         "image": "/assets/image/item/200235031_s.png",
-        "expectedBp": 25754801.324967973,
+        "expectedBp": 27290477.107319906,
         "expectedValue": {
-            "bp_player": 27994349.266269535
+            "bp_player": 29663562.07317381
         }
     },
     {
@@ -1424,9 +1424,9 @@
         "id": "8155",
         "name": "23HEROES 포함 Top Price 400 (5강, 103+)",
         "image": null,
-        "expectedBp": 3517489275.2827206,
+        "expectedBp": 3316899984.4147205,
         "expectedValue": {
-            "bp_player": 3823357907.9160004
+            "bp_player": 3605326070.0160003
         }
     },
     {
@@ -1434,9 +1434,9 @@
         "id": "8154",
         "name": "HG, RTN 포함 Top Price 140 (3강, 105+)",
         "image": null,
-        "expectedBp": 2540423946.5603204,
+        "expectedBp": 2448375875.5805197,
         "expectedValue": {
-            "bp_player": 2761330376.696
+            "bp_player": 2661278125.6309996
         }
     },
     {
@@ -1444,9 +1444,9 @@
         "id": "8153",
         "name": "HG, RTN 포함 Top Price 480 (5강, 103+)",
         "image": null,
-        "expectedBp": 4148365461.69156,
+        "expectedBp": 3892856930.36904,
         "expectedValue": {
-            "bp_player": 4509092893.143
+            "bp_player": 4231366228.6619997
         }
     },
     {
@@ -1454,9 +1454,9 @@
         "id": "8037",
         "name": "[AG] ICON Top Price 50 선수팩",
         "image": null,
-        "expectedBp": 87225200000.0,
+        "expectedBp": 89999862500.0,
         "expectedValue": {
-            "bp_player": 94810000000.0
+            "bp_player": 97825937500.0
         }
     },
     {
@@ -1464,9 +1464,9 @@
         "id": "8021",
         "name": "[코인 상점] DC Top Price 30 선수팩 (5강, 111+)",
         "image": null,
-        "expectedBp": 584424888304.4639,
+        "expectedBp": 575705332757.6282,
         "expectedValue": {
-            "bp_player": 635244443809.1998
+            "bp_player": 625766666040.9001
         }
     },
     {
@@ -1474,9 +1474,9 @@
         "id": "8020",
         "name": "[코인 상점] JVA, CC 포함 Top Price 110 선수팩 (7강, 104+)",
         "image": null,
-        "expectedBp": 1613775778737.3438,
+        "expectedBp": 1614027833517.0159,
         "expectedValue": {
-            "bp_player": 1754104107323.1997
+            "bp_player": 1754378079909.7998
         }
     },
     {
@@ -1484,9 +1484,9 @@
         "id": "8019",
         "name": "[코인 상점] JVA, CC 포함 Top Price 250 선수팩 (8강, 101+)",
         "image": null,
-        "expectedBp": 3299922289572.3604,
+        "expectedBp": 3310026501793.68,
         "expectedValue": {
-            "bp_player": 3586872053883.0
+            "bp_player": 3597854893254.0
         }
     },
     {
@@ -1494,9 +1494,9 @@
         "id": "8017",
         "name": "[코인 상점] DC Top Price 70 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 240064644941.1208,
+        "expectedBp": 237472272050.03995,
         "expectedValue": {
-            "bp_player": 260939831457.73996
+            "bp_player": 258122034836.99994
         }
     },
     {
@@ -1504,9 +1504,9 @@
         "id": "8016",
         "name": "[코인 상점] JVA, CC 포함 Top Price 340 선수팩 (8강, 100+)",
         "image": null,
-        "expectedBp": 1160246262163.9922,
+        "expectedBp": 1151542757384.092,
         "expectedValue": {
-            "bp_player": 1261137241482.6
+            "bp_player": 1251676910200.1
         }
     },
     {
@@ -1514,9 +1514,9 @@
         "id": "8015",
         "name": "[코인 상점] DC Top Price 80 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 167075610540.1288,
+        "expectedBp": 165752557362.76804,
         "expectedValue": {
-            "bp_player": 181603924500.14
+            "bp_player": 180165823220.40002
         }
     },
     {
@@ -1524,9 +1524,9 @@
         "id": "7949",
         "name": "[MVIP] FA 포함 Top Price 2500 (1강)",
         "image": null,
-        "expectedBp": 38775680.17337441,
+        "expectedBp": 40941074.2908724,
         "expectedValue": {
-            "bp_player": 42147478.44932
+            "bp_player": 44501167.70747
         }
     },
     {
@@ -1534,9 +1534,9 @@
         "id": "7797",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 324688045683.23956,
+        "expectedBp": 323379144366.9444,
         "expectedValue": {
-            "bp_player": 352921788786.12994
+            "bp_player": 351499069964.07
         }
     },
     {
@@ -1544,9 +1544,9 @@
         "id": "7796",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 330248575901.3476,
+        "expectedBp": 328712333029.3436,
         "expectedValue": {
-            "bp_player": 358965843371.02997
+            "bp_player": 357296014162.33
         }
     },
     {
@@ -1554,9 +1554,9 @@
         "id": "7795",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 107+)",
         "image": null,
-        "expectedBp": 341911559439.2508,
+        "expectedBp": 340180435180.0676,
         "expectedValue": {
-            "bp_player": 371642999390.49
+            "bp_player": 369761342587.03
         }
     },
     {
@@ -1564,9 +1564,9 @@
         "id": "7794",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 104+)",
         "image": null,
-        "expectedBp": 53393065345.60048,
+        "expectedBp": 54604826987.21113,
         "expectedValue": {
-            "bp_player": 58035940593.044
+            "bp_player": 59353072812.186005
         }
     },
     {
@@ -1574,9 +1574,9 @@
         "id": "7793",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 106+)",
         "image": null,
-        "expectedBp": 54161813879.67713,
+        "expectedBp": 55279605148.26808,
         "expectedValue": {
-            "bp_player": 58871536825.73601
+            "bp_player": 60086527335.074
         }
     },
     {
@@ -1584,9 +1584,9 @@
         "id": "7792",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 107+)",
         "image": null,
-        "expectedBp": 55871945033.28008,
+        "expectedBp": 57081010125.93833,
         "expectedValue": {
-            "bp_player": 60730375036.174
+            "bp_player": 62044576223.84601
         }
     },
     {
@@ -1594,9 +1594,9 @@
         "id": "7791",
         "name": "[AG] 위클리 럭키 선수팩 최종 OVR 105~113 (최대5강)",
         "image": null,
-        "expectedBp": 307308082.29583186,
+        "expectedBp": 318406283.98102796,
         "expectedValue": {
-            "bp_player": 334030524.2345998
+            "bp_player": 346093786.9359
         }
     },
     {
@@ -1604,9 +1604,9 @@
         "id": "7785",
         "name": "[AG] 에이전트 포인트 선수팩 최종 OVR 105~113 (5~8강)",
         "image": null,
-        "expectedBp": 2002226356.5545971,
+        "expectedBp": 1991113737.460253,
         "expectedValue": {
-            "bp_player": 2176332996.254997
+            "bp_player": 2164254062.4567966
         }
     },
     {
@@ -1614,9 +1614,9 @@
         "id": "7772",
         "name": "[코인 상점] FCA, 23HW Top Price 150 선수팩 (6강, 105+)",
         "image": null,
-        "expectedBp": 150774396765.90158,
+        "expectedBp": 150935806663.38245,
         "expectedValue": {
-            "bp_player": 163885213875.97998
+            "bp_player": 164060659416.72003
         }
     },
     {
@@ -1624,9 +1624,9 @@
         "id": "7771",
         "name": "[코인 상점] JVA, CC Top Price 110 선수팩 (6강, 104+)",
         "image": null,
-        "expectedBp": 170110318668.59406,
+        "expectedBp": 171510128556.174,
         "expectedValue": {
-            "bp_player": 184902520291.95004
+            "bp_player": 186424052778.45
         }
     },
     {
@@ -1634,9 +1634,9 @@
         "id": "7770",
         "name": "[코인 상점] JVA, CC Top Price 60 선수팩 (5강, 104+)",
         "image": null,
-        "expectedBp": 207669462722.09277,
+        "expectedBp": 210413478881.09036,
         "expectedValue": {
-            "bp_player": 225727676871.83997
+            "bp_player": 228710303131.61996
         }
     },
     {
@@ -1644,9 +1644,9 @@
         "id": "7727",
         "name": "CC Top Price 105 선수팩 (8강, 101+)",
         "image": null,
-        "expectedBp": 2340232821734.5166,
+        "expectedBp": 2317448234083.3237,
         "expectedValue": {
-            "bp_player": 2543731327972.3003
+            "bp_player": 2518965471829.6997
         }
     },
     {
@@ -1654,9 +1654,9 @@
         "id": "7726",
         "name": "JVA, CC 포함 Top Price 190 선수팩 (7강, 106+)",
         "image": null,
-        "expectedBp": 555470208570.316,
+        "expectedBp": 553569708561.36,
         "expectedValue": {
-            "bp_player": 603771965837.3
+            "bp_player": 601706204958.0
         }
     },
     {
@@ -1664,9 +1664,9 @@
         "id": "7724",
         "name": "FCA, 23HW Top Price 180 선수팩 (8강, 106+)",
         "image": null,
-        "expectedBp": 1240845304304.3599,
+        "expectedBp": 1239301379666.6802,
         "expectedValue": {
-            "bp_player": 1348744895982.9998
+            "bp_player": 1347066717029.0
         }
     },
     {
@@ -1674,9 +1674,9 @@
         "id": "7723",
         "name": "CC Top Price 90 선수팩 (8강, 105+)",
         "image": null,
-        "expectedBp": 2496336119899.7603,
+        "expectedBp": 2500230893407.56,
         "expectedValue": {
-            "bp_player": 2713408825978.0
+            "bp_player": 2717642275443.0
         }
     },
     {
@@ -1684,9 +1684,9 @@
         "id": "7722",
         "name": "[일반] ICON TM All 선수팩 (1강)",
         "image": null,
-        "expectedBp": 2269016769622.196,
+        "expectedBp": 2265556816061.6045,
         "expectedValue": {
-            "bp_player": 2466322575676.3
+            "bp_player": 2462561756588.7
         }
     },
     {
@@ -1694,9 +1694,9 @@
         "id": "7721",
         "name": "JVA, CC 포함 Top Price 85 선수팩 (7강, 108+)",
         "image": null,
-        "expectedBp": 2014859356656.6,
+        "expectedBp": 2005961526734.6401,
         "expectedValue": {
-            "bp_player": 2190064518105.0
+            "bp_player": 2180392963842.0
         }
     },
     {
@@ -1704,9 +1704,9 @@
         "id": "7719",
         "name": "FCA, 23HW Top Price 75 선수팩 (8강, 108+)",
         "image": null,
-        "expectedBp": 3975268480000.0,
+        "expectedBp": 3998113920000.0,
         "expectedValue": {
-            "bp_player": 4320944000000.0
+            "bp_player": 4345776000000.0
         }
     },
     {
@@ -1714,9 +1714,9 @@
         "id": "7718",
         "name": "CC Top Price 75 선수팩 (8강, 107+)",
         "image": null,
-        "expectedBp": 4150544597809.3604,
+        "expectedBp": 4152588059369.7603,
         "expectedValue": {
-            "bp_player": 4511461519358.0
+            "bp_player": 4513682673228.0
         }
     },
     {
@@ -1724,9 +1724,9 @@
         "id": "7717",
         "name": "[프리미엄] ICON TM All 선수팩 (1강)",
         "image": null,
-        "expectedBp": 3117051881075.1885,
+        "expectedBp": 3114815681359.5728,
         "expectedValue": {
-            "bp_player": 3388099870733.9004
+            "bp_player": 3385669218869.1006
         }
     },
     {
@@ -1734,9 +1734,9 @@
         "id": "7611",
         "name": "[코인 상점] FCA, 23HW Top Price 60 선수팩 (8강, 108+)",
         "image": null,
-        "expectedBp": 4773530294478.76,
+        "expectedBp": 4812729826612.601,
         "expectedValue": {
-            "bp_player": 5188619885303.0
+            "bp_player": 5231228072405.0
         }
     },
     {
@@ -1744,9 +1744,9 @@
         "id": "7610",
         "name": "[코인 상점] CC Top Price 60 선수팩 (8강, 106+)",
         "image": null,
-        "expectedBp": 5936085331196.48,
+        "expectedBp": 5946225775633.36,
         "expectedValue": {
-            "bp_player": 6452266664344.0
+            "bp_player": 6463288886558.0
         }
     },
     {
@@ -1754,9 +1754,9 @@
         "id": "7608",
         "name": "[코인 상점] CC Top Price 50 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 174199673788.21564,
+        "expectedBp": 177941007125.7012,
         "expectedValue": {
-            "bp_player": 189347471508.93002
+            "bp_player": 193414138180.11
         }
     },
     {
@@ -1764,9 +1764,9 @@
         "id": "7604",
         "name": "[코인 상점] CC Top Price 55 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 147408747350.55362,
+        "expectedBp": 150286860875.78885,
         "expectedValue": {
-            "bp_player": 160226899294.08002
+            "bp_player": 163355283560.64005
         }
     },
     {
@@ -1774,9 +1774,9 @@
         "id": "7606",
         "name": "[코인 상점] HG, RTN, 22UCL Top Price 540 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 86532283040.01993,
+        "expectedBp": 87925778598.33952,
         "expectedValue": {
-            "bp_player": 94056829391.326
+            "bp_player": 95571498476.456
         }
     },
     {
@@ -1784,9 +1784,9 @@
         "id": "7601",
         "name": "[코인 상점] HG, RTN, 22UCL Top Price 500 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 146811487581.8084,
+        "expectedBp": 148470959379.1844,
         "expectedValue": {
-            "bp_player": 159577703893.27
+            "bp_player": 161381477586.06998
         }
     },
     {
@@ -1794,9 +1794,9 @@
         "id": "7602",
         "name": "[코인 상점] HG, RTN, 22UCL Top Price 520 선수팩 (8강, 95+)",
         "image": null,
-        "expectedBp": 105519285363.584,
+        "expectedBp": 106833970821.9624,
         "expectedValue": {
-            "bp_player": 114694875395.2
+            "bp_player": 116123881328.22
         }
     },
     {
@@ -1804,9 +1804,9 @@
         "id": "7603",
         "name": "[코인 상점] FCA, 23HW Top Price 40 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 136809397558.0648,
+        "expectedBp": 139991861554.0996,
         "expectedValue": {
-            "bp_player": 148705866910.94
+            "bp_player": 152165066906.63
         }
     },
     {
@@ -1814,9 +1814,9 @@
         "id": "7599",
         "name": "[코인 상점] FCA, 23HW Top Price 50 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 82257166190.76361,
+        "expectedBp": 83810302714.8528,
         "expectedValue": {
-            "bp_player": 89409963250.83
+            "bp_player": 91098155124.84
         }
     },
     {
@@ -1824,9 +1824,9 @@
         "id": "7598",
         "name": "[코인 상점] CC Top Price 60 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 91752485509.384,
+        "expectedBp": 92963632066.09602,
         "expectedValue": {
-            "bp_player": 99730962510.2
+            "bp_player": 101047426158.80002
         }
     },
     {
@@ -1834,9 +1834,9 @@
         "id": "7597",
         "name": "[코인 상점] CC Top Price 90 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 40287540391.24556,
+        "expectedBp": 40643459718.19988,
         "expectedValue": {
-            "bp_player": 43790804773.092995
+            "bp_player": 44177673606.739
         }
     },
     {
@@ -1844,9 +1844,9 @@
         "id": "7382",
         "name": "[23.09 코인 상점] HG, RTN Top Price 160 선수팩 (8강, 102+)",
         "image": null,
-        "expectedBp": 2016625023181.08,
+        "expectedBp": 2018520738171.688,
         "expectedValue": {
-            "bp_player": 2191983720849.0
+            "bp_player": 2194044280621.4
         }
     },
     {
@@ -1854,9 +1854,9 @@
         "id": "7378",
         "name": "[23.09 코인 상점] CC Top Price 90 선수팩 (5강, 106+)",
         "image": null,
-        "expectedBp": 31585891152.044437,
+        "expectedBp": 31775609342.753723,
         "expectedValue": {
-            "bp_player": 34332490382.656998
+            "bp_player": 34538705807.341
         }
     },
     {
@@ -1864,9 +1864,9 @@
         "id": "7196",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 108+)",
         "image": null,
-        "expectedBp": 397926931104.0272,
+        "expectedBp": 395104448709.61523,
         "expectedValue": {
-            "bp_player": 432529272939.16003
+            "bp_player": 429461357293.06
         }
     },
     {
@@ -1874,9 +1874,9 @@
         "id": "7195",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 108+)",
         "image": null,
-        "expectedBp": 64694529343.60958,
+        "expectedBp": 66169330282.11,
         "expectedValue": {
-            "bp_player": 70320140590.87997
+            "bp_player": 71923185089.25
         }
     },
     {
@@ -1884,9 +1884,9 @@
         "id": "6725",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 114+)",
         "image": null,
-        "expectedBp": 1949145455260.8801,
+        "expectedBp": 1943709091629.2002,
         "expectedValue": {
-            "bp_player": 2118636364414.0
+            "bp_player": 2112727273510.0
         }
     },
     {
@@ -1894,9 +1894,9 @@
         "id": "6724",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 113+)",
         "image": null,
-        "expectedBp": 1503112727615.72,
+        "expectedBp": 1468989091263.04,
         "expectedValue": {
-            "bp_player": 1633818182191.0
+            "bp_player": 1596727273112.0
         }
     },
     {
@@ -1904,9 +1904,9 @@
         "id": "6723",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 112+)",
         "image": null,
-        "expectedBp": 1218525397189.876,
+        "expectedBp": 1201549206714.68,
         "expectedValue": {
-            "bp_player": 1324484127380.3
+            "bp_player": 1306031746429.0
         }
     },
     {
@@ -1914,9 +1914,9 @@
         "id": "6722",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 111+)",
         "image": null,
-        "expectedBp": 875315168310.4241,
+        "expectedBp": 867658792466.904,
         "expectedValue": {
-            "bp_player": 951429530772.2001
+            "bp_player": 943107383116.2
         }
     },
     {
@@ -1924,9 +1924,9 @@
         "id": "6721",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 110+)",
         "image": null,
-        "expectedBp": 501588182841.5479,
+        "expectedBp": 493938069201.67993,
         "expectedValue": {
-            "bp_player": 545204546566.8999
+            "bp_player": 536889205653.9999
         }
     },
     {
@@ -1934,9 +1934,9 @@
         "id": "6720",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (5강, 109+)",
         "image": null,
-        "expectedBp": 421540756927.02563,
+        "expectedBp": 418164333753.2101,
         "expectedValue": {
-            "bp_player": 458196474920.68
+            "bp_player": 454526449731.75006
         }
     },
     {
@@ -1944,9 +1944,9 @@
         "id": "6719",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 114+)",
         "image": null,
-        "expectedBp": 241374545602.63202,
+        "expectedBp": 248609091059.72003,
         "expectedValue": {
-            "bp_player": 262363636524.6
+            "bp_player": 270227272891.00003
         }
     },
     {
@@ -1954,9 +1954,9 @@
         "id": "6718",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 113+)",
         "image": null,
-        "expectedBp": 202473600119.8944,
+        "expectedBp": 205511272849.57,
         "expectedValue": {
-            "bp_player": 220080000130.32
+            "bp_player": 223381818314.75
         }
     },
     {
@@ -1964,9 +1964,9 @@
         "id": "6717",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 112+)",
         "image": null,
-        "expectedBp": 195050952468.72522,
+        "expectedBp": 200229238189.44962,
         "expectedValue": {
-            "bp_player": 212011904857.31
+            "bp_player": 217640476292.88
         }
     },
     {
@@ -1974,9 +1974,9 @@
         "id": "6716",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 111+)",
         "image": null,
-        "expectedBp": 131157422897.48639,
+        "expectedBp": 133010389341.55122,
         "expectedValue": {
-            "bp_player": 142562416192.91998
+            "bp_player": 144576510153.86002
         }
     },
     {
@@ -1984,9 +1984,9 @@
         "id": "6715",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 110+)",
         "image": null,
-        "expectedBp": 75558136560.692,
+        "expectedBp": 76828886563.26799,
         "expectedValue": {
-            "bp_player": 82128409305.09999
+            "bp_player": 83509659307.9
         }
     },
     {
@@ -1994,9 +1994,9 @@
         "id": "6714",
         "name": "[The Moment 선수교환] ICON Top Price ALL 선수팩 (3강, 109+)",
         "image": null,
-        "expectedBp": 67916624945.560974,
+        "expectedBp": 69426861725.17245,
         "expectedValue": {
-            "bp_player": 73822418419.08801
+            "bp_player": 75463980136.057
         }
     },
     {
@@ -2004,9 +2004,9 @@
         "id": "5776",
         "name": "[클럽점령전] 멀티클래스 Top Price 1500 (5강, 94+)",
         "image": null,
-        "expectedBp": 504060352.66653746,
+        "expectedBp": 499933468.56137663,
         "expectedValue": {
-            "bp_player": 547891687.681019
+            "bp_player": 543405944.0884528
         }
     },
     {
@@ -2014,9 +2014,9 @@
         "id": "5775",
         "name": "[클럽점령전] 멀티클래스 Top Price 550 (3강, 100+)",
         "image": null,
-        "expectedBp": 333282210.92061603,
+        "expectedBp": 343897660.579392,
         "expectedValue": {
-            "bp_player": 362263272.73980004
+            "bp_player": 373801804.9776
         }
     },
     {
@@ -2024,9 +2024,9 @@
         "id": "5726",
         "name": "[AG] ICON Top Price 70 선수팩",
         "image": null,
-        "expectedBp": 55143880227.95852,
+        "expectedBp": 57010609521.13624,
         "expectedValue": {
-            "bp_player": 59939000247.781
+            "bp_player": 61968053827.322
         }
     },
     {
@@ -2034,9 +2034,9 @@
         "id": "5725",
         "name": "[AG] ICON Top Price 100 선수팩",
         "image": null,
-        "expectedBp": 39441977182.299126,
+        "expectedBp": 40862827573.33036,
         "expectedValue": {
-            "bp_player": 42871714328.586006
+            "bp_player": 44416116927.533
         }
     },
     {
@@ -2044,9 +2044,9 @@
         "id": "5724",
         "name": "[AG] ICON Top Price ALL 선수팩",
         "image": null,
-        "expectedBp": 33035253263.07844,
+        "expectedBp": 34280125229.925846,
         "expectedValue": {
-            "bp_player": 35907883981.607
+            "bp_player": 37261005684.702
         }
     }
 ]
