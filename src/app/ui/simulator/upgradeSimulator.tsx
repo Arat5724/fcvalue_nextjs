@@ -86,7 +86,7 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
         />
       </div>
       <PlayerList players={searchResult} setPlayer={setPlayer} />
-      <AdInArticle />
+      {/* <AdInArticle /> */}
     </div>
     <UpgradeSimulator player={player} />
     <AdHorizontal />
