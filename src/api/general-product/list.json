@@ -5,16 +5,16 @@
         "name": "크리스마스 양말 상자",
         "image": "/assets/image/item/201704658_s.png",
         "price": 13900,
-        "efficiency": 176.68229821734343,
-        "expectedBp": 245588394522.10736,
+        "efficiency": 177.00648798640898,
+        "expectedBp": 246039018301.1085,
         "expectedValue": {
-            "bp_player": 216856950567.508,
+            "bp_player": 217346759022.944,
             "bp_card": 46080000000.0
         },
-        "efficiency1": 176.68229821734343,
-        "expectedBp1": 245588394522.10736,
+        "efficiency1": 177.00648798640898,
+        "expectedBp1": 246039018301.1085,
         "expectedValue1": {
-            "bp_player": 216856950567.508,
+            "bp_player": 217346759022.944,
             "bp_card": 46080000000.0
         }
     },
@@ -24,16 +24,16 @@
         "name": "블랙토끼의 X-mas 상점 열쇠",
         "image": "/assets/image/item/201801281_s.png",
         "price": 4950,
-        "efficiency": 186.36493051085543,
-        "expectedBp": 92250640602.87344,
+        "efficiency": 184.5540083008216,
+        "expectedBp": 91354234108.9067,
         "expectedValue": {
-            "bp_player": 77201006866.47736,
+            "bp_player": 76226651981.73088,
             "bp_card": 21225714285.714283
         },
-        "efficiency1": 155.55054876091137,
-        "expectedBp1": 76997521636.65112,
+        "efficiency1": 153.8227351110558,
+        "expectedBp1": 76142253879.97263,
         "expectedValue1": {
-            "bp_player": 50828051468.40961,
+            "bp_player": 49898412602.45471,
             "bp_card": 30235714285.714283
         }
     },
@@ -43,16 +43,16 @@
         "name": "[특별할인] 블랙토끼의 X-mas 상점 열쇠",
         "image": "/assets/image/item/14057_s.png",
         "price": 4790,
-        "efficiency": 192.59006388908858,
-        "expectedBp": 92250640602.87344,
+        "efficiency": 190.71865158435637,
+        "expectedBp": 91354234108.9067,
         "expectedValue": {
-            "bp_player": 77201006866.47736,
+            "bp_player": 76226651981.73088,
             "bp_card": 21225714285.714283
         },
-        "efficiency1": 160.74639172578523,
-        "expectedBp1": 76997521636.65112,
+        "efficiency1": 158.96086405004723,
+        "expectedBp1": 76142253879.97263,
         "expectedValue1": {
-            "bp_player": 50828051468.40961,
+            "bp_player": 49898412602.45471,
             "bp_card": 30235714285.714283
         }
     },
@@ -62,16 +62,16 @@
         "name": "[23.12] 빌드업 열쇠 + ICON TM 빌드업 패키지",
         "image": "/assets/image/item/14031_s.png",
         "price": 13900,
-        "efficiency": 157.69711746893864,
-        "expectedBp": 219198993281.8247,
+        "efficiency": 156.50866078986138,
+        "expectedBp": 217547038497.90732,
         "expectedValue": {
-            "bp_player": 205651079654.1573,
+            "bp_player": 203855476628.16013,
             "bp_card": 30000000000.0
         },
-        "efficiency1": 138.0329062278343,
-        "expectedBp1": 191865739656.68967,
+        "efficiency1": 136.12683947605214,
+        "expectedBp1": 189216306871.7125,
         "expectedValue1": {
-            "bp_player": 153522543105.09747,
+            "bp_player": 150642724860.55707,
             "bp_card": 50625000000.0
         }
     },
@@ -81,16 +81,16 @@
         "name": "더 블랙 DC 에디션 패키지",
         "image": "/assets/image/item/14032_s.png",
         "price": 13900,
-        "efficiency": 143.36613151852288,
-        "expectedBp": 199278922810.7468,
+        "efficiency": 141.98128787933788,
+        "expectedBp": 197353990152.27966,
         "expectedValue": {
-            "bp_player": 152477090011.6813,
+            "bp_player": 150384771904.6518,
             "bp_card": 59000000000.0
         },
-        "efficiency1": 143.36613151852288,
-        "expectedBp1": 199278922810.7468,
+        "efficiency1": 141.98128787933788,
+        "expectedBp1": 197353990152.27966,
         "expectedValue1": {
-            "bp_player": 152477090011.6813,
+            "bp_player": 150384771904.6518,
             "bp_card": 59000000000.0
         }
     },
@@ -100,15 +100,15 @@
         "name": "DC 포함 최종 OVR 114 ~ 124 멀티 강화 선수팩",
         "image": "/assets/image/item/200230207_s.png",
         "price": 9900,
-        "efficiency": 137.51663078941039,
-        "expectedBp": 136141464481.5163,
+        "efficiency": 137.37102622042022,
+        "expectedBp": 135997315958.21602,
         "expectedValue": {
-            "bp_player": 147979852697.30032
+            "bp_player": 147823169519.80002
         },
-        "efficiency1": 137.51663078941039,
-        "expectedBp1": 136141464481.5163,
+        "efficiency1": 137.37102622042022,
+        "expectedBp1": 135997315958.21602,
         "expectedValue1": {
-            "bp_player": 147979852697.30032
+            "bp_player": 147823169519.80002
         }
     },
     {
@@ -117,16 +117,16 @@
         "name": "[DC 5강 20%] 더 퍼플 DC 에디션 상자",
         "image": "/assets/image/item/201704575_s.png",
         "price": 9000,
-        "efficiency": 124.08208600262691,
-        "expectedBp": 111673877402.36421,
+        "efficiency": 123.34740336086078,
+        "expectedBp": 111012663024.7747,
         "expectedValue": {
-            "bp_player": 105732475437.3524,
+            "bp_player": 105013764157.3638,
             "bp_card": 14400000000.0
         },
-        "efficiency1": 124.08208600262691,
-        "expectedBp1": 111673877402.36421,
+        "efficiency1": 123.34740336086078,
+        "expectedBp1": 111012663024.7747,
         "expectedValue1": {
-            "bp_player": 105732475437.3524,
+            "bp_player": 105013764157.3638,
             "bp_card": 14400000000.0
         }
     },
@@ -136,16 +136,16 @@
         "name": "[특별할인] [DC 5강 20%] 더 퍼플 DC 에디션 상자",
         "image": "/assets/image/item/14034_s.png",
         "price": 7800,
-        "efficiency": 143.17163769533872,
-        "expectedBp": 111673877402.36421,
+        "efficiency": 142.32392695483935,
+        "expectedBp": 111012663024.7747,
         "expectedValue": {
-            "bp_player": 105732475437.3524,
+            "bp_player": 105013764157.3638,
             "bp_card": 14400000000.0
         },
-        "efficiency1": 143.17163769533872,
-        "expectedBp1": 111673877402.36421,
+        "efficiency1": 142.32392695483935,
+        "expectedBp1": 111012663024.7747,
         "expectedValue1": {
-            "bp_player": 105732475437.3524,
+            "bp_player": 105013764157.3638,
             "bp_card": 14400000000.0
         }
     },
@@ -155,18 +155,18 @@
         "name": "윈터 DC 드림 패키지",
         "image": "/assets/image/item/14035_s.png",
         "price": 5800,
-        "efficiency": 118.70140984706974,
-        "expectedBp": 68846817711.30045,
+        "efficiency": 116.93611002378606,
+        "expectedBp": 67822943813.79591,
         "expectedValue": {
-            "bp_player": 57442193164.457,
+            "bp_player": 56329286754.12599,
             "bp_card": 16000000000.0,
             "cp_card": 2000,
             "기초 훈련 교재": 30
         },
-        "efficiency1": 118.70140984706974,
-        "expectedBp1": 68846817711.30045,
+        "efficiency1": 116.93611002378606,
+        "expectedBp1": 67822943813.79591,
         "expectedValue1": {
-            "bp_player": 57442193164.457,
+            "bp_player": 56329286754.12599,
             "bp_card": 16000000000.0,
             "cp_card": 2000,
             "기초 훈련 교재": 30
@@ -178,16 +178,16 @@
         "name": "[12개 8%] 더 화이트 DC 에디션 고급 쿼드러플 상자",
         "image": "/assets/image/item/201704578_s.png",
         "price": 4800,
-        "efficiency": 123.21241559060546,
-        "expectedBp": 59141959483.490616,
+        "efficiency": 122.09227642447624,
+        "expectedBp": 58604292683.7486,
         "expectedValue": {
-            "bp_player": 38301999438.57675,
+            "bp_player": 37717579004.07456,
             "bp_card": 23904120000.0
         },
-        "efficiency1": 123.21241559060546,
-        "expectedBp1": 59141959483.490616,
+        "efficiency1": 122.09227642447624,
+        "expectedBp1": 58604292683.7486,
         "expectedValue1": {
-            "bp_player": 38301999438.57675,
+            "bp_player": 37717579004.07456,
             "bp_card": 23904120000.0
         }
     },
@@ -197,16 +197,16 @@
         "name": "[1/N] 더 화이트 DC 에디션 상자",
         "image": "/assets/image/item/201704580_s.png",
         "price": 2000,
-        "efficiency": 134.01695059318814,
-        "expectedBp": 26803390118.63763,
+        "efficiency": 133.06680673841996,
+        "expectedBp": 26613361347.68399,
         "expectedValue": {
-            "bp_player": 20153141436.894165,
+            "bp_player": 19946588424.988033,
             "bp_card": 8262499996.695001
         },
-        "efficiency1": 134.01695059318814,
-        "expectedBp1": 26803390118.63763,
+        "efficiency1": 133.06680673841996,
+        "expectedBp1": 26613361347.68399,
         "expectedValue1": {
-            "bp_player": 20153141436.894165,
+            "bp_player": 19946588424.988033,
             "bp_card": 8262499996.695001
         }
     },
@@ -216,16 +216,16 @@
         "name": "더 화이트 DC 에디션 상자",
         "image": "/assets/image/item/201704577_s.png",
         "price": 1200,
-        "efficiency": 106.21759964707365,
-        "expectedBp": 12746111957.648838,
+        "efficiency": 105.25196243489333,
+        "expectedBp": 12630235492.187199,
         "expectedValue": {
-            "bp_player": 8254741258.313955,
+            "bp_player": 8128788578.464345,
             "bp_card": 5151750000.0
         },
-        "efficiency1": 106.21759964707365,
-        "expectedBp1": 12746111957.648838,
+        "efficiency1": 105.25196243489333,
+        "expectedBp1": 12630235492.187199,
         "expectedValue1": {
-            "bp_player": 8254741258.313955,
+            "bp_player": 8128788578.464345,
             "bp_card": 5151750000.0
         }
     },
@@ -235,16 +235,16 @@
         "name": "[특별할인]더 화이트 DC 에디션 상자",
         "image": "/assets/image/item/14041_s.png",
         "price": 999,
-        "efficiency": 127.58870828477316,
-        "expectedBp": 12746111957.648838,
+        "efficiency": 126.42878370557757,
+        "expectedBp": 12630235492.187199,
         "expectedValue": {
-            "bp_player": 8254741258.313955,
+            "bp_player": 8128788578.464345,
             "bp_card": 5151750000.0
         },
-        "efficiency1": 127.58870828477316,
-        "expectedBp1": 12746111957.648838,
+        "efficiency1": 126.42878370557757,
+        "expectedBp1": 12630235492.187199,
         "expectedValue1": {
-            "bp_player": 8254741258.313955,
+            "bp_player": 8128788578.464345,
             "bp_card": 5151750000.0
         }
     },
@@ -254,16 +254,16 @@
         "name": "눈송이 상자",
         "image": "/assets/image/item/201704555_s.png",
         "price": 600,
-        "efficiency": 52.654336111889535,
-        "expectedBp": 3159260166.713372,
+        "efficiency": 49.51116510188114,
+        "expectedBp": 2970669906.1128683,
         "expectedValue": {
-            "bp_player": 2292674094.3841,
+            "bp_player": 2087684680.6879,
             "bp_card": 1049999999.8800001
         },
-        "efficiency1": 52.654336111889535,
-        "expectedBp1": 3159260166.713372,
+        "efficiency1": 49.51116510188114,
+        "expectedBp1": 2970669906.1128683,
         "expectedValue1": {
-            "bp_player": 2292674094.3841,
+            "bp_player": 2087684680.6879,
             "bp_card": 1049999999.8800001
         }
     },
@@ -292,15 +292,15 @@
         "name": "[DC 포함] ALL 선수팩",
         "image": "/assets/image/item/200235031_s.png",
         "price": 50,
-        "efficiency": 5.6457155021564525,
-        "expectedBp": 28228577.510782264,
+        "efficiency": 5.960779673377412,
+        "expectedBp": 29803898.36688706,
         "expectedValue": {
-            "bp_player": 30683236.42476333
+            "bp_player": 32395541.703138106
         },
-        "efficiency1": 5.6457155021564525,
-        "expectedBp1": 28228577.510782264,
+        "efficiency1": 5.960779673377412,
+        "expectedBp1": 29803898.36688706,
         "expectedValue1": {
-            "bp_player": 30683236.42476333
+            "bp_player": 32395541.703138106
         }
     },
     {
@@ -309,15 +309,15 @@
         "name": "23KL ALL 선수팩",
         "image": "/assets/image/item/200235033_s.png",
         "price": 70,
-        "efficiency": 0.765887467690364,
-        "expectedBp": 5361212.273832548,
+        "efficiency": 0.6055524582480446,
+        "expectedBp": 4238867.207736312,
         "expectedValue": {
-            "bp_player": 5827404.645470161
+            "bp_player": 4607464.356235122
         },
-        "efficiency1": 0.765887467690364,
-        "expectedBp1": 5361212.273832548,
+        "efficiency1": 0.6055524582480446,
+        "expectedBp1": 4238867.207736312,
         "expectedValue1": {
-            "bp_player": 5827404.645470161
+            "bp_player": 4607464.356235122
         }
     },
     {
@@ -360,17 +360,17 @@
         "name": "[특전 연쇄] [500억 15%] 행운의 BP 카드 (250억, 500억)",
         "image": "/assets/image/item/200330028_s.png",
         "price": 5050,
-        "efficiency": 152.59057245852054,
-        "expectedBp": 77058239091.55287,
+        "efficiency": 151.88268188350418,
+        "expectedBp": 76700754351.16962,
         "expectedValue": {
             "bp_card": 57500000000.0,
-            "bp_player": 21258955534.296597
+            "bp_player": 20870385164.3148
         },
-        "efficiency1": 152.59057245852054,
-        "expectedBp1": 77058239091.55287,
+        "efficiency1": 151.88268188350418,
+        "expectedBp1": 76700754351.16962,
         "expectedValue1": {
             "bp_card": 57500000000.0,
-            "bp_player": 21258955534.296597
+            "bp_player": 20870385164.3148
         }
     },
     {
@@ -379,15 +379,15 @@
         "name": "산타의 셀렉티드 멀티 강화 상자",
         "image": "/assets/image/item/201704576_s.png",
         "price": 3700,
-        "efficiency": 101.80224649805,
-        "expectedBp": 37666831204.2785,
+        "efficiency": 101.1244114367154,
+        "expectedBp": 37416032231.5847,
         "expectedValue": {
-            "bp_player": 40942207830.7375
+            "bp_player": 40669600251.7225
         },
-        "efficiency1": 101.80224649805,
-        "expectedBp1": 37666831204.2785,
+        "efficiency1": 101.1244114367154,
+        "expectedBp1": 37416032231.5847,
         "expectedValue1": {
-            "bp_player": 40942207830.7375
+            "bp_player": 40669600251.7225
         }
     },
     {
@@ -396,16 +396,16 @@
         "name": "트리플 크리스마스 스페셜 게임",
         "image": "/assets/image/item/SantaMiraclePuzzleSpecial.png",
         "price": 2200,
-        "efficiency": 146.99964660290564,
-        "expectedBp": 32339922252.63924,
+        "efficiency": 144.86128700728688,
+        "expectedBp": 31869483141.60311,
         "expectedValue": {
-            "bp_player": 29689259434.346996,
+            "bp_player": 29177912574.52512,
             "bp_card": 5025803573.04
         },
-        "efficiency1": 133.63604236627785,
-        "expectedBp1": 29399929320.581123,
+        "efficiency1": 131.69207909753354,
+        "expectedBp1": 28972257401.457375,
         "expectedValue1": {
-            "bp_player": 26990235849.406357,
+            "bp_player": 26525375067.750107,
             "bp_card": 4568912339.127273
         }
     },
@@ -415,16 +415,16 @@
         "name": "트리플 크리스마스 일반 게임",
         "image": "/assets/image/item/SantaMiraclePuzzleNormal.png",
         "price": 1200,
-        "efficiency": 137.98145941030316,
-        "expectedBp": 16557775129.23638,
+        "efficiency": 136.1181796104669,
+        "expectedBp": 16334181553.25603,
         "expectedValue": {
-            "bp_player": 12208810079.227587,
+            "bp_player": 11965773583.59677,
             "bp_card": 5325669856.347
         },
-        "efficiency1": 125.43769037300288,
-        "expectedBp1": 15052522844.760345,
+        "efficiency1": 123.743799645879,
+        "expectedBp1": 14849255957.505478,
         "expectedValue1": {
-            "bp_player": 11098918253.84326,
+            "bp_player": 10877975985.08797,
             "bp_card": 4841518051.2245455
         }
     },
