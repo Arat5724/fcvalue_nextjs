@@ -11,6 +11,7 @@ import { NavigationEvents } from './lib/navigation-events';
 import { FloatingText } from './ui/components/floating-notice'
 import { Notice } from './ui/components/notice'
 import { LastUpdate } from './ui/components/last-update'
+import A2HS from './ui/components/a2hs'
 const inter = Inter({ subsets: ['latin'] })
 
 
@@ -63,9 +64,7 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Navigation />
-        <Notice href='/simulator/SantaMiraclePuzzle'>
-          트리플 크리스마스 시뮬레이터 바로가기!
-        </Notice>
+        <A2HS />
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
