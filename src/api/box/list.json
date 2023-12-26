@@ -4,9 +4,9 @@
         "id": "black-rabbits-x-mas-shop-key",
         "name": "블랙토끼의 X-mas 상점 열쇠",
         "image": "/assets/image/item/201801281_s.png",
-        "expectedBp": 91354234108.9067,
+        "expectedBp": 92964165774.0104,
         "expectedValue": {
-            "bp_player": 76226651981.73088,
+            "bp_player": 77976577704.66971,
             "bp_card": 21225714285.714283
         }
     },
@@ -15,10 +15,10 @@
         "id": "8632",
         "name": "[마일리지][1000억 BP 획득 기회] BP 챌린지! 상자",
         "image": "/assets/image/item/201704697_s.png",
-        "expectedBp": 18775736012.888214,
+        "expectedBp": 19483447370.072487,
         "expectedValue": {
             "bp_card": 5000000000.0,
-            "bp_player": 14973626100.96545
+            "bp_player": 15742877576.165749
         }
     },
     {
@@ -26,9 +26,9 @@
         "id": "8631",
         "name": "[마일리지] 윈터 시즌 상자",
         "image": "/assets/image/item/201704696_s.png",
-        "expectedBp": 148936780621.25934,
+        "expectedBp": 153080374242.13412,
         "expectedValue": {
-            "bp_player": 161887805023.10797
+            "bp_player": 166391711132.7545
         }
     },
     {
@@ -36,9 +36,9 @@
         "id": "8548",
         "name": "크리스마스 양말 상자",
         "image": "/assets/image/item/201704658_s.png",
-        "expectedBp": 246039018301.1085,
+        "expectedBp": 250033716859.39,
         "expectedValue": {
-            "bp_player": 217346759022.944,
+            "bp_player": 221688822673.25,
             "bp_card": 46080000000.0
         }
     },
@@ -47,9 +47,9 @@
         "id": "8547",
         "name": "눈덩이 3개 잠금 상자",
         "image": null,
-        "expectedBp": 76448226805.46971,
+        "expectedBp": 79343390724.30789,
         "expectedValue": {
-            "bp_player": 83095898701.5975
+            "bp_player": 86242816004.6825
         }
     },
     {
@@ -67,9 +67,9 @@
         "id": "8545",
         "name": "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+) + 눈덩이",
         "image": null,
-        "expectedBp": 85642620968.11087,
+        "expectedBp": 87058425682.94547,
         "expectedValue": {
-            "bp_player": 91524588008.81616,
+            "bp_player": 93063506177.11462,
             "bp_card": 1440000000.0
         }
     },
@@ -78,9 +78,9 @@
         "id": "8544",
         "name": "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+) + 눈덩이",
         "image": null,
-        "expectedBp": 89131109799.8013,
+        "expectedBp": 90285299288.37546,
         "expectedValue": {
-            "bp_player": 95316423695.43619,
+            "bp_player": 96570977487.36462,
             "bp_card": 1440000000.0
         }
     },
@@ -89,9 +89,9 @@
         "id": "8543",
         "name": "| A | 24HEROES, DC 포함 OVR 114 ~ 120 멀티 강화 선수팩 + 눈덩이",
         "image": null,
-        "expectedBp": 82728115958.8376,
+        "expectedBp": 85234031104.38577,
         "expectedValue": {
-            "bp_player": 88356647781.34521,
+            "bp_player": 91080468591.72366,
             "bp_card": 1440000000.0
         }
     },
@@ -100,10 +100,10 @@
         "id": "8542",
         "name": "| B | [700억 10%] 행운의 BP 카드 (300억, 700억) + 눈덩이",
         "image": null,
-        "expectedBp": 59661980228.93407,
+        "expectedBp": 60285671749.33986,
         "expectedValue": {
             "bp_card": 35440000000.0,
-            "bp_player": 26328239379.27616
+            "bp_player": 27006164944.934624
         }
     },
     {
@@ -111,9 +111,9 @@
         "id": "8541",
         "name": "| SS | 24HEROES, DC 5강 포함 상자 + 눈덩이",
         "image": null,
-        "expectedBp": 136818421634.95125,
+        "expectedBp": 139338359120.01642,
         "expectedValue": {
-            "bp_player": 114541762646.68613,
+            "bp_player": 117280825130.45264,
             "bp_card": 31440000000.0
         }
     },
@@ -122,9 +122,9 @@
         "id": "8540",
         "name": "| A | CC 포함 Top Price 300 선수팩 (5강, 104+) + 눈덩이",
         "image": null,
-        "expectedBp": 79376119515.00607,
+        "expectedBp": 82511094075.75146,
         "expectedValue": {
-            "bp_player": 84713173385.87616,
+            "bp_player": 88120754430.16463,
             "bp_card": 1440000000.0
         }
     },
@@ -133,9 +133,9 @@
         "id": "8539",
         "name": "| SSS | 금카 확정 상자 + 눈덩이",
         "image": null,
-        "expectedBp": 154627337553.5577,
+        "expectedBp": 156508000333.82858,
         "expectedValue": {
-            "bp_player": 166507975601.69315,
+            "bp_player": 168552174275.90063,
             "bp_card": 1440000000.0
         }
     },
@@ -144,10 +144,10 @@
         "id": "8538",
         "name": "| A | [1000억 15%] 행운의 BP 카드 (500억, 1000억) + 눈덩이",
         "image": null,
-        "expectedBp": 83161980228.93407,
+        "expectedBp": 83785671749.33986,
         "expectedValue": {
             "bp_card": 58940000000.0,
-            "bp_player": 26328239379.27616
+            "bp_player": 27006164944.934624
         }
     },
     {
@@ -155,9 +155,9 @@
         "id": "8537",
         "name": "눈덩이 5개 잠금 상자",
         "image": null,
-        "expectedBp": 128309901144.67033,
+        "expectedBp": 131428358746.69926,
         "expectedValue": {
-            "bp_player": 131641196896.3808,
+            "bp_player": 135030824724.67311,
             "bp_card": 7200000000.0
         }
     },
@@ -166,9 +166,9 @@
         "id": "8536",
         "name": "| SS | 24HEROES, DC 5강 포함 상자",
         "image": null,
-        "expectedBp": 111156441406.01718,
+        "expectedBp": 113052687370.67657,
         "expectedValue": {
-            "bp_player": 88213523267.40997,
+            "bp_player": 90274660185.518,
             "bp_card": 30000000000.0
         }
     },
@@ -177,9 +177,9 @@
         "id": "8535",
         "name": "| SSS | 금카 확정 상자",
         "image": null,
-        "expectedBp": 128965357324.62364,
+        "expectedBp": 130222328584.48872,
         "expectedValue": {
-            "bp_player": 140179736222.417
+            "bp_player": 141546009330.966
         }
     },
     {
@@ -187,9 +187,9 @@
         "id": "8476",
         "name": "[스페셜 1+등급 5%] 전체 수수료 40% 할인 쿠폰 (~24.01.31)",
         "image": "/assets/image/item/201704656_s.png",
-        "expectedBp": 15945159082.154629,
+        "expectedBp": 16317111821.055286,
         "expectedValue": {
-            "bp_player": 17331694654.5159,
+            "bp_player": 17735991109.8427,
             "전체 수수료 40% 할인 쿠폰 (~24.01.31)": 0.95
         }
     },
@@ -198,10 +198,10 @@
         "id": "8475",
         "name": "[1조 BP, FCA 8강 포함] 스페셜 치얼업 상자",
         "image": "/assets/image/item/201704655_s.png",
-        "expectedBp": 121320937743.65634,
+        "expectedBp": 123197079427.33865,
         "expectedValue": {
             "bp_card": 10000000000.0,
-            "bp_player": 121001019286.58298
+            "bp_player": 123040303725.3681
         }
     },
     {
@@ -209,9 +209,9 @@
         "id": "8474",
         "name": "'ICON TM' or 'JVA 포함 8강' 상자",
         "image": "/assets/image/item/201704654_s.png",
-        "expectedBp": 386947063732.69336,
+        "expectedBp": 395967002578.2538,
         "expectedValue": {
-            "bp_player": 420594634492.058
+            "bp_player": 430398915845.928
         }
     },
     {
@@ -219,9 +219,9 @@
         "id": "8473",
         "name": "'ICON TM' or '최종 OVR 123+' or 'JVA 포함 8강' 상자",
         "image": "/assets/image/item/201704653_s.png",
-        "expectedBp": 923090646451.263,
+        "expectedBp": 934551886123.7546,
         "expectedValue": {
-            "bp_player": 1003359398316.5901
+            "bp_player": 1015817267525.8202
         }
     },
     {
@@ -229,9 +229,9 @@
         "id": "8472",
         "name": "[일반 1+등급 5%] 전체 수수료 35% 할인 쿠폰 (~24.01.31)",
         "image": "/assets/image/item/201704652_s.png",
-        "expectedBp": 8412467273.940545,
+        "expectedBp": 8646109656.937563,
         "expectedValue": {
-            "bp_player": 9143986167.32668,
+            "bp_player": 9397945279.279959,
             "전체 수수료 35% 할인 쿠폰 (~24.01.31)": 0.95
         }
     },
@@ -240,10 +240,10 @@
         "id": "8471",
         "name": "[5000억 BP, 23HW 8강 포함] 일반 치얼업 상자",
         "image": "/assets/image/item/201704651_s.png",
-        "expectedBp": 54420136773.52958,
+        "expectedBp": 55834588477.608765,
         "expectedValue": {
             "bp_card": 5000000000.0,
-            "bp_player": 53717539971.2278
+            "bp_player": 55254987475.6617
         }
     },
     {
@@ -251,9 +251,9 @@
         "id": "8470",
         "name": "'ICON TM' or 'CC 포함 8강' 상자",
         "image": "/assets/image/item/201704650_s.png",
-        "expectedBp": 221515577000.0032,
+        "expectedBp": 224674844261.75037,
         "expectedValue": {
-            "bp_player": 240777801086.96
+            "bp_player": 244211787241.033
         }
     },
     {
@@ -261,9 +261,9 @@
         "id": "8469",
         "name": "'ICON TM' or '최종 OVR 121+' or 'CC 포함 8강' 상자",
         "image": "/assets/image/item/201704649_s.png",
-        "expectedBp": 479543337415.88086,
+        "expectedBp": 488573211229.1621,
         "expectedValue": {
-            "bp_player": 521242758060.74005
+            "bp_player": 531057838292.5675
         }
     },
     {
@@ -271,10 +271,10 @@
         "id": "8468",
         "name": "[스페셜 1등급] 'BP 카드 1000억' or 'DC, CC 5강 선수팩'",
         "image": "/assets/image/item/201704648_s.png",
-        "expectedBp": 103572524713.64081,
+        "expectedBp": 104666280356.35023,
         "expectedValue": {
             "bp_card": 70000000000.0,
-            "bp_player": 36491874688.74
+            "bp_player": 37680739517.771996
         }
     },
     {
@@ -282,9 +282,9 @@
         "id": "8467",
         "name": "[스페셜 1등급][최종 OVR 120+ 선수팩 포함] 더블 크리스마스 상자",
         "image": "/assets/image/item/201704647_s.png",
-        "expectedBp": 124131413977.25117,
+        "expectedBp": 128390284292.47191,
         "expectedValue": {
-            "bp_player": 134925449975.27301
+            "bp_player": 139554656839.64337
         }
     },
     {
@@ -292,10 +292,10 @@
         "id": "8466",
         "name": "[스페셜 1+등급] 'BP 카드 2400억' or 'DC, CC 5강 선수팩'",
         "image": "/assets/image/item/201704646_s.png",
-        "expectedBp": 255708243785.4588,
+        "expectedBp": 257055299019.7632,
         "expectedValue": {
             "bp_card": 168000000000.0,
-            "bp_player": 95335047592.89001
+            "bp_player": 96799238064.96
         }
     },
     {
@@ -303,9 +303,9 @@
         "id": "8465",
         "name": "[스페셜 1+등급][최종 OVR 122+ 선수팩 포함] 트리플 크리스마스 상자",
         "image": "/assets/image/item/201704645_s.png",
-        "expectedBp": 318903181643.0926,
+        "expectedBp": 326342236421.1057,
         "expectedValue": {
-            "bp_player": 346633893090.318
+            "bp_player": 354719822196.854
         }
     },
     {
@@ -313,10 +313,10 @@
         "id": "8464",
         "name": "[일반 1등급] 'BP 카드 650억' or 'DC 포함 5강 선수팩'",
         "image": "/assets/image/item/201704644_s.png",
-        "expectedBp": 64655826335.040085,
+        "expectedBp": 65497629324.765915,
         "expectedValue": {
             "bp_card": 45500000000.0,
-            "bp_player": 20821550364.174
+            "bp_player": 21736553613.876
         }
     },
     {
@@ -324,9 +324,9 @@
         "id": "8463",
         "name": "[일반 1등급][최종 OVR 118+ 선수팩 포함] 더블 크리스마스 상자",
         "image": "/assets/image/item/201704643_s.png",
-        "expectedBp": 61913781616.66768,
+        "expectedBp": 64436040867.68026,
         "expectedValue": {
-            "bp_player": 67297588713.76921
+            "bp_player": 70039174856.1742
         }
     },
     {
@@ -334,10 +334,10 @@
         "id": "8462",
         "name": "[일반 1+등급] 'BP 카드 1300억' or 'DC 포함 5강 선수팩'",
         "image": "/assets/image/item/201704642_s.png",
-        "expectedBp": 135717097614.17607,
+        "expectedBp": 137001417608.96153,
         "expectedValue": {
             "bp_card": 91000000000.0,
-            "bp_player": 48605540884.97399
+            "bp_player": 50001540879.30601
         }
     },
     {
@@ -345,9 +345,9 @@
         "id": "8461",
         "name": "[일반 1+등급][최종 OVR 120+ 선수팩 포함] 트리플 크리스마스 상자",
         "image": "/assets/image/item/201704641_s.png",
-        "expectedBp": 168249345478.81088,
+        "expectedBp": 172922193138.75125,
         "expectedValue": {
-            "bp_player": 182879723346.53357
+            "bp_player": 187958905585.59918
         }
     },
     {
@@ -355,9 +355,9 @@
         "id": "8319",
         "name": "[24.01-24.06] ICON 포인트 상자 - 15개",
         "image": null,
-        "expectedBp": 1002212433.3544292,
+        "expectedBp": 998313093.751564,
         "expectedValue": {
-            "bp_player": 362275559.54100996,
+            "bp_player": 358037146.9292,
             "bp_card": 668918918.5767001
         }
     },
@@ -366,9 +366,9 @@
         "id": "8318",
         "name": "[24.01] 하프 데이 ICON ALL 의뢰 상자",
         "image": null,
-        "expectedBp": 6879146756.717614,
+        "expectedBp": 6877197086.916182,
         "expectedValue": {
-            "bp_player": 181137779.77050498,
+            "bp_player": 179018573.4646,
             "bp_card": 6712499999.32875,
             "[24.01] 하프 데이 ICON ALL 의뢰 선수팩+ICON 포인트 상자": 0.1
         }
@@ -378,9 +378,9 @@
         "id": "8317",
         "name": "[24.01] ICON Top 100 의뢰 상자",
         "image": null,
-        "expectedBp": 515815505.2596718,
+        "expectedBp": 509990624.26163316,
         "expectedValue": {
-            "bp_player": 560669027.456165,
+            "bp_player": 554337635.0669925,
             "[24.01] ICON TOP 100 의뢰 선수팩+ICON 포인트 상자": 0.25,
             "[24.01] ICON Top 100 의뢰 BP+ICON 포인트 상자": 0.735
         }
@@ -390,9 +390,9 @@
         "id": "8316",
         "name": "[24.01] ICON Top 70 의뢰 상자",
         "image": null,
-        "expectedBp": 775087137.6320989,
+        "expectedBp": 767451438.9512625,
         "expectedValue": {
-            "bp_player": 842486019.1653249,
+            "bp_player": 834186346.6861548,
             "[24.01] ICON Top 70 의뢰 선수팩+ICON 포인트 상자": 0.25,
             "[24.01] ICON Top 70 의뢰 BP+ICON 포인트 상자": 0.73
         }
@@ -402,9 +402,9 @@
         "id": "8315",
         "name": "[24.01] ICON Top 50 의뢰 상자",
         "image": null,
-        "expectedBp": 1541739904.5554583,
+        "expectedBp": 1528265975.3497279,
         "expectedValue": {
-            "bp_player": 1675804244.0820198,
+            "bp_player": 1661158668.8583999,
             "[24.01] ICON Top 50 의뢰 선수팩+ICON 포인트 상자": 0.25,
             "[24.01] ICON Top 50 의뢰 BP+ICON 포인트 상자": 0.72
         }
@@ -414,9 +414,9 @@
         "id": "8314",
         "name": "[24.01] ICON TM 의뢰 상자",
         "image": null,
-        "expectedBp": 1367935480.457794,
+        "expectedBp": 1366291677.5783176,
         "expectedValue": {
-            "bp_player": 1486886391.80195,
+            "bp_player": 1485099649.5416496,
             "[24.01] ICON 5강 + BP 상자": 0.9995
         }
     },
@@ -425,9 +425,9 @@
         "id": "8268",
         "name": "[8강팩 포함] 화이트 스노우 상자",
         "image": "/assets/image/item/201704566_s.png",
-        "expectedBp": 90742751214.72684,
+        "expectedBp": 93504862453.51086,
         "expectedValue": {
-            "bp_player": 98633425233.39873
+            "bp_player": 101635720058.16399
         }
     },
     {
@@ -435,9 +435,9 @@
         "id": "8267",
         "name": "[데일리 패스] 손난로 상자",
         "image": null,
-        "expectedBp": 34446959951.52371,
+        "expectedBp": 34917974205.04785,
         "expectedValue": {
-            "bp_player": 9255078216.603167,
+            "bp_player": 9767050231.303324,
             "bp_card": 25932287992.248795
         }
     },
@@ -446,9 +446,9 @@
         "id": "8231",
         "name": "[1/N] 더 화이트 DC 에디션 상자",
         "image": "/assets/image/item/201704580_s.png",
-        "expectedBp": 26613361347.68399,
+        "expectedBp": 27087519462.547195,
         "expectedValue": {
-            "bp_player": 19946588424.988033,
+            "bp_player": 20461977680.274124,
             "bp_card": 8262499996.695001
         }
     },
@@ -457,9 +457,9 @@
         "id": "8230",
         "name": "[DC 5강 20%] DC 50명 (1강) or 100명 (5강) 상자",
         "image": "/assets/image/item/201704579_s.png",
-        "expectedBp": 40732328327.51652,
+        "expectedBp": 42306342809.36955,
         "expectedValue": {
-            "bp_player": 44274269921.2136
+            "bp_player": 45985155227.5756
         }
     },
     {
@@ -467,9 +467,9 @@
         "id": "8229",
         "name": "[12개 8%] 더 화이트 DC 에디션 고급 쿼드러플 상자",
         "image": "/assets/image/item/201704578_s.png",
-        "expectedBp": 58604292683.7486,
+        "expectedBp": 59761194362.14617,
         "expectedValue": {
-            "bp_player": 37717579004.07456,
+            "bp_player": 38975080828.419754,
             "bp_card": 23904120000.0
         }
     },
@@ -478,9 +478,9 @@
         "id": "8228",
         "name": "더 화이트 DC 에디션 상자",
         "image": "/assets/image/item/201704577_s.png",
-        "expectedBp": 12630235492.187199,
+        "expectedBp": 12879567750.462536,
         "expectedValue": {
-            "bp_player": 8128788578.464345,
+            "bp_player": 8399801902.67667,
             "bp_card": 5151750000.0
         }
     },
@@ -489,9 +489,9 @@
         "id": "8227",
         "name": "[23.12] 산타의 셀렉티드 멀티 강화 상자",
         "image": null,
-        "expectedBp": 37416032231.5847,
+        "expectedBp": 38512142878.260994,
         "expectedValue": {
-            "bp_player": 40669600251.7225
+            "bp_player": 41861024867.674995
         }
     },
     {
@@ -499,9 +499,9 @@
         "id": "8226",
         "name": "[DC 5강 20%] 더 퍼플 DC 에디션 상자",
         "image": "/assets/image/item/201704575_s.png",
-        "expectedBp": 111012663024.7747,
+        "expectedBp": 113058853070.11269,
         "expectedValue": {
-            "bp_player": 105013764157.3638,
+            "bp_player": 107237883771.8616,
             "bp_card": 14400000000.0
         }
     },
@@ -510,9 +510,9 @@
         "id": "8225",
         "name": "[JVA, CC 8강 포함] 더 블랙 상자",
         "image": "/assets/image/item/201704574_s.png",
-        "expectedBp": 81306758777.37036,
+        "expectedBp": 82737667882.21648,
         "expectedValue": {
-            "bp_player": 56855172584.09821,
+            "bp_player": 58410508567.6266,
             "bp_card": 29000000000.0
         }
     },
@@ -521,9 +521,9 @@
         "id": "8224",
         "name": "[23.12 빌드업] [ICON TM 0.05%] 알쏭달쏭 12월 상자",
         "image": null,
-        "expectedBp": 73169075496.80319,
+        "expectedBp": 74696002557.84457,
         "expectedValue": {
-            "bp_player": 57113125540.00348,
+            "bp_player": 58772828867.22237,
             "bp_card": 20625000000.0
         }
     },
@@ -532,9 +532,9 @@
         "id": "8223",
         "name": "[23.12 빌드업] [ICON TM 0.1%][CC 8강 1%] 상자",
         "image": null,
-        "expectedBp": 159804394209.17554,
+        "expectedBp": 160492770506.95947,
         "expectedValue": {
-            "bp_player": 105901515444.756,
+            "bp_player": 106649750551.0429,
             "bp_card": 62375000000.0
         }
     },
@@ -543,9 +543,9 @@
         "id": "8222",
         "name": "[23.12 빌드업] [ICON TM 2%][CC 8강 7%] 상자",
         "image": null,
-        "expectedBp": 806955529800.517,
+        "expectedBp": 809692167802.6207,
         "expectedValue": {
-            "bp_player": 877125575870.1271
+            "bp_player": 880100182394.153
         }
     },
     {
@@ -553,9 +553,9 @@
         "id": "8221",
         "name": "[확률 UP!][23.12 빌드업] [ICON TM 3%][CC 8강 7%] 상자",
         "image": null,
-        "expectedBp": 817237527248.3175,
+        "expectedBp": 819787192802.763,
         "expectedValue": {
-            "bp_player": 888301660052.519
+            "bp_player": 891073035655.1771
         }
     },
     {
@@ -563,9 +563,9 @@
         "id": "8220",
         "name": "[23.12 빌드업] [ICON TM 7%][CC 8강 25%] 상자",
         "image": null,
-        "expectedBp": 3044994213689.9404,
+        "expectedBp": 3036266877000.815,
         "expectedValue": {
-            "bp_player": 3309776319228.196
+            "bp_player": 3300290083696.538
         }
     },
     {
@@ -604,9 +604,9 @@
         "id": "8168",
         "name": "눈송이 상자",
         "image": "/assets/image/item/201704555_s.png",
-        "expectedBp": 2970669906.1128683,
+        "expectedBp": 3035606510.245862,
         "expectedValue": {
-            "bp_player": 2087684680.6879,
+            "bp_player": 2158267946.04985,
             "bp_card": 1049999999.8800001
         }
     },
@@ -615,9 +615,9 @@
         "id": "8026",
         "name": "[S4][Premium ICON TM 코인] 50개 투입 잠금상자",
         "image": null,
-        "expectedBp": 1897942930108.008,
+        "expectedBp": 1893380223554.286,
         "expectedValue": {
-            "bp_player": 1655372750117.4,
+            "bp_player": 1650413286472.0498,
             "bp_card": 375000000000.0
         }
     },
@@ -626,9 +626,9 @@
         "id": "8025",
         "name": "[S4][Premium ICON TM 코인] 10개 투입 잠금상자",
         "image": null,
-        "expectedBp": 331318560555.6856,
+        "expectedBp": 334620950986.71106,
         "expectedValue": {
-            "bp_player": 264476696256.18,
+            "bp_player": 268066251072.51202,
             "bp_card": 88000000000.0
         }
     },
@@ -637,9 +637,9 @@
         "id": "8024",
         "name": "[S4][Premium ICON TM 코인] 5개 투입 잠금상자",
         "image": null,
-        "expectedBp": 140338364904.88486,
+        "expectedBp": 142614319700.53372,
         "expectedValue": {
-            "bp_player": 152541700983.5705
+            "bp_player": 155015564891.88446
         }
     },
     {
@@ -647,9 +647,9 @@
         "id": "8023",
         "name": "[S4][Premium ICON TM 코인] 3개 투입 잠금상자",
         "image": null,
-        "expectedBp": 86365006388.72592,
+        "expectedBp": 87283973421.20741,
         "expectedValue": {
-            "bp_player": 58005441726.876,
+            "bp_player": 59004318936.095,
             "bp_card": 33000000000.000004
         }
     },
@@ -658,9 +658,9 @@
         "id": "7804",
         "name": "위클리 럭키 ICON 의뢰 상자",
         "image": null,
-        "expectedBp": 387183102.19456655,
+        "expectedBp": 384453725.71155936,
         "expectedValue": {
-            "bp_player": 215375518.18085498,
+            "bp_player": 212408804.61236888,
             "bp_card": 189037625.46817997
         }
     },
@@ -669,9 +669,9 @@
         "id": "7803",
         "name": "[ICON 획득 기회!!] 에이전트 + ICON 포인트 의뢰 상자",
         "image": null,
-        "expectedBp": 2184504955.432507,
+        "expectedBp": 2208016430.976309,
         "expectedValue": {
-            "bp_player": 2374461908.078812
+            "bp_player": 2400017859.7568574
         }
     },
     {
@@ -679,9 +679,9 @@
         "id": "7621",
         "name": "[S2][Premium ICON TM 코인] 10개 이상 투입 잠금상자 올인원 묶음",
         "image": null,
-        "expectedBp": 4340656944073.2104,
+        "expectedBp": 4396641826031.7417,
         "expectedValue": {
-            "bp_player": 2619735808775.2285,
+            "bp_player": 2680588941338.8496,
             "bp_card": 1930500000000.0
         }
     },
@@ -690,9 +690,9 @@
         "id": "7619",
         "name": "[S2][Premium ICON TM 코인] 50개 투입 잠금상자",
         "image": null,
-        "expectedBp": 1214719523587.1726,
+        "expectedBp": 1227546729443.434,
         "expectedValue": {
-            "bp_player": 620890786507.7963,
+            "bp_player": 634833401568.95,
             "bp_card": 643500000000.0
         }
     },
@@ -701,9 +701,9 @@
         "id": "7618",
         "name": "[S2][Premium ICON TM 코인] 10개 투입 잠금상자",
         "image": null,
-        "expectedBp": 174124593327.9232,
+        "expectedBp": 178500409425.36002,
         "expectedValue": {
-            "bp_player": 189265862312.96
+            "bp_player": 194022184158.0
         }
     },
     {
@@ -711,9 +711,9 @@
         "id": "7616",
         "name": "[S2][Premium ICON TM 코인] 7개 투입 잠금상자",
         "image": null,
-        "expectedBp": 143309375321.33514,
+        "expectedBp": 146468006952.0656,
         "expectedValue": {
-            "bp_player": 155771060131.88602
+            "bp_player": 159204355382.68002
         }
     },
     {
@@ -721,9 +721,9 @@
         "id": "7615",
         "name": "[S2][Premium ICON TM 코인] 5개 투입 잠금상자",
         "image": null,
-        "expectedBp": 96617532737.38312,
+        "expectedBp": 98486748702.785,
         "expectedValue": {
-            "bp_player": 105019057323.24251
+            "bp_player": 107050813807.375
         }
     },
     {
@@ -731,9 +731,9 @@
         "id": "7613",
         "name": "[S2][Premium ICON TM 코인] 3개 투입 잠금상자",
         "image": null,
-        "expectedBp": 69509131431.0076,
+        "expectedBp": 70026213008.81876,
         "expectedValue": {
-            "bp_player": 33162099381.53,
+            "bp_player": 33724144574.803,
             "bp_card": 39000000000.0
         }
     },
@@ -763,9 +763,9 @@
         "id": "6917",
         "name": "[23.07-23.12] ICON 포인트 상자 - 15개",
         "image": null,
-        "expectedBp": 1323293514.8569293,
+        "expectedBp": 1319394175.254064,
         "expectedValue": {
-            "bp_player": 362275559.54100996,
+            "bp_player": 358037146.9292,
             "bp_card": 990000000.0792
         }
     },
