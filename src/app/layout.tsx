@@ -48,6 +48,17 @@ export default function RootLayout({
         crossOrigin="anonymous">
       </Script>
       <body>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            (function () {
+              if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/sw.js");
+              }
+            })();
+          `,
+          }}
+        ></script>
         <Suspense fallback={null}>
           <NavigationEvents />
         </Suspense>

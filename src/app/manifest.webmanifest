@@ -1,0 +1,22 @@
+{
+  "name": "FC VALUE",
+  "icons": [
+    {
+      "src": "assets/image/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "fullscreen",
+  "start_url": "/",
+  "description": "FC 온라인 아이템 정보/시뮬레이터",
+  "background_color": "#151716",
+  "short_name": "FC VALUE",
+  "theme_color": "#07f468",
+  "orientation": "portrait"
+}
