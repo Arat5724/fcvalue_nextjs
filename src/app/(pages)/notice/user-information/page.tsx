@@ -3,7 +3,7 @@ import "./page.scss"
 export default async function Page() {
   return <>
     <div>
-      <h1>댓글/게시판 이용 방법</h1>
+      <h1>FC VALUE 회원 서비스 이용 방법</h1>
       <h2>로그인</h2>
       <h3>1. 이메일</h3>
       <div className="img-wrap"><img src="/assets/image/comment-information/1.png"></img></div>
@@ -24,7 +24,7 @@ export default async function Page() {
       이메일 전송 화면으로 자동으로 이동합니다.<br></br>
       <div className="img-wrap"><img src="/assets/image/comment-information/8.png"></img></div>
       아무것도 수정하지 말고 전송해주세요.<br></br>
-      3 영업일 이내에 처리해드리겠습니다.
+      3영업일 이내에 계정과 관련된 모든 데이터가 삭제됩니다.
     </div>
   </>
 }
