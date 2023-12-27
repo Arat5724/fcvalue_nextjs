@@ -47,7 +47,7 @@ export default function A2HS() {
     </button >
     : <div className={styles["notice-wrap"]}>
       <div className={styles["notice__content"]}>
-        (IOS) 공유 &gt; &quot;홈 화면에 추가&quot;로 FC VALUE 앱을 설치할 수 있습니다.
+        (IOS) Safari &gt; 공유 &gt; &quot;홈 화면에 추가&quot;로 FC VALUE 앱을 설치할 수 있습니다.
       </div>
     </div >
 }
