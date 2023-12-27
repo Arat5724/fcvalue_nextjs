@@ -12,7 +12,7 @@
       "type": "image/png"
     }
   ],
-  "display": "fullscreen",
+  "display": "minimal-ui",
   "start_url": "/",
   "description": "FC 온라인 아이템 정보/시뮬레이터",
   "background_color": "#151716",
