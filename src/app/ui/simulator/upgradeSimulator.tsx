@@ -219,6 +219,8 @@ function UpgradeSimulator({ player }: {
 }) {
   const [upgrade, setUpgrade] = useState<number>(1);
   const [blockState, setBlockState] = useState<number>(5);
+  const [successNum, setSuccessNum] = useState<number[][]>((new Array<number[]>(10)).fill(new Array<number>(51).fill(0)));
+  const [failureNum, setFailureNum] = useState<number[][]>((new Array<number[]>(10)).fill(new Array<number>(51).fill(0)));
 
   const [result, setUpgradeResult] = useState<UpgradeResult>(UpgradeResult.No);
   const [isSelectorOpen, setIsSelectorOpen] = useState<boolean>(false);
@@ -233,6 +235,10 @@ function UpgradeSimulator({ player }: {
       setTimeoutId(setTimeout(() => {
         setUpgradeResult(UpgradeResult.Success);
         setLocalUpgrade(localUpgrade + 1);
+        const newSuccessNum = [[...successNum[0]], [...successNum[1]], [...successNum[2]], [...successNum[3]], [...successNum[4]],
+        [...successNum[5]], [...successNum[6]], [...successNum[7]], [...successNum[8]], [...successNum[9]]];
+        newSuccessNum[upgrade][blockState * 10]++;
+        setSuccessNum(newSuccessNum);
       }, 2000))
     } else {
       const rand = Math.random();
@@ -241,6 +247,10 @@ function UpgradeSimulator({ player }: {
       setTimeoutId(setTimeout(() => {
         setUpgradeResult(UpgradeResult.Failure);
         setLocalUpgrade(afterUpgrade);
+        const newFailureNum = [[...failureNum[0]], [...failureNum[1]], [...failureNum[2]], [...failureNum[3]], [...failureNum[4]],
+        [...failureNum[5]], [...failureNum[6]], [...failureNum[7]], [...failureNum[8]], [...failureNum[9]]];
+        newFailureNum[upgrade][blockState * 10]++;
+        setFailureNum(newFailureNum);
       }, 2000))
     }
   }
@@ -343,6 +353,18 @@ function UpgradeSimulator({ player }: {
         : result === UpgradeResult.No ? <button className={styles["button__upgrade"]} onClick={upgradePlayer}>강화 시도</button>
           : <button className={styles["button__retry"]} onClick={resetPlayer}>다시 시도</button>
     }
+    <div>
+      <table className={styles["result-table"]}>
+        <thead><tr><th>시도</th><th>성공</th><th>실패</th><th>성공 비율</th></tr></thead>
+        <tbody><tr>
+          <td>{successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]}</td>
+          <td>{successNum[upgrade][blockState * 10]}</td>
+          <td>{failureNum[upgrade][blockState * 10]}</td>
+          <td>{successNum[upgrade][blockState * 10] === 0 ? 0
+            : (successNum[upgrade][blockState * 10] / (successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]) * 100).toFixed(2)}%</td>
+        </tr></tbody>
+      </table>
+    </div>
   </div>
 }
 

@@ -516,6 +516,16 @@ $search-bar-color: #3a3a50;
   }
 }
 
+.result-table {
+  margin-top: 1rem;
+
+  thead {
+    th {
+      padding: 0.5em;
+    }
+  }
+}
+
 
 @keyframes vibrate {
   0% {
