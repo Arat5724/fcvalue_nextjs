@@ -86,7 +86,6 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
         />
       </div>
       <PlayerList players={searchResult} setPlayer={setPlayer} />
-      {/* <AdInArticle /> */}
     </div>
     <UpgradeSimulator player={player} />
     <AdHorizontal />
@@ -214,6 +213,30 @@ function PlayerLi({ player, setPlayer }: { player: PlayerNoUpgrade, setPlayer: (
   </li>
 }
 
+function SelectorItemDiv({ grade }: { grade: number }) {
+  return <div className={clsx(styles.selector_item,
+    grade >= 8 ? styles.gold :
+      grade >= 5 ? styles.silver :
+        grade >= 2 ? styles.bronze : "")}>
+    {grade}
+  </div>
+}
+
+function SelectorItemQuestionMarkDiv() {
+  return <div className={clsx(styles.selector_item, styles["question-mark"])}>
+    <span style={{ fontFamily: "INGAME", fontWeight: 700, lineHeight: 1 }}>?</span>
+  </div>
+}
+
+type UpgradeHistory = {
+  season: string,
+  name: string,
+  before: number,
+  after: number,
+  probablity: number,
+  blockState: number
+}
+
 function UpgradeSimulator({ player }: {
   player: PlayerNoUpgrade | undefined
 }) {
@@ -221,6 +244,7 @@ function UpgradeSimulator({ player }: {
   const [blockState, setBlockState] = useState<number>(5);
   const [successNum, setSuccessNum] = useState<number[][]>((new Array<number[]>(10)).fill(new Array<number>(51).fill(0)));
   const [failureNum, setFailureNum] = useState<number[][]>((new Array<number[]>(10)).fill(new Array<number>(51).fill(0)));
+  const [history, setHistory] = useState<UpgradeHistory[]>([]);
 
   const [result, setUpgradeResult] = useState<UpgradeResult>(UpgradeResult.No);
   const [isSelectorOpen, setIsSelectorOpen] = useState<boolean>(false);
@@ -239,6 +263,14 @@ function UpgradeSimulator({ player }: {
         [...successNum[5]], [...successNum[6]], [...successNum[7]], [...successNum[8]], [...successNum[9]]];
         newSuccessNum[upgrade][blockState * 10]++;
         setSuccessNum(newSuccessNum);
+        setHistory([{
+          season: player?.season ?? "",
+          name: player?.name ?? "",
+          before: localUpgrade,
+          after: localUpgrade + 1,
+          probablity: prob,
+          blockState: blockState
+        }, ...history.slice(0, 99)]);
       }, 2000))
     } else {
       const rand = Math.random();
@@ -251,6 +283,14 @@ function UpgradeSimulator({ player }: {
         [...failureNum[5]], [...failureNum[6]], [...failureNum[7]], [...failureNum[8]], [...failureNum[9]]];
         newFailureNum[upgrade][blockState * 10]++;
         setFailureNum(newFailureNum);
+        setHistory([{
+          season: player?.season ?? "",
+          name: player?.name ?? "",
+          before: localUpgrade,
+          after: afterUpgrade,
+          probablity: prob,
+          blockState: blockState
+        }, ...history.slice(0, 99)]);
       }, 2000))
     }
   }
@@ -261,21 +301,6 @@ function UpgradeSimulator({ player }: {
     setLocalUpgrade(upgrade);
   }
 
-  function SelectorItemDiv({ grade }: { grade: number }) {
-    return <div className={clsx(styles.selector_item,
-      grade >= 8 ? styles.gold :
-        grade >= 5 ? styles.silver :
-          grade >= 2 ? styles.bronze : "")}>
-      {grade}
-    </div>
-  }
-
-  function SelectorItemQuestionMarkDiv() {
-    return <div className={clsx(styles.selector_item, styles["question-mark"])}>
-      <span style={{ fontFamily: "INGAME", fontWeight: 700, lineHeight: 1 }}>?</span>
-    </div>
-  }
-
   useEffect(() => {
     setLocalUpgrade(upgrade);
   }, [upgrade]);
@@ -284,88 +309,108 @@ function UpgradeSimulator({ player }: {
     resetPlayer();
   }, [player]);
 
-  return <div className={styles["simulator-section"]}>
-    <div className={styles["simulator-section__result"]}>
-      <span>
-        {player === undefined ? "선수를 선택하세요"
-          : result === UpgradeResult.Failure ? "강화 실패"
-            : result === UpgradeResult.Success ? "강화 성공" : ""}
-      </span>
+  return <>
+    <div className={styles["simulator-section"]}>
+      <div className={styles["simulator-section__result"]}>
+        <span>
+          {player === undefined ? "선수를 선택하세요"
+            : result === UpgradeResult.Failure ? "강화 실패"
+              : result === UpgradeResult.Success ? "강화 성공" : ""}
+        </span>
+      </div>
+      <div className={styles["simulator-section__player"]}>
+        {player === undefined
+          ? <DefaultPlayerCard />
+          : <div className={clsx(styles.thumb, styles[player.season],
+            result === UpgradeResult.Upgrading ? styles["upgrade-animation"]
+              : result === UpgradeResult.Success ? styles["upgrade-success"]
+                : result === UpgradeResult.Failure ? styles["upgrade-failure"]
+                  : ""
+          )}>
+            <PlayerBase player={player} ovr={player.ovr + upgradeOvr[localUpgrade]} />
+            {result === UpgradeResult.Upgrading ? <div className={styles["card-back__upgrade"]}>
+              <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/${player.season}.png`} alt="">
+              </img>
+            </div> : ""}
+            <div
+              className={`${styles.selector_wrap} ${localUpgrade >= 8 ? styles.gold :
+                localUpgrade >= 5 ? styles.silver :
+                  localUpgrade >= 2 ? styles.bronze : ""}`}
+              onClick={() => setIsSelectorOpen(!isSelectorOpen)}
+            >
+              {localUpgrade}{result === UpgradeResult.No ? " ∨" : ""}
+            </div>
+            <div className={styles.selector_list} hidden={!isSelectorOpen}>
+              <ul>
+                <li className={styles.selector_item} onClick={() => { setUpgrade(1); setIsSelectorOpen(false); }}>1</li>
+                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(2); setIsSelectorOpen(false); }}>2</li>
+                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(3); setIsSelectorOpen(false); }}>3</li>
+                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(4); setIsSelectorOpen(false); }}>4</li>
+                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(5); setIsSelectorOpen(false); }}>5</li>
+                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(6); setIsSelectorOpen(false); }}>6</li>
+                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(7); setIsSelectorOpen(false); }}>7</li>
+                <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(8); setIsSelectorOpen(false); }}>8</li>
+                <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(9); setIsSelectorOpen(false); }}>9</li>
+              </ul>
+            </div>
+          </div >}
+        {result === UpgradeResult.Success ? <PlayerUpgradeSuccessEffect /> : ""}
+      </div>
+      <div>
+        <SelectorItemDiv grade={upgrade} />
+        {" → "}
+        {result === UpgradeResult.No || result === UpgradeResult.Upgrading
+          ? <SelectorItemQuestionMarkDiv /> : <SelectorItemDiv grade={localUpgrade} />}
+      </div>
+      <div className={styles["simulator-section__information"]}>
+        <p>
+          <span>강화 확률 </span>
+          <span className={styles.primary}>{parseFloat((upgradeProb[upgrade] * blockState * 20).toFixed(2))}</span>
+          <span>%</span>
+        </p>
+        <p>
+          <span className={styles.primary}>{blockState}</span>
+          <span> 칸</span>
+        </p>
+      </div>
+      <BlockBar result={result} blockState={blockState} setBlockState={setBlockState} />
+      {
+        player === undefined ? <button className={styles["button__upgrade"]} disabled={true}>선수를 선택하세요</button>
+          : result === UpgradeResult.No ? <button className={styles["button__upgrade"]} onClick={upgradePlayer}>강화 시도</button>
+            : <button className={styles["button__retry"]} onClick={resetPlayer}>다시 시도</button>
+      }
+      <div className={styles["result-table"]}>
+        <table >
+          <thead><tr><th>시도</th><th>성공</th><th>실패</th><th>성공 비율</th></tr></thead>
+          <tbody><tr>
+            <td>{successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]}</td>
+            <td>{successNum[upgrade][blockState * 10]}</td>
+            <td>{failureNum[upgrade][blockState * 10]}</td>
+            <td>{successNum[upgrade][blockState * 10] === 0 ? 0
+              : (successNum[upgrade][blockState * 10] / (successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]) * 100).toFixed(2)}%</td>
+          </tr></tbody>
+        </table>
+      </div>
     </div>
-    <div className={styles["simulator-section__player"]}>
-      {player === undefined
-        ? <DefaultPlayerCard />
-        : <div className={clsx(styles.thumb, styles[player.season],
-          result === UpgradeResult.Upgrading ? styles["upgrade-animation"]
-            : result === UpgradeResult.Success ? styles["upgrade-success"]
-              : result === UpgradeResult.Failure ? styles["upgrade-failure"]
-                : ""
-        )}>
-          <PlayerBase player={player} ovr={player.ovr + upgradeOvr[localUpgrade]} />
-          {result === UpgradeResult.Upgrading ? <div className={styles["card-back__upgrade"]}>
-            <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/${player.season}.png`} alt="">
-            </img>
-          </div> : ""}
-          <div
-            className={`${styles.selector_wrap} ${localUpgrade >= 8 ? styles.gold :
-              localUpgrade >= 5 ? styles.silver :
-                localUpgrade >= 2 ? styles.bronze : ""}`}
-            onClick={() => setIsSelectorOpen(!isSelectorOpen)}
-          >
-            {localUpgrade}{result === UpgradeResult.No ? " ∨" : ""}
-          </div>
-          <div className={styles.selector_list} hidden={!isSelectorOpen}>
-            <ul>
-              <li className={styles.selector_item} onClick={() => { setUpgrade(1); setIsSelectorOpen(false); }}>1</li>
-              <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(2); setIsSelectorOpen(false); }}>2</li>
-              <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(3); setIsSelectorOpen(false); }}>3</li>
-              <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(4); setIsSelectorOpen(false); }}>4</li>
-              <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(5); setIsSelectorOpen(false); }}>5</li>
-              <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(6); setIsSelectorOpen(false); }}>6</li>
-              <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(7); setIsSelectorOpen(false); }}>7</li>
-              <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(8); setIsSelectorOpen(false); }}>8</li>
-              <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(9); setIsSelectorOpen(false); }}>9</li>
-            </ul>
-          </div>
-        </div >}
-      {result === UpgradeResult.Success ? <PlayerUpgradeSuccessEffect /> : ""}
-    </div>
-    <div>
-      <SelectorItemDiv grade={upgrade} />
-      {" → "}
-      {result === UpgradeResult.No || result === UpgradeResult.Upgrading
-        ? <SelectorItemQuestionMarkDiv /> : <SelectorItemDiv grade={localUpgrade} />}
-    </div>
-    <div className={styles["simulator-section__information"]}>
-      <p>
-        <span>강화 확률 </span>
-        <span className={styles.primary}>{parseFloat((upgradeProb[upgrade] * blockState * 20).toFixed(2))}</span>
-        <span>%</span>
-      </p>
-      <p>
-        <span className={styles.primary}>{blockState}</span>
-        <span> 칸</span>
-      </p>
-    </div>
-    <BlockBar result={result} blockState={blockState} setBlockState={setBlockState} />
-    {
-      player === undefined ? <button className={styles["button__upgrade"]} disabled={true}>선수를 선택하세요</button>
-        : result === UpgradeResult.No ? <button className={styles["button__upgrade"]} onClick={upgradePlayer}>강화 시도</button>
-          : <button className={styles["button__retry"]} onClick={resetPlayer}>다시 시도</button>
-    }
-    <div>
-      <table className={styles["result-table"]}>
-        <thead><tr><th>시도</th><th>성공</th><th>실패</th><th>성공 비율</th></tr></thead>
-        <tbody><tr>
-          <td>{successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]}</td>
-          <td>{successNum[upgrade][blockState * 10]}</td>
-          <td>{failureNum[upgrade][blockState * 10]}</td>
-          <td>{successNum[upgrade][blockState * 10] === 0 ? 0
-            : (successNum[upgrade][blockState * 10] / (successNum[upgrade][blockState * 10] + failureNum[upgrade][blockState * 10]) * 100).toFixed(2)}%</td>
-        </tr></tbody>
+    <h2>강화 히스토리</h2>
+    <AdInArticle />
+    <div className={styles["upgrade-history"]}>
+      <table>
+        <thead><tr><th>선수</th><th>시작</th><th>결과</th><th>강화 확률</th><th>칸</th></tr></thead>
+        <tbody>
+          {history?.map((h, i) => <tr key={i}>
+            <td><img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${h.season}.png`} alt=""></img>
+              <span>{h.name}</span></td>
+            <td><SelectorItemDiv grade={h.before} /></td>
+            <td><SelectorItemDiv grade={h.after} /></td>
+            <td>{parseFloat((h.probablity * 100).toFixed(2))}%</td>
+            <td>{h.blockState}</td>
+          </tr>)}
+        </tbody>
       </table>
     </div>
-  </div>
+    <div className={styles["history-info"]}></div>
+  </>
 }
 
 function BlockBar({ result, blockState, setBlockState }:

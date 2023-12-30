@@ -524,8 +524,38 @@ $search-bar-color: #3a3a50;
       padding: 0.5em;
     }
   }
+
+  &::before {
+    content: "강화 시뮬레이터 fcvalue.com";
+    font-size: 0.9rem;
+    color: #a3a3aa;
+  }
 }
 
+.upgrade-history {
+  max-height: 500px;
+  overflow-y: auto;
+  font-size: 1rem;
+
+  tbody {
+    td:first-child {
+      img {
+        width: 20px;
+        height: 16px;
+        margin-right: 3px;
+        margin-bottom: -2px;
+      }
+    }
+  }
+}
+
+.history-info {
+  &::after {
+    content: "히스토리는 최대 100개까지 저장됩니다.";
+    font-size: 0.8rem;
+    color: #a3a3aa;
+  }
+}
 
 @keyframes vibrate {
   0% {
