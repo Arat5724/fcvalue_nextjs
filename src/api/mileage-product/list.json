@@ -5,16 +5,16 @@
         "name": "[마일리지] 2023 윈터 페스타 패키지",
         "image": "/assets/image/item/31173_s.png",
         "price": 180000,
-        "efficiency": 26.015264773865468,
-        "expectedBp": 468274765929.5784,
+        "efficiency": 27.028059432757782,
+        "expectedBp": 486505069789.64,
         "expectedValue": {
-            "bp_player": 508994310793.02,
+            "bp_player": 528809858467.0,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         },
-        "efficiency1": 26.015264773865468,
-        "expectedBp1": 468274765929.5784,
+        "efficiency1": 27.028059432757782,
+        "expectedBp1": 486505069789.64,
         "expectedValue1": {
-            "bp_player": 508994310793.02,
+            "bp_player": 528809858467.0,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         }
     },
@@ -24,16 +24,16 @@
         "name": "[마일리지] 윈터 시즌 상자 + 전체 수수료 40% 할인 쿠폰",
         "image": "/assets/image/item/31174_s.png",
         "price": 100000,
-        "efficiency": 14.644017770045751,
-        "expectedBp": 146440177700.45752,
+        "efficiency": 14.771745484145681,
+        "expectedBp": 147717454841.45682,
         "expectedValue": {
-            "bp_player": 159174106196.14948,
+            "bp_player": 160562450914.62698,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         },
-        "efficiency1": 14.644017770045751,
-        "expectedBp1": 146440177700.45752,
+        "efficiency1": 14.771745484145681,
+        "expectedBp1": 147717454841.45682,
         "expectedValue1": {
-            "bp_player": 159174106196.14948,
+            "bp_player": 160562450914.62698,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         }
     },
@@ -43,15 +43,15 @@
         "name": "[마일리지] 윈터 시즌 상자",
         "image": "/assets/image/item/201704696_s.png",
         "price": 80000,
-        "efficiency": 18.30502221255719,
-        "expectedBp": 146440177700.45752,
+        "efficiency": 18.464681855182103,
+        "expectedBp": 147717454841.45682,
         "expectedValue": {
-            "bp_player": 159174106196.14948
+            "bp_player": 160562450914.62698
         },
-        "efficiency1": 18.30502221255719,
-        "expectedBp1": 146440177700.45752,
+        "efficiency1": 18.464681855182103,
+        "expectedBp1": 147717454841.45682,
         "expectedValue1": {
-            "bp_player": 159174106196.14948
+            "bp_player": 160562450914.62698
         }
     },
     {
@@ -60,18 +60,18 @@
         "name": "[마일리지][1000억 BP 획득 기회] BP 챌린지! 상자 X 3 + 전체 수수료 40% 할인 쿠폰",
         "image": "/assets/image/item/31176_s.png",
         "price": 65000,
-        "efficiency": 8.498638646521238,
-        "expectedBp": 55241151202.388054,
+        "efficiency": 8.503352671931944,
+        "expectedBp": 55271792367.55764,
         "expectedValue": {
             "bp_card": 15000000000.0,
-            "bp_player": 43740381741.72614,
+            "bp_player": 43773687356.04091,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         },
-        "efficiency1": 8.498638646521238,
-        "expectedBp1": 55241151202.388054,
+        "efficiency1": 8.503352671931944,
+        "expectedBp1": 55271792367.55764,
         "expectedValue1": {
             "bp_card": 15000000000.0,
-            "bp_player": 43740381741.72614,
+            "bp_player": 43773687356.04091,
             "[마일리지] 전체 수수료 40% 할인 쿠폰 (최대 1600억 BP)": 1
         }
     },
@@ -81,17 +81,17 @@
         "name": "[마일리지][1000억 BP 획득 기회] BP 챌린지! 상자 X 3",
         "image": "/assets/image/item/31177_s.png",
         "price": 45000,
-        "efficiency": 12.275811378308456,
-        "expectedBp": 55241151202.388054,
+        "efficiency": 12.28262052612392,
+        "expectedBp": 55271792367.55764,
         "expectedValue": {
             "bp_card": 15000000000.0,
-            "bp_player": 43740381741.72614
+            "bp_player": 43773687356.04091
         },
-        "efficiency1": 12.275811378308456,
-        "expectedBp1": 55241151202.388054,
+        "efficiency1": 12.28262052612392,
+        "expectedBp1": 55271792367.55764,
         "expectedValue1": {
             "bp_card": 15000000000.0,
-            "bp_player": 43740381741.72614
+            "bp_player": 43773687356.04091
         }
     },
     {
@@ -100,17 +100,17 @@
         "name": "[마일리지][1000억 BP 획득 기회] BP 챌린지! 상자",
         "image": "/assets/image/item/201704697_s.png",
         "price": 20000,
-        "efficiency": 9.206858533731342,
-        "expectedBp": 18413717067.462685,
+        "efficiency": 9.211965394592939,
+        "expectedBp": 18423930789.18588,
         "expectedValue": {
             "bp_card": 5000000000.0,
-            "bp_player": 14580127247.242048
+            "bp_player": 14591229118.680302
         },
-        "efficiency1": 9.206858533731342,
-        "expectedBp1": 18413717067.462685,
+        "efficiency1": 9.211965394592939,
+        "expectedBp1": 18423930789.18588,
         "expectedValue1": {
             "bp_card": 5000000000.0,
-            "bp_player": 14580127247.242048
+            "bp_player": 14591229118.680302
         }
     },
     {
@@ -119,15 +119,15 @@
         "name": "[마일리지] 23KB, 23NG, 23KFA, 23PL, 23KL Top Price 200 (3강)",
         "image": "/assets/image/item/200237047_s.png",
         "price": 5000,
-        "efficiency": 1.2091936032210882,
-        "expectedBp": 604596801.6105441,
+        "efficiency": 1.187507043111136,
+        "expectedBp": 593753521.555568,
         "expectedValue": {
-            "bp_player": 657170436.5332
+            "bp_player": 645384262.5604
         },
-        "efficiency1": 1.2091936032210882,
-        "expectedBp1": 604596801.6105441,
+        "efficiency1": 1.187507043111136,
+        "expectedBp1": 593753521.555568,
         "expectedValue1": {
-            "bp_player": 657170436.5332
+            "bp_player": 645384262.5604
         }
     },
     {
@@ -136,15 +136,15 @@
         "name": "[마일리지] 23KFA, 23KL Top Price ALL (5강)",
         "image": "/assets/image/item/200237048_s.png",
         "price": 3000,
-        "efficiency": 2.78935578833658,
-        "expectedBp": 836806736.500974,
+        "efficiency": 2.9334419291454483,
+        "expectedBp": 880032578.7436345,
         "expectedValue": {
-            "bp_player": 909572539.6749718
+            "bp_player": 956557150.8082983
         },
-        "efficiency1": 2.78935578833658,
-        "expectedBp1": 836806736.500974,
+        "efficiency1": 2.9334419291454483,
+        "expectedBp1": 880032578.7436345,
         "expectedValue1": {
-            "bp_player": 909572539.6749718
+            "bp_player": 956557150.8082983
         }
     },
     {
