@@ -84,8 +84,10 @@
         "id": "8598",
         "name": "[쿼드러플 상자] 여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201704763_s.png",
-        "expectedBp": 0.0,
-        "expectedValue": {}
+        "expectedBp": 104019803345.08678,
+        "expectedValue": {
+            "bp_player": 113065003635.96388
+        }
     },
     {
         "type": "box",
@@ -219,7 +221,7 @@
         "type": "box",
         "id": "8585",
         "name": "ICON TM 1강 or DC, CC 프리미엄 강화 상자",
-        "image": null,
+        "image": "/assets/image/item/201704750_s.png",
         "expectedBp": 172312359064.38672,
         "expectedValue": {
             "bp_player": 168175172896.0725,

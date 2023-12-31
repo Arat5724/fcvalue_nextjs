@@ -605,10 +605,15 @@
         "id": "8598",
         "name": "[쿼드러플 상자] 여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201704763_s.png",
-        "expectedBp": 0.0,
-        "expectedValue": {},
-        "expectedBp1": 0.0,
-        "expectedValue1": {},
+        "expectedBp": 104019803345.08678,
+        "expectedValue": {
+            "bp_player": 113065003635.96388
+        },
+        "expectedBp1": 84343217737.6741,
+        "expectedValue1": {
+            "bp_player": 59519149736.74836,
+            "bp_card": 29585599979.8656
+        },
         "percentile": null,
         "itemList": [
             {
@@ -617,8 +622,10 @@
                     "id": -1,
                     "name": "여의주를 품은 청룡 열쇠",
                     "image": "/assets/image/item/201801285_s.png",
-                    "expectedBp": 0.0,
-                    "expectedValue": {}
+                    "expectedBp": 23640864396.61063,
+                    "expectedValue": {
+                        "bp_player": 25696591735.446335
+                    }
                 },
                 "amount": 12,
                 "probability": 0.05
@@ -629,8 +636,10 @@
                     "id": -1,
                     "name": "여의주를 품은 청룡 열쇠",
                     "image": "/assets/image/item/201801285_s.png",
-                    "expectedBp": 0.0,
-                    "expectedValue": {}
+                    "expectedBp": 23640864396.61063,
+                    "expectedValue": {
+                        "bp_player": 25696591735.446335
+                    }
                 },
                 "amount": 4,
                 "probability": 0.95
@@ -651,6 +660,20 @@
                             "expectedValue": {
                                 "bp_player": 13527079485.624628,
                                 "bp_card": 6723999995.424
+                            }
+                        }
+                    },
+                    {
+                        "amount": 4,
+                        "item": {
+                            "type": "box",
+                            "id": "8594",
+                            "name": "[쿼드러플 상자] 여의주를 품은 청룡",
+                            "image": null,
+                            "expectedBp": 84343217737.6741,
+                            "expectedValue": {
+                                "bp_player": 59519149736.74836,
+                                "bp_card": 29585599979.8656
                             }
                         }
                     },
@@ -697,6 +720,20 @@
                             "expectedValue": {
                                 "bp_player": 13527079485.624628,
                                 "bp_card": 6723999995.424
+                            }
+                        }
+                    },
+                    {
+                        "amount": 4,
+                        "item": {
+                            "type": "box",
+                            "id": "8594",
+                            "name": "[쿼드러플 상자] 여의주를 품은 청룡",
+                            "image": null,
+                            "expectedBp": 84343217737.6741,
+                            "expectedValue": {
+                                "bp_player": 59519149736.74836,
+                                "bp_card": 29585599979.8656
                             }
                         }
                     },
@@ -1739,7 +1776,7 @@
         "type": "box",
         "id": "8585",
         "name": "ICON TM 1강 or DC, CC 프리미엄 강화 상자",
-        "image": null,
+        "image": "/assets/image/item/201704750_s.png",
         "expectedBp": 172312359064.38672,
         "expectedValue": {
             "bp_player": 168175172896.0725,

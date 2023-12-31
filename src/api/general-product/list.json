@@ -5,21 +5,19 @@
         "name": "블루 드래곤 프리미엄 패키지",
         "image": "/assets/image/item/14061_s.png",
         "price": 13990,
-        "efficiency": 85.73734064290305,
-        "expectedBp": 119946539559.42137,
+        "efficiency": 208.90557442731102,
+        "expectedBp": 292258898623.8081,
         "expectedValue": {
-            "bp_player": 90159282129.80583,
-            "ICON TM 1강 or DC, CC 프리미엄 강화 상자 구성품": 1,
-            "bp_card": 37000000000.0,
+            "bp_player": 258334455025.87836,
+            "bp_card": 54591200000.0,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1,
             "기초 훈련 교재": 90
         },
-        "efficiency1": 85.73734064290305,
-        "expectedBp1": 119946539559.42137,
+        "efficiency1": 208.90557442731102,
+        "expectedBp1": 292258898623.8081,
         "expectedValue1": {
-            "bp_player": 90159282129.80583,
-            "ICON TM 1강 or DC, CC 프리미엄 강화 상자 구성품": 1,
-            "bp_card": 37000000000.0,
+            "bp_player": 258334455025.87836,
+            "bp_card": 54591200000.0,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1,
             "기초 훈련 교재": 90
         }
@@ -53,15 +51,15 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+)",
         "image": "/assets/image/item/200230276_s.png",
         "price": 9900,
-        "efficiency": 0.1443882809313293,
-        "expectedBp": 142944398.122016,
+        "efficiency": 188.9087936093511,
+        "expectedBp": 187019705673.2576,
         "expectedValue": {
-            "bp_player": 155374345.78480002
+            "bp_player": 203282288775.28
         },
-        "efficiency1": 0.1443882809313293,
-        "expectedBp1": 142944398.122016,
+        "efficiency1": 188.9087936093511,
+        "expectedBp1": 187019705673.2576,
         "expectedValue1": {
-            "bp_player": 155374345.78480002
+            "bp_player": 203282288775.28
         }
     },
     {
@@ -70,17 +68,17 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+) + ICON TM 기회 상자",
         "image": "/assets/image/item/14064_s.png",
         "price": 13900,
-        "efficiency": 39.97292385926874,
-        "expectedBp": 55562364164.383545,
+        "efficiency": 174.4166370068483,
+        "expectedBp": 242439125439.51913,
         "expectedValue": {
-            "bp_player": 60393874091.721245,
+            "bp_player": 263520788521.21643,
             "전체 수수료 50% 할인 쿠폰 (~24.2.29 23:59)": 0.01,
             "전체 수수료 40% 할인 쿠폰 (~24.2.29 23:59)": 0.9890000000000001
         },
-        "efficiency1": 39.97292385926874,
-        "expectedBp1": 55562364164.383545,
+        "efficiency1": 174.4166370068483,
+        "expectedBp1": 242439125439.51913,
         "expectedValue1": {
-            "bp_player": 60393874091.721245,
+            "bp_player": 263520788521.21643,
             "전체 수수료 50% 할인 쿠폰 (~24.2.29 23:59)": 0.01,
             "전체 수수료 40% 할인 쿠폰 (~24.2.29 23:59)": 0.9890000000000001
         }
@@ -91,15 +89,15 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+) + DC 8강 기회 상자",
         "image": "/assets/image/item/14065_s.png",
         "price": 13900,
-        "efficiency": 70.28515127456448,
-        "expectedBp": 97696360271.64464,
+        "efficiency": 204.72886442214403,
+        "expectedBp": 284573121546.7802,
         "expectedValue": {
-            "bp_player": 106191695947.43982
+            "bp_player": 309318610376.935
         },
-        "efficiency1": 70.28515127456448,
-        "expectedBp1": 97696360271.64464,
+        "efficiency1": 204.72886442214403,
+        "expectedBp1": 284573121546.7802,
         "expectedValue1": {
-            "bp_player": 106191695947.43982
+            "bp_player": 309318610376.935
         }
     },
     {
@@ -142,9 +140,11 @@
         "name": "여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201801285_s.png",
         "price": 1200,
-        "efficiency": 0.0,
-        "expectedBp": 0.0,
-        "expectedValue": {},
+        "efficiency": 197.00720330508858,
+        "expectedBp": 23640864396.61063,
+        "expectedValue": {
+            "bp_player": 25696591735.446335
+        },
         "efficiency1": 159.7409426849888,
         "expectedBp1": 19168913122.198658,
         "expectedValue1": {
@@ -158,12 +158,17 @@
         "name": "[쿼드러플 상자] 여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201704763_s.png",
         "price": 4800,
-        "efficiency": 0.0,
-        "expectedBp": 0.0,
-        "expectedValue": {},
-        "efficiency1": 0.0,
-        "expectedBp1": 0.0,
-        "expectedValue1": {}
+        "efficiency": 216.70792363559744,
+        "expectedBp": 104019803345.08678,
+        "expectedValue": {
+            "bp_player": 113065003635.96388
+        },
+        "efficiency1": 175.71503695348773,
+        "expectedBp1": 84343217737.6741,
+        "expectedValue1": {
+            "bp_player": 59519149736.74836,
+            "bp_card": 29585599979.8656
+        }
     },
     {
         "type": "general-product",
@@ -171,9 +176,10 @@
         "name": "[10+1] 여의주를 품은 청룡 열쇠 묶음 + [보너스] 전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)",
         "image": "/assets/image/item/14070_s.png",
         "price": 12000,
-        "efficiency": 0.0,
-        "expectedBp": 0.0,
+        "efficiency": 216.7079236355974,
+        "expectedBp": 260049508362.71692,
         "expectedValue": {
+            "bp_player": 282662509089.90967,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1
         },
         "efficiency1": 175.7150369534877,
@@ -288,23 +294,6 @@
         "expectedBp1": 0.0,
         "expectedValue1": {
             "시뮬레이션권": 5.0155763245
-        }
-    },
-    {
-        "type": "general-product",
-        "id": "santamulti",
-        "name": "산타의 셀렉티드 멀티 강화 상자",
-        "image": "/assets/image/item/201704576_s.png",
-        "price": 3700,
-        "efficiency": 0.0,
-        "expectedBp": 0.0,
-        "expectedValue": {
-            "[23.12] 산타의 셀렉티드 멀티 강화 상자": 1
-        },
-        "efficiency1": 0.0,
-        "expectedBp1": 0.0,
-        "expectedValue1": {
-            "[23.12] 산타의 셀렉티드 멀티 강화 상자": 1
         }
     },
     {
