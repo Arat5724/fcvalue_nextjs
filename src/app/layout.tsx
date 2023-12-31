@@ -64,7 +64,10 @@ export default function RootLayout({
           <NavigationEvents />
         </Suspense>
         <Navigation />
-        <A2HS />
+        {/* <A2HS /> */}
+        <Notice>
+          새해 복 많이 받으세요
+        </Notice>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
