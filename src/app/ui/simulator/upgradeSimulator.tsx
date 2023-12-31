@@ -518,8 +518,8 @@ function OVRInput({ result, blockState, setBlockState, eventBlockState, setEvent
     </div>
     <div className={styles["ovr-input__wrap--all"]}>
       <button onClick={initAll} disabled={result !== UpgradeResult.No}>전체 {ovr}로 초기화</button>
-      <button onClick={add1All} disabled={result !== UpgradeResult.No}>전체 +1</button>
       <button onClick={sub1All} disabled={result !== UpgradeResult.No}>전체 -1</button>
+      <button onClick={add1All} disabled={result !== UpgradeResult.No}>전체 +1</button>
     </div>
     <div className={styles["upgrade-event__wrap"]}>
       <div className={styles["upgrade-event__text"]}>강화 부스트 이벤트 적용</div>
