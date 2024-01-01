@@ -125,18 +125,25 @@ export function DefaultPlayerCard() {
   </div>
 }
 
+function getPlayerImageUrl(season_no: number, id: number, errorCount: number) {
+  const baseUrl = 'https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players';
+  if (errorCount === 0) {
+    return `${baseUrl}ActionHigh/p${season_no * 1000000 + id}.png`;
+  } else if (errorCount === 1) {
+    return `${baseUrl}High/p${id}.png`;
+  } else if (errorCount === 2) {
+    return `${baseUrl}/p${id}.png`;
+  } else {
+    return `${baseUrl}/not_found.png`;
+  }
+}
+
 export function PlayerImage({ season_no, id }: { season_no: number, id: number }) {
+  const [errorCount, setErrorCount] = useState<number>(0);
+  useEffect(() => { setErrorCount(0); }, [season_no, id]);
+
   return <img
-    src={`https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersActionHigh/p${season_no * 1000000 + id}.png`}
-    onError={(e: any) => {
-      e.target.src = `https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/playersHigh/p${id}.png`;
-      e.target.onerror = (e: any) => {
-        e.target.src = `https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/p${id}.png`;
-        e.target.onerror = (e: any) => {
-          e.target.src = "https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/players/not_found.png"
-          e.target.onerror = null;
-        };
-      };
-    }}
+    src={getPlayerImageUrl(season_no, id, errorCount)}
+    onError={(e: any) => { setErrorCount(errorCount + 1); e.target.onerror = null; }}
   ></img >
 }
