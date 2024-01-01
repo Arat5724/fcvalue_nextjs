@@ -5,6 +5,14 @@
 
 $search-bar-color: #3a3a50;
 
+.search-section {
+  &::before {
+    content: "일부 PL, Live 시즌은 인기 선수만 검색 가능합니다.";
+    font-size: 0.8rem;
+    color: #a3a3aa;
+  }
+}
+
 .search-bar {
   display: flex;
   width: 100%;

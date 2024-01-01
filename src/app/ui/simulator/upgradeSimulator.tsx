@@ -71,7 +71,7 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
   return <>
     <Title>강화 시뮬레이터</Title>
     <div>
-      <div>
+      <div className={styles["search-section"]}>
         <SearchBar
           searchText={searchText}
           setSearchText={setSearchText}
