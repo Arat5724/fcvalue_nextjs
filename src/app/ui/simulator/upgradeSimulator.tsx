@@ -84,6 +84,7 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
           seasonStateSum={seasonStateSum}
           setSeasonStateSum={setSeasonStateSum}
         />
+        <SearchBarBottom searchPlayer={searchPlayer} resetSeasonStates={resetSeasonStates} />
       </div>
       <PlayerList players={searchResult} setPlayer={setPlayer} />
     </div>
@@ -107,6 +108,13 @@ function SearchBar({ searchText, setSearchText, searchPlayer, resetSeasonStates 
       onKeyDown={(e) => { if (e.key === "Enter") searchPlayer() }}
       value={searchText}
     ></input>
+    <button onClick={searchPlayer}>검색</button>
+    <button onClick={resetSeasonStates}>초기화</button>
+  </div>
+}
+
+function SearchBarBottom({ searchPlayer, resetSeasonStates }: { searchPlayer: () => void, resetSeasonStates: () => void }) {
+  return <div className={styles["search-bar__bottom"]}>
     <button onClick={searchPlayer}>검색</button>
     <button onClick={resetSeasonStates}>초기화</button>
   </div>
