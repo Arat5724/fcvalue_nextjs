@@ -35,6 +35,10 @@ const seasonProcesser = (season: string) => {
     return '23PLA';
   if (season.endsWith('HEROES'))
     return season.replace('HEROES', 'HR');
+  if (season == '19KFA')
+    return '2019KFA';
+  if (season == '18KFA')
+    return 'KFA';
   return season;
 }
 
