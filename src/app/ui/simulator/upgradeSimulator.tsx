@@ -50,9 +50,9 @@ export default function UpgradeSimulatorPage({ players }: { players: SeasonList 
           });
       newSearchUpgradeResult.sort((a, b) => b.ovr > a.ovr ? 1
         : a.ovr > b.ovr ? -1
-          : a.name > b.name ? 1
-            : a.name < b.name ? -1
-              : 0
+          : a.season_no > b.season_no ? 1
+            : a.season_no < b.season_no ? -1
+              : a.id - b.id
       );
       setSearchResult(newSearchUpgradeResult.slice(0, 30));
     }
