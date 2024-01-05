@@ -5,18 +5,18 @@
         "name": "블루 드래곤 프리미엄 패키지",
         "image": "/assets/image/item/14061_s.png",
         "price": 13990,
-        "efficiency": 194.12726981322865,
-        "expectedBp": 271584050468.70688,
+        "efficiency": 190.47761878481475,
+        "expectedBp": 266478188679.9558,
         "expectedValue": {
-            "bp_player": 235861793987.72485,
+            "bp_player": 230311944217.34326,
             "bp_card": 54591200000.0,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1,
             "기초 훈련 교재": 90
         },
-        "efficiency1": 194.12726981322865,
-        "expectedBp1": 271584050468.70688,
+        "efficiency1": 190.47761878481475,
+        "expectedBp1": 266478188679.9558,
         "expectedValue1": {
-            "bp_player": 235861793987.72485,
+            "bp_player": 230311944217.34326,
             "bp_card": 54591200000.0,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1,
             "기초 훈련 교재": 90
@@ -28,18 +28,18 @@
         "name": "[24HEROES or DC 확정] 리틀 드래곤 패키지",
         "image": "/assets/image/item/14062_s.png",
         "price": 5900,
-        "efficiency": 119.49140793344522,
-        "expectedBp": 70499930680.73268,
+        "efficiency": 121.52699866355677,
+        "expectedBp": 71700929211.49849,
         "expectedValue": {
-            "bp_player": 76630359435.579,
+            "bp_player": 77935792621.194,
             "[300억 30%] 행운의 BP 카드 (100억, 300억)": 1,
             "cp_card": 2000,
             "기초 훈련 교재": 35
         },
-        "efficiency1": 119.49140793344522,
-        "expectedBp1": 70499930680.73268,
+        "efficiency1": 121.52699866355677,
+        "expectedBp1": 71700929211.49849,
         "expectedValue1": {
-            "bp_player": 76630359435.579,
+            "bp_player": 77935792621.194,
             "[300억 30%] 행운의 BP 카드 (100억, 300억)": 1,
             "cp_card": 2000,
             "기초 훈련 교재": 35
@@ -51,15 +51,15 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+)",
         "image": "/assets/image/item/200230276_s.png",
         "price": 9900,
-        "efficiency": 155.06581322222263,
-        "expectedBp": 153515155090.0004,
+        "efficiency": 142.92841185144766,
+        "expectedBp": 141499127732.9332,
         "expectedValue": {
-            "bp_player": 166864299010.87
+            "bp_player": 153803399709.71
         },
-        "efficiency1": 155.06581322222263,
-        "expectedBp1": 153515155090.0004,
+        "efficiency1": 142.92841185144766,
+        "expectedBp1": 141499127732.9332,
         "expectedValue1": {
-            "bp_player": 166864299010.87
+            "bp_player": 153803399709.71
         }
     },
     {
@@ -68,17 +68,17 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+) + ICON TM 기회 상자",
         "image": "/assets/image/item/14064_s.png",
         "price": 13900,
-        "efficiency": 147.44719433717523,
-        "expectedBp": 204951600128.67358,
+        "efficiency": 138.49060855733703,
+        "expectedBp": 192501945894.69846,
         "expectedValue": {
-            "bp_player": 222773478400.73215,
+            "bp_player": 209241245537.7157,
             "전체 수수료 50% 할인 쿠폰 (~24.2.29 23:59)": 0.01,
             "전체 수수료 40% 할인 쿠폰 (~24.2.29 23:59)": 0.9890000000000001
         },
-        "efficiency1": 147.44719433717523,
-        "expectedBp1": 204951600128.67358,
+        "efficiency1": 138.49060855733703,
+        "expectedBp1": 192501945894.69846,
         "expectedValue1": {
-            "bp_player": 222773478400.73215,
+            "bp_player": 209241245537.7157,
             "전체 수수료 50% 할인 쿠폰 (~24.2.29 23:59)": 0.01,
             "전체 수수료 40% 할인 쿠폰 (~24.2.29 23:59)": 0.9890000000000001
         }
@@ -89,15 +89,15 @@
         "name": "DC ~ 22UCL 2023 프리미엄 8강팩 (Top Price 980, 98+) + DC 8강 기회 상자",
         "image": "/assets/image/item/14065_s.png",
         "price": 13900,
-        "efficiency": 174.72482094683423,
-        "expectedBp": 242867501116.09958,
+        "efficiency": 163.67131571472734,
+        "expectedBp": 227503128843.471,
         "expectedValue": {
-            "bp_player": 263986414256.62997
+            "bp_player": 247286009612.46848
         },
-        "efficiency1": 174.72482094683423,
-        "expectedBp1": 242867501116.09958,
+        "efficiency1": 163.67131571472734,
+        "expectedBp1": 227503128843.471,
         "expectedValue1": {
-            "bp_player": 263986414256.62997
+            "bp_player": 247286009612.46848
         }
     },
     {
@@ -140,15 +140,15 @@
         "name": "여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201801285_s.png",
         "price": 1200,
-        "efficiency": 164.53351403275252,
-        "expectedBp": 19744021683.9303,
+        "efficiency": 157.54417733254766,
+        "expectedBp": 18905301279.90572,
         "expectedValue": {
-            "bp_player": 21460893134.70685
+            "bp_player": 20549240521.63665
         },
-        "efficiency1": 146.37001610854784,
-        "expectedBp1": 17564401933.02574,
+        "efficiency1": 145.34770936707358,
+        "expectedBp1": 17441725124.04883,
         "expectedValue1": {
-            "bp_player": 11783045584.34972,
+            "bp_player": 11649701226.766117,
             "bp_card": 6723999995.424
         }
     },
@@ -158,15 +158,15 @@
         "name": "[쿼드러플 상자] 여의주를 품은 청룡 열쇠",
         "image": "/assets/image/item/201704763_s.png",
         "price": 4800,
-        "efficiency": 180.98686543602776,
-        "expectedBp": 86873695409.29332,
+        "efficiency": 173.2985950658024,
+        "expectedBp": 83183325631.58516,
         "expectedValue": {
-            "bp_player": 94427929792.71013
+            "bp_player": 90416658295.20126
         },
-        "efficiency1": 161.00701771940263,
-        "expectedBp1": 77283368505.31326,
+        "efficiency1": 159.88248030378094,
+        "expectedBp1": 76743590545.81485,
         "expectedValue1": {
-            "bp_player": 51845400571.13876,
+            "bp_player": 51258685397.77091,
             "bp_card": 29585599979.8656
         }
     },
@@ -176,16 +176,16 @@
         "name": "[10+1] 여의주를 품은 청룡 열쇠 묶음 + [보너스] 전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)",
         "image": "/assets/image/item/14070_s.png",
         "price": 12000,
-        "efficiency": 180.98686543602776,
-        "expectedBp": 217184238523.2333,
+        "efficiency": 173.2985950658024,
+        "expectedBp": 207958314078.9629,
         "expectedValue": {
-            "bp_player": 236069824481.77533,
+            "bp_player": 226041645738.00314,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1
         },
-        "efficiency1": 161.00701771940265,
-        "expectedBp1": 193208421263.28317,
+        "efficiency1": 159.8824803037809,
+        "expectedBp1": 191858976364.5371,
         "expectedValue1": {
-            "bp_player": 129613501427.84692,
+            "bp_player": 128146713494.42729,
             "bp_card": 73963999949.664,
             "전체 수수료 30% 할인 쿠폰 (~24.2.29 23:59)": 1
         }
@@ -196,16 +196,16 @@
         "name": "얼음 조각 상자",
         "image": "/assets/image/item/201704698_s.png",
         "price": 600,
-        "efficiency": 70.3721365784516,
-        "expectedBp": 4222328194.707096,
+        "efficiency": 67.1637419386893,
+        "expectedBp": 4029824516.321358,
         "expectedValue": {
-            "bp_player": 3154704559.3338003,
+            "bp_player": 2945461430.6536503,
             "bp_card": 1320000000.12
         },
-        "efficiency1": 70.3721365784516,
-        "expectedBp1": 4222328194.707096,
+        "efficiency1": 67.1637419386893,
+        "expectedBp1": 4029824516.321358,
         "expectedValue1": {
-            "bp_player": 3154704559.3338003,
+            "bp_player": 2945461430.6536503,
             "bp_card": 1320000000.12
         }
     },
@@ -234,15 +234,15 @@
         "name": "[24HEROES, 23KB, 23NG 포함] ALL 선수팩",
         "image": "/assets/image/item/200235037_s.png",
         "price": 50,
-        "efficiency": 7.156622637790073,
-        "expectedBp": 35783113.18895036,
+        "efficiency": 8.244222072573775,
+        "expectedBp": 41221110.362868875,
         "expectedValue": {
-            "bp_player": 38894688.248859085
+            "bp_player": 44805554.74224877
         },
-        "efficiency1": 7.156622637790073,
-        "expectedBp1": 35783113.18895036,
+        "efficiency1": 8.244222072573775,
+        "expectedBp1": 41221110.362868875,
         "expectedValue1": {
-            "bp_player": 38894688.248859085
+            "bp_player": 44805554.74224877
         }
     },
     {
@@ -251,15 +251,15 @@
         "name": "23KL ALL 선수팩",
         "image": "/assets/image/item/200235039_s.png",
         "price": 70,
-        "efficiency": 0.21373165280082249,
-        "expectedBp": 1496121.5696057575,
+        "efficiency": 0.21021742161818555,
+        "expectedBp": 1471521.9513272988,
         "expectedValue": {
-            "bp_player": 1626219.0973975623
+            "bp_player": 1599480.3818774985
         },
-        "efficiency1": 0.21373165280082249,
-        "expectedBp1": 1496121.5696057575,
+        "efficiency1": 0.21021742161818555,
+        "expectedBp1": 1471521.9513272988,
         "expectedValue1": {
-            "bp_player": 1626219.0973975623
+            "bp_player": 1599480.3818774985
         }
     },
     {
@@ -302,16 +302,16 @@
         "name": "트리플 크리스마스 스페셜 게임",
         "image": "/assets/image/item/SantaMiraclePuzzleSpecial.png",
         "price": 2200,
-        "efficiency": 132.57399299455253,
-        "expectedBp": 29166278458.80156,
+        "efficiency": 131.12141379741055,
+        "expectedBp": 28846711035.430325,
         "expectedValue": {
-            "bp_player": 26239646614.958214,
+            "bp_player": 25892290719.989483,
             "bp_card": 5025803573.04
         },
-        "efficiency1": 120.52181181322959,
-        "expectedBp1": 26514798598.910507,
+        "efficiency1": 119.20128527037325,
+        "expectedBp1": 26224282759.482113,
         "expectedValue1": {
-            "bp_player": 23854224195.416557,
+            "bp_player": 23538446109.081345,
             "bp_card": 4568912339.127273
         }
     },
@@ -321,16 +321,16 @@
         "name": "트리플 크리스마스 일반 게임",
         "image": "/assets/image/item/SantaMiraclePuzzleNormal.png",
         "price": 1200,
-        "efficiency": 129.83256415638465,
-        "expectedBp": 15579907698.76616,
+        "efficiency": 128.1845712788463,
+        "expectedBp": 15382148553.461555,
         "expectedValue": {
-            "bp_player": 11145910698.281694,
+            "bp_player": 10930955105.5593,
             "bp_card": 5325669856.347
         },
-        "efficiency1": 118.02960377853151,
-        "expectedBp1": 14163552453.423782,
+        "efficiency1": 116.53142843531482,
+        "expectedBp1": 13983771412.237778,
         "expectedValue1": {
-            "bp_player": 10132646089.346994,
+            "bp_player": 9937231914.144817,
             "bp_card": 4841518051.2245455
         }
     },
@@ -340,17 +340,17 @@
         "name": "스카이박스 패스",
         "image": "/assets/image/item/231207skybox.png",
         "price": 5000,
-        "efficiency": 391.5285585314735,
-        "expectedBp": 195764279265.73676,
+        "efficiency": 397.42858666739215,
+        "expectedBp": 198714293333.6961,
         "expectedValue": {
-            "bp_card": 161996489326.5,
-            "bp_player": 36704119499.1704
+            "bp_card": 57575757571.5,
+            "bp_player": 153411451915.43054
         },
-        "efficiency1": 391.5285585314735,
-        "expectedBp1": 195764279265.73676,
+        "efficiency1": 397.42858666739215,
+        "expectedBp1": 198714293333.6961,
         "expectedValue1": {
-            "bp_card": 161996489326.5,
-            "bp_player": 36704119499.1704
+            "bp_card": 57575757571.5,
+            "bp_player": 153411451915.43054
         }
     }
 ]
