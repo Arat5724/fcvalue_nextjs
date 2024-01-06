@@ -1,57 +1,46 @@
 {
-    "black-rabbits-x-mas-shop-key": {
+    "baby-dragon-pc-room-key": {
         "type": "box",
-        "id": "black-rabbits-x-mas-shop-key",
-        "name": "블랙토끼의 X-mas 상점 열쇠",
+        "id": "baby-dragon-pc-room-key",
+        "name": "아기 용의 PC방 탐방기 열쇠",
         "image": null,
-        "expectedBp": 0.0,
+        "expectedBp": 4121555478.8738036,
         "expectedValue": {
-            "| SSS | 금카 확정 상자 + 눈덩이": 0.07142857142857142,
-            "| SS | 24HEROES, DC 5강 포함 상자 + 눈덩이": 0.14285714285714285,
-            "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+) + 눈덩이": 0.14285714285714285,
-            "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+) + 눈덩이": 0.07142857142857142,
-            "| A | [1000억 15%] 행운의 BP 카드 (500억, 1000억) + 눈덩이": 0.14285714285714285,
-            "| A | CC 포함 Top Price 300 선수팩 (5강, 104+) + 눈덩이": 0.14285714285714285,
-            "| A | 24HEROES, DC 포함 OVR 114 ~ 120 멀티 강화 선수팩 + 눈덩이": 0.07142857142857142,
-            "| B | [700억 10%] 행운의 BP 카드 (300억, 700억) + 눈덩이": 0.21428571428571427
+            "bp_player": 2042063408.7137616,
+            "bp_card": 2242857142.857143
         },
-        "expectedBp1": 0.0,
+        "expectedBp1": 4121555478.8738036,
         "expectedValue1": {
-            "| SSS | 금카 확정 상자 + 눈덩이": 0.07142857142857142,
-            "| SS | 24HEROES, DC 5강 포함 상자 + 눈덩이": 0.14285714285714285,
-            "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+) + 눈덩이": 0.14285714285714285,
-            "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+) + 눈덩이": 0.07142857142857142,
-            "| A | [1000억 15%] 행운의 BP 카드 (500억, 1000억) + 눈덩이": 0.14285714285714285,
-            "| A | CC 포함 Top Price 300 선수팩 (5강, 104+) + 눈덩이": 0.14285714285714285,
-            "| A | 24HEROES, DC 포함 OVR 114 ~ 120 멀티 강화 선수팩 + 눈덩이": 0.07142857142857142,
-            "| B | [700억 10%] 행운의 BP 카드 (300억, 700억) + 눈덩이": 0.21428571428571427
+            "bp_player": 2042063408.7137616,
+            "bp_card": 2242857142.857143
         },
         "percentile": {
-            "0": 0,
-            "1": 0,
-            "2": 0,
-            "5": 0,
-            "10": 0,
-            "20": 0,
-            "30": 0,
-            "40": 0,
-            "50": 0,
-            "60": 0,
-            "70": 0,
-            "80": 0,
-            "90": 0,
-            "100": 0
+            "0": 73416000000000.0,
+            "1": 20000000000,
+            "2": 20000000000,
+            "5": 7000000000,
+            "10": 6486000000.0,
+            "20": 5000000000,
+            "30": 4000000000,
+            "40": 2668000000.0,
+            "50": 2125200000.0,
+            "60": 2060800000.0,
+            "70": 2000000000,
+            "80": 2000000000,
+            "90": 2000000000,
+            "100": 892400000.0
         },
         "itemList": [
             {
                 "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| SSS | 금카 확정 상자 + 눈덩이",
+                    "type": "box",
+                    "id": "8506",
+                    "name": "| SSS급 | 24HEROES, DC 5강 포함 상자",
                     "image": null,
-                    "expectedBp": 0.0,
+                    "expectedBp": 5665779612.089104,
                     "expectedValue": {
-                        "| SSS | 금카 확정 상자 + 눈덩이": 1
+                        "bp_player": 3223673491.4012003,
+                        "bp_card": 2700000000.0
                     }
                 },
                 "amount": 1,
@@ -59,41 +48,14 @@
             },
             {
                 "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| SS | 24HEROES, DC 5강 포함 상자 + 눈덩이",
+                    "type": "box",
+                    "id": "8505",
+                    "name": "| SSS급 | CC 8강 포함 상자",
                     "image": null,
-                    "expectedBp": 0.0,
+                    "expectedBp": 6393469909.49338,
                     "expectedValue": {
-                        "| SS | 24HEROES, DC 5강 포함 상자 + 눈덩이": 1
-                    }
-                },
-                "amount": 1,
-                "probability": 0.14285714285714285
-            },
-            {
-                "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+) + 눈덩이",
-                    "image": null,
-                    "expectedBp": 0.0,
-                    "expectedValue": {
-                        "| S | CC 포함 Top Price 1700 선수팩 (8강, 90+) + 눈덩이": 1
-                    }
-                },
-                "amount": 1,
-                "probability": 0.14285714285714285
-            },
-            {
-                "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+) + 눈덩이",
-                    "image": null,
-                    "expectedBp": 0.0,
-                    "expectedValue": {
-                        "| S | HG, RTN 포함 Top Price 1650 선수팩 (8강, 90+) + 눈덩이": 1
+                        "bp_player": 3797249901.6232386,
+                        "bp_card": 2900000000.0
                     }
                 },
                 "amount": 1,
@@ -101,41 +63,13 @@
             },
             {
                 "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| A | [1000억 15%] 행운의 BP 카드 (500억, 1000억) + 눈덩이",
+                    "type": "box",
+                    "id": "8504",
+                    "name": "| SSS급 | 200억 15% BP 상자",
                     "image": null,
-                    "expectedBp": 0.0,
+                    "expectedBp": 7250000000.0,
                     "expectedValue": {
-                        "| A | [1000억 15%] 행운의 BP 카드 (500억, 1000억) + 눈덩이": 1
-                    }
-                },
-                "amount": 1,
-                "probability": 0.14285714285714285
-            },
-            {
-                "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| A | CC 포함 Top Price 300 선수팩 (5강, 104+) + 눈덩이",
-                    "image": null,
-                    "expectedBp": 0.0,
-                    "expectedValue": {
-                        "| A | CC 포함 Top Price 300 선수팩 (5강, 104+) + 눈덩이": 1
-                    }
-                },
-                "amount": 1,
-                "probability": 0.14285714285714285
-            },
-            {
-                "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| A | 24HEROES, DC 포함 OVR 114 ~ 120 멀티 강화 선수팩 + 눈덩이",
-                    "image": null,
-                    "expectedBp": 0.0,
-                    "expectedValue": {
-                        "| A | 24HEROES, DC 포함 OVR 114 ~ 120 멀티 강화 선수팩 + 눈덩이": 1
+                        "bp_card": 7250000000.0
                     }
                 },
                 "amount": 1,
@@ -143,17 +77,74 @@
             },
             {
                 "item": {
-                    "type": "other",
-                    "id": -1,
-                    "name": "| B | [700억 10%] 행운의 BP 카드 (300억, 700억) + 눈덩이",
+                    "type": "box",
+                    "id": "8508",
+                    "name": "| SS급 | HG 포함 5~7강 상자",
                     "image": null,
-                    "expectedBp": 0.0,
+                    "expectedBp": 4409476873.11668,
                     "expectedValue": {
-                        "| B | [700억 10%] 행운의 BP 카드 (300억, 700억) + 눈덩이": 1
+                        "bp_player": 4792909644.692043
                     }
                 },
                 "amount": 1,
-                "probability": 0.21428571428571427
+                "probability": 0.07142857142857142
+            },
+            {
+                "item": {
+                    "type": "box",
+                    "id": "8507",
+                    "name": "| SS급 | HG 8강 포함 상자",
+                    "image": null,
+                    "expectedBp": 4388330462.278759,
+                    "expectedValue": {
+                        "bp_player": 4769924415.5203905
+                    }
+                },
+                "amount": 1,
+                "probability": 0.14285714285714285
+            },
+            {
+                "item": {
+                    "type": "box",
+                    "id": "8510",
+                    "name": "| S급 | FCA 5강 포함 확정 상자",
+                    "image": null,
+                    "expectedBp": 3386376639.9926,
+                    "expectedValue": {
+                        "bp_player": 3680844173.9049997
+                    }
+                },
+                "amount": 1,
+                "probability": 0.07142857142857142
+            },
+            {
+                "item": {
+                    "type": "box",
+                    "id": "8509",
+                    "name": "| S급 | CC 5강 포함 상자",
+                    "image": null,
+                    "expectedBp": 4035006372.4919844,
+                    "expectedValue": {
+                        "bp_player": 1777180839.6652002,
+                        "bp_card": 2400000000.0
+                    }
+                },
+                "amount": 1,
+                "probability": 0.14285714285714285
+            },
+            {
+                "item": {
+                    "type": "box",
+                    "id": "8511",
+                    "name": "| A급 | 70억 15% BP 상자",
+                    "image": null,
+                    "expectedBp": 2750000000.0,
+                    "expectedValue": {
+                        "bp_card": 2750000000.0
+                    }
+                },
+                "amount": 1,
+                "probability": 0.35714285714285715
             }
         ],
         "additionalInfoWithAmount": null
