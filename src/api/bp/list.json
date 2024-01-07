@@ -231,36 +231,6 @@
     },
     {
         "type": "bp",
-        "id": "8487",
-        "name": "[AG] 행운의 BP 카드 (400억~600억 BP)",
-        "image": null,
-        "expectedBp": 46210526308.799995,
-        "expectedValue": {
-            "bp_card": 46210526308.799995
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8486",
-        "name": "[AG] 행운의 BP 카드 (800억~1000억 BP)",
-        "image": null,
-        "expectedBp": 87200000015.39998,
-        "expectedValue": {
-            "bp_card": 87200000015.39998
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8485",
-        "name": "[AG] 행운의 BP 카드 (1150억~1350억 BP)",
-        "image": null,
-        "expectedBp": 122200000022.39998,
-        "expectedValue": {
-            "bp_card": 122200000022.39998
-        }
-    },
-    {
-        "type": "bp",
         "id": "7219",
         "name": "행운의 BP 카드 (1억~100억 BP)",
         "image": "/assets/image/item/200335004_s.png",
