@@ -201,36 +201,6 @@
     },
     {
         "type": "bp",
-        "id": "8503",
-        "name": "[300억 15%] 행운의 BP 카드 (50억, 300억)",
-        "image": null,
-        "expectedBp": 8750000000.0,
-        "expectedValue": {
-            "bp_card": 8750000000.0
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8502",
-        "name": "[70억 15%] 행운의 BP 카드 (20억, 70억)",
-        "image": null,
-        "expectedBp": 2750000000.0,
-        "expectedValue": {
-            "bp_card": 2750000000.0
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8501",
-        "name": "[200억 15%] 행운의 BP 카드 (50억, 200억)",
-        "image": null,
-        "expectedBp": 7250000000.0,
-        "expectedValue": {
-            "bp_card": 7250000000.0
-        }
-    },
-    {
-        "type": "bp",
         "id": "7219",
         "name": "행운의 BP 카드 (1억~100억 BP)",
         "image": "/assets/image/item/200335004_s.png",
@@ -1157,46 +1127,6 @@
         "expectedBp": 82872483240.59999,
         "expectedValue": {
             "bp_card": 82872483240.59999
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8266",
-        "name": "[SKYBOX] 행운의 BP 카드 (1000억~2000억 BP)",
-        "image": "/assets/image/item/200332013_s.png",
-        "expectedBp": 104420731755.0,
-        "expectedValue": {
-            "bp_card": 104420731755.0
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8265",
-        "name": "[SKYBOX] 행운의 BP 카드 (300억~600억 BP)",
-        "image": "/assets/image/item/200332012_s.png",
-        "expectedBp": 42575757571.5,
-        "expectedValue": {
-            "bp_card": 42575757571.5
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8264",
-        "name": "[SKYBOX] 행운의 BP 카드 (150억~300억 BP)",
-        "image": "/assets/image/item/200332011_s.png",
-        "expectedBp": 20277777773.25,
-        "expectedValue": {
-            "bp_card": 20277777773.25
-        }
-    },
-    {
-        "type": "bp",
-        "id": "8263",
-        "name": "[SKYBOX] 행운의 BP 카드 (70억~150억 BP)",
-        "image": "/assets/image/item/200332010_s.png",
-        "expectedBp": 10543859644.700003,
-        "expectedValue": {
-            "bp_card": 10543859644.700003
         }
     },
     {
