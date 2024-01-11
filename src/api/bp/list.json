@@ -31,6 +31,16 @@
     },
     {
         "type": "bp",
+        "id": "8644",
+        "name": "[3000억 5%] 행운의 BP 카드 (700억, 3000억)",
+        "image": null,
+        "expectedBp": 81500000000.0,
+        "expectedValue": {
+            "bp_card": 81500000000.0
+        }
+    },
+    {
+        "type": "bp",
         "id": "8641",
         "name": "행운의 1/N BP 카드 (200억~800억)",
         "image": null,
