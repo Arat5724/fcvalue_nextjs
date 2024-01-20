@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240101 상품들이 추가되었습니다.</p>
+      <p>- 20240120 24TOTY 출시 업데이트</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -20,53 +20,30 @@ export default function Home() {
           href="/simulator/upgrade"
           title="강화 시뮬레이터"
         />
-        <GridItem
-          img="/assets/image/santa/santa-logo256.png"
-          href="/simulator/SantaMiraclePuzzle"
-          title="트리플 크리스마스 시뮬레이터"
-        />
       </GridWrap>
       <AdHorizontal />
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/14061_s.png"
+          img="/assets/image/item/14078_s.png"
           href="/general-product"
           title="일반 상품"
         />
         <GridItem
-          img="/assets/image/item/31172_s.png"
+          img="/assets/image/item/31187_s.png"
           href="/mileage-product"
           title="마일리지 상품"
-        />
-      </GridWrap>
-      <h2>스페셜 상점</h2>
-      <GridWrap>
-        <GridItem
-          img="/assets/image/item/231207skybox.png"
-          href="/general-product/231207skybox"
-          title="스카이박스"
-        />
-        <GridItem
-          img="/assets/image/item/SantaMiraclePuzzleSpecial.png"
-          href="/general-product/SantaMiraclePuzzleSpecial"
-          title="스페셜 게임"
-        />
-        <GridItem
-          img="/assets/image/item/SantaMiraclePuzzleNormal.png"
-          href="/general-product/SantaMiraclePuzzleNormal"
-          title="일반 게임"
         />
       </GridWrap>
       <h2>아이템 정보</h2>
       <GridWrap>
         <GridItem
-          img="https://ssl.nexon.com/s2/game/fc/online/event/2023/231214_special_n8371na9n64/item/200233161_s.png"
+          img="/assets/image/item/200237049_s.png"
           href="/player-pack"
           title="선수팩"
         />
         <GridItem
-          img="https://ssl.nexon.com/s2/game/fc/online/event/2023/231214_special_n8371na9n64/item/201704645_s.png"
+          img="/assets/image/item/201704907_s.png"
           href="/box"
           title="상자"
         />
