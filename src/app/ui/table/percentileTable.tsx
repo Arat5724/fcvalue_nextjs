@@ -20,7 +20,7 @@ export function PercentileTable({ data, price }: { data: any[], price?: number }
     </table>
     <table className={styles.table}>
       <thead>
-        <tr>{keys2.map(key => <th key={key}>{key === "0" ? "1등" : key === "100" ? "꼴등" : `${key}%`}</th>)}</tr>
+        <tr>{keys2.map(key => <th key={key}>{key === "0" ? "1등" : key === "100" ? "꼴등" : key === "50" ? "중앙값" : `${key}%`}</th>)}</tr>
       </thead>
       <tbody>
         <tr>{keys2.map(key => <td key={key}>{cutValue(data[key as any])}</td>)}</tr>
