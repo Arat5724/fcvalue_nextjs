@@ -65,9 +65,9 @@ export default function RootLayout({
         </Suspense>
         <Navigation />
         {/* <A2HS /> */}
-        <Notice href="https://forms.gle/py1MFTYSCRZzcrZ8A">
-          안드로이드 어플 비공개 테스터 모집
-        </Notice>
+        {/* <Notice>
+          24TOTY, 24TOTY-N
+        </Notice> */}
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
