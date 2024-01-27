@@ -9,9 +9,7 @@ export function Notice({ href, children }: { href?: string, children: React.Reac
     </LinkWrap> : <>{children}</>
   }
 
-  return <a href={href} target="_blank">
-    <div className={styles["notice-wrap"]}>
-      <div className={styles["notice__content"]}>{children}</div>
-    </div>
-  </a>
+  return <div className={styles["notice-wrap"]}>
+    <div className={styles["notice__content"]}>{children}</div>
+  </div>
 }

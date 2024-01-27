@@ -69,26 +69,6 @@ export default async function Page({ params }: { params: { category: string, id:
       </a>
       </p>
 
-      {
-        id.startsWith("SantaMiraclePuzzle") && <>
-          <p style={{ fontSize: "1.2rem" }}>
-            <LinkWrap href="/simulator/SantaMiraclePuzzle">트리플 크리스마스 시뮬레이터</LinkWrap>
-          </p>
-          <h2>확률</h2>
-          <table>
-            <thead>
-              <tr><th>등급</th><th>확률</th><th>확률(%)</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>1+</td><td>1 / 55</td><td>{(1 / 55 * 100).toFixed(10)}%</td></tr>
-              <tr><td>1</td><td>3 / 55</td><td>{(3 / 55 * 100).toFixed(10)}%</td></tr>
-              <tr><td>2</td><td>6 / 55</td><td>{(6 / 55 * 100).toFixed(10)}%</td></tr>
-              <tr><td>3</td><td>18 / 55</td><td>{(18 / 55 * 100).toFixed(10)}%</td></tr>
-              <tr><td>4</td><td>27 / 55</td><td>{(27 / 55 * 100).toFixed(10)}%</td></tr>
-            </tbody>
-          </table>
-        </>
-      }
       <h2>가격</h2>
       <p>{productDetail.price}{params.category === "general-product" ? "FC" : "MC"}</p>
       <h2>효율</h2>

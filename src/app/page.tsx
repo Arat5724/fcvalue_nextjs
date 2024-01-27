@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 강화 시뮬레이터에 24TOTY/24TOTY-N가 일시적으로 보이지 않던 오류가 수정되었습니다. 불편을 드려 죄송합니다.</p>
+      <p>- LUCKY TOTY 추가</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
