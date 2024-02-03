@@ -21,7 +21,9 @@ export default function Home() {
           title="강화 시뮬레이터"
         />
       </GridWrap>
-      <img id="CADEX7B4JRX0N757W3ME" src="/CADEX7B4JRX0N757W3ME.jpg" />
+      <a href='https://bit.ly/48Pw9l7' target='_blank' rel="noreferrer">
+        <img id="CADEX7B4JRX0N757W3ME" src="/CADEX7B4JRX0N757W3ME.jpg" />
+      </a>
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
