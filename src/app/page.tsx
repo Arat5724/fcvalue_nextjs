@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 240201 상품 추가</p>
+      <p>- 23UCL 추가</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -27,7 +27,7 @@ export default function Home() {
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/14078_s.png"
+          img="/assets/image/item/14112_s.png"
           href="/general-product"
           title="일반 상품"
         />
