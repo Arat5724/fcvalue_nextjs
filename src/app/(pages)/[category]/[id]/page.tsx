@@ -68,7 +68,12 @@ export default async function Page({ params }: { params: { category: string, id:
         넥슨 웹 상점
       </a>
       </p>
-
+      {
+        productDetail.name.startsWith("스카이박스") && <>
+          <h2>주의 사항</h2>
+          <p>수수료 쿠폰, 강화 재시도권 및 기타 재화는 기댓값에 포함되지 않습니다.</p>
+        </>
+      }
       <h2>가격</h2>
       <p>{productDetail.price}{params.category === "general-product" ? "FC" : "MC"}</p>
       <h2>효율</h2>

@@ -13,6 +13,7 @@ export default function Home() {
     <div>
       <h2>패치 노트</h2>
       <p>- 23UCL 추가</p>
+      <p>- 스카이박스 추가</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
