@@ -14,7 +14,7 @@ export function LastUpdate() {
     >
       <div className={styles["icon"]}></div>
       <div className={styles["text"]} hidden={!isOpen}>
-        <p>최근 업데이트</p>
+        <p>선수 가격 업데이트</p>
         <p style={{ fontWeight: "bold" }}>{lastUpdate.time}</p>
       </div>
     </div>
