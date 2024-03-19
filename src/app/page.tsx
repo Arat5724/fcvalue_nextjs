@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 나혼자만 국가권력급 SSS 추가</p>
+      <p>- BP 카드의 기댓값이 잘못 계산되는 오류가 수정되었습니다.</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
