@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- BP 카드의 기댓값이 잘못 계산되는 오류가 수정되었습니다.</p>
+      <p>- 20240328 업데이트 반영 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
