@@ -12,9 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240401 효율 및 기대값 오류 수정 완료</p>
-      <p>- 스카이박스 UCL/저니맨, 행운의 네잎클로버 열쇠 업데이트 완료</p>
-      <p>- 20240328 업데이트 반영 완료</p>
+      <p>- 나혼자만 국가권력급 SSS:Re(240404) 업데이트 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
