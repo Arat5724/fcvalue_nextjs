@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 나혼자만 국가권력급 SSS:Re(240404) 업데이트 완료</p>
+      <p>- 20240425 반영 완료(LD, UT 추가)</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -27,12 +27,12 @@ export default function Home() {
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/14112_s.png"
+          img="/assets/image/item/17010_s.png"
           href="/general-product"
           title="일반 상품"
         />
         <GridItem
-          img="/assets/image/item/31187_s.png"
+          img="/assets/image/item/31233_s.png"
           href="/mileage-product"
           title="마일리지 상품"
         />
@@ -40,12 +40,12 @@ export default function Home() {
       <h2>아이템 정보</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/200237049_s.png"
+          img="/assets/image/item/200232044_s.png"
           href="/player-pack"
           title="선수팩"
         />
         <GridItem
-          img="/assets/image/item/201704907_s.png"
+          img="/assets/image/item/201705386_s.png"
           href="/box"
           title="상자"
         />
