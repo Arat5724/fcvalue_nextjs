@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240425 반영 완료(LD, UT 추가)</p>
+      <p>- 20240517 6th 케이크 상자 추가 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -21,13 +21,11 @@ export default function Home() {
           title="강화 시뮬레이터"
         />
       </GridWrap>
-      <a href='https://bit.ly/48Pw9l7' target='_blank' rel="noreferrer">
-        <img id="CADEX7B4JRX0N757W3ME" src="/CADEX7B4JRX0N757W3ME.jpg" />
-      </a>
+      <AdHorizontal />
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/17010_s.png"
+          img="/assets/image/item/14181_s.png"
           href="/general-product"
           title="일반 상품"
         />
