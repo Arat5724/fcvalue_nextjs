@@ -12,7 +12,8 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240517 6th 케이크 상자 추가 완료</p>
+      <p>- 20240523 EU24, 24KL 추가 완료 </p>
+      <p>- 배틀패스 주말 내로 추가 예정</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -25,12 +26,12 @@ export default function Home() {
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/14181_s.png"
+          img="/assets/image/item/201705483_s.png"
           href="/general-product"
           title="일반 상품"
         />
         <GridItem
-          img="/assets/image/item/31233_s.png"
+          img="/assets/image/item/31252_s.png"
           href="/mileage-product"
           title="마일리지 상품"
         />
