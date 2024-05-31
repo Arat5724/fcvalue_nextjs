@@ -12,8 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240523 EU24, 24KL 추가 완료</p>
-      <p>- 배틀패스 추가 완료</p>
+      <p>- 20240601 상품 추가 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
