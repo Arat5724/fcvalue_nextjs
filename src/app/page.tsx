@@ -12,7 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
-      <p>- 20240601 상품 추가 완료</p>
+      <p>- 20240613 상품 추가 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
