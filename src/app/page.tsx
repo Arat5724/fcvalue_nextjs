@@ -12,6 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
+      <p>- 일부 선수팩들의 강화 등급이 올바르게 수정되었습니다.</p>
       <p>- 20240613 상품 추가 완료</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
