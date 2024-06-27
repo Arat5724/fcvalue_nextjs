@@ -65,9 +65,9 @@ export default function RootLayout({
         </Suspense>
         <Navigation />
         {/* <A2HS /> */}
-        {/* <Notice>
-          24TOTY, 24TOTY-N
-        </Notice> */}
+        <Notice>
+          '24TOTS 90명 지명 선수팩 (1강, 113+)' 선수팩의 확률이 공개되어있지 않아, 일부 상품의 기댓값이 실제보다 적게 계산되고 있습니다.
+        </Notice>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
