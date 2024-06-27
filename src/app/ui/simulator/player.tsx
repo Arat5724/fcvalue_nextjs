@@ -59,7 +59,9 @@ export function PlayerBase({ player, ovr }: { player: PlayerNoUpgrade, ovr: numb
       <img src={`https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/${player.nation}.png`}></img>
     </div>
     <div className={styles.season__big}>
-      <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}_big.png`}
+      <img src={player.season === '24tots' ?
+        'https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l130334.png' :
+        `https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}_big.png`}
         onError={(e: any) => {
           e.target.src = "";
           e.target.onerror = null;
