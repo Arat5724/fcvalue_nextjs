@@ -12,6 +12,7 @@ export default function Home() {
   return <>
     <div>
       <h2>패치 노트</h2>
+      <p>- 나혼자만 럭키! SSS 추가 완료.</p>
       <p>- 20240627 업데이트 반영 완료.</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
