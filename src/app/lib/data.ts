@@ -22,11 +22,12 @@ import mileageProductList from '@/api/mileage-product/list.json';
 import mileageProductDetail from '@/api/mileage-product/detail.json';
 import nation from '@/api/nation.json';
 
+const tempPlayerPackList: TableItem[] = playerPackList.map((playerPackSimple) => ({
+  ...playerPackSimple,
+  value: playerPackSimple.expectedValue.bp_player,
+}));
+
 export async function getPlayerPackList() {
-  const tempPlayerPackList: TableItem[] = playerPackList.map((playerPackSimple) => ({
-    ...playerPackSimple,
-    value: playerPackSimple.expectedValue.bp_player,
-  }));
   return tempPlayerPackList;
 }
 
@@ -57,11 +58,12 @@ export async function getPlayerPackDetail(id: string) {
   return tempPlayerPackDetail;
 }
 
+const tempBoxList: TableItem[] = boxList.map((boxSimple) => ({
+  ...boxSimple,
+  value: boxSimple.expectedBp,
+}));
+
 export async function getBoxList() {
-  const tempBoxList: TableItem[] = boxList.map((boxSimple) => ({
-    ...boxSimple,
-    value: boxSimple.expectedBp,
-  }));
   return tempBoxList;
 }
 
@@ -69,17 +71,19 @@ export async function getBoxDetail(id: string) {
   return (boxDetail as any)[id] as BoxDetail;
 }
 
+const tempBpList: TableItem[] = bpList.map((bp) => ({
+  ...bp, value: bp.expectedBp,
+}));
+
 export async function getBpList() {
-  const tempBpList: TableItem[] = bpList.map((bp) => ({
-    ...bp, value: bp.expectedBp,
-  }));
   return tempBpList;
 }
 
+const tempCpList: TableItem[] = cpList.map((cp) => ({
+  ...cp, value: cp.expectedValue.cp_card,
+}));
+
 export async function getCpList() {
-  const tempCpList: TableItem[] = cpList.map((cp) => ({
-    ...cp, value: cp.expectedValue.cp_card,
-  }));
   return tempCpList;
 }
 

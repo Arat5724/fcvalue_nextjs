@@ -71,7 +71,7 @@ export function ProductTable({ products, isFc = false }: { products: Product[], 
       return cmpResult * sortOrder;
     });
     setSortedProducts(newSortedProducts);
-  }, [sortValue, sortOrder]);
+  }, [sortValue, sortOrder, products]);
 
   const Th = ({ name, children }: { name: ProductSort, children: React.ReactNode }) => (
     <th

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_OPTIONS='--max_old_space_size=10240' next build",
     "predeploy": "npm run build",
     "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles",
     "start": "next start",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "clsx": "^2.0.0",
-    "next": "14.0.4",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.2"
@@ -23,7 +23,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "14.2.4",
     "gh-pages": "^6.1.0",
     "sass": "^1.69.5",
     "typescript": "^5"

@@ -13,7 +13,7 @@ export default function Error() {
     return () => {
       clearTimeout(timeoutId);
     };
-  }, []);
+  }, [router]);
   if (pathname.startsWith("/simulator"))
     redirect(`/player-pack${pathname.slice(10)}`);
   if (pathname.startsWith("/player/"))

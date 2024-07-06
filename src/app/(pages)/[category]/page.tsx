@@ -5,6 +5,7 @@ import { ItemNavigation, ProductNavigation } from "@/app/ui/components/categoryN
 import { ItemTable } from "@/app/ui/table/ItemTable";
 import { Metadata, ResolvingMetadata } from "next";
 import { sharedMetadata, getCategory } from "@/app/shared-metadata";
+import { Suspense } from "react";
 
 export async function generateMetadata(
   { params }: { params: { category: string } },
@@ -48,7 +49,9 @@ export default async function Page({ params }: { params: { category: string } })
           <h1>현질 효율</h1>
           <div>
             <ProductNavigation type="general-product" />
-            <ProductTable products={await getGeneralProductList()} isFc={true} />
+            <Suspense fallback={null}>
+              <ProductTable products={await getGeneralProductList()} isFc={true} />
+            </Suspense>
           </div>
         </>
         : category === "mileage-product"
@@ -56,14 +59,18 @@ export default async function Page({ params }: { params: { category: string } })
             <h1>현질 효율</h1>
             <div>
               <ProductNavigation type="mileage-product" />
-              <ProductTable products={await getMileageProductList()} />
+              <Suspense fallback={null}>
+                <ProductTable products={await getMileageProductList()} />
+              </Suspense>
             </div>
           </>
           : <>
             <h1>아이템 정보</h1>
             <div>
               <ItemNavigation type={category} />
-              <ItemTable items={await getItemList[category]()} />
+              <Suspense fallback={null}>
+                <ItemTable items={await getItemList[category]()} />
+              </Suspense>
             </div>
           </>
     }

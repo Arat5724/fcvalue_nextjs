@@ -50,7 +50,8 @@ export function ScriptTest() {
 export function AdInArticle() {
   const pathname = usePathname();
   const id = "ad--inarticle";
-  useEffect(manageScript(id), [pathname]);
+  const f = manageScript(id);
+  useEffect(f, [pathname]);
   return <>
     <div id={id} style={{ marginTop: "1em", marginBottom: "1em" }}>
       <ins className="adsbygoogle"
@@ -66,7 +67,8 @@ export function AdInArticle() {
 export function AdHorizontal() {
   const pathname = usePathname();
   const id = "ad--horizontal";
-  useEffect(manageScript(id), [pathname]);
+  const f = manageScript(id);
+  useEffect(f, [pathname]);
   return <>
     <div id={id} style={{ marginTop: "1em", marginBottom: "1em" }}>
       <ins className="adsbygoogle"
