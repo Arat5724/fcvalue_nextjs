@@ -59,7 +59,7 @@ export function PlayerBase({ player, ovr }: { player: PlayerNoUpgrade, ovr: numb
       <img src={`https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/${player.nation}.png`}></img>
     </div>
     <div className={styles.season__big}>
-      <img src={player.season === '24tots' ?
+      <img src={player.season.toLowerCase() === '24tots' ?
         'https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l130334.png' :
         `https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}_big.png`}
         onError={(e: any) => {
@@ -89,8 +89,10 @@ export function PlayerUpgradeSuccessEffect() {
 }
 
 export function PlayerCard({ player }: { player: Player }) {
+  const seasonClass = parseInt(player.season[0]) ? `_${player.season}` : player.season;
+
   return <>
-    <div className={`${styles.thumb} ${styles[player.season]}`}>
+    <div className={`${styles.thumb} ${styles[seasonClass]}`}>
       <div className={styles["card-back"]}>
         <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/${player.season}.png`} alt="">
         </img>
@@ -104,7 +106,9 @@ export function PlayerCard({ player }: { player: Player }) {
         <img src={`https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/countries/smallflags/${player.nation}.png`}></img>
       </div>
       <div className={styles.season}>
-        <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}_big.png`}></img>
+        <img src={player.season.toLowerCase() === '24tots' ?
+          'https://fco.dn.nexoncdn.co.kr/live/externalAssets/common/crests/light/small/l130334.png' :
+          `https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}_big.png`}></img>
       </div>
       <div className={`${styles.selector_wrap} ${styles.upgrade_gold}`}>8</div>
       <div className={styles.name_wrap}>
