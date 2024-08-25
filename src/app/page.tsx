@@ -11,6 +11,8 @@ export const metadata = {
 export default function Home() {
   return <>
     <div>
+      <h2>공지 사항</h2>
+      <p>- 집중 훈련 패스는 환급되는 FC만큼 할인된 금액으로 기댓값 및 효율이 계산되었습니다.</p>
       <h2>패치 노트</h2>
       <p>- CU 클래스 추가.</p>
       <p>- 20240822 업데이트 반영 완료.</p>
