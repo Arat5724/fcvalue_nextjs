@@ -11,11 +11,9 @@ export const metadata = {
 export default function Home() {
   return <>
     <div>
-      <h2>공지사항</h2>
-      <p>- 현재 스페셜 게임(나혼자만 럭키! SSS) 후반전에 등장하는 대부분의 아이템의 <b style={{ color: "#e0ffed" }} >확률이 공개되어있지 않아</b>, 기댓값/효율을 계산할 수 없는 상태입니다. 확률이 공개되는 대로 업데이트하겠습니다.</p>
-      {/* <h2>패치 노트</h2>
-      <p>- MDL 클래스 추가.</p>
-      <p>- 20240725 업데이트 반영 완료.</p> */}
+      <h2>패치 노트</h2>
+      <p>- CU 클래스 추가.</p>
+      <p>- 20240822 업데이트 반영 완료.</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -28,12 +26,12 @@ export default function Home() {
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/17030_s.png"
+          img="/assets/image/item/14238_s.png"
           href="/general-product"
           title="일반 상품"
         />
         <GridItem
-          img="/assets/image/item/31276_s.png"
+          img="/assets/image/item/31297_s.png"
           href="/mileage-product"
           title="마일리지 상품"
         />
@@ -41,12 +39,12 @@ export default function Home() {
       <h2>아이템 정보</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/200233437_s.png"
+          img="/assets/image/item/200230720_s.png"
           href="/player-pack"
           title="선수팩"
         />
         <GridItem
-          img="/assets/image/item/201705896_s.png"
+          img="/assets/image/item/201706023_s.png"
           href="/box"
           title="상자"
         />
