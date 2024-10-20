@@ -180,7 +180,7 @@ function SeasonButton({ season, getSeasonState, setSeasonState }:
     className={clsx(getSeasonState() ? styles.active : styles.inactive, styles["season-button"])}
     onClick={setSeasonState}
   >
-    <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${season}.png`} alt={season}></img>
+    <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/${season}.png`} alt={season}></img>
   </button>
 }
 
@@ -208,7 +208,7 @@ function PlayerLi({ player, setPlayer }: { player: PlayerNoUpgrade, setPlayer: (
       </div>
       <div className={styles["player-name-wrap"]}>
         <div className={styles["season"]}>
-          <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}.png`} alt={player.season}></img>
+          <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/${player.season}.png`} alt={player.season}></img>
         </div>
         <div className={styles["player-name"]}>{player.name}</div>
       </div>
@@ -328,38 +328,50 @@ function UpgradeSimulator({ player }: {
       <div className={styles["simulator-section__player"]}>
         {player === undefined
           ? <DefaultPlayerCard />
-          : <div className={clsx(styles.thumb, styles[player.season],
+          : <div className={clsx(styles.playerCard, styles[player.season],
             result === UpgradeResult.Upgrading ? styles["upgrade-animation"]
               : result === UpgradeResult.Success ? styles["upgrade-success"]
                 : result === UpgradeResult.Failure ? styles["upgrade-failure"]
                   : ""
           )}>
-            <PlayerBase player={player} ovr={player.ovr + upgradeOvr[localUpgrade]} />
-            {result === UpgradeResult.Upgrading ? <div className={styles["card-back__upgrade"]}>
-              <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/card/${player.season}.png`} alt="">
+            <PlayerBase
+              selector={
+                <>
+                  <div
+                    className={`${styles.selector_wrap} ${localUpgrade >= 8 ? styles.gold :
+                      localUpgrade >= 5 ? styles.silver :
+                        localUpgrade >= 2 ? styles.bronze : ""}`}
+                    onClick={() => {
+                      if (result === UpgradeResult.No) {
+                        setIsSelectorOpen(!isSelectorOpen)
+                      }
+                    }}
+                  >
+                    {localUpgrade}{result === UpgradeResult.No ? " ∨" : ""}
+                  </div>
+                  <div className={styles.selector_list} hidden={!isSelectorOpen}>
+                    <ul>
+                      <li className={styles.selector_item} onClick={() => { setUpgrade(1); setIsSelectorOpen(false); }}>1</li>
+                      <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(2); setIsSelectorOpen(false); }}>2</li>
+                      <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(3); setIsSelectorOpen(false); }}>3</li>
+                      <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(4); setIsSelectorOpen(false); }}>4</li>
+                      <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(5); setIsSelectorOpen(false); }}>5</li>
+                      <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(6); setIsSelectorOpen(false); }}>6</li>
+                      <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(7); setIsSelectorOpen(false); }}>7</li>
+                      <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(8); setIsSelectorOpen(false); }}>8</li>
+                      <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(9); setIsSelectorOpen(false); }}>9</li>
+                    </ul>
+                  </div>
+                </>
+              }
+              player={player} ovr={player.ovr + upgradeOvr[localUpgrade]}
+            />
+            {result === UpgradeResult.Upgrading ? <div className={styles["cardBack__upgrade"]}>
+              <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/card/${player.season}.png`} alt="">
               </img>
             </div> : ""}
-            <div
-              className={`${styles.selector_wrap} ${localUpgrade >= 8 ? styles.gold :
-                localUpgrade >= 5 ? styles.silver :
-                  localUpgrade >= 2 ? styles.bronze : ""}`}
-              onClick={() => setIsSelectorOpen(!isSelectorOpen)}
-            >
-              {localUpgrade}{result === UpgradeResult.No ? " ∨" : ""}
-            </div>
-            <div className={styles.selector_list} hidden={!isSelectorOpen}>
-              <ul>
-                <li className={styles.selector_item} onClick={() => { setUpgrade(1); setIsSelectorOpen(false); }}>1</li>
-                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(2); setIsSelectorOpen(false); }}>2</li>
-                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(3); setIsSelectorOpen(false); }}>3</li>
-                <li className={clsx(styles.selector_item, styles.bronze)} onClick={() => { setUpgrade(4); setIsSelectorOpen(false); }}>4</li>
-                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(5); setIsSelectorOpen(false); }}>5</li>
-                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(6); setIsSelectorOpen(false); }}>6</li>
-                <li className={clsx(styles.selector_item, styles.silver)} onClick={() => { setUpgrade(7); setIsSelectorOpen(false); }}>7</li>
-                <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(8); setIsSelectorOpen(false); }}>8</li>
-                <li className={clsx(styles.selector_item, styles.gold)} onClick={() => { setUpgrade(9); setIsSelectorOpen(false); }}>9</li>
-              </ul>
-            </div>
+
+
           </div >}
         {result === UpgradeResult.Success ? <PlayerUpgradeSuccessEffect /> : ""}
       </div>

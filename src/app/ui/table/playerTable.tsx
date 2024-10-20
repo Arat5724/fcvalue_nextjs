@@ -118,7 +118,7 @@ function PlayerTableRow({ playerPackPlayer, index, sortValue }: { playerPackPlay
 
   return <tr>
     <td>{index}</td>
-    <td className={sortValue === PlayerSort.SEASON ? "by" : ""}>      <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/season/${player.season}.png`} alt={player.season}></img>    </td>
+    <td className={sortValue === PlayerSort.SEASON ? "by" : ""}>      <img src={`https://ssl.nexon.com/s2/game/fc/online/obt/externalAssets/new/season/${player.season}.png`} alt={player.season}></img>    </td>
     <td className={sortValue === PlayerSort.NAME ? "by" : ""}>{player.name}</td>
     <td className={sortValue === PlayerSort.GRADE ? "by" : ""}>{player.upgrade}</td>
     <td className={sortValue === PlayerSort.OVR ? "by" : ""}>{player.ovr}</td>
