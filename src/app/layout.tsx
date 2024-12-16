@@ -65,9 +65,9 @@ export default function RootLayout({
         </Suspense>
         <Navigation />
         {/* <A2HS /> */}
-        {/* <Notice>
-          7월 9일 서버가 정상화되었습니다.
-        </Notice> */}
+        <Notice>
+          "우리 사이트 정상영업합니다"
+        </Notice>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
             {children}
