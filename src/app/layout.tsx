@@ -66,7 +66,7 @@ export default function RootLayout({
         <Navigation />
         {/* <A2HS /> */}
         <Notice>
-          "우리 사이트 정상영업합니다"
+          우리 사이트 정상영업합니다
         </Notice>
         <div className={styles["content-wrap"]}>
           <div className={styles.content}>
