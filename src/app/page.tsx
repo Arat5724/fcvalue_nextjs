@@ -15,7 +15,7 @@ export default function Home() {
       {/* <h2>공지 사항</h2> */}
       {/* <p>- 집중 훈련 패스는 환급되는 FC만큼 할인된 금액으로 기댓값 및 효율이 계산되었습니다.</p> */}
       <h2>패치 노트</h2>
-      <p>- 241205 업데이트 반영</p>
+      <p>- 241219 업데이트 반영</p>
       <h2>시뮬레이터</h2>
       <GridWrap>
         <GridItem
@@ -28,7 +28,7 @@ export default function Home() {
       <h2>현질 효율</h2>
       <GridWrap>
         <GridItem
-          img="/assets/image/item/201706661_s.png"
+          img="/assets/image/item/14313_s.png"
           href="/general-product"
           title="일반 상품"
         />
@@ -46,7 +46,7 @@ export default function Home() {
           title="선수팩"
         />
         <GridItem
-          img="/assets/image/item/201706553_s.png"
+          img="/assets/image/item/201706619_s.png"
           href="/box"
           title="상자"
         />
